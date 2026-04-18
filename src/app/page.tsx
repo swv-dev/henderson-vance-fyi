@@ -50,13 +50,42 @@ function VanceCountyOutline({ className }: { className?: string }) {
 
   const d = `M ${points.join(" L ")} Z`;
 
+  // Henderson, NC approximate location: -78.3989, 36.3293
+  const hendersonX = ((-78.3989 - bounds.minLon) / (bounds.maxLon - bounds.minLon)) * w;
+  const hendersonY = ((bounds.maxLat - 36.3293) / (bounds.maxLat - bounds.minLat)) * h;
+
   return (
     <svg
       viewBox={`0 0 ${w} ${h}`}
       className={className}
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path d={d} fill="currentColor" />
+      <defs>
+        <radialGradient id="countyGlow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stopColor="currentColor" stopOpacity="0.08" />
+          <stop offset="100%" stopColor="currentColor" stopOpacity="0" />
+        </radialGradient>
+      </defs>
+      {/* Soft fill */}
+      <path d={d} fill="url(#countyGlow)" />
+      {/* County border */}
+      <path d={d} fill="none" stroke="currentColor" strokeWidth="1.5" opacity="0.15" />
+      {/* Henderson dot */}
+      <circle cx={hendersonX} cy={hendersonY} r="6" fill="#f0c040" opacity="0.5" />
+      <circle cx={hendersonX} cy={hendersonY} r="12" fill="none" stroke="#f0c040" strokeWidth="1" opacity="0.25" />
+      {/* Henderson label */}
+      <text
+        x={hendersonX + 18}
+        y={hendersonY + 5}
+        fill="#f0c040"
+        opacity="0.4"
+        fontSize="16"
+        fontWeight="600"
+        fontFamily="-apple-system, Helvetica Neue, Arial, sans-serif"
+        letterSpacing="2"
+      >
+        HENDERSON
+      </text>
     </svg>
   );
 }
@@ -84,7 +113,7 @@ export default function Home() {
     <main className="flex-1">
       {/* Hero */}
       <section className="relative px-6 py-20 md:py-32 overflow-hidden">
-        <VanceCountyOutline className="pointer-events-none absolute right-[-5%] top-1/2 -translate-y-1/2 h-[80vh] max-h-[700px] text-white/[0.03] md:right-[5%]" />
+        <VanceCountyOutline className="pointer-events-none absolute right-[-10%] top-1/2 -translate-y-1/2 h-[90vh] max-h-[800px] text-white md:right-[2%]" />
         <div className="relative mx-auto max-w-4xl text-center">
           <div className="mx-auto mb-8 h-1 w-20 bg-gold" />
           <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
