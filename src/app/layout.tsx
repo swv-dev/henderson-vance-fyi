@@ -16,6 +16,10 @@ export const metadata: Metadata = {
   title: "Henderson-Vance FYI - Data Centers & Kerr Lake",
   description:
     "Citizen-researched reports on data center proposals in Vance County, NC and the Kerr Lake water reallocation. 69+ cited sources. No agenda - just facts.",
+  icons: {
+    icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png",
+  },
   openGraph: {
     title: "Henderson-Vance FYI",
     description:
