@@ -157,7 +157,11 @@ export default function Home() {
                 to rezone approximately <strong className="text-foreground">113 acres</strong> across
                 three parcels from Employment and Institutional Area to Light
                 Industrial. Combined with adjacent Triangle North parcels, the
-                corridor totals <strong className="text-foreground">619 acres</strong> along US-158 Business.
+                corridor totals <strong className="text-foreground">619 acres</strong> along US-158
+                Business. An additional 66-acre parcel owned by Ruth Jones-Brummitt
+                has already been surveyed and is reportedly ready to sell upon
+                rezoning approval, bringing the potential corridor to{" "}
+                <strong className="text-foreground">685 acres</strong>.
                 No development plan has been submitted. No end user has been named.
               </p>
             </div>
@@ -178,7 +182,7 @@ export default function Home() {
 
             <div className="rounded-lg border border-card-border bg-card p-6 md:col-span-2">
               <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
-                Natelli Land Assembly - 619 Acres
+                Natelli Land Assembly - Up to 685 Acres
               </p>
               <div className="md:flex md:gap-6">
                 <div className="md:flex-1">
@@ -187,9 +191,12 @@ export default function Home() {
                     Triangle North Corporate Park land (yellow, ~506 acres) form a
                     continuous <strong className="text-foreground">619-acre corridor</strong> along
                     US-158 Business between I-85 and Horseshoe Bend Road, opposite
-                    the Carolina Pines neighborhood. An additional ~140 acres of
-                    EIA-zoned parcels remain in their current zoning and could be
-                    subject to future rezoning requests.
+                    the Carolina Pines neighborhood. A 66-acre parcel owned by Ruth
+                    Jones-Brummitt (shown in red) has already been surveyed and is
+                    reportedly ready to sell upon rezoning approval, bringing the
+                    potential total to <strong className="text-foreground">685 acres</strong>.
+                    Additional EIA-zoned parcels in the corridor could be subject to
+                    future rezoning requests.
                   </p>
                   <p className="text-xs text-subtle">
                     Source: Vance County Tax Parcel Viewer (vance.ustaxdata.com)
