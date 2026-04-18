@@ -176,6 +176,37 @@ export default function Home() {
               </p>
             </div>
 
+            <div className="rounded-lg border border-red/30 bg-red/5 p-6 md:col-span-2">
+              <p className="mb-2 text-xs font-bold uppercase tracking-widest text-red">
+                A Second Development
+              </p>
+              <div className="md:flex md:gap-6">
+                <div className="md:flex-1">
+                  <p className="text-sm leading-relaxed text-muted mb-4">
+                    A separate <strong className="text-foreground">700-acre ELS development</strong> is
+                    also being assembled in the county. The parcels, outlined below,
+                    sit adjacent to existing residential neighborhoods in Henderson.
+                    This is in addition to the 619-acre Natelli/Triangle North corridor
+                    along US-158 Business.
+                  </p>
+                  <p className="text-xs text-subtle">
+                    Source: Vance County Tax Parcel Viewer (vance.ustaxdata.com)
+                  </p>
+                </div>
+                <div className="mt-4 md:mt-0 md:w-80 shrink-0">
+                  <a href="/els-development-map.jpg" target="_blank" rel="noopener noreferrer" className="group block overflow-hidden rounded-lg border border-card-border transition hover:border-gold/40">
+                    <Image
+                      src="/els-development-map.jpg"
+                      alt="Vance County Tax Parcel Viewer showing the 700-acre ELS development parcels outlined in red, adjacent to Henderson residential neighborhoods"
+                      width={640}
+                      height={960}
+                      className="h-auto w-full transition group-hover:scale-[1.02]"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div className="rounded-lg border border-card-border bg-card p-6">
               <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
                 Water
