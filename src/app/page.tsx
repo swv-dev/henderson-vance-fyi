@@ -24,6 +24,25 @@ const slides = [
   { src: "/slides/4531.jpg", alt: "USACE slide - public comment" },
 ];
 
+function ResourceLink({ href, title, desc }: { href: string; title: string; desc: string }) {
+  return (
+    <li>
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="group block"
+      >
+        <p className="text-sm font-semibold text-foreground group-hover:text-gold transition">
+          {title}
+          <span className="ml-1 inline-block text-subtle group-hover:text-gold transition">&rarr;</span>
+        </p>
+        <p className="text-xs text-subtle">{desc}</p>
+      </a>
+    </li>
+  );
+}
+
 function DownloadIcon() {
   return (
     <svg
@@ -85,6 +104,13 @@ export default function Home() {
             >
               April 20 Meeting
             </a>
+          </div>
+          <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
+            <a href="#reports" className="hover:text-gold transition">Reports</a>
+            <a href="#carousel" className="hover:text-gold transition">Visual Cards</a>
+            <a href="#slides" className="hover:text-gold transition">USACE Slides</a>
+            <a href="#officials" className="hover:text-gold transition">Elected Officials</a>
+            <a href="#resources" className="hover:text-gold transition">Resources</a>
           </div>
         </div>
       </section>
@@ -539,6 +565,371 @@ export default function Home() {
               <p className="mt-2 text-xs text-subtle">
                 henderson.nc.gov for agendas
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Elected Officials */}
+      <section id="officials" className="px-6 py-16">
+        <div className="mx-auto max-w-4xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            Your Representatives
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-4 text-3xl font-extrabold">
+            Elected Officials
+          </h2>
+          <p className="mb-10 max-w-2xl text-muted">
+            These are the people who represent you at the county, city, state, and
+            federal level. Their contact information is public record.
+          </p>
+
+          {/* County Commissioners */}
+          <div className="mb-10">
+            <h3 className="mb-1 text-lg font-bold text-gold">
+              Vance County Board of Commissioners
+            </h3>
+            <p className="mb-4 text-xs text-subtle">
+              122 Young Street, Suite B, Henderson, NC 27536 &middot; 252-738-2001
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-sm">
+                <thead>
+                  <tr className="border-b border-card-border text-xs uppercase tracking-wider text-blue">
+                    <th className="px-4 py-3">Name</th>
+                    <th className="px-4 py-3">District</th>
+                    <th className="px-4 py-3">Phone</th>
+                    <th className="px-4 py-3">Email</th>
+                  </tr>
+                </thead>
+                <tbody className="text-muted">
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Carolyn Faines <span className="text-xs text-subtle">(Chair)</span></td>
+                    <td className="px-4 py-3">1</td>
+                    <td className="px-4 py-3">252-433-8018</td>
+                    <td className="px-4 py-3"><a href="mailto:cfaines@vancecounty.org" className="text-blue hover:text-gold transition">cfaines@vancecounty.org</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Valencia Louise Perry</td>
+                    <td className="px-4 py-3">2</td>
+                    <td className="px-4 py-3">252-432-5577</td>
+                    <td className="px-4 py-3"><a href="mailto:vperry@vancecounty.org" className="text-blue hover:text-gold transition">vperry@vancecounty.org</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Charisse Fain <span className="text-xs text-subtle">(Vice-Chair)</span></td>
+                    <td className="px-4 py-3">3</td>
+                    <td className="px-4 py-3">252-767-1563</td>
+                    <td className="px-4 py-3"><a href="mailto:cfain@vancecounty.org" className="text-blue hover:text-gold transition">cfain@vancecounty.org</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Dan Brummitt</td>
+                    <td className="px-4 py-3">4</td>
+                    <td className="px-4 py-3">252-432-4774</td>
+                    <td className="px-4 py-3"><a href="mailto:dbrummitt@vancecounty.org" className="text-blue hover:text-gold transition">dbrummitt@vancecounty.org</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Leo Kelly, Jr.</td>
+                    <td className="px-4 py-3">5</td>
+                    <td className="px-4 py-3">252-767-7957</td>
+                    <td className="px-4 py-3"><a href="mailto:lkellyjr@nc.rr.com" className="text-blue hover:text-gold transition">lkellyjr@nc.rr.com</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Yolanda J. Feimster</td>
+                    <td className="px-4 py-3">6</td>
+                    <td className="px-4 py-3">252-431-7579</td>
+                    <td className="px-4 py-3"><a href="mailto:yfeimster@aol.com" className="text-blue hover:text-gold transition">yfeimster@aol.com</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Thomas S. Hester, Jr.</td>
+                    <td className="px-4 py-3">7</td>
+                    <td className="px-4 py-3">252-738-9771</td>
+                    <td className="px-4 py-3"><a href="mailto:tshester@ncol.net" className="text-blue hover:text-gold transition">tshester@ncol.net</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* City Council */}
+          <div className="mb-10">
+            <h3 className="mb-1 text-lg font-bold text-gold">
+              Henderson City Council
+            </h3>
+            <p className="mb-4 text-xs text-subtle">
+              134 Rose Avenue, Henderson, NC &middot; Second Monday at 6 PM
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-sm">
+                <thead>
+                  <tr className="border-b border-card-border text-xs uppercase tracking-wider text-blue">
+                    <th className="px-4 py-3">Name</th>
+                    <th className="px-4 py-3">Seat</th>
+                    <th className="px-4 py-3">Phone</th>
+                    <th className="px-4 py-3">Email</th>
+                  </tr>
+                </thead>
+                <tbody className="text-muted">
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Geraldine Champion</td>
+                    <td className="px-4 py-3">Ward 1</td>
+                    <td className="px-4 py-3">984-331-6241</td>
+                    <td className="px-4 py-3"><a href="mailto:GeraldineChampion@henderson.nc.gov" className="text-blue hover:text-gold transition">GeraldineChampion@henderson.nc.gov</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Sam Seifert</td>
+                    <td className="px-4 py-3">Ward 2</td>
+                    <td className="px-4 py-3">336-406-8623</td>
+                    <td className="px-4 py-3"><a href="mailto:SamSeifert@henderson.nc.gov" className="text-blue hover:text-gold transition">SamSeifert@henderson.nc.gov</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Garry D. Daeke</td>
+                    <td className="px-4 py-3">Ward 3</td>
+                    <td className="px-4 py-3">252-432-3145</td>
+                    <td className="px-4 py-3"><a href="mailto:GarryDaeke@henderson.nc.gov" className="text-blue hover:text-gold transition">GarryDaeke@henderson.nc.gov</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Catherine Miles Gill</td>
+                    <td className="px-4 py-3">Ward 4</td>
+                    <td className="px-4 py-3">252-767-7524</td>
+                    <td className="px-4 py-3"><a href="mailto:CatherinGill@henderson.nc.gov" className="text-blue hover:text-gold transition">CatherinGill@henderson.nc.gov</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Kenia Gomez-Jimenez</td>
+                    <td className="px-4 py-3">At-Large</td>
+                    <td className="px-4 py-3">252-915-8281</td>
+                    <td className="px-4 py-3"><a href="mailto:KeniaGomezJimenez@henderson.nc.gov" className="text-blue hover:text-gold transition">KeniaGomezJimenez@henderson.nc.gov</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Lamont Noel</td>
+                    <td className="px-4 py-3">At-Large</td>
+                    <td className="px-4 py-3">252-432-0884</td>
+                    <td className="px-4 py-3"><a href="mailto:LamontNoel@henderson.nc.gov" className="text-blue hover:text-gold transition">LamontNoel@henderson.nc.gov</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Michael Venable <span className="text-xs text-subtle">(Mayor Pro Tem)</span></td>
+                    <td className="px-4 py-3">At-Large</td>
+                    <td className="px-4 py-3">252-915-5933</td>
+                    <td className="px-4 py-3"><a href="mailto:MichaelVenable@henderson.nc.gov" className="text-blue hover:text-gold transition">MichaelVenable@henderson.nc.gov</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Tami Walker <span className="text-xs text-subtle">(Mayor Pro Tem)</span></td>
+                    <td className="px-4 py-3">At-Large</td>
+                    <td className="px-4 py-3">252-572-4125</td>
+                    <td className="px-4 py-3"><a href="mailto:TamiWalker@henderson.nc.gov" className="text-blue hover:text-gold transition">TamiWalker@henderson.nc.gov</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          {/* State & Federal */}
+          <div>
+            <h3 className="mb-4 text-lg font-bold text-gold">
+              State &amp; Federal Representatives
+            </h3>
+            <div className="grid gap-4 md:grid-cols-2">
+              <div className="rounded border border-card-border bg-card p-5">
+                <p className="text-xs font-bold uppercase tracking-widest text-blue mb-2">NC Senate - District 11</p>
+                <p className="text-sm font-bold text-foreground">Sen. Lisa S. Barnes</p>
+                <p className="text-xs text-subtle mb-2">Franklin, Nash, Vance counties</p>
+                <p className="text-xs text-muted">919-715-3030</p>
+                <a href="mailto:lisa.barnes@ncleg.gov" className="text-xs text-blue hover:text-gold transition">lisa.barnes@ncleg.gov</a>
+              </div>
+              <div className="rounded border border-card-border bg-card p-5">
+                <p className="text-xs font-bold uppercase tracking-widest text-blue mb-2">NC House - District 7</p>
+                <p className="text-sm font-bold text-foreground">Rep. Matthew Winslow</p>
+                <p className="text-xs text-subtle mb-2">Franklin, Vance (partial)</p>
+                <p className="text-xs text-muted">919-715-3032</p>
+                <a href="mailto:matthew.winslow@ncleg.gov" className="text-xs text-blue hover:text-gold transition">matthew.winslow@ncleg.gov</a>
+              </div>
+              <div className="rounded border border-card-border bg-card p-5">
+                <p className="text-xs font-bold uppercase tracking-widest text-blue mb-2">NC House - District 32</p>
+                <p className="text-sm font-bold text-foreground">Rep. Bryan Cohn</p>
+                <p className="text-xs text-subtle mb-2">Granville, Vance (partial)</p>
+                <p className="text-xs text-muted">919-733-5824</p>
+                <a href="mailto:bryan.cohn@ncleg.gov" className="text-xs text-blue hover:text-gold transition">bryan.cohn@ncleg.gov</a>
+              </div>
+              <div className="rounded border border-card-border bg-card p-5">
+                <p className="text-xs font-bold uppercase tracking-widest text-blue mb-2">U.S. House - District 1</p>
+                <p className="text-sm font-bold text-foreground">Rep. Don Davis</p>
+                <p className="text-xs text-subtle mb-2">Eastern NC incl. Vance, Warren, Halifax</p>
+                <p className="text-xs text-muted">202-225-3101 (DC) &middot; 252-999-7600 (Rocky Mount)</p>
+                <a href="https://dondavis.house.gov" target="_blank" rel="noopener noreferrer" className="text-xs text-blue hover:text-gold transition">dondavis.house.gov</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Resources & Links */}
+      <section id="resources" className="px-6 py-16">
+        <div className="mx-auto max-w-4xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            Do Your Own Research
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-4 text-3xl font-extrabold">
+            Resources &amp; Links
+          </h2>
+          <p className="mb-10 max-w-2xl text-muted">
+            Public records, government agencies, and research organizations
+            referenced in the reports. Go straight to the source.
+          </p>
+
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {/* Local Government */}
+            <div>
+              <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-gold">
+                Local Government
+              </h3>
+              <ul className="space-y-3">
+                <ResourceLink
+                  href="https://www.vancecounty.org"
+                  title="Vance County"
+                  desc="Board of Commissioners, agendas, minutes"
+                />
+                <ResourceLink
+                  href="https://www.hendersonnc.gov"
+                  title="City of Henderson"
+                  desc="City Council, planning, public utilities"
+                />
+                <ResourceLink
+                  href="https://vance.ustaxdata.com"
+                  title="Vance County Tax Parcel Viewer"
+                  desc="GIS maps, parcel data, property records"
+                />
+                <ResourceLink
+                  href="https://www.vgcc.edu"
+                  title="Vance-Granville Community College"
+                  desc="Workforce development partner"
+                />
+              </ul>
+            </div>
+
+            {/* Water & Environment */}
+            <div>
+              <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-gold">
+                Water &amp; Environment
+              </h3>
+              <ul className="space-y-3">
+                <ResourceLink
+                  href="https://www.saw.usace.army.mil/Missions/Navigation/John-H-Kerr-Dam-and-Reservoir/"
+                  title="USACE - Kerr Dam &amp; Reservoir"
+                  desc="Army Corps of Engineers, Wilmington District"
+                />
+                <ResourceLink
+                  href="https://www.deq.nc.gov"
+                  title="NC Dept. of Environmental Quality"
+                  desc="Water permits, interbasin transfers, IBT reports"
+                />
+                <ResourceLink
+                  href="https://www.ncparks.gov/state-parks/kerr-lake-state-recreation-area"
+                  title="Kerr Lake State Recreation Area"
+                  desc="NC State Parks - 1M+ annual visitors"
+                />
+                <ResourceLink
+                  href="https://www.hendersonnc.gov/departments/public-utilities"
+                  title="Henderson Public Utilities"
+                  desc="KLRWS operator, water/sewer services"
+                />
+              </ul>
+            </div>
+
+            {/* Regional */}
+            <div>
+              <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-gold">
+                Regional Organizations
+              </h3>
+              <ul className="space-y-3">
+                <ResourceLink
+                  href="https://www.kerrtarcog.org"
+                  title="Kerr-Tar Regional Council of Governments"
+                  desc="Five-county regional planning and coordination"
+                />
+                <ResourceLink
+                  href="https://www.vancecounty.org/departments/economic-development"
+                  title="Vance County Economic Development"
+                  desc="Industrial recruitment, incentives"
+                />
+                <ResourceLink
+                  href="https://hendersonvancechamber.com"
+                  title="Henderson-Vance Chamber of Commerce"
+                  desc="Local business advocacy"
+                />
+              </ul>
+            </div>
+
+            {/* State & Federal */}
+            <div>
+              <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-gold">
+                State &amp; Federal
+              </h3>
+              <ul className="space-y-3">
+                <ResourceLink
+                  href="https://www.ncleg.gov/BillLookUp/2025/SB%20266"
+                  title="NC SB 266 - Clean Energy Rollback"
+                  desc="Eliminated 2030 carbon reduction target"
+                />
+                <ResourceLink
+                  href="https://www.ncuc.gov"
+                  title="NC Utilities Commission"
+                  desc="Duke Energy rate cases, utility regulation"
+                />
+                <ResourceLink
+                  href="https://www.edpnc.com"
+                  title="Economic Development Partnership of NC"
+                  desc="State incentive programs, Tier designations"
+                />
+              </ul>
+            </div>
+
+            {/* Research & Watchdogs */}
+            <div>
+              <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-gold">
+                Research &amp; Watchdogs
+              </h3>
+              <ul className="space-y-3">
+                <ResourceLink
+                  href="https://www.goodjobsfirst.org"
+                  title="Good Jobs First"
+                  desc="Subsidy tracker - data center incentive database"
+                />
+                <ResourceLink
+                  href="https://eta.lbl.gov/publications/united-states-data-center-energy"
+                  title="Lawrence Berkeley National Lab"
+                  desc="U.S. data center energy &amp; water consumption research"
+                />
+                <ResourceLink
+                  href="https://nasuca.org"
+                  title="NASUCA"
+                  desc="National utility consumer advocates - rate impact analysis"
+                />
+              </ul>
+            </div>
+
+            {/* News & Public Record */}
+            <div>
+              <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-gold">
+                News &amp; Public Record
+              </h3>
+              <ul className="space-y-3">
+                <ResourceLink
+                  href="https://www.hendersondispatch.com"
+                  title="Henderson Dispatch"
+                  desc="Local news coverage of county meetings"
+                />
+                <ResourceLink
+                  href="https://www.register-of-deeds.vance.nc.us"
+                  title="Vance County Register of Deeds"
+                  desc="Land transactions, deed records"
+                />
+                <ResourceLink
+                  href="https://www.bizjournals.com/triangle/"
+                  title="Triangle Business Journal"
+                  desc="Regional business news, data center coverage"
+                />
+              </ul>
             </div>
           </div>
         </div>
