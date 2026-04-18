@@ -176,6 +176,39 @@ export default function Home() {
               </p>
             </div>
 
+            <div className="rounded-lg border border-card-border bg-card p-6 md:col-span-2">
+              <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
+                Natelli Land Assembly - 619 Acres
+              </p>
+              <div className="md:flex md:gap-6">
+                <div className="md:flex-1">
+                  <p className="text-sm leading-relaxed text-muted mb-4">
+                    Three Natelli rezoning parcels (cyan, ~113 acres) plus the former
+                    Triangle North Corporate Park land (yellow, ~506 acres) form a
+                    continuous <strong className="text-foreground">619-acre corridor</strong> along
+                    US-158 Business between I-85 and Horseshoe Bend Road, opposite
+                    the Carolina Pines neighborhood. An additional ~140 acres of
+                    EIA-zoned parcels remain in their current zoning and could be
+                    subject to future rezoning requests.
+                  </p>
+                  <p className="text-xs text-subtle">
+                    Source: Vance County Tax Parcel Viewer (vance.ustaxdata.com)
+                  </p>
+                </div>
+                <div className="mt-4 md:mt-0 md:w-80 shrink-0">
+                  <a href="/carousel/card-3c-map.png" target="_blank" rel="noopener noreferrer" className="group block overflow-hidden rounded-lg border border-card-border transition hover:border-gold/40">
+                    <Image
+                      src="/carousel/card-3c-map.png"
+                      alt="Parcel map showing Natelli rezoning parcels (cyan) and adjacent Triangle North land (yellow) along US-158 Business corridor - approximately 619 acres total"
+                      width={540}
+                      height={540}
+                      className="h-auto w-full transition group-hover:scale-[1.02]"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <div className="rounded-lg border border-red/30 bg-red/5 p-6 md:col-span-2">
               <p className="mb-2 text-xs font-bold uppercase tracking-widest text-red">
                 A Second Development
