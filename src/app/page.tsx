@@ -50,8 +50,8 @@ export default function Home() {
         <div className="mx-auto max-w-4xl text-center">
           <div className="mx-auto mb-8 h-1 w-20 bg-gold" />
           <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
-            Vance County{" "}
-            <span className="text-gold">Facts</span>
+            Henderson-Vance{" "}
+            <span className="text-gold">FYI</span>
           </h1>
           <p className="mx-auto mb-4 max-w-2xl text-lg text-muted md:text-xl">
             What every citizen should know about data centers, water, and the

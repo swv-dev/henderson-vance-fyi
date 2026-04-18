@@ -13,11 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Vance County Facts - Data Centers & Kerr Lake",
+  title: "Henderson-Vance FYI - Data Centers & Kerr Lake",
   description:
     "Citizen-researched reports on data center proposals in Vance County, NC and the Kerr Lake water reallocation. 69+ cited sources. No agenda - just facts.",
   openGraph: {
-    title: "Vance County Facts",
+    title: "Henderson-Vance FYI",
     description:
       "What every citizen should know about data centers, water, and Kerr Lake. Two reports. 100+ sources. No agenda.",
     type: "website",
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Vance County Facts",
+    title: "Henderson-Vance FYI",
     description:
       "What every citizen should know about data centers, water, and Kerr Lake.",
   },
