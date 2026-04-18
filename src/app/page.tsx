@@ -24,6 +24,43 @@ const slides = [
   { src: "/slides/4531.jpg", alt: "USACE slide - public comment" },
 ];
 
+function VanceCountyOutline({ className }: { className?: string }) {
+  // GeoJSON boundary of Vance County, NC converted to SVG path
+  const coords: [number, number][] = [
+    [-77.8997711, 36.544663], [-77.89795, 36.506849], [-77.9120229, 36.382271],
+    [-78.0065449, 36.202678], [-78.1030161, 36.209154], [-78.172837, 36.255436],
+    [-78.306794, 36.266095], [-78.2774721, 36.30625], [-78.3239121, 36.543809],
+    [-78.3039869, 36.5439461], [-78.2466811, 36.544341], [-78.2454619, 36.544411],
+    [-78.133323, 36.543847], [-78.1329109, 36.543811], [-78.1138406, 36.5438895],
+    [-78.0529806, 36.5441401], [-78.0462021, 36.544168], [-78.03942, 36.544196],
+    [-77.8997711, 36.544663],
+  ];
+
+  const bounds = {
+    minLon: -78.32, maxLon: -77.885,
+    minLat: 36.19, maxLat: 36.56,
+  };
+  const w = 500, h = 500;
+
+  const points = coords.map(([lon, lat]) => {
+    const x = ((lon - bounds.minLon) / (bounds.maxLon - bounds.minLon)) * w;
+    const y = ((bounds.maxLat - lat) / (bounds.maxLat - bounds.minLat)) * h;
+    return `${x},${y}`;
+  });
+
+  const d = `M ${points.join(" L ")} Z`;
+
+  return (
+    <svg
+      viewBox={`0 0 ${w} ${h}`}
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path d={d} fill="currentColor" />
+    </svg>
+  );
+}
+
 function DownloadIcon() {
   return (
     <svg
@@ -46,8 +83,9 @@ export default function Home() {
   return (
     <main className="flex-1">
       {/* Hero */}
-      <section className="relative px-6 py-20 md:py-32">
-        <div className="mx-auto max-w-4xl text-center">
+      <section className="relative px-6 py-20 md:py-32 overflow-hidden">
+        <VanceCountyOutline className="pointer-events-none absolute right-[-5%] top-1/2 -translate-y-1/2 h-[80vh] max-h-[700px] text-white/[0.03] md:right-[5%]" />
+        <div className="relative mx-auto max-w-4xl text-center">
           <div className="mx-auto mb-8 h-1 w-20 bg-gold" />
           <h1 className="mb-6 text-4xl font-extrabold leading-tight tracking-tight md:text-6xl">
             Henderson-Vance{" "}
