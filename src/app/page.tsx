@@ -117,6 +117,58 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Community Voice Poll CTA */}
+      <section className="px-6 py-10">
+        <a
+          href="/community"
+          className="group mx-auto block max-w-3xl rounded-lg border border-gold/30 bg-gold/5 p-6 md:p-8 transition hover:border-gold/60 hover:bg-gold/10"
+        >
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div>
+              <p className="mb-1 text-xs font-bold uppercase tracking-widest text-gold">
+                Anonymous Community Poll
+              </p>
+              <p className="text-xl font-extrabold md:text-2xl group-hover:text-gold transition">
+                How does Vance County feel about data centers?
+              </p>
+              <p className="mt-2 text-sm text-muted">
+                5 questions. 30 seconds. Completely anonymous. Results are public.
+              </p>
+            </div>
+            <span className="shrink-0 rounded bg-gold px-6 py-3 text-center text-sm font-bold uppercase tracking-widest text-background transition group-hover:bg-gold-dim">
+              Take the Poll &rarr;
+            </span>
+          </div>
+        </a>
+      </section>
+
+      {/* Community Petition */}
+      <section className="px-6 pb-10">
+        <a
+          href="https://www.change.org/p/stop-construction-of-data-center-in-henderson-nc?recruiter=49197166&recruited_by_id=c07f95a0-953f-0130-05f9-3c764e044346&utm_source=share_petition&utm_campaign=psf_promote_or_share&utm_term=psf_promote_or_share&utm_medium=facebook&share_id=dh6pxj68rM"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group mx-auto block max-w-3xl rounded-lg border border-card-border bg-card p-6 md:p-8 transition hover:border-red/40 hover:bg-card/80"
+        >
+          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+            <div>
+              <p className="mb-1 text-xs font-bold uppercase tracking-widest text-red">
+                Change.org Petition
+              </p>
+              <p className="text-lg font-extrabold md:text-xl group-hover:text-gold transition">
+                Stop Construction of Data Center in Henderson, NC
+              </p>
+              <p className="mt-2 text-xs text-subtle">
+                Community petition created by Henderson residents. Not affiliated with this site.
+              </p>
+            </div>
+            <span className="shrink-0 rounded border border-red/40 bg-red/10 px-6 py-3 text-center text-sm font-bold uppercase tracking-widest text-red transition group-hover:bg-red/20">
+              Sign &rarr;
+            </span>
+          </div>
+        </a>
+      </section>
+
       {/* Urgent Meeting Banner */}
       <section id="meeting" className="px-6 py-10">
         <div className="mx-auto max-w-3xl rounded-lg border border-red/40 bg-red/10 p-6 md:p-10">
