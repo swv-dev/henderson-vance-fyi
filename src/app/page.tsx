@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Countdown from "./countdown";
 
 const carouselCards = [
   { src: "/carousel/card-1-hook.png", alt: "2 data center proposals are on the table" },
@@ -187,6 +188,7 @@ export default function Home() {
             This special meeting was called with four days&apos; notice, the legal
             minimum under NC open meetings law.
           </p>
+          <Countdown />
         </div>
       </section>
 
