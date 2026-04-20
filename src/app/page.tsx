@@ -195,7 +195,7 @@ export default function Home() {
           </p>
           <Countdown />
           <a
-            href="https://www.youtube.com/live/ETKr9oKpkNI?si=wCtz83f13M3BHW1r"
+            href="https://www.youtube.com/live/ETKr9oKpkNI?si=-fGUiYREJn-Tu5O_"
             target="_blank"
             rel="noopener noreferrer"
             className="mt-6 inline-block rounded bg-red px-8 py-3 text-sm font-bold uppercase tracking-widest text-white transition hover:bg-red/80"
