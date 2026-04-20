@@ -189,6 +189,14 @@ export default function Home() {
             minimum under NC open meetings law.
           </p>
           <Countdown />
+          <a
+            href="https://www.youtube.com/live/ETKr9oKpkNI?si=wCtz83f13M3BHW1r"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-block rounded bg-red px-8 py-3 text-sm font-bold uppercase tracking-widest text-white transition hover:bg-red/80"
+          >
+            Watch Live on YouTube &rarr;
+          </a>
         </div>
       </section>
 
