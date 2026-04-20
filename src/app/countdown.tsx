@@ -20,9 +20,14 @@ export default function Countdown() {
 
   if (diff <= 0) {
     return (
-      <p className="mt-4 text-lg font-extrabold text-red animate-pulse">
-        Meeting is happening now.
-      </p>
+      <div className="mt-4 text-center">
+        <p className="text-lg font-extrabold text-red">
+          Meeting concluded.
+        </p>
+        <p className="mt-1 text-sm text-muted">
+          Commissioners voted 6-1 to approve rezoning.
+        </p>
+      </div>
     );
   }
 

@@ -200,7 +200,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className="mt-6 inline-block rounded bg-red px-8 py-3 text-sm font-bold uppercase tracking-widest text-white transition hover:bg-red/80"
           >
-            Watch Live on YouTube &rarr;
+            Watch on YouTube &rarr;
           </a>
         </div>
       </section>
