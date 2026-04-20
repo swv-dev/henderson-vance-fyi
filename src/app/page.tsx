@@ -141,6 +141,11 @@ export default function Home() {
             </span>
           </div>
         </a>
+        <div className="mx-auto max-w-3xl mt-3 text-center">
+          <a href="/community#results" className="text-sm text-gold hover:underline transition">
+            View results
+          </a>
+        </div>
       </section>
 
       {/* Community Petition */}
