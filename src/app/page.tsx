@@ -107,6 +107,7 @@ export default function Home() {
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
             <a href="#reports" className="hover:text-gold transition">Reports</a>
+            <a href="/noise" className="hover:text-gold transition">Noise &amp; Infrasound</a>
             <a href="#carousel" className="hover:text-gold transition">Visual Cards</a>
             <a href="#slides" className="hover:text-gold transition">USACE Slides</a>
             <a href="#officials" className="hover:text-gold transition">Elected Officials</a>
@@ -304,6 +305,32 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Noise Report Banner */}
+      <section className="px-6 py-10">
+        <div className="mx-auto max-w-3xl">
+          <a
+            href="/noise"
+            className="group block rounded-lg border border-gold/30 bg-gold/5 p-6 md:p-10 transition hover:border-gold/60 hover:bg-gold/10"
+          >
+            <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
+              New - April 2026
+            </p>
+            <p className="mb-2 text-2xl font-extrabold group-hover:text-gold transition md:text-3xl">
+              The Noise Question
+            </p>
+            <p className="mb-4 text-muted">
+              What does a data center actually sound like? 20 visual cards on
+              audible noise, infrasound, distance decay, and what good
+              regulation looks like. Sourced from peer-reviewed research and
+              real community experiences.
+            </p>
+            <p className="text-sm font-semibold text-gold">
+              Read the full noise report &rarr;
+            </p>
+          </a>
         </div>
       </section>
 
