@@ -4,10 +4,10 @@ import { useState, useTransition } from "react";
 import { submitPoll } from "./actions";
 import {
   RESIDENCE_OPTIONS,
-  INFORMED_OPTIONS,
-  STANCE_OPTIONS,
   FORUM_OPTIONS,
   CONCERN_OPTIONS,
+  INFORMED_LABELS,
+  STANCE_LABELS,
 } from "./constants";
 
 function RadioGroup({
@@ -24,7 +24,7 @@ function RadioGroup({
   onChange: (v: string) => void;
 }) {
   return (
-    <fieldset className="mb-8">
+    <fieldset className="mb-10">
       <legend className="mb-3 text-sm font-bold text-foreground">{label}</legend>
       <div className="space-y-2">
         {options.map((opt) => (
@@ -49,10 +49,53 @@ function RadioGroup({
                 value === opt ? "border-gold" : "border-subtle"
               }`}
             >
-              {value === opt && <span className="h-2 w-2 rounded-full bg-gold" />}
+              {value === opt && (
+                <span className="h-2 w-2 rounded-full bg-gold" />
+              )}
             </span>
             {opt}
           </label>
+        ))}
+      </div>
+    </fieldset>
+  );
+}
+
+function ScaleGroup({
+  name,
+  label,
+  labels,
+  value,
+  onChange,
+}: {
+  name: string;
+  label: string;
+  labels: Record<number, string>;
+  value: string;
+  onChange: (v: string) => void;
+}) {
+  return (
+    <fieldset className="mb-10">
+      <legend className="mb-4 text-sm font-bold text-foreground">{label}</legend>
+      <div className="flex justify-between gap-2">
+        {[1, 2, 3, 4, 5].map((n) => (
+          <button
+            key={n}
+            type="button"
+            onClick={() => onChange(String(n))}
+            className={`flex-1 flex flex-col items-center gap-1.5 rounded-lg border p-3 text-sm cursor-pointer transition ${
+              value === String(n)
+                ? "border-gold/60 bg-gold/10 text-foreground"
+                : "border-card-border bg-card text-muted hover:border-card-border/80"
+            }`}
+          >
+            <span className={`text-lg font-bold ${value === String(n) ? "text-gold" : ""}`}>
+              {n}
+            </span>
+            <span className="text-[10px] leading-tight text-center">
+              {labels[n]}
+            </span>
+          </button>
         ))}
       </div>
     </fieldset>
@@ -73,15 +116,18 @@ function CheckboxGroup({
   onChange: (v: string[]) => void;
 }) {
   const toggle = (opt: string) => {
-    if (values.includes(opt)) {
-      onChange(values.filter((v) => v !== opt));
-    } else {
-      onChange([...values, opt]);
+    if (opt === "None") {
+      onChange(values.includes("None") ? [] : ["None"]);
+      return;
     }
+    const next = values.includes(opt)
+      ? values.filter((v) => v !== opt)
+      : [...values.filter((v) => v !== "None"), opt];
+    onChange(next);
   };
 
   return (
-    <fieldset className="mb-8">
+    <fieldset className="mb-10">
       <legend className="mb-1 text-sm font-bold text-foreground">{label}</legend>
       <p className="mb-3 text-xs text-subtle">Select all that apply</p>
       <div className="space-y-2">
@@ -108,8 +154,18 @@ function CheckboxGroup({
               }`}
             >
               {values.includes(opt) && (
-                <svg className="h-3 w-3 text-background" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                <svg
+                  className="h-3 w-3 text-background"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  strokeWidth={3}
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M5 13l4 4L19 7"
+                  />
                 </svg>
               )}
             </span>
@@ -133,8 +189,14 @@ export default function PollForm() {
 
   const handleSubmit = () => {
     setError("");
-    if (!residence || !informed || !stance || !forum || concerns.length === 0) {
-      setError("Please answer all questions before submitting.");
+    if (
+      !residence ||
+      !informed ||
+      !stance ||
+      !forum ||
+      concerns.length === 0
+    ) {
+      setError("Please answer all five questions before submitting.");
       return;
     }
 
@@ -162,7 +224,8 @@ export default function PollForm() {
       <div className="rounded-lg border border-gold/30 bg-gold/5 p-8 text-center">
         <p className="text-2xl font-extrabold text-gold mb-2">Thank you.</p>
         <p className="text-muted">
-          Your response has been recorded. Results are updated in real time below.
+          Your response has been recorded. Results are updated in real time
+          below.
         </p>
       </div>
     );
@@ -172,28 +235,28 @@ export default function PollForm() {
     <div>
       <RadioGroup
         name="residence"
-        label="1. Do you live in Vance County or Henderson?"
+        label="1. Where do you live?"
         options={RESIDENCE_OPTIONS}
         value={residence}
         onChange={setResidence}
       />
-      <RadioGroup
+      <ScaleGroup
         name="informed"
         label="2. How informed do you feel about data center development in Vance County?"
-        options={INFORMED_OPTIONS}
+        labels={INFORMED_LABELS}
         value={informed}
         onChange={setInformed}
       />
-      <RadioGroup
+      <ScaleGroup
         name="stance"
-        label="3. How do you feel about data center development in Vance County?"
-        options={STANCE_OPTIONS}
+        label="3. Where do you stand on data center development in Vance County?"
+        labels={STANCE_LABELS}
         value={stance}
         onChange={setStance}
       />
       <RadioGroup
         name="forum"
-        label="4. Would you attend a public forum to learn more about the developers and proposals?"
+        label="4. Would you attend a public forum where the developer answers community questions directly?"
         options={FORUM_OPTIONS}
         value={forum}
         onChange={setForum}

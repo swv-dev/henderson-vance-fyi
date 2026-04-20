@@ -8,35 +8,41 @@ export type PollData = {
 };
 
 export const RESIDENCE_OPTIONS = [
-  "Vance County resident",
-  "City of Henderson resident",
+  "City of Henderson",
+  "Vance County (outside city limits)",
   "Neighboring county",
-  "Other",
+  "I don't live in the area",
 ];
 
-export const INFORMED_OPTIONS = [
-  "Very informed",
-  "Somewhat informed",
-  "Not very informed",
-  "Not at all informed",
+export const LOCAL_RESIDENCES = [
+  "City of Henderson",
+  "Vance County (outside city limits)",
 ];
 
-export const STANCE_OPTIONS = [
-  "Strongly support",
-  "Support",
-  "Undecided",
-  "Oppose",
-  "Strongly oppose",
-];
+export const INFORMED_LABELS: Record<number, string> = {
+  1: "Not at all",
+  2: "Slightly",
+  3: "Somewhat",
+  4: "Well informed",
+  5: "Very informed",
+};
 
-export const FORUM_OPTIONS = ["Yes", "Maybe", "No"];
+export const STANCE_LABELS: Record<number, string> = {
+  1: "Strongly oppose",
+  2: "Oppose",
+  3: "Neutral",
+  4: "Support",
+  5: "Strongly support",
+};
+
+export const FORUM_OPTIONS = ["Yes", "No"];
 
 export const CONCERN_OPTIONS = [
   "Water usage",
-  "Noise",
+  "Noise and vibration",
   "Property values",
-  "Electric bills",
-  "Jobs and economy",
+  "Electric rates",
   "Environmental impact",
-  "None - I support it",
+  "Traffic and infrastructure",
+  "None",
 ];
