@@ -108,6 +108,7 @@ export default function Home() {
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
             <a href="#reports" className="hover:text-gold transition">Reports</a>
             <a href="/noise" className="hover:text-gold transition">Noise &amp; Infrasound</a>
+            <a href="/community" className="hover:text-gold transition">Community Voice</a>
             <a href="#carousel" className="hover:text-gold transition">Visual Cards</a>
             <a href="#slides" className="hover:text-gold transition">USACE Slides</a>
             <a href="#officials" className="hover:text-gold transition">Elected Officials</a>
