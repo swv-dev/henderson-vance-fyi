@@ -200,24 +200,14 @@ export default function Home() {
             Kristin Walker will represent Governor Stein&apos;s office. This session
             is <strong className="text-foreground">open to the general public</strong>.
           </p>
-          <div className="flex flex-col gap-3 sm:flex-row">
-            <a
-              href="https://forms.office.com/Pages/ResponsePage.aspx?id=3lF2etC5mkSFw-zCbNftGRnYSKFljoFHqicw5lc0PMxUNUhOWEZTTE9HVDlTRjlzVkExOTRDODJQRC4u"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded bg-blue px-8 py-3 text-center text-sm font-bold uppercase tracking-widest text-white transition hover:bg-blue/80"
-            >
-              RSVP to Attend &rarr;
-            </a>
-            <a
-              href="https://governor.nc.gov/josh-stein/investing-rural-nc"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="rounded border border-blue/40 px-8 py-3 text-center text-sm font-bold uppercase tracking-widest text-blue transition hover:bg-blue/10"
-            >
-              About the Initiative
-            </a>
-          </div>
+          <a
+            href="https://governor.nc.gov/josh-stein/investing-rural-nc"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded bg-blue px-8 py-3 text-center text-sm font-bold uppercase tracking-widest text-white transition hover:bg-blue/80"
+          >
+            Learn More &amp; RSVP &rarr;
+          </a>
         </div>
       </section>
 
