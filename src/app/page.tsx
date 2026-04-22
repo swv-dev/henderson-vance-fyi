@@ -100,13 +100,14 @@ export default function Home() {
               Read the Reports
             </a>
             <a
-              href="#meeting"
-              className="rounded border border-red/40 bg-red/10 px-8 py-3 text-sm font-bold uppercase tracking-widest text-red transition hover:bg-red/20"
+              href="#listening-session"
+              className="rounded border border-blue/40 bg-blue/10 px-8 py-3 text-sm font-bold uppercase tracking-widest text-blue transition hover:bg-blue/20"
             >
-              April 20 Meeting
+              Governor&apos;s Listening Session
             </a>
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
+            <a href="#listening-session" className="hover:text-gold transition">Listening Session</a>
             <a href="#reports" className="hover:text-gold transition">Reports</a>
             <a href="/noise" className="hover:text-gold transition">Noise &amp; Infrasound</a>
             <a href="/community" className="hover:text-gold transition">Community Voice</a>
@@ -175,11 +176,56 @@ export default function Home() {
         </a>
       </section>
 
-      {/* Urgent Meeting Banner */}
+      {/* Governor's Rural Listening Session */}
+      <section id="listening-session" className="px-6 py-10">
+        <div className="mx-auto max-w-3xl rounded-lg border border-blue/40 bg-blue/10 p-6 md:p-10">
+          <p className="mb-2 text-xs font-bold uppercase tracking-widest text-blue">
+            Public Comment Opportunity
+          </p>
+          <p className="mb-2 text-2xl font-extrabold md:text-3xl">
+            Governor Stein&apos;s Rural Listening Session
+          </p>
+          <p className="mb-1 text-lg font-bold text-foreground">
+            Wednesday, April 29, 2026
+          </p>
+          <p className="mb-4 text-muted">
+            Doors open 3:30 PM &middot; Public comment begins 3:45 PM<br />
+            Vance-Granville Community College Civic Center, 200 Community College Road, Henderson, NC 27537
+          </p>
+          <p className="text-sm text-subtle mb-6">
+            The Office of the Governor is hosting listening sessions across rural
+            North Carolina to hear directly from community members on the challenges
+            and opportunities facing their regions. Department of Revenue Secretary
+            McKinley Wooten and Office of State Budget and Management Director
+            Kristin Walker will represent Governor Stein&apos;s office. This session
+            is <strong className="text-foreground">open to the general public</strong>.
+          </p>
+          <div className="flex flex-col gap-3 sm:flex-row">
+            <a
+              href="https://forms.office.com/Pages/ResponsePage.aspx?id=3lF2etC5mkSFw-zCbNftGRnYSKFljoFHqicw5lc0PMxUNUhOWEZTTE9HVDlTRjlzVkExOTRDODJQRC4u"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded bg-blue px-8 py-3 text-center text-sm font-bold uppercase tracking-widest text-white transition hover:bg-blue/80"
+            >
+              RSVP to Attend &rarr;
+            </a>
+            <a
+              href="https://governor.nc.gov/josh-stein/investing-rural-nc"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded border border-blue/40 px-8 py-3 text-center text-sm font-bold uppercase tracking-widest text-blue transition hover:bg-blue/10"
+            >
+              About the Initiative
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* April 20 Meeting (Past) */}
       <section id="meeting" className="px-6 py-10">
         <div className="mx-auto max-w-3xl rounded-lg border border-red/40 bg-red/10 p-6 md:p-10">
           <p className="mb-2 text-xs font-bold uppercase tracking-widest text-red">
-            Special Called Meeting - ZMA26-001 Vote
+            Past Meeting - ZMA26-001 Vote
           </p>
           <p className="mb-2 text-2xl font-extrabold md:text-3xl">
             Monday, April 20, 2026 at 4:00 PM
