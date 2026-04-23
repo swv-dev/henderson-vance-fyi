@@ -544,9 +544,51 @@ export default function WaterPage() {
             </p>
           </div>
 
-          {/* Step 2 */}
+          {/* Step 2 - Emergency Meeting */}
+          <div className="rounded-lg border-2 border-red/50 bg-red/10 p-6 mb-10">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="shrink-0 rounded bg-red px-3 py-1 text-xs font-bold uppercase tracking-widest text-white">
+                Emergency Meeting
+              </span>
+              <p className="text-xs font-bold uppercase tracking-widest text-red">
+                Tomorrow, April 24
+              </p>
+            </div>
+            <h3 className="mb-3 text-lg font-bold text-foreground">
+              Step 2: Attend the Vance County Emergency Commissioners Meeting
+            </h3>
+            <p className="mb-4 text-sm text-muted leading-relaxed">
+              Chairperson Carolyn Faines has called an emergency meeting of the
+              Vance County Board of Commissioners to consider adopting a resolution
+              in opposition to Senate Bill 214, Part V, Section 5.
+            </p>
+            <div className="rounded border border-card-border bg-card p-4 mb-4">
+              <ul className="space-y-2 text-sm">
+                <li><strong className="text-foreground">Date:</strong> <span className="text-muted">Friday, April 24, 2026, 4:00 PM</span></li>
+                <li><strong className="text-foreground">Location:</strong> <span className="text-muted">Commissioners Meeting Room, Vance County Administration Building, 122 Young Street, Henderson, NC</span></li>
+                <li>
+                  <strong className="text-foreground">YouTube:</strong>{" "}
+                  <a
+                    href="https://www.youtube.com/channel/UCUMNYAAhyvKx5leijt5iK6Q"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue hover:text-gold transition"
+                  >
+                    Watch live &rarr;
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <p className="text-sm text-muted leading-relaxed">
+              Called by County Manager C. Renee Perry. Notice sent to Commissioners
+              Charisse Fain, Yolanda Feimster, Leo Kelly Jr., Tommy Hester Jr.,
+              Dan Brummitt, and Valencia Perry. This is a public meeting.
+            </p>
+          </div>
+
+          {/* Step 3 */}
           <h3 className="mb-4 text-lg font-bold text-gold">
-            Step 2: Show Up at VGCC on April 29
+            Step 3: Show Up at VGCC on April 29
           </h3>
           <p className="mb-4 text-muted leading-relaxed">
             Governor Stein&apos;s Rural Listening Session is coming to Henderson the
@@ -585,7 +627,7 @@ export default function WaterPage() {
 
           {/* Step 3 */}
           <h3 className="mb-4 text-lg font-bold text-gold">
-            Step 3: Submit Comments to the Army Corps (Deadline: April 24)
+            Step 4: Submit Comments to the Army Corps (Deadline: April 24)
           </h3>
           <p className="mb-2 text-muted leading-relaxed">
             The Army Corps reallocation study is separate from SB 214 and will
@@ -602,7 +644,7 @@ export default function WaterPage() {
 
           {/* Step 4 */}
           <h3 className="mb-4 text-lg font-bold text-gold">
-            Step 4: Share This
+            Step 5: Share This
           </h3>
           <p className="text-muted leading-relaxed">
             Forward the fact sheet to your neighbors, your commissioners, your
