@@ -107,6 +107,7 @@ export default function Home() {
             </a>
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
+            <a href="/water" className="hover:text-red transition text-red font-semibold">SB 214 Water Alert</a>
             <a href="#listening-session" className="hover:text-gold transition">Listening Session</a>
             <a href="#reports" className="hover:text-gold transition">Reports</a>
             <a href="/noise" className="hover:text-gold transition">Noise &amp; Infrasound</a>
@@ -115,6 +116,45 @@ export default function Home() {
             <a href="#slides" className="hover:text-gold transition">USACE Slides</a>
             <a href="#officials" className="hover:text-gold transition">Elected Officials</a>
             <a href="#resources" className="hover:text-gold transition">Resources</a>
+          </div>
+        </div>
+      </section>
+
+      {/* SB 214 ALERT BANNER */}
+      <section className="px-6 py-6">
+        <div className="mx-auto max-w-4xl rounded-lg border-2 border-red/50 bg-red/10 p-6 md:p-8">
+          <div className="flex flex-col gap-4">
+            <div className="flex items-center gap-3">
+              <span className="shrink-0 rounded bg-red px-3 py-1 text-xs font-bold uppercase tracking-widest text-white">
+                Urgent
+              </span>
+              <p className="text-xs font-bold uppercase tracking-widest text-red">
+                House Vote as Early as April 28
+              </p>
+            </div>
+            <p className="text-2xl font-extrabold leading-tight md:text-3xl">
+              SB 214: Franklin County&apos;s Power Grab Over Kerr Lake
+            </p>
+            <p className="text-sm text-muted leading-relaxed max-w-3xl">
+              4 lines buried in a routine bill would give Franklin County the power
+              to condemn land in Vance, Warren, and Halifax Counties for a water
+              pipeline, without your commissioners&apos; consent. Passed the Senate
+              28-21. Every fact sourced.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 mt-2">
+              <a
+                href="/water"
+                className="shrink-0 rounded bg-gold px-6 py-3 text-center text-sm font-bold uppercase tracking-widest text-background transition hover:bg-gold-dim"
+              >
+                Read the Facts &rarr;
+              </a>
+              <a
+                href="/water#join"
+                className="shrink-0 rounded border border-red/40 bg-red/10 px-6 py-3 text-center text-sm font-bold uppercase tracking-widest text-red transition hover:bg-red/20"
+              >
+                Get Involved &rarr;
+              </a>
+            </div>
           </div>
         </div>
       </section>
