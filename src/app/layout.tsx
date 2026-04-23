@@ -47,6 +47,11 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <a
+          href="/water/admin"
+          className="fixed top-4 right-4 z-50 h-3 w-3 rounded-full bg-card-border/30 hover:bg-gold transition opacity-20 hover:opacity-100"
+          aria-label="Admin"
+        />
         {children}
         <Analytics />
       </body>
