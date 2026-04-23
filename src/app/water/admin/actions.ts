@@ -4,10 +4,9 @@ import { kv } from "@vercel/kv";
 import { decrypt } from "../crypto";
 import type { SignupData } from "../actions";
 
-const ADMIN_KEY = process.env.ADMIN_KEY || "sb214admin";
-
 export async function getSignups(key: string) {
-  if (key !== ADMIN_KEY) {
+  const adminKey = process.env.ADMIN_KEY || "sb214admin";
+  if (key !== adminKey) {
     return { success: false, error: "Invalid key.", signups: [] };
   }
 
