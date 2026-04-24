@@ -801,10 +801,9 @@ export default function WaterPage() {
           </div>
           <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-10">
             <p className="text-foreground leading-relaxed">
-              If the House passes SB 214 on April 28, the April 29 session becomes
-              our opportunity to ask Governor Stein to veto it. If the House has not
-              yet voted, it is our opportunity to put pressure on before they do.
-              Either way, showing up matters. Bring your neighbors.
+              The House votes on SB 214 on April 28. The April 29 session
+              becomes our opportunity to ask Governor Stein to veto it.
+              Showing up matters. Bring your neighbors.
             </p>
           </div>
 
