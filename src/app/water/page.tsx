@@ -300,14 +300,14 @@ export default function WaterPage() {
             <div className="rounded-lg border border-card-border bg-card p-5">
               <div className="flex items-center gap-3 mb-2">
                 <span className="shrink-0 rounded bg-red px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-white">
-                  Emergency Meeting
+                  Unanimous
                 </span>
                 <h3 className="text-sm font-bold text-foreground">Warren County Board of Commissioners</h3>
               </div>
               <p className="text-sm text-muted leading-relaxed mb-2">
                 Held an emergency meeting on April 24 at the Warren County
-                Armory Civic Center for approval of a resolution opposing
-                SB 214 Section 5.
+                Armory Civic Center and unanimously approved a resolution
+                opposing SB 214 Section 5.
               </p>
               <p className="text-xs text-subtle">
                 Source: The Warren Record
