@@ -707,6 +707,25 @@ export default function WaterPage() {
               to Raleigh. Your presence in the building sends a message that
               cannot be ignored.
             </p>
+
+            <div className="mt-4 rounded border border-gold/30 bg-gold/5 p-4">
+              <h4 className="mb-2 text-sm font-bold uppercase tracking-widest text-gold">
+                Ride From Henderson
+              </h4>
+              <p className="text-sm text-foreground leading-relaxed mb-2">
+                Davis Chapel MBC has provided a 15-passenger van to transport
+                citizens to Raleigh. Meet at <strong>742 N. Chestnut St.,
+                Henderson, NC 27536</strong> at <strong>6:30 AM</strong>.
+                Departing promptly at 7 AM.
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                Interested in joining us to advocate against SB 214?{" "}
+                <a href="#join" className="text-gold hover:text-gold-dim transition font-semibold">
+                  Sign up below
+                </a>{" "}
+                for updates and planning.
+              </p>
+            </div>
           </div>
 
           {/* Step 2 */}
