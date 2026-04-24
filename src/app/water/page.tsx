@@ -58,6 +58,20 @@ const timeline = [
 export default function WaterPage() {
   return (
     <main className="flex-1">
+      {/* Transportation Banner */}
+      <section className="bg-gold/10 border-b border-gold/30 px-6 py-4">
+        <div className="mx-auto max-w-4xl text-center">
+          <p className="text-sm font-bold text-foreground md:text-base">
+            Riding to Raleigh Tuesday, April 28 - Van provided by Davis Chapel MBC.{" "}
+            <strong className="text-gold">742 N. Chestnut St., Henderson - 6:30 AM.</strong>{" "}
+            Departing at 7 AM.{" "}
+            <a href="#join" className="text-gold underline hover:text-gold-dim transition">
+              Sign up &rarr;
+            </a>
+          </p>
+        </div>
+      </section>
+
       {/* Hero */}
       <section className="relative px-6 py-20 md:py-28 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-red/10 via-background to-background" />
