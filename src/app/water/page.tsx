@@ -49,7 +49,9 @@ const timeline = [
   { date: "April 15", event: "Warrenton Board unanimously approves opposition resolution." },
   { date: "April 21", event: "Conference committee inserts Part V into SB 214. No public hearing." },
   { date: "April 22", event: "Senate passes SB 214 conference report 28-21. Barnes (Vance County) votes Yes." },
-  { date: "April 28", event: "SB 214 on House calendar. Conference reports cannot be amended. Up-or-down vote only." },
+  { date: "April 24", event: "Army Corps public comment deadline. Vance County Commissioners hold emergency meeting, adopt resolution opposing SB 214 Part V. Warren County Commissioners hold emergency meeting." },
+  { date: "April 24", event: "The Herald reports Franklin County Commission Chairwoman Roxanne Bragg was unaware the provision bypassed county commissioners' consent." },
+  { date: "April 28", event: "Citizens gather at NC General Assembly (9 AM). Rep. Pierce holds press conference in Room 1328 (11 AM). House vote on SB 214." },
   { date: "April 29", event: "Governor's Rural Listening Session at VGCC, Henderson. 3:30 PM." },
 ];
 
@@ -62,7 +64,7 @@ export default function WaterPage() {
         <div className="relative mx-auto max-w-4xl text-center">
           <div className="mx-auto mb-6 h-1 w-20 bg-red" />
           <p className="mb-4 text-sm font-bold uppercase tracking-widest text-red">
-            Urgent - House Vote as Early as April 28
+            House Vote Tuesday, April 28 - Be There
           </p>
           <h1 className="mb-6 text-3xl font-extrabold leading-tight tracking-tight md:text-5xl">
             SB 214: Franklin County&apos;s Power Grab{" "}
@@ -94,6 +96,7 @@ export default function WaterPage() {
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
             <a href="/" className="hover:text-gold transition">Home</a>
             <a href="#what" className="hover:text-gold transition">What Is SB 214</a>
+            <a href="#opposition" className="hover:text-gold transition">Opposition</a>
             <a href="#why" className="hover:text-gold transition">Why</a>
             <a href="#better-way" className="hover:text-gold transition">A Better Way</a>
             <a href="#fairness" className="hover:text-gold transition">In Fairness</a>
@@ -247,6 +250,143 @@ export default function WaterPage() {
             </div>
             <p className="mt-4 text-xs text-subtle">
               Source: Rep. Bryan Cohn, floor remarks, April 22, 2026
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Regional Opposition */}
+      <section id="opposition" className="px-6 py-16">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="mb-8 text-2xl font-extrabold md:text-3xl">
+            The Region Is <span className="text-red">Pushing Back</span>
+          </h2>
+          <p className="mb-8 text-muted leading-relaxed">
+            Within days of Part V becoming public, county governments across
+            the region began passing formal resolutions opposing SB 214. Every
+            county named in the bill has taken official action. Not a single
+            governing body has spoken in support.
+          </p>
+
+          <div className="space-y-4 mb-8">
+            {/* Halifax */}
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="shrink-0 rounded bg-red px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-white">
+                  Unanimous
+                </span>
+                <h3 className="text-sm font-bold text-foreground">Halifax County Board of Commissioners</h3>
+              </div>
+              <p className="text-sm text-muted leading-relaxed mb-2">
+                Held an emergency meeting and unanimously approved a resolution
+                opposing SB 214. More than 300 people attended. Not a single
+                speaker supported the bill.
+              </p>
+              <p className="text-sm text-muted leading-relaxed mb-2">
+                Chairman Vernon J. Bryant personally contacted every
+                municipality in the county to request opposition resolutions
+                and is reaching out to Halifax Horizons, the Economic
+                Development Commission, the Intergovernmental Association,
+                Roanoke Rapids Sanitary District, and the Upper Coastal Plains
+                Council of Governments. Halifax County is organizing two buses
+                to the NC General Assembly on April 28.
+              </p>
+              <p className="text-xs text-subtle">
+                Source: Roanoke Rapids Daily Herald, April 24, 2026
+              </p>
+            </div>
+
+            {/* Warren County */}
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="shrink-0 rounded bg-red px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-white">
+                  Emergency Meeting
+                </span>
+                <h3 className="text-sm font-bold text-foreground">Warren County Board of Commissioners</h3>
+              </div>
+              <p className="text-sm text-muted leading-relaxed mb-2">
+                Held an emergency meeting on April 24 at the Warren County
+                Armory Civic Center for approval of a resolution opposing
+                SB 214 Section 5.
+              </p>
+              <p className="text-xs text-subtle">
+                Source: The Warren Record
+              </p>
+            </div>
+
+            {/* Vance County */}
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="shrink-0 rounded bg-red px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-white">
+                  Emergency Meeting
+                </span>
+                <h3 className="text-sm font-bold text-foreground">Vance County Board of Commissioners</h3>
+              </div>
+              <p className="text-sm text-muted leading-relaxed mb-2">
+                Chairperson Carolyn Faines called an emergency meeting on
+                April 24 to adopt a resolution opposing SB 214, Part V,
+                Section 5.
+              </p>
+            </div>
+
+            {/* City of Henderson */}
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="shrink-0 rounded bg-red px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-white">
+                  Emergency Meeting
+                </span>
+                <h3 className="text-sm font-bold text-foreground">City of Henderson</h3>
+              </div>
+              <p className="text-sm text-muted leading-relaxed mb-2">
+                The City of Henderson, which controls 60% ownership of the Kerr
+                Lake Regional Water System, is holding an emergency meeting in
+                opposition to SB 214. Mayor Melissa Elliott has spoken out
+                against the bill.
+              </p>
+            </div>
+
+            {/* Granville County */}
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="shrink-0 rounded bg-gold px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-background">
+                  Formal Opposition
+                </span>
+                <h3 className="text-sm font-bold text-foreground">Granville County Board of Commissioners</h3>
+              </div>
+              <p className="text-sm text-muted leading-relaxed">
+                Sent a formal letter of opposition on April 7, weeks before
+                Part V was even inserted into SB 214, opposing Franklin
+                County&apos;s request to the Army Corps for a direct Kerr Lake
+                water allocation.
+              </p>
+            </div>
+
+            {/* Warrenton */}
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="shrink-0 rounded bg-red px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-white">
+                  Unanimous
+                </span>
+                <h3 className="text-sm font-bold text-foreground">Town of Warrenton Board of Commissioners</h3>
+              </div>
+              <p className="text-sm text-muted leading-relaxed">
+                Unanimously approved a resolution on April 15 opposing
+                Franklin County&apos;s request to the Army Corps, supporting
+                positions outlined in Granville County&apos;s opposition letter
+                and the KLRWS Board&apos;s position on maintaining system
+                integrity and equitable cost distribution.
+              </p>
+              <p className="text-xs text-subtle">
+                Source: The Warren Record
+              </p>
+            </div>
+          </div>
+
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6">
+            <p className="text-foreground leading-relaxed font-semibold">
+              Six governing bodies across four counties. Zero in support.
+              This is not a partisan issue. It is a regional consensus that
+              Part V was wrong, and the affected communities deserve a voice.
             </p>
           </div>
         </div>
@@ -439,6 +579,37 @@ export default function WaterPage() {
             All quotes sourced from franklincountync.gov/649/Future-Water
           </p>
 
+          <div className="rounded-lg border border-blue/30 bg-blue/5 p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-blue">
+              Franklin County&apos;s Own Chair Didn&apos;t Know
+            </h3>
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              The Herald reached out to Chairwoman Roxanne Bragg of the Franklin
+              County Board of Commissioners about what prompted the legislative
+              move.
+            </p>
+            <p className="border-l-2 border-blue/40 pl-4 text-sm italic text-muted mb-3">
+              &quot;Well, we need water - that&apos;s what prompted it. The bottom
+              line is we need to get water in Franklin County, and we&apos;re doing
+              what we can do to get water.&quot;
+            </p>
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              When asked whether it was morally and ethically right to bypass
+              the consent of county commissioners, Bragg said she did not know
+              anything about that. After being read the provision, Bragg
+              deferred to Franklin County Attorney Gena McCray, who could not
+              be reached by deadline.
+            </p>
+            <p className="text-sm text-foreground leading-relaxed font-semibold">
+              The chairwoman of the county this provision was written for did
+              not know it bypassed neighboring counties&apos; consent. That tells
+              you everything about how Part V was created.
+            </p>
+            <p className="mt-3 text-xs text-subtle">
+              Source: The Herald, April 24, 2026
+            </p>
+          </div>
+
           <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-6">
             <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
               A Call to Our Own Leaders
@@ -496,15 +667,51 @@ export default function WaterPage() {
 
           <div className="rounded-lg border border-red/30 bg-red/10 p-6 mb-10">
             <p className="text-foreground font-semibold leading-relaxed">
-              The House vote could happen as early as April 28. The Governor&apos;s
-              Rural Listening Session is April 29 at VGCC. Both are opportunities
-              to be heard.
+              The House vote is scheduled for Tuesday, April 28. We are
+              organizing citizens to travel to the NC General Assembly to meet
+              with representatives, attend a press conference, and be present
+              for the vote.
             </p>
           </div>
 
-          {/* Step 1 */}
+          {/* Step 1 - NCGA */}
+          <div className="rounded-lg border-2 border-red/50 bg-red/10 p-6 mb-10">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="shrink-0 rounded bg-red px-3 py-1 text-xs font-bold uppercase tracking-widest text-white">
+                Be There
+              </span>
+              <p className="text-xs font-bold uppercase tracking-widest text-red">
+                Tuesday, April 28
+              </p>
+            </div>
+            <h3 className="mb-3 text-lg font-bold text-foreground">
+              Step 1: Show Up at the NC General Assembly
+            </h3>
+            <p className="mb-4 text-sm text-muted leading-relaxed">
+              We are organizing a citizen delegation to the NC General Assembly
+              in Raleigh on Tuesday, April 28. Meet with your representatives,
+              attend the press conference, and be present when the House votes
+              on SB 214.
+            </p>
+            <div className="rounded border border-card-border bg-card p-4 mb-4">
+              <ul className="space-y-2 text-sm">
+                <li><strong className="text-foreground">Gather:</strong> <span className="text-muted">9:00 AM at the NC General Assembly, Raleigh</span></li>
+                <li><strong className="text-foreground">Press Conference:</strong> <span className="text-muted">11:00 AM, Room 1328 (hosted by Rep. Rodney Pierce)</span></li>
+                <li><strong className="text-foreground">House Vote:</strong> <span className="text-muted">SB 214 on the calendar. Conference reports cannot be amended. Up-or-down vote only.</span></li>
+              </ul>
+            </div>
+            <p className="text-sm text-muted leading-relaxed">
+              Rep. Rodney Pierce (D), District 27, representing Halifax,
+              Northampton, and Warren Counties, is leading the press conference
+              against SB 214. Halifax County is sending two buses of citizens
+              to Raleigh. Your presence in the building sends a message that
+              cannot be ignored.
+            </p>
+          </div>
+
+          {/* Step 2 */}
           <h3 className="mb-4 text-lg font-bold text-gold">
-            Step 1: Call Your Representatives This Week
+            Step 2: Call Your Representatives Before Tuesday
           </h3>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm">
@@ -544,45 +751,21 @@ export default function WaterPage() {
             </p>
           </div>
 
-          {/* Step 2 - Emergency Meeting */}
-          <div className="rounded-lg border-2 border-red/50 bg-red/10 p-6 mb-10">
-            <div className="flex items-center gap-3 mb-4">
-              <span className="shrink-0 rounded bg-red px-3 py-1 text-xs font-bold uppercase tracking-widest text-white">
-                Emergency Meeting
-              </span>
-              <p className="text-xs font-bold uppercase tracking-widest text-red">
-                Tomorrow, April 24
-              </p>
-            </div>
-            <h3 className="mb-3 text-lg font-bold text-foreground">
-              Step 2: Attend the Vance County Emergency Commissioners Meeting
+          {/* Momentum - Emergency Meetings */}
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-10">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
+              Momentum Is Building
             </h3>
-            <p className="mb-4 text-sm text-muted leading-relaxed">
-              Chairperson Carolyn Faines has called an emergency meeting of the
-              Vance County Board of Commissioners to consider adopting a resolution
-              in opposition to Senate Bill 214, Part V, Section 5.
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              On April 24, both Vance County and Warren County held emergency
+              commissioners meetings to address SB 214. Vance County adopted a
+              formal resolution opposing Part V. The counties that would lose
+              their protections are on record against this bill.
             </p>
-            <div className="rounded border border-card-border bg-card p-4 mb-4">
-              <ul className="space-y-2 text-sm">
-                <li><strong className="text-foreground">Date:</strong> <span className="text-muted">Friday, April 24, 2026, 4:00 PM</span></li>
-                <li><strong className="text-foreground">Location:</strong> <span className="text-muted">Commissioners Meeting Room, Vance County Administration Building, 122 Young Street, Henderson, NC</span></li>
-                <li>
-                  <strong className="text-foreground">YouTube:</strong>{" "}
-                  <a
-                    href="https://www.youtube.com/channel/UCUMNYAAhyvKx5leijt5iK6Q"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue hover:text-gold transition"
-                  >
-                    Watch live &rarr;
-                  </a>
-                </li>
-              </ul>
-            </div>
             <p className="text-sm text-muted leading-relaxed">
-              Called by County Manager C. Renee Perry. Notice sent to Commissioners
-              Charisse Fain, Yolanda Feimster, Leo Kelly Jr., Tommy Hester Jr.,
-              Dan Brummitt, and Valencia Perry. This is a public meeting.
+              Rep. Rodney Pierce (D-27) personally reached out to this citizen
+              project and invited our coalition to attend his press conference
+              at the General Assembly on April 28.
             </p>
           </div>
 
@@ -625,15 +808,15 @@ export default function WaterPage() {
             </p>
           </div>
 
-          {/* Step 3 */}
+          {/* Step 4 */}
           <h3 className="mb-4 text-lg font-bold text-gold">
-            Step 4: Submit Comments to the Army Corps (Deadline: April 24)
+            Step 4: Submit Comments to the Army Corps
           </h3>
           <p className="mb-2 text-muted leading-relaxed">
             The Army Corps reallocation study is separate from SB 214 and will
             continue regardless. Written public comments are part of the official
-            federal record. <strong className="text-red">The extended comment
-            deadline is April 24, 2026.</strong>
+            federal record. The extended comment deadline was April 24, 2026,
+            but late comments may still be considered.
           </p>
           <p className="mb-1 text-sm text-foreground">
             Email: <a href="mailto:CESAW-JHKerr-Reallocation-Franklin@usace.army.mil" className="text-blue hover:text-gold transition break-all">CESAW-JHKerr-Reallocation-Franklin@usace.army.mil</a>
