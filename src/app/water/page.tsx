@@ -38,19 +38,22 @@ const contacts = [
 const timeline = [
   { date: "2005", event: "Army Corps grants KLRWS 20 MGD allocation from Kerr Lake." },
   { date: "2017", event: "Franklin County adopts Water Allocation Ordinance, restricting new connections." },
+  { date: "2019", event: "SB 320 passes Senate 20-17, would withhold $18M in KLRWS funding. Governor Cooper vetoes it.", highlight: true },
   { date: "2020-2024", event: "Franklin County makes repeated requests to Henderson for more water. Henderson declines." },
   { date: "Feb. 2025", event: "Engineering study estimates $78.9M pipeline cost from Vance to Franklin County." },
   { date: "March 2025", event: "SB 214 filed. Original text: deannexations only. No mention of Franklin County." },
   { date: "June 2025", event: "Franklin County submits Letter of Intent to Army Corps for Kerr Lake reallocation." },
   { date: "Aug. 2025", event: "Franklin County signs $2M agreement with Army Corps for reallocation study." },
   { date: "Oct. 2025", event: "Franklin County issues $200M RFQ for private water plant and pipeline." },
-  { date: "March 2026", event: "Army Corps holds public scoping meeting. Residents voice strong opposition." },
+  { date: "March 2026", event: "Army Corps holds public scoping meeting at Warren County Armory. 300+ attend. Tremendous opposition." },
   { date: "April 7", event: "Granville County sends formal opposition letter. Citizens group meets at Warren County Middle School." },
   { date: "April 15", event: "Warrenton Board unanimously approves opposition resolution." },
   { date: "April 21", event: "Conference committee inserts Part V into SB 214. No public hearing." },
-  { date: "April 22", event: "Senate passes SB 214 conference report 28-21. Barnes (Vance County) votes Yes." },
-  { date: "April 24", event: "Army Corps public comment deadline. Vance County Commissioners hold emergency meeting, adopt resolution opposing SB 214 Part V. Warren County Commissioners hold emergency meeting." },
+  { date: "April 22", event: "Senate passes SB 214 conference report 28-21. Barnes (Vance County) votes Yes. Sen. Sanderson (R) is the only Republican to vote No." },
+  { date: "April 22", event: "House Speaker Destin Hall pulls SB 214 from the House calendar after floor opposition from Rep. Cohn and Rep. Pierce. Bill rescheduled to April 28.", highlight: true },
+  { date: "April 24", event: "Army Corps public comment deadline. Vance County and Warren County hold emergency meetings, adopt resolutions opposing SB 214 Part V." },
   { date: "April 24", event: "The Herald reports Franklin County Commission Chairwoman Roxanne Bragg was unaware the provision bypassed county commissioners' consent." },
+  { date: "April 26", event: "WRAL and the NC Tribune publish major reports on SB 214. Statewide attention grows.", highlight: true },
   { date: "April 28", event: "Citizens gather at NC General Assembly (9 AM). Rep. Pierce holds press conference in Room 1328 (11 AM). House vote on SB 214." },
   { date: "April 29", event: "Governor's Rural Listening Session at VGCC, Henderson. 3:30 PM." },
 ];
@@ -58,6 +61,23 @@ const timeline = [
 export default function WaterPage() {
   return (
     <main className="flex-1">
+      {/* Breaking News Banner */}
+      <section className="bg-red/15 border-b border-red/40 px-6 py-4">
+        <div className="mx-auto max-w-4xl text-center">
+          <p className="text-xs font-bold uppercase tracking-widest text-red mb-1">
+            Breaking - April 26, 2026
+          </p>
+          <p className="text-sm font-bold text-foreground md:text-base">
+            House Speaker Destin Hall pulled SB 214 from Wednesday&apos;s House calendar after bipartisan opposition on the floor.{" "}
+            <strong className="text-foreground">The bill is rescheduled for Tuesday, April 28.</strong>{" "}
+            It is not dead. The fight continues.{" "}
+            <a href="#news" className="text-gold underline hover:text-gold-dim transition">
+              Read the coverage &rarr;
+            </a>
+          </p>
+        </div>
+      </section>
+
       {/* Transportation Banner */}
       <section className="bg-gold/10 border-b border-gold/30 px-6 py-4">
         <div className="mx-auto max-w-4xl text-center">
@@ -113,6 +133,8 @@ export default function WaterPage() {
             <a href="#opposition" className="hover:text-gold transition">Opposition</a>
             <a href="#why" className="hover:text-gold transition">Why</a>
             <a href="#better-way" className="hover:text-gold transition">A Better Way</a>
+            <a href="#news" className="hover:text-gold transition">News Coverage</a>
+            <a href="#precedent" className="hover:text-gold transition">Legal Precedent</a>
             <a href="#fairness" className="hover:text-gold transition">In Fairness</a>
             <a href="#timeline" className="hover:text-gold transition">Timeline</a>
             <a href="#take-action" className="hover:text-gold transition">Take Action</a>
@@ -266,6 +288,62 @@ export default function WaterPage() {
               Source: Rep. Bryan Cohn, floor remarks, April 22, 2026
             </p>
           </div>
+
+          {/* Pierce quotes */}
+          <div className="mt-6 rounded-lg border border-red/30 bg-red/5 p-6">
+            <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-red">
+              Rep. Rodney Pierce Called It &quot;Manifest Destiny&quot;
+            </h3>
+            <p className="mb-4 text-sm text-muted">
+              Representative Rodney Pierce (D), District 27, represents Halifax,
+              Northampton, and Warren Counties. He spoke on the floor against SB
+              214 during the Wednesday session before Speaker Hall pulled the bill.
+            </p>
+            <div className="space-y-3">
+              {[
+                "This straight-up sounds like Manifest Destiny. We just say this is what we want in your county, and we take it.",
+                "This bill is no longer what it started as. It has become a vehicle for overreach, stripping rural counties of their rights.",
+                "When legislation that impacts land, water and development aligns this closely with a lawmaker's private business interests, the public deserves transparency and accountability.",
+                "This bill is about more than deannexation. It's about who controls our land, our water, and our future.",
+              ].map((quote, i) => (
+                <p key={i} className="border-l-2 border-red/40 pl-4 text-sm italic text-muted">
+                  &quot;{quote}&quot;
+                </p>
+              ))}
+            </div>
+            <p className="mt-4 text-xs text-subtle">
+              Sources:{" "}
+              <a href="https://www.wral.com/news/nccapitol/water-access-bill-growth-franklin-vance-warren-halifax-county-nc-legislature-april-2026/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">WRAL</a>,{" "}
+              <a href="https://www.rrdailyherald.com/news/local/rep-pierce-opposes-sb-214-cites-concerns-over-local-control/article_b63fa958-1716-57bf-a329-330eee5ba74f.html" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">Roanoke Rapids Daily Herald</a>,{" "}
+              <a href="https://www.961bbb.com/2026/04/24/senate-proposal-sparks-backlash-over-property-water-control-concerns/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">CMG Plus</a>
+            </p>
+          </div>
+
+          {/* Winslow response */}
+          <div className="mt-6 rounded-lg border border-card-border bg-card p-6">
+            <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-muted">
+              Rep. Winslow&apos;s Response
+            </h3>
+            <p className="mb-3 text-sm text-muted">
+              Representative Matthew Winslow (R), District 7, represents Franklin
+              County and part of Vance County. He has announced he will not seek
+              re-election.
+            </p>
+            <p className="border-l-2 border-card-border pl-4 text-sm italic text-muted">
+              &quot;It&apos;s very narrowly tailored so that it&apos;s only giving access to water resources to Franklin County.&quot;
+            </p>
+            <p className="mt-3 text-xs text-subtle">
+              Source:{" "}
+              <a href="https://www.wral.com/news/nccapitol/water-access-bill-growth-franklin-vance-warren-halifax-county-nc-legislature-april-2026/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">WRAL, April 26, 2026</a>
+            </p>
+            <p className="mt-3 text-sm text-foreground leading-relaxed">
+              Note: The bill&apos;s actual language contains no limitation to water
+              infrastructure. It authorizes condemnation of any &quot;real property
+              or an interest in real property.&quot; Henderson City Manager Paylor
+              Spruill warned it could apply to the KLRWS facility, transmission
+              lines, or even county courthouses.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -396,11 +474,287 @@ export default function WaterPage() {
             </div>
           </div>
 
+          {/* Local Officials Quotes */}
+          <div className="rounded-lg border border-red/30 bg-red/5 p-6 mb-8">
+            <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-red">
+              What Local Leaders Are Saying
+            </h3>
+            <div className="space-y-4">
+              <div>
+                <p className="border-l-2 border-red/40 pl-4 text-sm italic text-muted">
+                  &quot;Totally disrespectful... as low as you can go.&quot;
+                </p>
+                <p className="mt-1 pl-4 text-xs text-subtle">
+                  Halifax County Chairman Vernon J. Bryant
+                  (<a href="https://www.rrdailyherald.com/news/local/halifax-county-pushes-back-against-bill-allowing-cross-county-land-seizures-franklin-chairwoman-says-we/article_6ac7ce83-43c6-583e-8843-f91fcd862ad8.html" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">Daily Herald</a>)
+                </p>
+              </div>
+              <div>
+                <p className="border-l-2 border-red/40 pl-4 text-sm italic text-muted">
+                  &quot;Robbery... unethical.&quot;
+                </p>
+                <p className="mt-1 pl-4 text-xs text-subtle">
+                  Vance County Chairperson Carolyn Faines
+                  (<a href="https://www.hendersondispatch.com/archives/local-leaders-rallying-against-sb214/article_947eff14-1113-5afd-8cfe-5123f64b8c8d.html" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">Henderson Dispatch</a>)
+                </p>
+              </div>
+              <div>
+                <p className="border-l-2 border-red/40 pl-4 text-sm italic text-muted">
+                  &quot;I stand in alignment with concerns raised about the constitutional implications of this provision.&quot;
+                </p>
+                <p className="mt-1 pl-4 text-xs text-subtle">
+                  Henderson Mayor Melissa Elliott
+                  (<a href="https://www.hendersondispatch.com/archives/local-leaders-rallying-against-sb214/article_947eff14-1113-5afd-8cfe-5123f64b8c8d.html" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">Henderson Dispatch</a>)
+                </p>
+              </div>
+              <div>
+                <p className="border-l-2 border-red/40 pl-4 text-sm italic text-muted">
+                  &quot;I have never seen such legislation in 40 years of local government work.&quot;
+                </p>
+                <p className="mt-1 pl-4 text-xs text-subtle">
+                  Halifax County Attorney Glynn Rollins
+                  (<a href="https://www.rrdailyherald.com/news/local/halifax-county-pushes-back-against-bill-allowing-cross-county-land-seizures-franklin-chairwoman-says-we/article_6ac7ce83-43c6-583e-8843-f91fcd862ad8.html" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">Daily Herald</a>)
+                </p>
+              </div>
+              <div>
+                <p className="border-l-2 border-red/40 pl-4 text-sm italic text-muted">
+                  &quot;This provision could affect the KLRWS facility, transmission lines, or even county courthouses.&quot;
+                </p>
+                <p className="mt-1 pl-4 text-xs text-subtle">
+                  Henderson City Manager Paylor Spruill
+                  (<a href="https://www.hendersondispatch.com/archives/local-leaders-rallying-against-sb214/article_947eff14-1113-5afd-8cfe-5123f64b8c8d.html" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">Henderson Dispatch</a>)
+                </p>
+              </div>
+            </div>
+          </div>
+
           <div className="rounded-lg border border-gold/30 bg-gold/5 p-6">
             <p className="text-foreground leading-relaxed font-semibold">
               Six governing bodies across four counties. Zero in support.
               This is not a partisan issue. It is a regional consensus that
               Part V was wrong, and the affected communities deserve a voice.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* News Coverage */}
+      <section id="news" className="px-6 py-16">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="mb-8 text-2xl font-extrabold md:text-3xl">
+            News <span className="text-gold">Coverage</span>
+          </h2>
+          <p className="mb-8 text-muted leading-relaxed">
+            SB 214 Part V is drawing statewide attention. Here is every major
+            report we have found, linked directly to the source.
+          </p>
+
+          <div className="space-y-4 mb-8">
+            {[
+              {
+                outlet: "WRAL",
+                title: "Water wars: Booming population, drought driving tension in NC statehouse and beyond",
+                reporter: "Will Doran",
+                date: "April 26, 2026",
+                url: "https://www.wral.com/news/nccapitol/water-access-bill-growth-franklin-vance-warren-halifax-county-nc-legislature-april-2026/",
+              },
+              {
+                outlet: "NC Tribune",
+                title: "Could Franklin Co. grab Henderson's water plant?",
+                reporter: "Staff",
+                date: "April 26, 2026",
+                url: "https://www.nctribune.com",
+              },
+              {
+                outlet: "Henderson Dispatch",
+                title: "Local leaders rallying against SB214",
+                reporter: "Tyler Davis",
+                date: "April 24, 2026",
+                url: "https://www.hendersondispatch.com/archives/local-leaders-rallying-against-sb214/article_947eff14-1113-5afd-8cfe-5123f64b8c8d.html",
+              },
+              {
+                outlet: "Roanoke Rapids Daily Herald",
+                title: "Halifax County pushes back against bill allowing cross-county land seizures",
+                reporter: "Richard Holm",
+                date: "April 23, 2026",
+                url: "https://www.rrdailyherald.com/news/local/halifax-county-pushes-back-against-bill-allowing-cross-county-land-seizures-franklin-chairwoman-says-we/article_6ac7ce83-43c6-583e-8843-f91fcd862ad8.html",
+              },
+              {
+                outlet: "Roanoke Rapids Daily Herald",
+                title: "Rep. Pierce opposes SB 214, cites concerns over local control",
+                reporter: "Staff Reports",
+                date: "April 24, 2026",
+                url: "https://www.rrdailyherald.com/news/local/rep-pierce-opposes-sb-214-cites-concerns-over-local-control/article_b63fa958-1716-57bf-a329-330eee5ba74f.html",
+              },
+              {
+                outlet: "Roanoke Rapids Daily Herald",
+                title: "Roanoke Rapids joins Halifax in opposing bill allowing outside county to seize land",
+                reporter: "Staff",
+                date: "April 2026",
+                url: "https://www.rrdailyherald.com/news/local/roanoke-rapids-joins-halifax-in-opposing-bill-allowing-outside-county-to-seize-land/article_473c2ff6-01f0-5eb7-b578-8802e56e8bf4.html",
+              },
+              {
+                outlet: "CMG Plus / WPTF / 96.1 BBB (Syndicated)",
+                title: "Senate proposal sparks local backlash over property, water control concerns",
+                reporter: "Laura Gabel & John C. Rose",
+                date: "April 24, 2026",
+                url: "https://www.961bbb.com/2026/04/24/senate-proposal-sparks-backlash-over-property-water-control-concerns/",
+              },
+              {
+                outlet: "The Warren Record",
+                title: "Warrenton board unanimously approves resolution opposing request",
+                reporter: "Staff",
+                date: "April 15, 2026",
+                url: "https://www.warrenrecord.com/news/article_f2a051c9-d32a-4ade-a56a-332be145cd59.html",
+              },
+              {
+                outlet: "The Warren Record",
+                title: "Three citizens ask county commissioners for formal opposition",
+                reporter: "Staff",
+                date: "April 2026",
+                url: "https://www.warrenrecord.com/news/article_fde323d5-bd29-40e7-a3be-fb519046297e.html",
+              },
+            ].map((article, i) => (
+              <a
+                key={i}
+                href={article.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block rounded-lg border border-card-border bg-card p-5 transition hover:border-gold/40"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div>
+                    <p className="text-xs font-bold uppercase tracking-widest text-blue mb-1">
+                      {article.outlet}
+                    </p>
+                    <p className="text-sm font-semibold text-foreground group-hover:text-gold transition leading-snug">
+                      {article.title}
+                      <span className="ml-1 inline-block text-subtle group-hover:text-gold transition">&rarr;</span>
+                    </p>
+                    <p className="mt-1 text-xs text-subtle">
+                      {article.reporter} | {article.date}
+                    </p>
+                  </div>
+                </div>
+              </a>
+            ))}
+          </div>
+
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6">
+            <p className="text-foreground leading-relaxed">
+              Know of coverage we missed? Share it with us at{" "}
+              <a href="#join" className="text-gold hover:text-gold-dim transition font-semibold">
+                the signup form below
+              </a>.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Legal Precedent: Asheville */}
+      <section id="precedent" className="px-6 py-16 bg-navy/30">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="mb-8 text-2xl font-extrabold md:text-3xl">
+            Legal Precedent:{" "}
+            <span className="text-red">They Tried This Before</span>
+          </h2>
+
+          {/* Asheville */}
+          <div className="rounded-lg border border-red/30 bg-red/5 p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
+              Asheville Water System (2013-2016)
+            </h3>
+            <p className="mb-4 text-sm text-muted leading-relaxed">
+              In 2013, the NC General Assembly passed House Bill 488, forcing the
+              City of Asheville to transfer its entire water system to a regional
+              authority. The system included 40 pumping stations, 1,600 miles of
+              pipe, and 124,000 customers. Asheville had operated it for over 100
+              years.
+            </p>
+            <p className="mb-4 text-sm text-muted leading-relaxed">
+              Asheville sued. After a three-year legal battle, the{" "}
+              <strong className="text-foreground">NC Supreme Court ruled 5-2
+              that the forced transfer was unconstitutional</strong>, citing
+              Article II, Section 24 of the NC Constitution, which prohibits
+              local acts &quot;relating to health, sanitation, and the abatement
+              of nuisances.&quot;
+            </p>
+            <p className="mb-4 text-sm text-muted leading-relaxed">
+              Justice Sam Ervin IV wrote that the forced transfer was{" "}
+              <span className="text-foreground italic">&quot;not a valid exercise
+              of sovereign power of legislative branch of government to take or
+              condemn property for a public use.&quot;</span>
+            </p>
+            <p className="mb-4 text-sm text-muted leading-relaxed">
+              44 cities and towns filed briefs or resolutions supporting
+              Asheville, recognizing that if the legislature could take one
+              city&apos;s water system, it could take anyone&apos;s.
+            </p>
+            <p className="text-xs text-subtle">
+              Sources:{" "}
+              <a href="https://ncnewsline.com/briefs/after-five-year-legal-battle-nc-supreme-court-rules-asheville-can-keep-its-water-system/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">NC Newsline</a>,{" "}
+              <a href="https://mountainx.com/news/n-c-supreme-court-rules-taking-of-asheville-water-system-unconstitutional/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">Mountain Xpress</a>,{" "}
+              <a href="https://caselaw.findlaw.com/court/nc-supreme-court/1762832.html" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">FindLaw: City of Asheville v. State (2016)</a>
+            </p>
+          </div>
+
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
+              Why This Matters for SB 214
+            </h3>
+            <p className="text-foreground leading-relaxed mb-3">
+              Rep. Cohn called Part V &quot;grossly unconstitutional.&quot; The
+              Asheville ruling established that the NC legislature cannot use
+              local acts to forcibly transfer water infrastructure between local
+              governments. SB 214 Part V goes even further, granting one county
+              eminent domain power over another county&apos;s land without consent.
+            </p>
+            <p className="text-foreground leading-relaxed">
+              The same constitutional provision, Article II, Section 24, that
+              struck down the Asheville seizure applies here. If the legislature
+              could not take Asheville&apos;s water system, it cannot give Franklin
+              County the power to take Henderson&apos;s.
+            </p>
+          </div>
+
+          {/* SB 320 */}
+          <div className="rounded-lg border border-card-border bg-card p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-blue">
+              Senate Bill 320 (2019): The First Attempt
+            </h3>
+            <p className="mb-4 text-sm text-muted leading-relaxed">
+              This is not the first time the legislature has been used as leverage
+              over Kerr Lake water. In 2019, Senate Bill 320 would have required
+              the state to withhold $18 million in federal grants for the KLRWS
+              expansion until every local government filed a rate agreement, or
+              waived their right to one. The bill was widely seen as a tool to
+              pressure Henderson on behalf of Franklin County.
+            </p>
+            <p className="mb-4 text-sm text-muted leading-relaxed">
+              The Senate passed SB 320 on a party-line vote, 20-17.{" "}
+              <strong className="text-foreground">Governor Roy Cooper vetoed
+              it</strong>, warning that local governments should not use state
+              laws to gain the upper hand in negotiations over vital resources
+              like water.
+            </p>
+            <p className="text-xs text-subtle">
+              Sources:{" "}
+              <a href="https://www.wral.com/fight-over-rates-threatens-18-million-kerr-lake-water-project/18334424/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">WRAL (2019)</a>,{" "}
+              <a href="https://www.ncleg.gov/BillLookup/2019/S320" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">NC General Assembly: SB 320</a>
+            </p>
+          </div>
+
+          <div className="rounded-lg border border-red/30 bg-red/10 p-6">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
+              A Pattern
+            </h3>
+            <p className="text-foreground leading-relaxed">
+              2019: Use the legislature to hold KLRWS funding hostage. Vetoed.
+              2026: Use the legislature to strip counties of their consent
+              rights. SB 214 Part V is the second time in seven years that the
+              General Assembly has been asked to override local control of Kerr
+              Lake water on Franklin County&apos;s behalf. The method escalates
+              each time.
             </p>
           </div>
         </div>
@@ -661,10 +1015,10 @@ export default function WaterPage() {
           </h2>
           <div className="space-y-0">
             {timeline.map((item, i) => (
-              <div key={i} className="flex gap-4 border-l-2 border-card-border pb-6 pl-6 last:pb-0">
+              <div key={i} className={`flex gap-4 border-l-2 pb-6 pl-6 last:pb-0 ${item.highlight ? "border-gold" : "border-card-border"}`}>
                 <div>
-                  <p className="text-sm font-bold text-blue">{item.date}</p>
-                  <p className="text-sm text-muted">{item.event}</p>
+                  <p className={`text-sm font-bold ${item.highlight ? "text-gold" : "text-blue"}`}>{item.date}</p>
+                  <p className={`text-sm ${item.highlight ? "text-foreground font-semibold" : "text-muted"}`}>{item.event}</p>
                 </div>
               </div>
             ))}
