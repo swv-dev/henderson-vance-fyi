@@ -410,14 +410,14 @@ export default function WaterPage() {
             <div className="rounded-lg border border-card-border bg-card p-5">
               <div className="flex items-center gap-3 mb-2">
                 <span className="shrink-0 rounded bg-red px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-white">
-                  Emergency Meeting
+                  Unanimous
                 </span>
                 <h3 className="text-sm font-bold text-foreground">Vance County Board of Commissioners</h3>
               </div>
               <p className="text-sm text-muted leading-relaxed mb-2">
                 Chairperson Carolyn Faines called an emergency meeting on
-                April 24 to adopt a resolution opposing SB 214, Part V,
-                Section 5.
+                April 24. The board voted unanimously to oppose SB 214,
+                Part V, Section 5.
               </p>
             </div>
 
