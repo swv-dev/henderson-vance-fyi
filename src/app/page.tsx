@@ -100,14 +100,14 @@ export default function Home() {
               Read the Reports
             </a>
             <a
-              href="#listening-session"
-              className="rounded border border-blue/40 bg-blue/10 px-8 py-3 text-sm font-bold uppercase tracking-widest text-blue transition hover:bg-blue/20"
+              href="/water"
+              className="rounded border border-gold/40 bg-gold/10 px-8 py-3 text-sm font-bold uppercase tracking-widest text-gold transition hover:bg-gold/20"
             >
-              Governor&apos;s Listening Session
+              SB 214 Update &rarr;
             </a>
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
-            <a href="/water" className="hover:text-red transition text-red font-semibold">SB 214 Water Alert</a>
+            <a href="/water" className="hover:text-gold transition text-gold font-semibold">SB 214: Section 5 Removed</a>
             <a href="#listening-session" className="hover:text-gold transition">Listening Session</a>
             <a href="#reports" className="hover:text-gold transition">Reports</a>
             <a href="/noise" className="hover:text-gold transition">Noise &amp; Infrasound</a>
@@ -120,39 +120,41 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SB 214 ALERT BANNER */}
+      {/* SB 214 UPDATE BANNER */}
       <section className="px-6 py-6">
-        <div className="mx-auto max-w-4xl rounded-lg border-2 border-red/50 bg-red/10 p-6 md:p-8">
+        <div className="mx-auto max-w-4xl rounded-lg border-2 border-gold/50 bg-gold/10 p-6 md:p-8">
           <div className="flex flex-col gap-4">
             <div className="flex items-center gap-3">
-              <span className="shrink-0 rounded bg-red px-3 py-1 text-xs font-bold uppercase tracking-widest text-white">
-                Urgent
+              <span className="shrink-0 rounded bg-gold px-3 py-1 text-xs font-bold uppercase tracking-widest text-background">
+                Update
               </span>
-              <p className="text-xs font-bold uppercase tracking-widest text-red">
-                House Vote as Early as April 28
+              <p className="text-xs font-bold uppercase tracking-widest text-gold">
+                April 29, 2026
               </p>
             </div>
             <p className="text-2xl font-extrabold leading-tight md:text-3xl">
-              SB 214: Franklin County&apos;s Power Grab Over Kerr Lake
+              SB 214 Section 5 Has Been Removed
             </p>
             <p className="text-sm text-muted leading-relaxed max-w-3xl">
-              4 lines buried in a routine bill would give Franklin County the power
-              to condemn land in Vance, Warren, and Halifax Counties for a water
-              pipeline, without your commissioners&apos; consent. Passed the Senate
-              28-21. Every fact sourced.
+              After roughly 100 citizens traveled to Raleigh and a press
+              conference with 10 speakers, both chambers voted on a revised
+              conference report without the Franklin County eminent domain
+              provision. But House Speaker Destin Hall warned it could return
+              if local negotiations fail. The Army Corps study continues.
+              Remain vigilant.
             </p>
             <div className="flex flex-col sm:flex-row gap-3 mt-2">
               <a
                 href="/water"
                 className="shrink-0 rounded bg-gold px-6 py-3 text-center text-sm font-bold uppercase tracking-widest text-background transition hover:bg-gold-dim"
               >
-                Read the Facts &rarr;
+                Full Timeline &amp; Press Conference &rarr;
               </a>
               <a
-                href="/water#join"
-                className="shrink-0 rounded border border-red/40 bg-red/10 px-6 py-3 text-center text-sm font-bold uppercase tracking-widest text-red transition hover:bg-red/20"
+                href="/water#whats-next"
+                className="shrink-0 rounded border border-gold/40 bg-gold/5 px-6 py-3 text-center text-sm font-bold uppercase tracking-widest text-gold transition hover:bg-gold/15"
               >
-                Get Involved &rarr;
+                What&apos;s Next &rarr;
               </a>
             </div>
           </div>
@@ -216,38 +218,25 @@ export default function Home() {
         </a>
       </section>
 
-      {/* Governor's Rural Listening Session */}
+      {/* Governor's Rural Listening Session - Past */}
       <section id="listening-session" className="px-6 py-10">
-        <div className="mx-auto max-w-3xl rounded-lg border border-blue/40 bg-blue/10 p-6 md:p-10">
-          <p className="mb-2 text-xs font-bold uppercase tracking-widest text-blue">
-            Public Comment Opportunity
+        <div className="mx-auto max-w-3xl rounded-lg border border-card-border bg-card p-6 md:p-10">
+          <p className="mb-2 text-xs font-bold uppercase tracking-widest text-subtle">
+            Past Event - April 29, 2026
           </p>
           <p className="mb-2 text-2xl font-extrabold md:text-3xl">
             Governor Stein&apos;s Rural Listening Session
           </p>
-          <p className="mb-1 text-lg font-bold text-foreground">
-            Wednesday, April 29, 2026
-          </p>
           <p className="mb-4 text-muted">
-            Doors open 3:30 PM &middot; Public comment begins 3:45 PM<br />
-            Vance-Granville Community College Civic Center, 200 Community College Road, Henderson, NC 27537
+            Vance-Granville Community College Civic Center, Henderson, NC
           </p>
-          <p className="text-sm text-subtle mb-6">
-            The Office of the Governor is hosting listening sessions across rural
-            North Carolina to hear directly from community members on the challenges
-            and opportunities facing their regions. Department of Revenue Secretary
-            McKinley Wooten and Office of State Budget and Management Director
-            Kristin Walker will represent Governor Stein&apos;s office. This session
-            is <strong className="text-foreground">open to the general public</strong>.
+          <p className="text-sm text-subtle">
+            The Office of the Governor hosted a listening session in Henderson
+            on April 29, the same day both chambers voted to remove Section 5
+            from SB 214. Department of Revenue Secretary McKinley Wooten and
+            Office of State Budget and Management Director Kristin Walker
+            represented Governor Stein&apos;s office.
           </p>
-          <a
-            href="https://governor.nc.gov/josh-stein/investing-rural-nc"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block rounded bg-blue px-8 py-3 text-center text-sm font-bold uppercase tracking-widest text-white transition hover:bg-blue/80"
-          >
-            Learn More &amp; RSVP &rarr;
-          </a>
         </div>
       </section>
 
