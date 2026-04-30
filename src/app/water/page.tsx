@@ -3,13 +3,13 @@ import Image from "next/image";
 import SignupForm from "./signup-form";
 
 export const metadata: Metadata = {
-  title: "SB 214: Franklin County's Power Grab Over Kerr Lake - Henderson-Vance FYI",
+  title: "SB 214: Section 5 Removed After Regional Coalition Pushback - Henderson-Vance FYI",
   description:
-    "Senate Bill 214 Part V would give Franklin County eminent domain power over Vance, Warren, and Halifax County land for a Kerr Lake water pipeline. Every claim sourced to public records.",
+    "Senate Bill 214 Section 5, which would have given Franklin County eminent domain power over Vance, Warren, and Halifax County land, was removed after unprecedented regional opposition. Full timeline, press conference video, and news coverage.",
   openGraph: {
-    title: "SB 214: Franklin County's Power Grab Over Kerr Lake",
+    title: "SB 214: Section 5 Removed After Regional Coalition Pushback",
     description:
-      "4 lines buried in a routine bill would strip your county's right to say no. All facts sourced.",
+      "Communities spoke up and Section 5 was stripped. But remain vigilant. Full sourced timeline inside.",
     type: "article",
   },
 };
@@ -47,46 +47,37 @@ const timeline = [
   { date: "Oct. 2025", event: "Franklin County issues $200M RFQ for private water plant and pipeline." },
   { date: "March 2026", event: "Army Corps holds public scoping meeting at Warren County Armory. 300+ attend. Tremendous opposition." },
   { date: "April 7", event: "Granville County sends formal opposition letter. Citizens group meets at Warren County Middle School." },
-  { date: "April 15", event: "Warrenton Board unanimously approves opposition resolution." },
+  { date: "April 15", event: "Warrenton Board unanimously approves opposition resolution. Haliwa-Saponi Tribal Council adopts opposition resolution." },
   { date: "April 21", event: "Conference committee inserts Part V into SB 214. No public hearing." },
   { date: "April 22", event: "Senate passes SB 214 conference report 28-21. Barnes (Vance County) votes Yes. Sen. Sanderson (R) is the only Republican to vote No." },
   { date: "April 22", event: "House Speaker Destin Hall pulls SB 214 from the House calendar after floor opposition from Rep. Cohn and Rep. Pierce. Bill rescheduled to April 28.", highlight: true },
-  { date: "April 24", event: "Army Corps public comment deadline. Vance County and Warren County hold emergency meetings, adopt resolutions opposing SB 214 Part V." },
+  { date: "April 24", event: "Army Corps public comment deadline. Vance County, Warren County, City of Henderson, and Roanoke Rapids Sanitary District hold emergency meetings and adopt resolutions opposing SB 214 Part V." },
   { date: "April 24", event: "The Herald reports Franklin County Commission Chairwoman Roxanne Bragg was unaware the provision bypassed county commissioners' consent." },
   { date: "April 26", event: "WRAL and the NC Tribune publish major reports on SB 214. Statewide attention grows.", highlight: true },
-  { date: "April 28", event: "Citizens gather at NC General Assembly (9 AM). Rep. Pierce holds press conference in Room 1328 (11 AM). House vote on SB 214." },
-  { date: "April 29", event: "Governor's Rural Listening Session at VGCC, Henderson. 3:30 PM." },
+  { date: "April 28", event: "Roughly 100 citizens from Halifax, Vance, and Warren Counties travel to Raleigh by bus. Rep. Pierce holds press conference at the Legislative Building with 10 speakers including mayors, county chairs, tribal leaders, and attorneys. SB 214 pulled from House calendar.", highlight: true },
+  { date: "April 28", event: "House Speaker Destin Hall announces Section 5 will not appear in the revised conference report. Senate leaders agree to remove it. Franklin County also admitted neighbors were not notified in advance." },
+  { date: "April 29", event: "Both chambers vote on revised SB 214 conference report without Section 5 or Section 7 (Forsyth school board provision). Section 5 is officially dead.", highlight: true },
+  { date: "April 29", event: "Governor Stein's Rural Listening Session at VGCC, Henderson. 3:30 PM." },
 ];
 
 export default function WaterPage() {
   return (
     <main className="flex-1">
-      {/* Breaking News Banner */}
-      <section className="bg-red/15 border-b border-red/40 px-6 py-4">
+      {/* Victory Banner */}
+      <section className="bg-gold/15 border-b border-gold/40 px-6 py-5">
         <div className="mx-auto max-w-4xl text-center">
-          <p className="text-xs font-bold uppercase tracking-widest text-red mb-1">
-            Breaking - April 26, 2026
+          <p className="text-xs font-bold uppercase tracking-widest text-gold mb-1">
+            Update - April 29, 2026
           </p>
-          <p className="text-sm font-bold text-foreground md:text-base">
-            House Speaker Destin Hall pulled SB 214 from Wednesday&apos;s House calendar after bipartisan opposition on the floor.{" "}
-            <strong className="text-foreground">The bill is rescheduled for Tuesday, April 28.</strong>{" "}
-            It is not dead. The fight continues.{" "}
-            <a href="#news" className="text-gold underline hover:text-gold-dim transition">
-              Read the coverage &rarr;
-            </a>
+          <p className="text-lg font-extrabold text-foreground md:text-xl mb-2">
+            Section 5 of SB 214 Has Been Removed.
           </p>
-        </div>
-      </section>
-
-      {/* Transportation Banner */}
-      <section className="bg-gold/10 border-b border-gold/30 px-6 py-4">
-        <div className="mx-auto max-w-4xl text-center">
-          <p className="text-sm font-bold text-foreground md:text-base">
-            Riding to Raleigh Tuesday, April 28 - Van provided by Davis Chapel MBC.{" "}
-            <strong className="text-gold">742 N. Chestnut St., Henderson - 6:30 AM.</strong>{" "}
-            Departing at 7 AM.{" "}
-            <a href="#join" className="text-gold underline hover:text-gold-dim transition">
-              Sign up &rarr;
+          <p className="text-sm text-muted md:text-base">
+            After unprecedented regional opposition, both chambers voted on a revised conference report without the Franklin County eminent domain provision.{" "}
+            <strong className="text-foreground">But remain vigilant.</strong>{" "}
+            House Speaker Destin Hall indicated the provision could return if local negotiations fail.{" "}
+            <a href="#press-conference" className="text-gold underline hover:text-gold-dim transition">
+              Watch the press conference &rarr;
             </a>
           </p>
         </div>
@@ -96,19 +87,21 @@ export default function WaterPage() {
       <section className="relative px-6 py-20 md:py-28 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-red/10 via-background to-background" />
         <div className="relative mx-auto max-w-4xl text-center">
-          <div className="mx-auto mb-6 h-1 w-20 bg-red" />
-          <p className="mb-4 text-sm font-bold uppercase tracking-widest text-red">
-            House Vote Tuesday, April 28 - Be There
+          <div className="mx-auto mb-6 h-1 w-20 bg-gold" />
+          <p className="mb-4 text-sm font-bold uppercase tracking-widest text-gold">
+            Communities Spoke Up. Section 5 Was Removed.
           </p>
           <h1 className="mb-6 text-3xl font-extrabold leading-tight tracking-tight md:text-5xl">
-            SB 214: Franklin County&apos;s Power Grab{" "}
-            <span className="text-gold">Over Kerr Lake</span>
+            SB 214: How a Regional Coalition{" "}
+            <span className="text-gold">Stopped a Power Grab</span>
           </h1>
           <p className="mx-auto mb-4 max-w-2xl text-lg text-muted md:text-xl">
-            4 lines buried in a routine bill would strip Vance, Warren, and
+            4 lines buried in a routine bill would have stripped Vance, Warren, and
             Halifax Counties of their legal right to approve property
             acquisitions by Franklin County, including condemnation by eminent
-            domain.
+            domain. After unprecedented opposition from eight governing bodies, a
+            tribal nation, and roughly 100 citizens who traveled to Raleigh by
+            bus, Section 5 was removed.
           </p>
           <p className="mx-auto mb-10 max-w-xl text-sm text-subtle">
             Every claim on this page is sourced to public records. No agenda, just facts.
@@ -129,7 +122,8 @@ export default function WaterPage() {
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
             <a href="/" className="hover:text-gold transition">Home</a>
-            <a href="#what" className="hover:text-gold transition">What Is SB 214</a>
+            <a href="#press-conference" className="hover:text-gold transition">Press Conference</a>
+            <a href="#what" className="hover:text-gold transition">What Was SB 214</a>
             <a href="#opposition" className="hover:text-gold transition">Opposition</a>
             <a href="#why" className="hover:text-gold transition">Why</a>
             <a href="#better-way" className="hover:text-gold transition">A Better Way</a>
@@ -137,9 +131,157 @@ export default function WaterPage() {
             <a href="#precedent" className="hover:text-gold transition">Legal Precedent</a>
             <a href="#fairness" className="hover:text-gold transition">In Fairness</a>
             <a href="#timeline" className="hover:text-gold transition">Timeline</a>
-            <a href="#take-action" className="hover:text-gold transition">Take Action</a>
+            <a href="#whats-next" className="hover:text-gold transition">What&apos;s Next</a>
             <a href="#join" className="hover:text-gold transition">Get Involved</a>
             <a href="#cards" className="hover:text-gold transition">Share Cards</a>
+          </div>
+        </div>
+      </section>
+
+      {/* Press Conference */}
+      <section id="press-conference" className="px-6 py-16 bg-navy/30">
+        <div className="mx-auto max-w-3xl">
+          <h2 className="mb-8 text-2xl font-extrabold md:text-3xl">
+            The Press Conference That{" "}
+            <span className="text-gold">Changed Everything</span>
+          </h2>
+          <p className="mb-6 text-muted leading-relaxed">
+            On April 28, 2026, roughly 100 citizens from Halifax, Warren, and
+            Vance Counties traveled to the NC Legislative Building in Raleigh
+            by bus and van to stand against SB 214. Rep. Rodney Pierce organized
+            a press conference where ten speakers stood together: mayors, county
+            commission chairs, a tribal leader, an attorney, and state
+            representatives. The bill was pulled from the House calendar that
+            same day. By April 29, both chambers voted on a revised conference
+            report without Section 5.
+          </p>
+
+          {/* Video Embed */}
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
+              Watch the Full Press Conference (60 min)
+            </h3>
+            <p className="text-sm text-muted mb-4">
+              12,000+ views. 10 speakers. The moment communities stood up and
+              said no.
+            </p>
+            <a
+              href="https://www.facebook.com/share/v/1CVjgDtJg5/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded bg-gold px-8 py-3 text-sm font-bold uppercase tracking-widest text-background transition hover:bg-gold-dim"
+            >
+              Watch on Facebook &rarr;
+            </a>
+          </div>
+
+          {/* Speakers */}
+          <h3 className="mb-4 text-lg font-bold text-gold">
+            Who Spoke
+          </h3>
+          <div className="space-y-4 mb-8">
+            {[
+              {
+                name: "Rep. Rodney Pierce (D-27)",
+                role: "Halifax, Northampton, Warren Counties",
+                quote: "This should not be a partisan issue. Whether you are a Democrat, a Republican, or unaffiliated, the idea that one county can take property in another county without consent should concern you.",
+              },
+              {
+                name: "Rep. Deb Butler",
+                role: "NC House, Finance Committee Subcommittee",
+                quote: "North Carolina stands alone, and not in a good way, when it comes to municipal de-annexation. Every single de-annexation must go through the General Assembly because of who you know.",
+              },
+              {
+                name: "Rep. Bryan Cohn (D-32)",
+                role: "Granville County, parts of Vance County",
+                quote: "This is a unilateral request from one county to be able to enter another county without permission from their elected officials and annex and condemn real property.",
+              },
+              {
+                name: "Mayor Melissa Elliott",
+                role: "City of Henderson",
+                quote: "Water is life, land is legacy, and justice belongs to poor people too. You cannot take our land, you cannot take our water, and you cannot take our future.",
+              },
+              {
+                name: "Melissa Dixon, Attorney",
+                role: "Roanoke Rapids Sanitary District",
+                quote: "This attempt by Franklin County to use a local bill to allow it to take land from its neighboring counties is illegal, is immoral, and it is unconscionable.",
+              },
+              {
+                name: "Earl Evans, Vice Chairman",
+                role: "Haliwa-Saponi Indian Tribe",
+                quote: "My ancestors have called this place home since time immemorial. We are celebrating 500 years of endurance and survival. What is most disappointing is that something like this would occur without consulting with a tribal nation who is your neighbor.",
+              },
+              {
+                name: "Chairman Vernon J. Bryant",
+                role: "Halifax County Board of Commissioners",
+                quote: "I'm here to tell you, Raleigh, today my commissioners are upset. Every one of them. The fact that another county would want to legislate to take those resources without consent is appalling.",
+              },
+              {
+                name: "Chairman Al Cooper",
+                role: "Warren County Board of Commissioners",
+                quote: "For too long and too often, Warren County has taken the brunt of bad actions by the NC General Assembly. We have suffered because of a PCB dump, gerrymandering, insufficient funding for schools, and now our land and water resources are up for grabs.",
+              },
+              {
+                name: "Chairwoman Carolyn Faines",
+                role: "Vance County Board of Commissioners",
+                quote: "I see bullies every day. And one thing a bully does, they try to take. But we stand today, and we stand together.",
+              },
+              {
+                name: "Rep. Amber Baker (D-72)",
+                role: "Forsyth County (spoke on Section 7)",
+                quote: "You didn't like the election, so we're going to change it and make them run again in two years. That's not how it happens. You don't get a do-over when you don't like the results.",
+              },
+            ].map((speaker, i) => (
+              <div key={i} className="rounded-lg border border-card-border bg-card p-5">
+                <div className="mb-2">
+                  <p className="text-sm font-bold text-foreground">{speaker.name}</p>
+                  <p className="text-xs text-subtle">{speaker.role}</p>
+                </div>
+                <p className="border-l-2 border-gold/40 pl-4 text-sm italic text-muted">
+                  &quot;{speaker.quote}&quot;
+                </p>
+              </div>
+            ))}
+          </div>
+
+          {/* Key Outcome */}
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
+              The Result
+            </h3>
+            <p className="text-foreground leading-relaxed mb-3">
+              Rep. Pierce, after the removal:{" "}
+              <span className="italic">&quot;Its removal shows that when communities speak up,
+              their voices can make a difference.&quot;</span>
+            </p>
+            <p className="text-foreground leading-relaxed mb-3">
+              Sen. Norman Sanderson (R), the only Republican to vote against
+              SB 214 in the original vote, also deserves credit for standing
+              with his constituents across party lines.
+            </p>
+            <p className="text-foreground leading-relaxed">
+              Inside the building, Deputy Majority Whip Howard Penny Jr. (R-53)
+              told Vance County citizens he was firmly opposed, calling the
+              provision a &quot;hijacked bill&quot; and warning that if one county
+              is allowed to condemn land in another, &quot;you can&apos;t put
+              that genie back in the box.&quot; Opposition crossed party lines at
+              every level.
+            </p>
+          </div>
+
+          {/* Warning */}
+          <div className="rounded-lg border border-red/30 bg-red/10 p-6">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
+              Remain Vigilant
+            </h3>
+            <p className="text-foreground leading-relaxed">
+              House Speaker Destin Hall indicated the legislature could
+              resurrect the provision if local negotiations fail. The Army Corps
+              reallocation study continues, with a draft environmental
+              assessment expected in fall 2027. The underlying water dispute is
+              not resolved. Section 5 is gone, but the pressure that created it
+              remains.
+            </p>
           </div>
         </div>
       </section>
@@ -148,15 +290,16 @@ export default function WaterPage() {
       <section id="what" className="px-6 py-16">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-2xl font-extrabold md:text-3xl">
-            What Is <span className="text-gold">SB 214?</span>
+            What Was <span className="text-gold">SB 214 Section 5?</span>
           </h2>
           <p className="mb-6 text-muted leading-relaxed">
             Senate Bill 214, titled &quot;Various Local Provisions VII,&quot; is an omnibus
             local government bill that passed the NC Senate on April 22, 2026.
-            Buried inside it is <strong className="text-foreground">Part V: Franklin County
-            Property Acquisitions</strong>, a four-line provision that would strip
+            Buried inside it was <strong className="text-foreground">Part V, Section 5: Franklin County
+            Property Acquisitions</strong>, a four-line provision that would have stripped
             Vance, Warren, and Halifax Counties of their legal right to approve or
             deny property acquisitions by Franklin County within their borders.
+            After regional opposition, Section 5 was removed on April 29.
           </p>
           <p className="text-xs text-subtle mb-8">
             Source: NC General Assembly, SB 214 Conference Committee Substitute, S214-PCCS35356-BAxr-6, Page 2, Lines 33-37
@@ -319,6 +462,63 @@ export default function WaterPage() {
             </p>
           </div>
 
+          {/* Penny - Republican opposition */}
+          <div className="mt-6 rounded-lg border border-gold/30 bg-gold/5 p-6">
+            <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-gold">
+              Republican Leadership Opposed It Too
+            </h3>
+            <p className="mb-4 text-sm text-muted leading-relaxed">
+              Deputy Majority Whip Howard Penny Jr. (R), District 53, represents
+              Harnett County and is a former county commission chair. He spoke
+              with citizens from Vance County at the General Assembly on April 28
+              and was unequivocal in his opposition.
+            </p>
+            <div className="space-y-3">
+              {[
+                "I'm not gonna support that. I live with a bank of Cape Fear River. We got a Harnett regional water. And we can't - anybody want to buy it, they share in the plant, the lines, the process. Franklin County needs to get their hands in their pocket and go find a partner that will work with them.",
+                "He hijacked the bill. The bill was basically a clean de-annexation bill. Had nothing to do with this. And then he went in, hijacked the bill, and put that verbiage in there for Franklin County.",
+                "Think about the impact on all 100 counties if one county is allowed to do this, and you're on a lake or tributary that's got water. You can't put that genie back in the box.",
+                "Basic way a conference report works up here - you take members from the Senate, members from the House, and the conferees come together. Most of the time, we don't take the time to read it because it's been through conference, we assume everything was worked out. In this case, we didn't know this language was added into it.",
+              ].map((quote, i) => (
+                <p key={i} className="border-l-2 border-gold/40 pl-4 text-sm italic text-muted">
+                  &quot;{quote}&quot;
+                </p>
+              ))}
+            </div>
+            <p className="mt-4 text-xs text-subtle">
+              Source: Conversation with citizens from Vance County, NC General Assembly, April 28, 2026
+            </p>
+          </div>
+
+          {/* Sossaman - Former Rep */}
+          <div className="mt-6 rounded-lg border border-gold/30 bg-gold/5 p-6">
+            <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-gold">
+              Former Rep. Sossaman: Still Fighting From the Outside
+            </h3>
+            <p className="mb-4 text-sm text-muted leading-relaxed">
+              Former Representative Frank Sossaman (R), who represented
+              Granville and Vance Counties, has been working behind the scenes
+              to stop SB 214 even out of office, spending hours contacting
+              current representatives and the Speaker. In an interview on
+              April 28, he laid out why Section 5 is dangerous.
+            </p>
+            <div className="space-y-3">
+              {[
+                "If this would come into law today, they go after water. Tomorrow, they go after natural resources. And the next day, they go after a landfill. They don't want a landfill in their county, so they'll go to Vance County and get property and have their landfill over here. This right here is just the beginning of a snowball.",
+                "What the federal government and the state really wants to happen across North Carolina is to have regional water systems. The federal government has money appropriated for those regional water systems. It also has grant money it can award.",
+                "If it becomes a regional water system, the system would pay Henderson what it has invested. It wouldn't be a burden on just one person, it would be a collective deal. Then Henderson could take that money and invest in economic development, in infrastructure, and really moving Henderson forward.",
+                "A lot of times you trust leadership who is guiding a bill along. You read over it, but you don't do a deep dive. Good faith. But when they started looking closer at the language - no, no, this can't be. This is opening Pandora's box.",
+              ].map((quote, i) => (
+                <p key={i} className="border-l-2 border-gold/40 pl-4 text-sm italic text-muted">
+                  &quot;{quote}&quot;
+                </p>
+              ))}
+            </div>
+            <p className="mt-4 text-xs text-subtle">
+              Source: Interview with Charles Turrentine Jr., April 28, 2026
+            </p>
+          </div>
+
           {/* Winslow response */}
           <div className="mt-6 rounded-lg border border-card-border bg-card p-6">
             <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-muted">
@@ -472,6 +672,41 @@ export default function WaterPage() {
                 Source: The Warren Record
               </p>
             </div>
+
+            {/* Haliwa-Saponi */}
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="shrink-0 rounded bg-red px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-white">
+                  Resolution
+                </span>
+                <h3 className="text-sm font-bold text-foreground">Haliwa-Saponi Indian Tribe Tribal Council</h3>
+              </div>
+              <p className="text-sm text-muted leading-relaxed">
+                The state-recognized tribal nation, whose citizens primarily
+                live in Halifax, Franklin, and Warren Counties, adopted a
+                formal resolution opposing SB 214 Section 5. Vice Chairman
+                Earl Evans spoke at the April 28 press conference, noting the
+                tribe was never consulted despite being directly impacted.
+              </p>
+            </div>
+
+            {/* Roanoke Rapids Sanitary District */}
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <div className="flex items-center gap-3 mb-2">
+                <span className="shrink-0 rounded bg-red px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-white">
+                  Resolution
+                </span>
+                <h3 className="text-sm font-bold text-foreground">Roanoke Rapids Sanitary District</h3>
+              </div>
+              <p className="text-sm text-muted leading-relaxed">
+                An independent governmental entity created under state law,
+                the Sanitary District adopted a resolution opposing the
+                provision. Their attorney, Melissa Dixon, a board-certified
+                real estate law expert, argued at the press conference that
+                Section 5 was illegal under Article 2 of the NC Constitution,
+                citing <em>City of Asheville v. State of NC (2016)</em>.
+              </p>
+            </div>
           </div>
 
           {/* Local Officials Quotes */}
@@ -500,11 +735,11 @@ export default function WaterPage() {
               </div>
               <div>
                 <p className="border-l-2 border-red/40 pl-4 text-sm italic text-muted">
-                  &quot;I stand in alignment with concerns raised about the constitutional implications of this provision.&quot;
+                  &quot;Water is life, land is legacy, and justice belongs to poor people too. You cannot take our land, you cannot take our water, and you cannot take our future.&quot;
                 </p>
                 <p className="mt-1 pl-4 text-xs text-subtle">
                   Henderson Mayor Melissa Elliott
-                  (<a href="https://www.hendersondispatch.com/archives/local-leaders-rallying-against-sb214/article_947eff14-1113-5afd-8cfe-5123f64b8c8d.html" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">Henderson Dispatch</a>)
+                  (Press Conference, April 28, 2026)
                 </p>
               </div>
               <div>
@@ -530,9 +765,11 @@ export default function WaterPage() {
 
           <div className="rounded-lg border border-gold/30 bg-gold/5 p-6">
             <p className="text-foreground leading-relaxed font-semibold">
-              Six governing bodies across four counties. Zero in support.
-              This is not a partisan issue. It is a regional consensus that
-              Part V was wrong, and the affected communities deserve a voice.
+              Eight governing bodies across four counties, plus a tribal
+              nation and an independent sanitary district. Zero in support.
+              This was not a partisan issue. It was a regional consensus that
+              Section 5 was wrong, and the affected communities deserved a
+              voice. They used that voice, and Section 5 was removed.
             </p>
           </div>
         </div>
@@ -545,18 +782,96 @@ export default function WaterPage() {
             News <span className="text-gold">Coverage</span>
           </h2>
           <p className="mb-8 text-muted leading-relaxed">
-            SB 214 Part V is drawing statewide attention. Here is every major
-            report we have found, linked directly to the source.
+            SB 214 Section 5 drew statewide and national attention. Here is
+            every major report we have found, linked directly to the source,
+            from the initial backlash through the removal.
           </p>
 
           <div className="space-y-4 mb-8">
             {[
               {
                 outlet: "WRAL",
+                title: "Protesters flood legislature to oppose land-grab bill over water access",
+                reporter: "Staff",
+                date: "April 28, 2026",
+                url: "https://www.wral.com/news/nccapitol/franklin-county-water-land-legislature-bill-protest-april-2026/",
+              },
+              {
+                outlet: "Yahoo News (National)",
+                title: "NC lawmakers scrap eminent domain provision in bill after outcry from local leaders",
+                reporter: "AP / Staff",
+                date: "April 29, 2026",
+                url: "https://www.yahoo.com/news/articles/nc-lawmakers-scrap-eminent-domain-214025231.html",
+              },
+              {
+                outlet: "WUNC (NPR)",
+                title: "Neighboring counties push back on Franklin County effort to obtain property for water plant",
+                reporter: "Staff",
+                date: "April 28, 2026",
+                url: "https://www.wunc.org/politics/2026-04-28/franklin-county-property-water-plant-push-back",
+              },
+              {
+                outlet: "Roanoke Rapids Daily Herald",
+                title: "Senate strips controversial provision from SB 214 after regional backlash",
+                reporter: "Staff",
+                date: "April 29, 2026",
+                url: "https://www.rrdailyherald.com/news/local/senate-strips-controversial-provision-from-sb-214-after-regional-backlash/article_4c02ebdc-61c4-5f70-a70d-eeb233c8663d.html",
+              },
+              {
+                outlet: "Henderson Dispatch",
+                title: "Lawmakers remove Section V from SB 214",
+                reporter: "Staff",
+                date: "April 29, 2026",
+                url: "https://www.hendersondispatch.com/archives/lawmakers-remove-section-v-from-sb-214/article_a3324741-fc6c-5f0f-880c-1a291b12ac1e.html",
+              },
+              {
+                outlet: "Carolina Journal",
+                title: "Bill on Franklin County water leads to debate on local authority",
+                reporter: "Staff",
+                date: "April 2026",
+                url: "https://www.carolinajournal.com/bill-on-franklin-county-water-leads-to-debate-on-local-authority/",
+              },
+              {
+                outlet: "Carolina Public Press",
+                title: "Franklin County water grab, Forsyth school board topics of NC bill",
+                reporter: "Staff",
+                date: "April 2026",
+                url: "https://carolinapublicpress.org/75435/legislating-or-meddling-proposed-nc-bill-takes-on-local-water-and-school-board-disputes/",
+              },
+              {
+                outlet: "The Warren Record",
+                title: "State Rep. Pierce condemns Senate Bill 214, calls it 'A direct threat to rural counties and local control'",
+                reporter: "Staff",
+                date: "April 2026",
+                url: "https://www.warrenrecord.com/news/article_a79384f3-ca9e-46af-a5ca-181f3412a5b7.html",
+              },
+              {
+                outlet: "WRAL",
                 title: "Water wars: Booming population, drought driving tension in NC statehouse and beyond",
                 reporter: "Will Doran",
                 date: "April 26, 2026",
                 url: "https://www.wral.com/news/nccapitol/water-access-bill-growth-franklin-vance-warren-halifax-county-nc-legislature-april-2026/",
+              },
+              {
+                outlet: "RRSpin",
+                title: "Speakers band together to oppose SB 214",
+                reporter: "Staff",
+                date: "April 28, 2026",
+                url: "https://www.rrspin.com/news/11729-speakers-band-together-to-oppose-sb-214.html",
+              },
+              {
+                outlet: "RRSpin (Opinion)",
+                title: "A land grab nobody saw coming",
+                reporter: "James David Gailliard",
+                date: "April 27, 2026",
+                url: "https://www.rrspin.com/opinion/11725-a-land-grab-nobody-saw-coming.html",
+              },
+              {
+                outlet: "RRSpin",
+                title: "Franklin County responds to proposed Senate bill",
+                reporter: "Staff",
+                date: "April 2026",
+                url: "https://www.rrspin.com/news/11718-franklin-county-responds-to-proposed-senate-bill.html",
               },
               {
                 outlet: "NC Tribune",
@@ -1026,81 +1341,64 @@ export default function WaterPage() {
         </div>
       </section>
 
-      {/* Take Action */}
-      <section id="take-action" className="px-6 py-16">
+      {/* What's Next */}
+      <section id="whats-next" className="px-6 py-16">
         <div className="mx-auto max-w-3xl">
           <h2 className="mb-8 text-2xl font-extrabold md:text-3xl">
-            What We Do <span className="text-red">Next</span>
+            What Comes <span className="text-gold">Next</span>
           </h2>
 
-          <div className="rounded-lg border border-red/30 bg-red/10 p-6 mb-10">
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-10">
             <p className="text-foreground font-semibold leading-relaxed">
-              The House vote is scheduled for Tuesday, April 28. We are
-              organizing citizens to travel to the NC General Assembly to meet
-              with representatives, attend a press conference, and be present
-              for the vote.
+              Section 5 is gone. But the underlying water dispute is not
+              resolved. House Speaker Destin Hall warned the provision could
+              return if local negotiations fail. Here is what to watch and
+              what you can still do.
             </p>
           </div>
 
-          {/* Step 1 - NCGA */}
-          <div className="rounded-lg border-2 border-red/50 bg-red/10 p-6 mb-10">
-            <div className="flex items-center gap-3 mb-4">
-              <span className="shrink-0 rounded bg-red px-3 py-1 text-xs font-bold uppercase tracking-widest text-white">
-                Be There
-              </span>
-              <p className="text-xs font-bold uppercase tracking-widest text-red">
-                Tuesday, April 28
-              </p>
-            </div>
-            <h3 className="mb-3 text-lg font-bold text-foreground">
-              Step 1: Show Up at the NC General Assembly
+          {/* What happened */}
+          <div className="rounded-lg border border-card-border bg-card p-6 mb-10">
+            <h3 className="mb-4 text-sm font-bold uppercase tracking-widest text-gold">
+              What Happened
             </h3>
-            <p className="mb-4 text-sm text-muted leading-relaxed">
-              We are organizing a citizen delegation to the NC General Assembly
-              in Raleigh on Tuesday, April 28. Meet with your representatives,
-              attend the press conference, and be present when the House votes
-              on SB 214.
-            </p>
-            <div className="rounded border border-card-border bg-card p-4 mb-4">
-              <ul className="space-y-2 text-sm">
-                <li><strong className="text-foreground">Gather:</strong> <span className="text-muted">9:00 AM at the NC General Assembly, Raleigh</span></li>
-                <li><strong className="text-foreground">Press Conference:</strong> <span className="text-muted">11:00 AM, Room 1328 (hosted by Rep. Rodney Pierce)</span></li>
-                <li><strong className="text-foreground">House Vote:</strong> <span className="text-muted">SB 214 on the calendar. Conference reports cannot be amended. Up-or-down vote only.</span></li>
-              </ul>
-            </div>
-            <p className="text-sm text-muted leading-relaxed">
-              Rep. Rodney Pierce (D), District 27, representing Halifax,
-              Northampton, and Warren Counties, is leading the press conference
-              against SB 214. Halifax County is sending two buses of citizens
-              to Raleigh. Your presence in the building sends a message that
-              cannot be ignored.
-            </p>
-
-            <div className="mt-4 rounded border border-gold/30 bg-gold/5 p-4">
-              <h4 className="mb-2 text-sm font-bold uppercase tracking-widest text-gold">
-                Ride From Henderson
-              </h4>
-              <p className="text-sm text-foreground leading-relaxed mb-2">
-                Davis Chapel MBC has provided a 15-passenger van to transport
-                citizens to Raleigh. Meet at <strong>742 N. Chestnut St.,
-                Henderson, NC 27536</strong> at <strong>6:30 AM</strong>.
-                Departing promptly at 7 AM.
-              </p>
-              <p className="text-sm text-muted leading-relaxed">
-                Interested in joining us to advocate against SB 214?{" "}
-                <a href="#join" className="text-gold hover:text-gold-dim transition font-semibold">
-                  Sign up below
-                </a>{" "}
-                for updates and planning.
-              </p>
+            <div className="space-y-3 text-sm text-muted">
+              <p><strong className="text-foreground">April 28:</strong> Roughly 100 citizens from Halifax, Vance, and Warren Counties traveled to Raleigh by bus. Rep. Pierce held a press conference with 10 speakers. The bill was pulled from the House calendar.</p>
+              <p><strong className="text-foreground">April 28 (evening):</strong> Speaker Hall announced Section 5 would not appear in the revised conference report. Senate leaders agreed to remove it. Section 7 (Forsyth County school board) was also removed.</p>
+              <p><strong className="text-foreground">April 29:</strong> Both chambers voted on the revised SB 214 without Section 5 or Section 7. The eminent domain provision is officially dead.</p>
+              <p><strong className="text-foreground">Key detail:</strong> Franklin County admitted neighboring jurisdictions &quot;were not notified in advance&quot; of the provision.</p>
             </div>
           </div>
 
-          {/* Step 2 */}
-          <h3 className="mb-4 text-lg font-bold text-gold">
-            Step 2: Call Your Representatives Before Tuesday
+          {/* Remain vigilant */}
+          <h3 className="mb-4 text-lg font-bold text-red">
+            Why &quot;Remain Vigilant&quot;
           </h3>
-          <div className="overflow-x-auto mb-4">
+          <ul className="space-y-3 mb-10">
+            {[
+              "Speaker Hall indicated the legislature could resurrect the provision if local negotiations fail.",
+              "The Army Corps reallocation study continues. Draft environmental assessment expected fall 2027, final report 2028.",
+              "Franklin County's $2M Army Corps agreement and $200M RFQ for a private water plant are still active.",
+              "The pattern: SB 320 (2019, vetoed), SB 214 Section 5 (2026, removed). The method escalates each time.",
+              "Sen. Barnes (R), who represents both Franklin and Vance Counties, voted Yes on the original bill. She has not changed her position.",
+            ].map((item, i) => (
+              <li key={i} className="flex gap-3">
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-red" />
+                <span className="text-sm text-muted">{item}</span>
+              </li>
+            ))}
+          </ul>
+
+          {/* What you can do */}
+          <h3 className="mb-4 text-lg font-bold text-gold">
+            What You Can Still Do
+          </h3>
+
+          {/* Contact reps */}
+          <h4 className="mb-3 text-sm font-bold text-foreground">
+            1. Thank the leaders who stood up. Hold others accountable.
+          </h4>
+          <div className="overflow-x-auto mb-8">
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-card-border">
@@ -1125,101 +1423,43 @@ export default function WaterPage() {
             </table>
           </div>
 
-          <div className="rounded-lg border border-card-border bg-card p-6 mb-10">
-            <h4 className="mb-2 text-sm font-bold uppercase tracking-widest text-blue">What to Say</h4>
-            <p className="text-sm text-muted italic leading-relaxed">
-              &quot;I am a resident of [Vance/Warren/Halifax] County. I am calling to
-              urge you to vote NO on SB 214. Part V of this bill strips our county
-              commissioners of the right to approve or deny property acquisitions by
-              Franklin County within our borders, including condemnation by eminent
-              domain. This provision was inserted during conference committee without
-              public input. Our counties deserve a voice in decisions about our own
-              land.&quot;
-            </p>
-          </div>
-
-          {/* Momentum - Emergency Meetings */}
-          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-10">
-            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
-              Momentum Is Building
-            </h3>
-            <p className="text-sm text-muted leading-relaxed mb-3">
-              On April 24, both Vance County and Warren County held emergency
-              commissioners meetings to address SB 214. Vance County adopted a
-              formal resolution opposing Part V. The counties that would lose
-              their protections are on record against this bill.
-            </p>
-            <p className="text-sm text-muted leading-relaxed">
-              Rep. Rodney Pierce (D-27) personally reached out to this citizen
-              project and invited our coalition to attend his press conference
-              at the General Assembly on April 28.
-            </p>
-          </div>
-
-          {/* Step 3 */}
-          <h3 className="mb-4 text-lg font-bold text-gold">
-            Step 3: Show Up at VGCC on April 29
-          </h3>
-          <p className="mb-4 text-muted leading-relaxed">
-            Governor Stein&apos;s Rural Listening Session is coming to Henderson the
-            day after the House vote is scheduled. Senior administration officials
-            will be in the room to hear directly from rural communities. This is our
-            chance to put SB 214 and the Kerr Lake water issue in front of the
-            Governor&apos;s office.
-          </p>
-          <div className="rounded-lg border border-card-border bg-card p-6 mb-4">
-            <ul className="space-y-2 text-sm">
-              <li><strong className="text-foreground">Date:</strong> <span className="text-muted">Tuesday, April 29, 2026</span></li>
-              <li><strong className="text-foreground">Location:</strong> <span className="text-muted">VGCC Civic Center, 200 Community College Road, Henderson, NC 27537</span></li>
-              <li><strong className="text-foreground">Doors:</strong> <span className="text-muted">3:30 PM | Public Comment: 3:45 PM</span></li>
-              <li><strong className="text-foreground">Attending:</strong> <span className="text-muted">Dept. of Revenue Secretary McKinley Wooten + Office of State Budget Director Kristin Walker</span></li>
-              <li><strong className="text-foreground">Open to the public.</strong> <span className="text-muted">No RSVP required.</span></li>
-              <li className="pt-2">
-                <a
-                  href="https://governor.nc.gov/josh-stein/investing-rural-nc"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm text-blue hover:text-gold transition"
-                >
-                  governor.nc.gov/josh-stein/investing-rural-nc &rarr;
-                </a>
-              </li>
-            </ul>
-          </div>
-          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-10">
-            <p className="text-foreground leading-relaxed">
-              The House votes on SB 214 on April 28. The April 29 session
-              becomes our opportunity to ask Governor Stein to veto it.
-              Showing up matters. Bring your neighbors.
-            </p>
-          </div>
-
-          {/* Step 4 */}
-          <h3 className="mb-4 text-lg font-bold text-gold">
-            Step 4: Submit Comments to the Army Corps
-          </h3>
-          <p className="mb-2 text-muted leading-relaxed">
+          {/* Army Corps */}
+          <h4 className="mb-3 text-sm font-bold text-foreground">
+            2. Submit comments to the Army Corps (study is ongoing).
+          </h4>
+          <p className="mb-2 text-muted leading-relaxed text-sm">
             The Army Corps reallocation study is separate from SB 214 and will
             continue regardless. Written public comments are part of the official
-            federal record. The extended comment deadline was April 24, 2026,
+            federal record. The formal comment deadline was April 24, 2026,
             but late comments may still be considered.
           </p>
           <p className="mb-1 text-sm text-foreground">
             Email: <a href="mailto:CESAW-JHKerr-Reallocation-Franklin@usace.army.mil" className="text-blue hover:text-gold transition break-all">CESAW-JHKerr-Reallocation-Franklin@usace.army.mil</a>
           </p>
-          <p className="mb-10 text-xs text-subtle">
+          <p className="mb-8 text-xs text-subtle">
             USACE project page: saw.usace.army.mil/Locations/District-Lakes-and-Dams/John-H-Kerr-1/JHK-Reallocation-Franklin-County/
           </p>
 
-          {/* Step 4 */}
-          <h3 className="mb-4 text-lg font-bold text-gold">
-            Step 5: Share This
-          </h3>
-          <p className="text-muted leading-relaxed">
-            Forward the fact sheet to your neighbors, your commissioners, your
-            church, your civic organizations. Post it on social media. Print copies
-            for community boards. The more people who know about Part V before the
-            vote, the harder it is to pass quietly.
+          {/* Stay connected */}
+          <h4 className="mb-3 text-sm font-bold text-foreground">
+            3. Stay connected and share this page.
+          </h4>
+          <p className="mb-4 text-muted leading-relaxed text-sm">
+            Forward this page to your neighbors, your commissioners, your
+            church, your civic organizations. The more people who understand
+            what happened and what could come next, the harder it is to try
+            again quietly.
+          </p>
+
+          {/* Demand negotiations */}
+          <h4 className="mb-3 text-sm font-bold text-foreground">
+            4. Demand good-faith regional negotiations.
+          </h4>
+          <p className="text-muted leading-relaxed text-sm">
+            The best way to prevent another Section 5 is for Henderson, Vance
+            County, and the KLRWS partners to proactively engage Franklin County
+            in a regional water solution. And for Franklin County to come to
+            the table as a partner, not with a battering ram.
           </p>
         </div>
       </section>
