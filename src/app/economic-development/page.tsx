@@ -121,7 +121,7 @@ export default function EconomicDevelopmentPage() {
             this work <strong className="text-foreground">for us</strong>?
           </p>
           <p className="max-w-3xl text-sm text-subtle">
-            All claims verified against primary sources. 40+ citations.
+            All claims verified against primary sources. 60+ citations.
             Not funded by any company, developer, or political campaign.
           </p>
         </div>
@@ -188,6 +188,274 @@ export default function EconomicDevelopmentPage() {
               strengths: manufacturing creates more jobs per dollar invested, data
               centers generate more tax revenue, and logistics operations build on
               our highway corridor advantages.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Economic Ripple Effect */}
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-4xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            Beyond the Data Center
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-4 text-3xl font-extrabold">
+            What Else Comes With It
+          </h2>
+          <p className="mb-10 max-w-3xl text-muted leading-relaxed">
+            A data center is not just a building with servers. In every
+            documented case, major data center investments have attracted
+            secondary industries, infrastructure upgrades, and economic activity
+            that benefits the broader community. Here is what the evidence shows.
+          </p>
+
+          <div className="grid gap-6 md:grid-cols-2">
+            <div className="rounded-lg border border-card-border bg-card p-6">
+              <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
+                Fiber and Broadband
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                Data centers are the single largest driver of fiber construction
+                in rural America. At least three separate providers typically
+                build fiber to each facility. In Caldwell County, NC,
+                Google&apos;s data center gave Lenoir &quot;superior
+                internet&quot; compared to peer rural counties. That fiber
+                serves the whole community permanently (
+                <Source
+                  href="https://www.caldwelledc.org/site-selection/target-industries/data-centers"
+                  label="Caldwell EDC"
+                />
+                ).
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-card-border bg-card p-6">
+              <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
+                Manufacturing Suppliers
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                When Apple and Microsoft built data centers in Catawba County,
+                CommScope expanded its fiber-optic cable factory by $60.3M,
+                adding 250 manufacturing jobs. Siemens invested $165M across
+                the Carolinas to manufacture electrical equipment for data
+                centers, creating 350 jobs in Wake County alone (
+                <Source
+                  href="https://businessnc.com/113645-2/"
+                  label="Business NC"
+                />
+                ,{" "}
+                <Source
+                  href="https://news.siemens.com/en-us/siemens-invests-165m-carolinas-supports-data-centers/"
+                  label="Siemens"
+                />
+                ).
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-card-border bg-card p-6">
+              <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
+                Energy Sector Growth
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                Solar farms, battery storage facilities, and electrical
+                contractors follow data center development. Google, Intersect
+                Power, and TPG Rise Climate are building industrial parks where
+                solar and wind farms sit adjacent to data centers. Vance County
+                already has solar farming in its industrial portfolio. A data
+                center would validate and accelerate that existing presence.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-card-border bg-card p-6">
+              <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
+                Construction Trades (3-7 Years)
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                A hyperscale campus takes 3-7 years to build out across multiple
+                phases. Electricians, HVAC technicians, pipefitters, and MEP
+                contractors establish permanent local operations. HVAC expertise
+                for liquid cooling now commands $90-115K base pay. Many
+                construction workers convert to permanent operations roles once
+                buildings go live.
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-card-border bg-card p-6">
+              <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
+                The Anchor Tenant Effect
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                Before Google arrived, Caldwell County was known for losing
+                textile jobs. After, it became part of the &quot;NC Data Center
+                Corridor.&quot; The county saw 250-500 new business
+                registrations per year since 2018 and 51.5% wage growth since
+                2015. In the Town of Maiden (Apple), tax revenue funded a new
+                town hall and fire station, and the town lowered its tax rate (
+                <Source
+                  href="https://www.caldwelledc.org/"
+                  label="Caldwell EDC"
+                />
+                ,{" "}
+                <Source
+                  href="https://www.catawbaedc.org/data-centers"
+                  label="Catawba EDC"
+                />
+                ).
+              </p>
+            </div>
+
+            <div className="rounded-lg border border-card-border bg-card p-6">
+              <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
+                Impact on EDC Target Industries
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                <strong className="text-foreground">Light manufacturing:</strong>{" "}
+                Helped by data center supply chains.{" "}
+                <strong className="text-foreground">Life sciences:</strong>{" "}
+                Helped by broadband and infrastructure signals.{" "}
+                <strong className="text-foreground">Distribution:</strong>{" "}
+                Neutral to positive.{" "}
+                <strong className="text-foreground">Food/beverage:</strong>{" "}
+                Neutral, but both compete for water resources. A diversified
+                strategy ensures these industries complement rather than compete
+                with each other (
+                <Source
+                  href="https://www.brookings.edu/articles/turning-the-data-center-boom-into-long-term-local-prosperity/"
+                  label="Brookings Institution"
+                />
+                ).
+              </p>
+            </div>
+          </div>
+
+          <div className="mt-10 rounded-lg border border-gold/30 bg-gold/5 p-6">
+            <p className="text-sm text-muted leading-relaxed">
+              <strong className="text-foreground">
+                A note from Mecklenburg County, Virginia:
+              </strong>{" "}
+              Microsoft&apos;s data center presence there has generated over $23M
+              in investment, helped fund a state-of-the-art educational complex,
+              and contributed to a property tax rate of just 31 cents per $100,
+              compared to Vance County&apos;s current rate of 71.29 cents. The
+              data center is located within three miles of a school and near a UVA
+              hospital. These outcomes did not happen by accident. They happened
+              because the community engaged early and set clear expectations for
+              community benefit.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* How Data Centers Are Currently Classified */}
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-4xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            Know the Process
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-4 text-3xl font-extrabold">
+            How Data Centers Are Currently Classified
+          </h2>
+          <p className="mb-6 max-w-3xl text-muted leading-relaxed">
+            Understanding how our zoning code currently treats data centers is
+            essential for informed civic engagement. In January 2024, data
+            centers were added to Vance County&apos;s Table of Permitted Uses as
+            part of a broader update to the industrial land use categories. They
+            were classified as a{" "}
+            <strong className="text-foreground">
+              permitted use in Light Industrial and Office Institutional zones
+            </strong>
+            , which means approval is handled entirely at the staff level through
+            site plan review. No public hearing is required. No planning board or
+            commissioner vote is needed.
+          </p>
+          <p className="mb-6 max-w-3xl text-muted leading-relaxed">
+            For comparison, uses like asphalt plants and chemical manufacturing
+            require a Special Use Permit, which involves an evidentiary hearing
+            before the Board of Adjustment, a 1,000-foot setback from
+            residential areas, fire and emergency review, and state permit
+            verification. Data centers, despite their significant water, energy,
+            and noise implications, do not currently require any of those
+            protections.
+          </p>
+          <p className="mb-10 max-w-3xl text-muted leading-relaxed">
+            The good news: Vance County is now actively updating both its{" "}
+            <strong className="text-foreground">
+              Unified Development Ordinance (UDO)
+            </strong>{" "}
+            and its{" "}
+            <strong className="text-foreground">
+              Comprehensive Plan
+            </strong>{" "}
+            (originally adopted in 1996, last revised in 2010). Public
+            engagement and work sessions are scheduled to begin after the
+            FY26-27 budget is adopted in June 2026. This is the opportunity for
+            citizens to advocate for reclassifying data centers as a Special Use
+            requiring public review, performance standards, and community input
+            before approval.
+          </p>
+
+          <div className="overflow-x-auto mb-6">
+            <table className="w-full text-left text-sm">
+              <thead>
+                <tr className="border-b border-card-border text-xs uppercase tracking-wider text-blue">
+                  <th className="px-4 py-3">Use</th>
+                  <th className="px-4 py-3">Current Classification</th>
+                  <th className="px-4 py-3">Public Hearing?</th>
+                  <th className="px-4 py-3">Setback from Residential?</th>
+                </tr>
+              </thead>
+              <tbody className="text-muted">
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">
+                    Data Center
+                  </td>
+                  <td className="px-4 py-3">Permitted (staff approval)</td>
+                  <td className="px-4 py-3">No</td>
+                  <td className="px-4 py-3">None required</td>
+                </tr>
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">
+                    Asphalt Plant
+                  </td>
+                  <td className="px-4 py-3">Special Use Permit</td>
+                  <td className="px-4 py-3">Yes (evidentiary hearing)</td>
+                  <td className="px-4 py-3">1,000 ft minimum</td>
+                </tr>
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">
+                    Chemical Manufacturing
+                  </td>
+                  <td className="px-4 py-3">Special Use Permit</td>
+                  <td className="px-4 py-3">Yes (evidentiary hearing)</td>
+                  <td className="px-4 py-3">1,000 ft minimum</td>
+                </tr>
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">
+                    Petroleum Refinery
+                  </td>
+                  <td className="px-4 py-3">Prohibited</td>
+                  <td className="px-4 py-3">N/A</td>
+                  <td className="px-4 py-3">N/A</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6">
+            <p className="text-sm text-muted leading-relaxed">
+              <strong className="text-foreground">
+                What this means for our community:
+              </strong>{" "}
+              The UDO update process is the right venue for addressing this
+              classification. Under NC G.S. Chapter 160D, counties have full
+              authority to designate data centers as a separate use category with
+              performance standards, public hearing requirements, setbacks, noise
+              limits, and environmental review. Communities across NC, including
+              Chatham, Orange, and Swain counties, have taken action to ensure
+              data center development receives appropriate review before
+              approval. Vance County can do the same.
             </p>
           </div>
         </div>
@@ -605,37 +873,72 @@ export default function EconomicDevelopmentPage() {
 
             <ConcernCard title="Schools">
               <p>
-                Property tax revenue is the primary funding source for Vance
-                County Schools. Even at conservative steady-state estimates, a
-                $10B project would generate more annual property tax than the
-                county&apos;s entire current budget.
+                Vance County Schools currently ranks{" "}
+                <strong className="text-foreground">
+                  96th out of 100 counties
+                </strong>{" "}
+                in per-student education spending, in a state that is nearly last
+                in the nation. Property tax revenue is the primary local funding
+                source for schools. Even at conservative steady-state estimates,
+                a $10B project would generate more annual property tax than the
+                county&apos;s entire current budget. In Mecklenburg County,
+                Virginia, Microsoft&apos;s data center tax revenue helped fund a
+                state-of-the-art educational complex. In Caldwell County, NC,
+                Google provided $270,000 in workforce development grants.
               </p>
               <p>
                 <strong className="text-foreground">What to push for:</strong>{" "}
-                Dedicated education funding commitments. Some communities
-                negotiate direct contributions to school systems as part of
-                community benefit agreements. This should be on the table.
+                Dedicated education funding commitments written into any
+                development agreement. Direct contributions to the school system,
+                workforce development grants for VGCC, and technology training
+                programs like Google&apos;s STAR Program and Microsoft&apos;s
+                Datacenter Academy. These programs exist, but they are
+                negotiated, not automatic.
               </p>
             </ConcernCard>
 
             <ConcernCard title="Water">
               <p>
-                A 1,500 MW facility could consume 2.5M+ gallons per day. The Kerr
-                Lake Regional Water System currently serves about 4 MGD total, with
-                an expansion underway targeting 15 MGD capacity (
+                Traditional evaporative cooling towers for a 1,500 MW facility
+                could consume 2.5M+ gallons per day, with 70-80% permanently
+                evaporated. The Kerr Lake Regional Water System currently serves
+                about 4 MGD total, with an expansion underway targeting 15 MGD
+                capacity (
                 <Source
                   href="https://henderson.nc.gov/departments/public_utilities/kerr_lake_regional_water_system/klrws_expansion.php"
                   label="Henderson Public Utilities"
                 />
-                ). 70-80% of cooling water is evaporated, not returned to the
-                system.
+                ). NC is currently in moderate to extreme drought statewide.
+              </p>
+              <p>
+                However,{" "}
+                <strong className="text-foreground">
+                  the technology has changed
+                </strong>
+                . Modern direct-to-chip liquid cooling and closed-loop systems
+                reduce daily water consumption by up to 99.6% compared to
+                evaporative towers. Vantage Data Centers&apos; Wisconsin campus
+                uses roughly 22,000 gallons per day versus 5 million for an
+                equivalent evaporative facility. Microsoft announced zero-water-
+                evaporation designs for new facilities in 2024. NVIDIA&apos;s
+                latest GPU racks (GB200 NVL72, 120-140 kW per rack) ship with
+                liquid cooling built in because air cooling physically cannot
+                handle the heat (
+                <Source
+                  href="https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/12/09/sustainable-by-design-next-generation-datacenters-consume-zero-water-for-cooling/"
+                  label="Microsoft Cloud Blog"
+                />
+                ).
               </p>
               <p>
                 <strong className="text-foreground">What to push for:</strong>{" "}
-                Require closed-loop liquid cooling systems, which use up to 90%
-                less water than traditional evaporative towers. Mandate annual
-                public water consumption reporting. Oregon passed HB 4138
-                requiring exactly this for facilities over 100 MW.
+                Require closed-loop, non-evaporative cooling systems as a
+                condition of any development agreement. Set a maximum Water Usage
+                Effectiveness (WUE) of 0.1 L/kWh. Mandate annual public water
+                consumption reporting. South Carolina HB 4583 and Kansas SB 400
+                both require zero net water withdrawal for data centers. Oregon
+                passed HB 4138 requiring water use plans for facilities over 100
+                MW. The technology exists. Requiring it is not unreasonable.
               </p>
             </ConcernCard>
 
@@ -1245,6 +1548,23 @@ export default function EconomicDevelopmentPage() {
               <strong className="text-muted">Environmental:</strong>{" "}
               <Source href="https://cwfnc.org/bubble/" label="Clean Water for NC" /> |{" "}
               <Source href="https://www.lincolninst.edu/publications/land-lines-magazine/articles/land-water-impacts-data-centers/" label="Lincoln Institute" />
+            </p>
+            <p>
+              <strong className="text-muted">Cooling Technology:</strong>{" "}
+              <Source href="https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/12/09/sustainable-by-design-next-generation-datacenters-consume-zero-water-for-cooling/" label="Microsoft Zero-Water Design" /> |{" "}
+              <Source href="https://blog.vantage-dc.com/2026/04/22/cooling-without-the-drain-how-closed-loop-systems-cut-day-to-day-water-use/" label="Vantage Closed-Loop" /> |{" "}
+              <Source href="https://www.oracle.com/news/announcement/blog/closed-loop-cooling-in-oracle-ai-data-centers-2026-02-09/" label="Oracle Closed-Loop" /> |{" "}
+              <Source href="https://www.multistate.us/insider/2026/3/3/state-data-center-water-usage-legislation-gains-momentum-in-2025" label="MultiState: Water Legislation" />
+            </p>
+            <p>
+              <strong className="text-muted">Economic Ripple Effect:</strong>{" "}
+              <Source href="https://www.caldwelledc.org/site-selection/target-industries/data-centers" label="Caldwell EDC" /> |{" "}
+              <Source href="https://www.catawbaedc.org/data-centers" label="Catawba EDC" /> |{" "}
+              <Source href="https://businessnc.com/113645-2/" label="Business NC: CommScope" /> |{" "}
+              <Source href="https://news.siemens.com/en-us/siemens-invests-165m-carolinas-supports-data-centers/" label="Siemens $165M Investment" /> |{" "}
+              <Source href="https://www.brookings.edu/articles/turning-the-data-center-boom-into-long-term-local-prosperity/" label="Brookings Institution" /> |{" "}
+              <Source href="https://www.uschamber.com/technology/data-centers-deliver-local-value" label="U.S. Chamber of Commerce" /> |{" "}
+              <Source href="https://www.loudoun.gov/Faq.aspx?QID=1793" label="Loudoun County" />
             </p>
           </div>
         </div>
