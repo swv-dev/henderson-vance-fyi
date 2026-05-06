@@ -92,12 +92,49 @@ export default function EconomicDevelopmentPage() {
             <span className="text-gold">Brought to the Table</span>
           </h1>
           <p className="mb-4 max-w-3xl text-lg text-muted leading-relaxed">
-            On May 5, 2026, the Henderson-Vance County Chamber of Commerce hosted
-            a State of Economic Development presentation. Ferdinand Rouse,
-            Director of the Henderson-Vance County Economic Development
-            Commission, delivered a detailed, public breakdown of what economic
+            On May 5, 2026, the{" "}
+            <a
+              href="https://hendersonvancechamber.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gold hover:underline"
+            >
+              Henderson-Vance County Chamber of Commerce
+            </a>{" "}
+            hosted a State of Economic Development presentation. Ferdinand Rouse,
+            Director of the{" "}
+            <a
+              href="https://www.vancecounty.org/departments/economic-development"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gold hover:underline"
+            >
+              Henderson-Vance County Economic Development Commission
+            </a>
+            , delivered a detailed, public breakdown of what economic
             development looks like in Vance County, including a data center
             scenario with real numbers.
+          </p>
+          <p className="mb-4 max-w-3xl text-sm text-subtle">
+            The full 46-slide presentation is available by request from the{" "}
+            <a
+              href="https://www.vancecounty.org/departments/economic-development"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue hover:text-gold transition"
+            >
+              Henderson-Vance County EDC
+            </a>{" "}
+            or the{" "}
+            <a
+              href="https://hendersonvancechamber.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue hover:text-gold transition"
+            >
+              Henderson-Vance County Chamber of Commerce
+            </a>
+            .
           </p>
           <div className="mb-6 max-w-3xl rounded-lg border border-card-border bg-card p-5">
             <p className="text-sm text-muted leading-relaxed">
