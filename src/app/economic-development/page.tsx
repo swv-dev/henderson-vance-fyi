@@ -379,22 +379,6 @@ export default function EconomicDevelopmentPage() {
             and noise implications, do not currently require any of those
             protections.
           </p>
-          <p className="mb-10 max-w-3xl text-muted leading-relaxed">
-            The good news: Vance County is now actively updating both its{" "}
-            <strong className="text-foreground">
-              Unified Development Ordinance (UDO)
-            </strong>{" "}
-            and its{" "}
-            <strong className="text-foreground">
-              Comprehensive Plan
-            </strong>{" "}
-            (originally adopted in 1996, last revised in 2010). Public
-            engagement and work sessions are scheduled to begin after the
-            FY26-27 budget is adopted in June 2026. This is the opportunity for
-            citizens to advocate for reclassifying data centers as a Special Use
-            requiring public review, performance standards, and community input
-            before approval.
-          </p>
 
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-left text-sm">
@@ -443,19 +427,182 @@ export default function EconomicDevelopmentPage() {
             </table>
           </div>
 
+          {/* SB 382 and Legal Context */}
+          <h3 className="mb-4 text-lg font-bold text-gold">
+            Can the County Change This Classification?
+          </h3>
+          <p className="mb-4 text-sm text-muted leading-relaxed">
+            This is where it gets complicated. In December 2024, the NC General
+            Assembly passed{" "}
+            <strong className="text-foreground">
+              Session Law 2024-57 (SB 382)
+            </strong>
+            , which amended G.S. 160D-601(d) to restrict what the law calls
+            &quot;down-zoning.&quot; Under this law, reclassifying a use from
+            Permitted to Special Use Permit likely qualifies as down-zoning
+            because it reduces the uses allowed without discretionary review.
+            The law requires{" "}
+            <strong className="text-foreground">
+              written consent of all affected property owners
+            </strong>{" "}
+            before such a change can take effect. For a district-wide text
+            amendment, that could mean every property owner in every Light
+            Industrial zone in the county (
+            <Source
+              href="https://canons.sog.unc.edu/2024/12/limits-on-down-zoning/"
+              label="UNC School of Government"
+            />
+            ).
+          </p>
+          <p className="mb-4 text-sm text-muted leading-relaxed">
+            This law was buried on page 131 of a 132-page bill. It applies
+            retroactively to amendments adopted after June 14, 2024. Legal
+            analysts at the UNC School of Government, Womble Bond Dickinson, and
+            Teague Campbell have all confirmed it applies to both text amendments
+            and map amendments, which is what makes it so sweeping (
+            <Source
+              href="https://www.womblebonddickinson.com/us/insights/alerts/new-year-resolutions-triggered-senate-bill-382"
+              label="Womble Bond Dickinson"
+            />
+            ,{" "}
+            <Source
+              href="https://teaguecampbell.com/new-law-brings-uncertainty-to-how-local-governments-handle-zoning-regulations/"
+              label="Teague Campbell"
+            />
+            ).
+          </p>
+          <p className="mb-6 text-sm text-muted leading-relaxed">
+            <strong className="text-foreground">
+              This does not mean the county has no options.
+            </strong>{" "}
+            It means the most direct path (reclassifying data centers from P to
+            SU) faces a significant legal hurdle. But there are other tools
+            available under NC law that do not trigger SB 382 restrictions.
+          </p>
+
+          <h3 className="mb-4 text-lg font-bold text-gold">
+            Tools the County Still Has
+          </h3>
+          <div className="space-y-4 mb-6">
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <p className="text-sm font-semibold text-foreground mb-1">
+                1. Performance Standards (G.S. 160D-701)
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                The county can adopt measurable standards that apply to data
+                centers without removing them as a permitted use. Noise limits
+                (dB at property lines), water use caps, setback requirements,
+                screening, and generator testing restrictions. This regulates
+                <em> how </em> data centers operate, not <em>whether</em> they
+                can exist. This approach is less likely to trigger SB 382 as
+                long as the standards are reasonable and do not amount to a de
+                facto ban.
+              </p>
+            </div>
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <p className="text-sm font-semibold text-foreground mb-1">
+                2. Water and Sewer Capacity Controls
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                Potentially the most powerful non-zoning tool. Under G.S. 162A
+                and G.S. 153A-274, counties that own or control water and sewer
+                infrastructure can negotiate the terms of connection, set
+                capacity limits per connection, require pre-treatment agreements,
+                and build operational commitments into service contracts. A county
+                water system with limited capacity has legitimate grounds to
+                negotiate terms before providing service to a facility consuming
+                millions of gallons per day.
+              </p>
+            </div>
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <p className="text-sm font-semibold text-foreground mb-1">
+                3. Temporary Moratorium (G.S. 160D-107)
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                NC law allows counties to adopt temporary moratoria on
+                development approvals while studying impacts and drafting new
+                regulations. Chatham, Orange, Rowan, and Swain counties have all
+                used this tool for data centers. A moratorium must include a
+                statement of specific problems, which approvals are covered, and
+                a termination date. The Chatham County moratorium is currently
+                being tested in court (Eco TIP West LLC v. Chatham County, filed
+                April 2026).
+              </p>
+            </div>
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <p className="text-sm font-semibold text-foreground mb-1">
+                4. Conditional Zoning for Future Rezonings (G.S. 160D-703(b))
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                For any future rezoning requests, the county can use conditional
+                zoning, where approval is tied to specific conditions negotiated
+                with the developer and accepted in writing. Conditions can
+                include community benefit commitments, infrastructure
+                requirements, environmental protections, and operational
+                standards. This is the strongest vehicle for enforceable
+                community benefit agreements under NC law.
+              </p>
+            </div>
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <p className="text-sm font-semibold text-foreground mb-1">
+                5. Comprehensive Plan Update
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                Vance County is updating its comprehensive plan (originally
+                adopted 1996, last revised 2010). Under G.S. 160D-501, zoning
+                amendments must be consistent with the adopted plan. Including
+                data center-specific policies, preferred locations, and
+                community standards in the updated plan creates the documented
+                policy basis for future regulations. Public engagement and work
+                sessions are scheduled to begin after the FY26-27 budget is
+                adopted in June 2026.
+              </p>
+            </div>
+          </div>
+
+          <h3 className="mb-4 text-lg font-bold text-gold">
+            Vested Rights: What Developers Can and Cannot Claim
+          </h3>
+          <p className="mb-4 text-sm text-muted leading-relaxed">
+            Under G.S. 160D-108, simply owning land in a Light Industrial zone{" "}
+            <strong className="text-foreground">
+              does not give a developer vested rights
+            </strong>{" "}
+            to build a data center. Vested rights require one of three triggers:
+            filing a complete development permit application, receiving approval
+            of a site-specific vesting plan, or making substantial expenditures
+            in good-faith reliance on a valid governmental approval. Until one of
+            those triggers is met, a landowner has no legal right to proceed
+            under the current rules if the ordinance changes (
+            <Source
+              href="https://www.sog.unc.edu/sites/www.sog.unc.edu/files/4_PermitChoice_VestedRights_160DGuidanceDoc_9-9-20.pdf"
+              label="UNC School of Government: Vested Rights Guidance"
+            />
+            ).
+          </p>
+          <p className="mb-6 text-sm text-muted leading-relaxed">
+            This means that for parcels where no site plan has been submitted,
+            new performance standards or overlay requirements adopted by the
+            county would apply. The window for action is now, before applications
+            are filed and vesting triggers are met.
+          </p>
+
           <div className="rounded-lg border border-gold/30 bg-gold/5 p-6">
             <p className="text-sm text-muted leading-relaxed">
               <strong className="text-foreground">
                 What this means for our community:
               </strong>{" "}
-              The UDO update process is the right venue for addressing this
-              classification. Under NC G.S. Chapter 160D, counties have full
-              authority to designate data centers as a separate use category with
-              performance standards, public hearing requirements, setbacks, noise
-              limits, and environmental review. Communities across NC, including
-              Chatham, Orange, and Swain counties, have taken action to ensure
-              data center development receives appropriate review before
-              approval. Vance County can do the same.
+              SB 382 limited one tool, but it did not take away all authority.
+              Performance standards, water and sewer negotiations, conditional
+              zoning, moratoriums, and comprehensive plan updates are all
+              available. The UDO update process starting this summer is the right
+              venue for adopting these protections. Citizens who engage in that
+              process, attend work sessions, and advocate for specific,
+              measurable standards will shape how development happens in Vance
+              County for decades. The legal landscape is evolving. The Chatham
+              County case will set precedent. In the meantime, our community
+              should pursue every available tool and not wait for a court to
+              decide what we can and cannot do.
             </p>
           </div>
         </div>
@@ -1565,6 +1712,15 @@ export default function EconomicDevelopmentPage() {
               <Source href="https://www.brookings.edu/articles/turning-the-data-center-boom-into-long-term-local-prosperity/" label="Brookings Institution" /> |{" "}
               <Source href="https://www.uschamber.com/technology/data-centers-deliver-local-value" label="U.S. Chamber of Commerce" /> |{" "}
               <Source href="https://www.loudoun.gov/Faq.aspx?QID=1793" label="Loudoun County" />
+            </p>
+            <p>
+              <strong className="text-muted">NC Zoning Law:</strong>{" "}
+              <Source href="https://canons.sog.unc.edu/2024/12/limits-on-down-zoning/" label="UNC SOG: Down-Zoning Limits" /> |{" "}
+              <Source href="https://www.womblebonddickinson.com/us/insights/alerts/new-year-resolutions-triggered-senate-bill-382" label="Womble Bond Dickinson: SB 382" /> |{" "}
+              <Source href="https://teaguecampbell.com/new-law-brings-uncertainty-to-how-local-governments-handle-zoning-regulations/" label="Teague Campbell: SB 382" /> |{" "}
+              <Source href="https://www.sog.unc.edu/sites/www.sog.unc.edu/files/4_PermitChoice_VestedRights_160DGuidanceDoc_9-9-20.pdf" label="UNC SOG: Vested Rights" /> |{" "}
+              <Source href="https://canons.sog.unc.edu/2023/02/hit-the-pause-button-temporary-development-moratoria-in-north-carolina/" label="UNC SOG: Moratoria" /> |{" "}
+              <Source href="https://chathamjournal.com/2026/04/25/developer-sues-chatham-county-the-data-center-pause-that-may-define-ncs-ai-era/" label="Chatham Journal: Eco TIP v. Chatham" />
             </p>
           </div>
         </div>
