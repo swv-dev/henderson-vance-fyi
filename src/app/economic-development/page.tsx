@@ -292,15 +292,15 @@ export default function EconomicDevelopmentPage() {
 
             <div className="rounded-lg border border-card-border bg-card p-6">
               <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
-                Energy Sector Growth
+                Energy and Electrical Infrastructure
               </p>
               <p className="text-sm text-muted leading-relaxed">
-                Solar farms, battery storage facilities, and electrical
-                contractors follow data center development. Google, Intersect
-                Power, and TPG Rise Climate are building industrial parks where
-                solar and wind farms sit adjacent to data centers. Vance County
-                already has solar farming in its industrial portfolio. A data
-                center would validate and accelerate that existing presence.
+                Data centers drive major investment in power infrastructure.
+                Battery storage facilities, substations, and electrical
+                contractors follow data center development. Electrical
+                contractors specializing in medium-voltage switchgear and
+                critical power systems establish permanent local operations,
+                paying electricians 15-25% above standard commercial rates.
               </p>
             </div>
 
@@ -1091,15 +1091,17 @@ export default function EconomicDevelopmentPage() {
                 <strong className="text-foreground">
                   the technology has changed
                 </strong>
-                . Modern direct-to-chip liquid cooling and closed-loop systems
-                reduce daily water consumption by up to 99.6% compared to
+                . Direct-to-chip liquid cooling places sealed cold plates
+                directly on processors, circulating coolant through a
+                closed loop with no evaporation. This approach reduces daily
+                water consumption by up to 99.6% compared to traditional
                 evaporative towers. Vantage Data Centers&apos; Wisconsin campus
                 uses roughly 22,000 gallons per day versus 5 million for an
                 equivalent evaporative facility. Microsoft announced zero-water-
-                evaporation designs for new facilities in 2024. NVIDIA&apos;s
-                latest GPU racks (GB200 NVL72, 120-140 kW per rack) ship with
-                liquid cooling built in because air cooling physically cannot
-                handle the heat (
+                evaporation designs using direct-to-chip cooling for new
+                facilities in 2024. NVIDIA&apos;s latest GPU racks (GB200
+                NVL72, 120-140 kW per rack) ship with liquid cooling built in
+                because air cooling physically cannot handle the heat (
                 <Source
                   href="https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/12/09/sustainable-by-design-next-generation-datacenters-consume-zero-water-for-cooling/"
                   label="Microsoft Cloud Blog"
