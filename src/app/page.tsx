@@ -65,6 +65,17 @@ function DownloadIcon() {
 export default function Home() {
   return (
     <main className="flex-1">
+      {/* Community Banner */}
+      <div className="relative overflow-hidden bg-gold py-1.5">
+        <div className="animate-marquee flex whitespace-nowrap">
+          {[...Array(4)].map((_, i) => (
+            <span key={i} className="mx-8 text-xs font-bold uppercase tracking-widest text-background">
+              #LoveHendersonPeriod &middot; comm<span className="underline underline-offset-2">UNITY</span> First &middot; Listen with care. Speak with purpose. Build together. Change the narrative.
+            </span>
+          ))}
+        </div>
+      </div>
+
       {/* Hero */}
       <section className="relative px-6 py-20 md:py-32 overflow-hidden">
         {/* Map background */}
