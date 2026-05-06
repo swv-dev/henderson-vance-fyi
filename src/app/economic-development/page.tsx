@@ -347,37 +347,39 @@ export default function EconomicDevelopmentPage() {
         </div>
       </section>
 
-      {/* How Data Centers Are Currently Classified */}
+      {/* Setting the Standards */}
       <section className="px-6 py-16">
         <div className="mx-auto max-w-4xl">
           <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
-            Know the Process
+            Come Build Here, But Build Right
           </p>
           <div className="mb-2 h-1 w-16 bg-gold" />
           <h2 className="mb-4 text-3xl font-extrabold">
-            How Data Centers Are Currently Classified
+            Setting the Standards Before They Build
           </h2>
           <p className="mb-6 max-w-3xl text-muted leading-relaxed">
-            Understanding how our zoning code currently treats data centers is
-            essential for informed civic engagement. In January 2024, data
-            centers were added to Vance County&apos;s Table of Permitted Uses as
-            part of a broader update to the industrial land use categories. They
-            were classified as a{" "}
+            The goal is not to block data centers. The tax revenue, the jobs, the
+            broadband, the anchor tenant effect, the supply chain manufacturing
+            - all of that is real and all of it benefits our community. The goal
+            is to{" "}
+            <strong className="text-foreground">
+              set the terms under which they operate
+            </strong>
+            . That starts with understanding where we are today.
+          </p>
+          <p className="mb-6 max-w-3xl text-muted leading-relaxed">
+            In January 2024, data centers were added to Vance County&apos;s
+            Table of Permitted Uses as part of a broader update to the industrial
+            land use categories. They were classified as a{" "}
             <strong className="text-foreground">
               permitted use in Light Industrial and Office Institutional zones
             </strong>
             , which means approval is handled entirely at the staff level through
             site plan review. No public hearing is required. No planning board or
-            commissioner vote is needed.
-          </p>
-          <p className="mb-6 max-w-3xl text-muted leading-relaxed">
-            For comparison, uses like asphalt plants and chemical manufacturing
-            require a Special Use Permit, which involves an evidentiary hearing
-            before the Board of Adjustment, a 1,000-foot setback from
-            residential areas, fire and emergency review, and state permit
-            verification. Data centers, despite their significant water, energy,
-            and noise implications, do not currently require any of those
-            protections.
+            commissioner vote is needed. For comparison, uses like asphalt plants
+            and chemical manufacturing require a Special Use Permit with public
+            hearings, 1,000-foot residential setbacks, and state permit
+            verification.
           </p>
 
           <div className="overflow-x-auto mb-6">
@@ -427,39 +429,24 @@ export default function EconomicDevelopmentPage() {
             </table>
           </div>
 
-          {/* SB 382 and Legal Context */}
+          {/* Legal Context and Tools */}
           <h3 className="mb-4 text-lg font-bold text-gold">
-            Can the County Change This Classification?
+            Setting Standards Is Not Down-Zoning
           </h3>
           <p className="mb-4 text-sm text-muted leading-relaxed">
-            This is where it gets complicated. In December 2024, the NC General
-            Assembly passed{" "}
-            <strong className="text-foreground">
-              Session Law 2024-57 (SB 382)
-            </strong>
-            , which amended G.S. 160D-601(d) to restrict what the law calls
-            &quot;down-zoning.&quot; Under this law, reclassifying a use from
-            Permitted to Special Use Permit likely qualifies as down-zoning
-            because it reduces the uses allowed without discretionary review.
-            The law requires{" "}
-            <strong className="text-foreground">
-              written consent of all affected property owners
-            </strong>{" "}
-            before such a change can take effect. For a district-wide text
-            amendment, that could mean every property owner in every Light
-            Industrial zone in the county (
+            There is an important legal distinction here. Removing data centers
+            as a permitted use (down-zoning) would close the door on everything
+            this page describes: the revenue, the jobs, the broadband, the
+            economic ripple effect. That is not the goal, and under NC law it
+            would face serious legal hurdles. Session Law 2024-57 (SB 382),
+            passed in December 2024, amended G.S. 160D-601(d) to restrict
+            down-zoning and requires written consent of all affected property
+            owners before permitted uses can be removed (
             <Source
               href="https://canons.sog.unc.edu/2024/12/limits-on-down-zoning/"
               label="UNC School of Government"
             />
-            ).
-          </p>
-          <p className="mb-4 text-sm text-muted leading-relaxed">
-            This law was buried on page 131 of a 132-page bill. It applies
-            retroactively to amendments adopted after June 14, 2024. Legal
-            analysts at the UNC School of Government, Womble Bond Dickinson, and
-            Teague Campbell have all confirmed it applies to both text amendments
-            and map amendments, which is what makes it so sweeping (
+            ,{" "}
             <Source
               href="https://www.womblebonddickinson.com/us/insights/alerts/new-year-resolutions-triggered-senate-bill-382"
               label="Womble Bond Dickinson"
@@ -472,16 +459,21 @@ export default function EconomicDevelopmentPage() {
             ).
           </p>
           <p className="mb-6 text-sm text-muted leading-relaxed">
+            But{" "}
             <strong className="text-foreground">
-              This does not mean the county has no options.
-            </strong>{" "}
-            It means the most direct path (reclassifying data centers from P to
-            SU) faces a significant legal hurdle. But there are other tools
-            available under NC law that do not trigger SB 382 restrictions.
+              setting performance standards is a completely different legal
+              question
+            </strong>
+            . Telling a developer &quot;you can build here, but you will meet
+            these noise limits, use closed-loop cooling, report your water
+            consumption, and maintain these setbacks&quot; does not remove a
+            permitted use. It defines how that use operates responsibly within
+            our community. NC law gives counties clear authority to do this, and
+            SB 382 does not restrict it.
           </p>
 
           <h3 className="mb-4 text-lg font-bold text-gold">
-            Tools the County Still Has
+            How the County Sets Those Terms
           </h3>
           <div className="space-y-4 mb-6">
             <div className="rounded-lg border border-card-border bg-card p-5">
@@ -592,17 +584,17 @@ export default function EconomicDevelopmentPage() {
               <strong className="text-foreground">
                 What this means for our community:
               </strong>{" "}
-              SB 382 limited one tool, but it did not take away all authority.
-              Performance standards, water and sewer negotiations, conditional
-              zoning, moratoriums, and comprehensive plan updates are all
-              available. The UDO update process starting this summer is the right
-              venue for adopting these protections. Citizens who engage in that
-              process, attend work sessions, and advocate for specific,
+              Vance County does not need to block data centers to protect its
+              residents. It needs to set clear, enforceable standards for how
+              they operate here. Performance standards, water and sewer
+              negotiations, conditional zoning, and the comprehensive plan
+              update are all tools that say &quot;yes, come build here, but
+              build right.&quot; The UDO update process starting this summer is
+              the venue for adopting these protections. Citizens who engage in
+              that process, attend work sessions, and advocate for specific,
               measurable standards will shape how development happens in Vance
-              County for decades. The legal landscape is evolving. The Chatham
-              County case will set precedent. In the meantime, our community
-              should pursue every available tool and not wait for a court to
-              decide what we can and cannot do.
+              County for decades. The question is not whether we want
+              development. The question is whether we are prepared for it.
             </p>
           </div>
         </div>
