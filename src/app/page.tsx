@@ -107,7 +107,8 @@ export default function Home() {
             </a>
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
-            <a href="/water" className="hover:text-gold transition text-gold font-semibold">SB 214: Section 5 Removed</a>
+            <a href="/economic-development" className="hover:text-gold transition text-gold font-semibold">Economic Development</a>
+            <a href="/water" className="hover:text-gold transition">SB 214: Section 5 Removed</a>
             <a href="#listening-session" className="hover:text-gold transition">Listening Session</a>
             <a href="#reports" className="hover:text-gold transition">Reports</a>
             <a href="/noise" className="hover:text-gold transition">Noise &amp; Infrasound</a>
@@ -118,6 +119,37 @@ export default function Home() {
             <a href="#resources" className="hover:text-gold transition">Resources</a>
           </div>
         </div>
+      </section>
+
+      {/* Economic Development Update */}
+      <section className="px-6 py-6">
+        <a
+          href="/economic-development"
+          className="group mx-auto block max-w-4xl rounded-lg border border-gold/30 bg-gold/5 p-6 md:p-8 transition hover:border-gold/60 hover:bg-gold/10"
+        >
+          <div className="flex flex-col gap-4">
+            <div className="flex items-center gap-3">
+              <span className="shrink-0 rounded bg-gold px-3 py-1 text-xs font-bold uppercase tracking-widest text-background">
+                New
+              </span>
+              <p className="text-xs font-bold uppercase tracking-widest text-gold">
+                May 5, 2026
+              </p>
+            </div>
+            <p className="text-2xl font-extrabold leading-tight md:text-3xl group-hover:text-gold transition">
+              The Conversation Has Been Brought to the Table
+            </p>
+            <p className="text-sm text-muted leading-relaxed max-w-3xl">
+              The State of Economic Development was presented to our community.
+              We researched every claim, cited 40+ sources, and built a guide for
+              how Vance County can make this work for us. Questions to ask,
+              ordinances to adopt, and demands to make.
+            </p>
+            <span className="mt-2 inline-block text-sm font-bold text-gold group-hover:underline">
+              Read the full analysis &rarr;
+            </span>
+          </div>
+        </a>
       </section>
 
       {/* SB 214 UPDATE BANNER */}
