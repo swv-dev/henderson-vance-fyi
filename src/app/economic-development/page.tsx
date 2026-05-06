@@ -230,6 +230,121 @@ export default function EconomicDevelopmentPage() {
         </div>
       </section>
 
+      {/* What Revenue Means */}
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-4xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            Where the Money Goes
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-4 text-3xl font-extrabold">
+            Revenue Is Not Abstract. It Is Teacher Pay and Public Safety.
+          </h2>
+          <p className="mb-10 max-w-3xl text-muted leading-relaxed">
+            Tax revenue numbers only matter when they connect to things our
+            community actually needs. Right now, Vance County has two urgent
+            priorities that new revenue could directly address.
+          </p>
+
+          <div className="grid gap-6 md:grid-cols-2">
+            <div className="rounded-lg border border-card-border bg-card p-6">
+              <p className="mb-3 text-xs font-bold uppercase tracking-widest text-gold">
+                Invest in Our Educators
+              </p>
+              <p className="mb-3 text-2xl font-extrabold text-red md:text-3xl">
+                96th / 100
+              </p>
+              <p className="mb-4 text-sm font-semibold text-foreground">
+                Vance County Schools ranks 96th out of 100 NC counties in
+                per-student education spending, in a state that is nearly last
+                in the nation.
+              </p>
+              <div className="space-y-3 text-sm text-muted leading-relaxed">
+                <p>
+                  Before last year, there had not been a teacher supplement
+                  increase in 25 years. Educators are leaving for neighboring
+                  districts that pay better. Classified staff, the people who
+                  drive the buses, serve the meals, and hold our schools
+                  together, are working second and third jobs to make ends meet.
+                </p>
+                <p>
+                  We do not need more schools built. We need investment in the
+                  system we already have: competitive supplements to retain good
+                  educators, resources for classrooms, and support for the staff
+                  who show up every day for our kids.
+                </p>
+                <p>
+                  <strong className="text-foreground">
+                    What revenue could do:
+                  </strong>{" "}
+                  Even at conservative steady-state estimates, a data center
+                  project generating $71M+ annually in property tax would more
+                  than cover the school system&apos;s requested supplement
+                  increases while funding every other county priority. Caldwell
+                  County (Google) saw 51.5% wage growth since 2015. Mecklenburg
+                  County, VA (Microsoft) built a state-of-the-art educational
+                  complex. This is not theory. It is precedent.
+                </p>
+              </div>
+            </div>
+
+            <div className="rounded-lg border border-card-border bg-card p-6">
+              <p className="mb-3 text-xs font-bold uppercase tracking-widest text-gold">
+                Public Safety Infrastructure
+              </p>
+              <p className="mb-3 text-2xl font-extrabold text-gold md:text-3xl">
+                $5M
+              </p>
+              <p className="mb-4 text-sm font-semibold text-foreground">
+                The FY26-27 budget includes a $5M capital reserve to begin
+                planning for a new detention facility and other critical
+                infrastructure.
+              </p>
+              <div className="space-y-3 text-sm text-muted leading-relaxed">
+                <p>
+                  The county&apos;s current detention facility needs significant
+                  upgrades or replacement. This is not a new issue. It has been
+                  deferred for years, and the cost of waiting continues to grow.
+                  The proposed county budget of $72.47M already stretches to
+                  cover rising costs in detention operations, inmate housing, and
+                  emergency services.
+                </p>
+                <p>
+                  A new or upgraded facility is coming regardless. The question
+                  is whether it gets funded through tax increases on existing
+                  residents or through new revenue from economic development that
+                  broadens the tax base.
+                </p>
+                <p>
+                  <strong className="text-foreground">
+                    What revenue could do:
+                  </strong>{" "}
+                  Property tax revenue from a $10B data center project could fund
+                  major capital projects like a detention facility without
+                  raising the tax rate on residents. The current rate of $0.7129
+                  is already down from $0.89. Broadening the tax base keeps rates
+                  low while funding the infrastructure our community needs.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="mt-8 rounded-lg border border-gold/30 bg-gold/5 p-6">
+            <p className="text-sm text-muted leading-relaxed">
+              <strong className="text-foreground">
+                This is the real conversation.
+              </strong>{" "}
+              Not abstract revenue projections, but whether our teachers can
+              afford to stay, whether our schools have the resources they need,
+              and whether our public safety infrastructure keeps pace with our
+              community. Economic development done right puts these priorities
+              within reach without raising taxes on the people who already live
+              here.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Economic Ripple Effect */}
       <section className="px-6 py-16">
         <div className="mx-auto max-w-4xl">
