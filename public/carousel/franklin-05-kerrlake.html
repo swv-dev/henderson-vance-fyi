@@ -39,14 +39,14 @@
   .stat-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 16px;
+    gap: 20px;
     margin-bottom: 36px;
   }
   .stat-box {
     background: rgba(91, 155, 213, 0.08);
     border: 1px solid rgba(91, 155, 213, 0.2);
     border-radius: 12px;
-    padding: 24px;
+    padding: 28px 24px;
     text-align: center;
   }
   .stat-box.gold-border {
@@ -83,10 +83,20 @@
     font-size: 13px;
     color: #4a5568;
   }
-  .site-brand { position: absolute; bottom: 40px; right: 50px;
-    
-    
-    
+  .source {
+    margin-top: 16px;
+    font-size: 13px;
+    color: #4a5568;
+    line-height: 1.5;
+  }
+  .bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: auto;
+    padding-top: 20px;
+  }
+  .site-brand {
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -117,8 +127,19 @@
       <div class="stat-num" style="color:#5b9bd5;">99.77%</div>
       <div class="stat-label">Current lake level (May 2026)</div>
     </div>
+    <div class="stat-box gold-border">
+      <div class="stat-num">800 mi</div>
+      <div class="stat-label">Shoreline at full pool</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num" style="color:#5b9bd5;">20 MGD</div>
+      <div class="stat-label">KLRWS allocation (largest on the lake)</div>
+    </div>
   </div>
 
-  <div class="site-brand">henderson-vance.<span class="gold">fyi</span></div>
+  <div class="bottom-row">
+    <div class="source">Sources: USACE Pertinent Data, NC DEQ,<br>kerr.uslakes.info, henderson.nc.gov</div>
+    <div class="site-brand">henderson-vance.<span class="gold">fyi</span></div>
+  </div>
 </body>
 </html>
