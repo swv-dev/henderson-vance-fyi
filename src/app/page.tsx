@@ -118,6 +118,7 @@ export default function Home() {
             </a>
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
+            <a href="/water#franklin-letter" className="hover:text-gold transition text-red font-semibold">Franklin County Letter</a>
             <a href="/economic-development" className="hover:text-gold transition text-gold font-semibold">Economic Development</a>
             <a href="/water" className="hover:text-gold transition">SB 214: Section 5 Removed</a>
             <a href="#listening-session" className="hover:text-gold transition">Listening Session</a>
@@ -130,6 +131,41 @@ export default function Home() {
             <a href="#resources" className="hover:text-gold transition">Resources</a>
           </div>
         </div>
+      </section>
+
+      {/* Franklin County Letter Update */}
+      <section className="px-6 py-6">
+        <a
+          href="/water#franklin-letter"
+          className="group mx-auto block max-w-4xl rounded-lg border border-red/30 bg-red/5 p-6 md:p-8 transition hover:border-red/60 hover:bg-red/10"
+        >
+          <div className="flex flex-col gap-4">
+            <div className="flex items-center gap-3">
+              <span className="shrink-0 rounded bg-red px-3 py-1 text-xs font-bold uppercase tracking-widest text-white">
+                Breaking
+              </span>
+              <p className="text-xs font-bold uppercase tracking-widest text-red">
+                May 21, 2026
+              </p>
+            </div>
+            <p className="text-2xl font-extrabold leading-tight md:text-3xl group-hover:text-gold transition">
+              Franklin County Demands 51% Stake in Our Water System
+            </p>
+            <p className="text-sm text-muted leading-relaxed max-w-3xl">
+              Franklin County Manager Ryan Preble sent a formal letter to
+              Henderson, Oxford, and Warren County demanding either a 51%
+              ownership stake in the Kerr Lake Regional Water System or the
+              right to expand at Franklin&apos;s cost. The letter was CC&apos;d to
+              the General Assembly, WRAL, the Henderson Dispatch, and
+              multiple attorneys. Deadline to respond: <strong className="text-foreground">June 21, 2026</strong>.
+              We read the full letter, researched every claim, and built
+              a complete analysis.
+            </p>
+            <span className="mt-2 inline-block text-sm font-bold text-gold group-hover:underline">
+              Read the full analysis, download the letter &rarr;
+            </span>
+          </div>
+        </a>
       </section>
 
       {/* Economic Development Update */}

@@ -3,13 +3,13 @@ import Image from "next/image";
 import SignupForm from "./signup-form";
 
 export const metadata: Metadata = {
-  title: "SB 214: Section 5 Removed After Regional Coalition Pushback - Henderson-Vance FYI",
+  title: "Water Crisis: SB 214, Franklin County Letter, and the Future of KLRWS - Henderson-Vance FYI",
   description:
-    "Senate Bill 214 Section 5, which would have given Franklin County eminent domain power over Vance, Warren, and Halifax County land, was removed after unprecedented regional opposition. Full timeline, press conference video, and news coverage.",
+    "Franklin County demands 51% stake in the Kerr Lake Regional Water System. Full analysis of the May 2026 letter, KLRWS ownership, Kerr Lake allocations, and what a fair deal looks like. Plus the complete SB 214 timeline.",
   openGraph: {
-    title: "SB 214: Section 5 Removed After Regional Coalition Pushback",
+    title: "Franklin County Demands 51% Stake in Our Water System",
     description:
-      "Communities spoke up and Section 5 was stripped. But remain vigilant. Full sourced timeline inside.",
+      "Full analysis of the May 2026 letter, KLRWS ownership, Kerr Lake numbers, and what a fair deal looks like. Every claim sourced.",
     type: "article",
   },
 };
@@ -58,6 +58,7 @@ const timeline = [
   { date: "April 28", event: "House Speaker Destin Hall announces Section 5 will not appear in the revised conference report. Senate leaders agree to remove it. Franklin County also admitted neighbors were not notified in advance." },
   { date: "April 29", event: "Both chambers vote on revised SB 214 conference report without Section 5 or Section 7 (Forsyth school board provision). Section 5 is officially dead.", highlight: true },
   { date: "April 29", event: "Governor Stein's Rural Listening Session at VGCC, Henderson. 3:30 PM." },
+  { date: "May 21", event: "Franklin County Manager Ryan Preble sends formal letter to Henderson, Oxford, and Warren County demanding 51% KLRWS stake or expansion rights. Letter CC'd to General Assembly, Granville County, SGWASA, attorneys, and media (WRAL, Henderson Dispatch, Warren Dispatch, Franklin Times). 30-day deadline: June 21, 2026.", highlight: true },
 ];
 
 export default function WaterPage() {
@@ -130,6 +131,10 @@ export default function WaterPage() {
             <a href="#news" className="hover:text-gold transition">News Coverage</a>
             <a href="#precedent" className="hover:text-gold transition">Legal Precedent</a>
             <a href="#fairness" className="hover:text-gold transition">In Fairness</a>
+            <a href="#franklin-letter" className="hover:text-gold transition text-red font-semibold">Franklin County Letter</a>
+            <a href="#klrws" className="hover:text-gold transition">Know Your Water System</a>
+            <a href="#kerr-lake" className="hover:text-gold transition">Kerr Lake Numbers</a>
+            <a href="#fair-deal" className="hover:text-gold transition">A Fair Deal</a>
             <a href="#timeline" className="hover:text-gold transition">Timeline</a>
             <a href="#whats-next" className="hover:text-gold transition">What&apos;s Next</a>
             <a href="#join" className="hover:text-gold transition">Get Involved</a>
@@ -1322,6 +1327,755 @@ export default function WaterPage() {
         </div>
       </section>
 
+      {/* Franklin County Letter - May 2026 */}
+      <section id="franklin-letter" className="px-6 py-16 bg-navy/30">
+        <div className="mx-auto max-w-3xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-red">
+            May 21, 2026
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-8 text-2xl font-extrabold md:text-3xl">
+            The Next Move: Franklin County&apos;s{" "}
+            <span className="text-gold">Formal Demand</span>
+          </h2>
+          <p className="mb-6 text-muted leading-relaxed">
+            Three weeks after SB 214 Section 5 was removed, Franklin County
+            Manager Ryan C. Preble sent a six-page letter to the city managers
+            of Henderson, Oxford, and Warren County. The letter was also sent
+            via email and U.S. Mail to members of the General Assembly, Granville
+            County, South Granville Water and Sewer Authority (SGWASA), two
+            attorneys, and four media outlets including WRAL, the Henderson
+            Dispatch, the Warren Dispatch, and the Franklin Times.
+          </p>
+          <p className="mb-8 text-muted leading-relaxed">
+            This is not a private negotiation. The letter was made public from
+            the moment it was sent. Below is our analysis of every claim in the
+            letter, verified against public records, regulatory filings, and
+            the facts we have compiled over the past three months.
+          </p>
+
+          {/* Download */}
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-10">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
+              Read the Full Letter
+            </h3>
+            <p className="text-sm text-muted mb-4">
+              6 pages. From Franklin County Manager Ryan C. Preble to the city
+              managers of Henderson, Oxford, and Warren County. Dated May 21, 2026.
+            </p>
+            <a
+              href="/reports/franklin-county-letter-may-2026.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 rounded bg-gold px-8 py-3 text-sm font-bold uppercase tracking-widest text-background transition hover:bg-gold-dim"
+            >
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              Download Letter (PDF)
+            </a>
+          </div>
+
+          {/* What the letter demands */}
+          <h3 className="mb-4 text-lg font-bold text-red">
+            What the Letter Demands
+          </h3>
+          <p className="mb-6 text-muted leading-relaxed">
+            Franklin County presents two options and asks for a signed response
+            by <strong className="text-foreground">June 21, 2026</strong> (30
+            days). The letter includes signature lines for all three recipients.
+          </p>
+
+          <div className="grid gap-4 sm:grid-cols-2 mb-8">
+            <div className="rounded-lg border border-red/30 bg-red/5 p-6">
+              <p className="text-sm font-bold uppercase tracking-widest text-red mb-3">
+                Option 1
+              </p>
+              <p className="text-sm text-foreground font-semibold mb-2">
+                Sell Franklin a 51% stake in KLRWS at fair market value.
+              </p>
+              <p className="text-sm text-muted">
+                This would give Franklin County majority ownership and control
+                over the water system that Henderson built and has operated for
+                over 50 years. Henderson currently holds 60%.
+              </p>
+            </div>
+            <div className="rounded-lg border border-gold/30 bg-gold/5 p-6">
+              <p className="text-sm font-bold uppercase tracking-widest text-gold mb-3">
+                Option 2
+              </p>
+              <p className="text-sm text-foreground font-semibold mb-2">
+                Sell Franklin a lower percentage with the right to expand at
+                Franklin&apos;s cost.
+              </p>
+              <p className="text-sm text-muted">
+                Franklin would receive an ownership stake proportional to its
+                financial investment, plus the right to develop additional
+                capacity within KLRWS at its own expense.
+              </p>
+            </div>
+          </div>
+
+          {/* Franklin's challenge - from the letter */}
+          <h3 className="mb-4 text-lg font-bold text-blue">
+            Franklin County&apos;s Challenge (From the Letter)
+          </h3>
+          <p className="mb-6 text-muted leading-relaxed">
+            The letter documents a 19-year history of Franklin County seeking
+            long-term water supply. These facts come directly from the letter
+            and are verifiable against public records:
+          </p>
+          <ul className="space-y-3 mb-8">
+            {[
+              "Franklin County has 5.5 MGD in water supply from Henderson, Raleigh, and the Franklinton plant. It has already allocated 4.082 MGD.",
+              "If demand were measured as annual average instead of maximum daily, Franklin would exceed the 80% Rule (R.61-58.7C(12)), triggering a freeze on new water allocations.",
+              "Franklin receives applications for 120,000 GPD per year but can only award 75,000 GPD. The queue for allocation is approximately two years.",
+              "Franklin's updated 50-year Master Plan (at the request of the Army Corps) shows a need for 14.3 MGD of finished water and 15.7 MGD of raw water.",
+              "Rocky Mount and Wilson both declined to sell water to Franklin County.",
+              "The existing 24-inch pipeline from KLRWS can only convey 5 MGD. Henderson would need to sell 67% of its supply and upgrade its entire distribution system to serve Franklin.",
+              "Franklin engaged the Army Corps for a Kerr Lake reallocation study, which began in December 2025. The draft report is expected September 2027.",
+            ].map((item, i) => (
+              <li key={i} className="flex gap-3">
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue" />
+                <span className="text-sm text-muted">{item}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="text-xs text-subtle mb-8">
+            Source: Letter from Ryan C. Preble, Franklin County Manager, May 21, 2026.{" "}
+            <a href="/reports/franklin-county-letter-may-2026.pdf" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+              Read the full letter (PDF)
+            </a>
+          </p>
+
+          {/* 19 years of attempts */}
+          <h3 className="mb-4 text-lg font-bold text-blue">
+            19 Years of Attempts (From the Letter)
+          </h3>
+          <p className="mb-6 text-muted leading-relaxed">
+            The letter documents Franklin County&apos;s history of seeking
+            water partnerships. This timeline is drawn directly from the
+            letter&apos;s claims:
+          </p>
+          <ul className="space-y-3 mb-8">
+            {[
+              "2007: Franklin begins talking with Warren County about purchasing water. Warren's engineers (Rivers and Associates) study connecting the systems.",
+              "2021-2022: Franklin holds discussions with Warren, Vance, and Granville about installing distribution infrastructure. Offers $750,000 per county ($150K on signing, $100K on permitting, $225K during construction, $275K on permit issuance) plus $0.05/1,000 gallons with a 0.025% annual escalator.",
+              "Warren was unwilling to let Franklin install lines without Henderson's consent. Vance said no unless Henderson consented. Henderson did not consent.",
+              "Discussions with Granville and SGWASA evolved into an $8.55 million joint project, but SGWASA would only consider a swap of water and sewer services. The deal fell through.",
+              "After Granville/SGWASA talks collapsed, their legal counsel offered two legislative proposals (including one in 2023 that required $50M from the General Assembly). Franklin did not support either because neither met its long-term needs.",
+              "Henderson City Attorney Rix Edwards asked Franklin for a term sheet. Franklin's terms: either a 51% stake or, at minimum, some ownership plus the ability to expand KLRWS capacity at Franklin's cost.",
+              "Both City Manager Terrell Blackmon and his successor Hassan Kingsbury declined short-term supply increases and did not agree to Franklin having an ownership interest or expansion rights.",
+              "April 4, 2025: Franklin told City Manager Kingsbury it would proceed to obtain supply elsewhere.",
+            ].map((item, i) => (
+              <li key={i} className="flex gap-3">
+                <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue" />
+                <span className="text-sm text-muted">{item}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="text-xs text-subtle mb-8">
+            Source: Letter from Ryan C. Preble, Franklin County Manager, May 21, 2026. These are Franklin County&apos;s claims. Henderson has not publicly responded.
+          </p>
+
+          {/* Who was CC'd */}
+          <div className="rounded-lg border border-red/30 bg-red/10 p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
+              Who Was CC&apos;d on This Letter
+            </h3>
+            <p className="text-sm text-muted mb-4">
+              This letter was not sent privately. It was distributed to elected
+              officials, attorneys, and journalists simultaneously. This is a
+              public pressure campaign, not a private negotiation.
+            </p>
+            <div className="grid gap-2 sm:grid-cols-2">
+              {[
+                "Members of the General Assembly",
+                "Granville County",
+                "Jim Wrenn, Esq.",
+                "SGWASA",
+                "Dana Simpson, Esq.",
+                "Warren Dispatch",
+                "Henderson Dispatch",
+                "Franklin Times",
+                "WRAL",
+              ].map((recipient, i) => (
+                <p key={i} className="text-sm text-foreground flex gap-2">
+                  <span className="text-red">&bull;</span> {recipient}
+                </p>
+              ))}
+            </div>
+          </div>
+
+          {/* The deadline */}
+          <div className="rounded-lg border-2 border-red/50 bg-red/10 p-6">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
+              The Deadline
+            </h3>
+            <p className="text-foreground leading-relaxed font-semibold mb-3">
+              Franklin County is asking Henderson, Oxford, and Warren County to
+              indicate willingness to accept the &quot;Basic Terms&quot; by{" "}
+              <span className="text-red">June 21, 2026</span>.
+            </p>
+            <p className="text-sm text-muted">
+              The letter includes signature lines for Gary Spruill (Henderson
+              City Manager), W. Brent Taylor (Oxford City Manager), and Crystal
+              Smith (Warren County Manager). There is no legal obligation to
+              respond within 30 days. The deadline is a pressure mechanism, made
+              more effective by the media CC list.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Know Your Water System */}
+      <section id="klrws" className="px-6 py-16">
+        <div className="mx-auto max-w-3xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            The System Franklin County Wants Into
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-8 text-2xl font-extrabold md:text-3xl">
+            Know Your <span className="text-gold">Water System</span>
+          </h2>
+          <p className="mb-8 text-muted leading-relaxed">
+            The Kerr Lake Regional Water System has served this region since
+            the mid-1970s. Henderson built it, operates it, and holds the
+            majority stake. Before anyone can evaluate what Franklin County
+            is asking for, every citizen should understand what we have.
+          </p>
+
+          {/* Ownership Table */}
+          <h3 className="mb-4 text-lg font-bold text-gold">
+            KLRWS Ownership
+          </h3>
+          <div className="overflow-x-auto mb-8">
+            <table className="w-full text-left text-sm">
+              <thead>
+                <tr className="border-b border-card-border text-xs uppercase tracking-wider text-blue">
+                  <th className="px-4 py-3">Partner</th>
+                  <th className="px-4 py-3">Ownership</th>
+                  <th className="px-4 py-3">Role</th>
+                </tr>
+              </thead>
+              <tbody className="text-muted">
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">City of Henderson</td>
+                  <td className="px-4 py-3 font-bold text-gold">60%</td>
+                  <td className="px-4 py-3">Operator and majority owner</td>
+                </tr>
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">City of Oxford</td>
+                  <td className="px-4 py-3">20%</td>
+                  <td className="px-4 py-3">Partner owner</td>
+                </tr>
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">Warren County</td>
+                  <td className="px-4 py-3">20%</td>
+                  <td className="px-4 py-3">Partner owner</td>
+                </tr>
+                <tr className="border-b border-card-border/50 bg-red/5">
+                  <td className="px-4 py-3 font-semibold text-foreground">Franklin County</td>
+                  <td className="px-4 py-3 text-red">0%</td>
+                  <td className="px-4 py-3">Wholesale customer (not an owner)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-subtle mb-8">
+            Source:{" "}
+            <a href="https://henderson.nc.gov/departments/public_utilities/kerr_lake_regional_water_system/index.php" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+              City of Henderson KLRWS page
+            </a>,{" "}
+            <a href="https://www.deq.nc.gov/about/divisions/water-resources/water-planning/water-supply-planning/interbasin-transfer-certification/regulated-interbasin-transfers/kerr-lake" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+              NC DEQ IBT Certification
+            </a>
+          </p>
+
+          {/* Capacity */}
+          <h3 className="mb-4 text-lg font-bold text-gold">
+            System Capacity
+          </h3>
+          <div className="grid gap-4 sm:grid-cols-2 mb-8">
+            <div className="rounded-lg border border-card-border bg-card p-4">
+              <p className="text-2xl font-extrabold text-gold">6.9 MGD</p>
+              <p className="text-sm text-muted">Current daily draw</p>
+            </div>
+            <div className="rounded-lg border border-card-border bg-card p-4">
+              <p className="text-2xl font-extrabold text-blue">10 MGD</p>
+              <p className="text-sm text-muted">Current plant rated capacity</p>
+            </div>
+            <div className="rounded-lg border border-card-border bg-card p-4">
+              <p className="text-2xl font-extrabold text-gold">20 MGD</p>
+              <p className="text-sm text-muted">Expansion target (under construction, ~$80M)</p>
+            </div>
+            <div className="rounded-lg border border-red/30 bg-red/5 p-4">
+              <p className="text-2xl font-extrabold text-red">14.2 MGD</p>
+              <p className="text-sm text-muted">IBT certificate cap (hard regulatory ceiling)</p>
+            </div>
+          </div>
+
+          {/* IBT Breakdown */}
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
+              The Interbasin Transfer Ceiling
+            </h3>
+            <p className="text-sm text-muted mb-4">
+              Kerr Lake sits in the Roanoke River Basin. Most KLRWS customers are
+              in other basins. Moving water across basin lines requires an IBT
+              certificate from the NC Environmental Management Commission. The
+              current certificate caps transfers at 14.2 MGD across three basins:
+            </p>
+            <div className="grid gap-2 sm:grid-cols-3 mb-4">
+              <div className="rounded border border-card-border bg-card p-3 text-center">
+                <p className="text-lg font-bold text-foreground">10.7 MGD</p>
+                <p className="text-xs text-subtle">Tar River Basin</p>
+              </div>
+              <div className="rounded border border-card-border bg-card p-3 text-center">
+                <p className="text-lg font-bold text-foreground">1.7 MGD</p>
+                <p className="text-xs text-subtle">Fishing Creek Basin</p>
+              </div>
+              <div className="rounded border border-card-border bg-card p-3 text-center">
+                <p className="text-lg font-bold text-foreground">1.8 MGD</p>
+                <p className="text-xs text-subtle">Neuse River Basin</p>
+              </div>
+            </div>
+            <p className="text-sm text-foreground font-semibold">
+              Exceeding 14.2 MGD requires a new IBT proceeding, which takes
+              years and includes public comment where any entity can object.
+            </p>
+            <p className="mt-3 text-xs text-subtle">
+              Source:{" "}
+              <a href="https://www.deq.nc.gov/about/divisions/water-resources/water-planning/water-supply-planning/interbasin-transfer-certification/regulated-interbasin-transfers/kerr-lake" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                NC DEQ Kerr Lake IBT Certification
+              </a>
+            </p>
+          </div>
+
+          {/* The 5 MGD bottleneck */}
+          <div className="rounded-lg border border-red/30 bg-red/5 p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
+              The Pipeline Bottleneck
+            </h3>
+            <p className="text-sm text-muted mb-3">
+              Even with the plant expanding to 20 MGD, the 24-inch
+              transmission main serving Henderson, Vance County, and Franklin
+              County can only convey <strong className="text-foreground">5
+              MGD</strong>. Henderson and Vance County need some of that 5 MGD
+              themselves. This is why Franklin cannot simply buy more water from
+              Henderson. The pipe is the constraint, not the plant.
+            </p>
+            <p className="text-xs text-subtle">
+              Source: Letter from Ryan C. Preble, May 21, 2026 (footnote 3);{" "}
+              <a href="https://henderson.nc.gov/departments/public_utilities/kerr_lake_regional_water_system/klrws_expansion.php" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                KLRWS Expansion page
+              </a>
+            </p>
+          </div>
+
+          {/* Who gets water */}
+          <h3 className="mb-4 text-lg font-bold text-gold">
+            Who Gets Water from KLRWS
+          </h3>
+          <p className="mb-4 text-muted leading-relaxed">
+            KLRWS serves over 50,000 customers across portions of four
+            counties through its three owner-partners and their wholesale
+            customers:
+          </p>
+          <div className="grid gap-3 sm:grid-cols-2 mb-8">
+            {[
+              { name: "City of Henderson", type: "Owner (60%)" },
+              { name: "City of Oxford", type: "Owner (20%)" },
+              { name: "Warren County", type: "Owner (20%)" },
+              { name: "Town of Warrenton", type: "Wholesale" },
+              { name: "Town of Norlina", type: "Wholesale" },
+              { name: "Town of Kittrell", type: "Wholesale" },
+              { name: "Town of Stovall", type: "Wholesale" },
+              { name: "Town of Middleburg", type: "Wholesale" },
+              { name: "Vance County", type: "Wholesale" },
+              { name: "Granville County", type: "Wholesale" },
+              { name: "Franklin County", type: "Wholesale (not an owner)" },
+            ].map((item, i) => (
+              <div key={i} className="flex items-center gap-3 rounded border border-card-border bg-card p-3">
+                <span className={`h-2 w-2 rounded-full ${item.type.includes("Owner") ? "bg-gold" : "bg-blue"}`} />
+                <div>
+                  <p className="text-sm font-semibold text-foreground">{item.name}</p>
+                  <p className="text-xs text-subtle">{item.type}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+          <p className="text-xs text-subtle mb-8">
+            Source:{" "}
+            <a href="https://henderson.nc.gov/departments/public_utilities/kerr_lake_regional_water_system/index.php" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+              City of Henderson KLRWS page
+            </a>,{" "}
+            <a href="https://www.franklincountync.gov/649/Future-Water" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+              Franklin County Future Water
+            </a>
+          </p>
+
+          {/* The expansion */}
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
+              The $80 Million Expansion
+            </h3>
+            <p className="text-sm text-muted mb-3">
+              KLRWS is currently expanding from 10 MGD to 20 MGD. Ground was
+              broken in May 2023. CDM Smith is the design-build contractor. The
+              project cost has grown from the original $39.9 million estimate to
+              approximately $80 million due to COVID-era inflation. Funding
+              secured includes $45.9 million in grants and loans plus $15 million
+              in water revenue bonds.
+            </p>
+            <p className="text-sm text-muted mb-3">
+              Oxford&apos;s 20% share of the expansion was partially funded by a
+              $10 million state appropriation in October 2023. In 2025, House Bill
+              74 attempted to redirect that $10 million to other districts.
+              Oxford and its partners fought back. The expansion cost is shared
+              60/20/20 per the ownership structure.
+            </p>
+            <p className="text-xs text-subtle">
+              Sources:{" "}
+              <a href="https://henderson.nc.gov/departments/public_utilities/kerr_lake_regional_water_system/klrws_expansion.php" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                KLRWS Expansion
+              </a>,{" "}
+              <a href="https://www.wunc.org/politics/2025-05-07/oxford-nc-funding-water-plant" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                WUNC
+              </a>,{" "}
+              <a href="https://www.hendersondispatch.com/news/kerr-lake-water-partners-working-to-cover-shortfall-for-treatment-expansion/article_24b04bfe-4195-51ac-8f24-55fe3c32317d.html" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                Henderson Dispatch
+              </a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Kerr Lake: The Full Picture */}
+      <section id="kerr-lake" className="px-6 py-16 bg-navy/30">
+        <div className="mx-auto max-w-3xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            The Source
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-8 text-2xl font-extrabold md:text-3xl">
+            Kerr Lake: <span className="text-gold">The Full Picture</span>
+          </h2>
+          <p className="mb-8 text-muted leading-relaxed">
+            John H. Kerr Reservoir (Kerr Lake) was built by the Army Corps
+            of Engineers between 1947 and 1952 on the Roanoke River at the
+            NC/VA state line. It is managed by the USACE Wilmington District.
+            Water supply is only one of its authorized purposes, alongside
+            flood control, hydropower, recreation, and fish and wildlife.
+          </p>
+
+          {/* Key stats */}
+          <div className="grid gap-4 sm:grid-cols-3 mb-8">
+            <div className="rounded-lg border border-card-border bg-card p-4 text-center">
+              <p className="text-2xl font-extrabold text-gold">335B</p>
+              <p className="text-xs text-subtle">Gallons in usable conservation pool</p>
+            </div>
+            <div className="rounded-lg border border-card-border bg-card p-4 text-center">
+              <p className="text-2xl font-extrabold text-blue">48,900</p>
+              <p className="text-xs text-subtle">Acres at full pool</p>
+            </div>
+            <div className="rounded-lg border border-card-border bg-card p-4 text-center">
+              <p className="text-2xl font-extrabold text-gold">800 mi</p>
+              <p className="text-xs text-subtle">Shoreline</p>
+            </div>
+          </div>
+
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
+              Current Lake Level (May 22, 2026)
+            </h3>
+            <p className="text-foreground font-semibold mb-2">
+              299.30 ft MSL &mdash; 99.77% of full pool
+            </p>
+            <p className="text-sm text-muted">
+              North Carolina is experiencing its worst drought since the 1930s
+              Dust Bowl. March 2026 was the driest month on record. 61% of the
+              state is under extreme drought. Despite this, Kerr Lake remains
+              near full pool because its large watershed buffers short-term
+              precipitation deficits. But hydrologists warn groundwater
+              recharge is failing, and the lake cannot hold indefinitely.
+            </p>
+            <p className="mt-3 text-xs text-subtle">
+              Sources:{" "}
+              <a href="https://kerr.uslakes.info/Level/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                Kerr Lake live level
+              </a>,{" "}
+              <a href="https://farmvilleherald.com/2026/05/much-of-area-now-in-extreme-drought-status/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                Farmville Herald (drought)
+              </a>
+            </p>
+          </div>
+
+          {/* Who draws from Kerr Lake */}
+          <h3 className="mb-4 text-lg font-bold text-gold">
+            Everyone Drawing Water from Kerr Lake
+          </h3>
+          <p className="mb-6 text-muted leading-relaxed">
+            Only six entities have formal water storage contracts or
+            grandfathered rights with the Army Corps to withdraw water from
+            Kerr Lake. KLRWS (Henderson) holds the largest allocation.
+          </p>
+
+          <div className="overflow-x-auto mb-8">
+            <table className="w-full text-left text-sm">
+              <thead>
+                <tr className="border-b border-card-border text-xs uppercase tracking-wider text-blue">
+                  <th className="px-4 py-3">Entity</th>
+                  <th className="px-4 py-3">Allocation</th>
+                  <th className="px-4 py-3">% of Pool</th>
+                  <th className="px-4 py-3">Max Withdrawal</th>
+                </tr>
+              </thead>
+              <tbody className="text-muted">
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">KLRWS (Henderson, NC)</td>
+                  <td className="px-4 py-3">10,292 AF</td>
+                  <td className="px-4 py-3">~1.0%</td>
+                  <td className="px-4 py-3 font-bold text-gold">20 MGD</td>
+                </tr>
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">City of Virginia Beach</td>
+                  <td className="px-4 py-3">10,200 AF</td>
+                  <td className="px-4 py-3">1.066%</td>
+                  <td className="px-4 py-3">Via Lake Gaston pipeline</td>
+                </tr>
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">VA Dept. of Corrections</td>
+                  <td className="px-4 py-3">23 AF</td>
+                  <td className="px-4 py-3">0.0024%</td>
+                  <td className="px-4 py-3">0.06 MGD</td>
+                </tr>
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">Dominion / Mecklenburg Cogen</td>
+                  <td className="px-4 py-3">600 AF</td>
+                  <td className="px-4 py-3">0.063%</td>
+                  <td className="px-4 py-3">~3 MGD</td>
+                </tr>
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">Town of Clarksville, VA</td>
+                  <td className="px-4 py-3">Grandfathered</td>
+                  <td className="px-4 py-3">No limit</td>
+                  <td className="px-4 py-3">~0.23 MGD avg</td>
+                </tr>
+                <tr className="border-b border-card-border/50">
+                  <td className="px-4 py-3 font-semibold text-foreground">Burlington Industries</td>
+                  <td className="px-4 py-3">Grandfathered</td>
+                  <td className="px-4 py-3">No limit</td>
+                  <td className="px-4 py-3">Plant closed 2004</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr className="border-t-2 border-gold/40">
+                  <td className="px-4 py-3 font-bold text-foreground">Total Allocated</td>
+                  <td className="px-4 py-3 font-bold text-gold">~21,115 AF</td>
+                  <td className="px-4 py-3 font-bold text-gold">~2.1%</td>
+                  <td className="px-4 py-3" />
+                </tr>
+              </tfoot>
+            </table>
+          </div>
+
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-8">
+            <p className="text-foreground leading-relaxed font-semibold mb-3">
+              Approximately 98% of Kerr Lake&apos;s usable conservation pool is
+              not formally allocated for water supply.
+            </p>
+            <p className="text-sm text-muted">
+              That does not mean it is &quot;free.&quot; The unallocated portion
+              serves hydropower generation, low-flow augmentation for downstream
+              ecosystems, fish and wildlife habitat, and recreation (1 million+
+              annual visitors). These are all authorized project purposes that
+              compete with water supply. Any new allocation requires the Army
+              Corps to determine whether water can be reallocated without
+              harming these other purposes.
+            </p>
+            <p className="mt-3 text-xs text-subtle">
+              Source:{" "}
+              <a href="https://epec.saw.usace.army.mil/kerrpert.txt" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                USACE Kerr Dam Pertinent Data
+              </a>,{" "}
+              <a href="https://www.saw.usace.army.mil/Locations/District-Lakes-and-Dams/John-H-Kerr-1/JHK-Reallocation-Franklin-County/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                USACE Reallocation Study
+              </a>
+            </p>
+          </div>
+
+          {/* The math that doesn't work */}
+          <div className="rounded-lg border-2 border-red/50 bg-red/10 p-6">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
+              The Math That Doesn&apos;t Work
+            </h3>
+            <p className="text-foreground leading-relaxed mb-4">
+              Franklin County wants 14.3 MGD of finished water. KLRWS currently
+              draws 6.9 MGD. Combined, that&apos;s 21.2 MGD.
+            </p>
+            <div className="grid gap-2 sm:grid-cols-3 mb-4">
+              <div className="rounded border border-card-border bg-card p-3 text-center">
+                <p className="text-lg font-bold text-foreground">6.9 MGD</p>
+                <p className="text-xs text-subtle">Current KLRWS draw</p>
+              </div>
+              <div className="rounded border border-card-border bg-card p-3 text-center">
+                <p className="text-lg font-bold text-foreground">+ 14.3 MGD</p>
+                <p className="text-xs text-subtle">Franklin&apos;s 50-year demand</p>
+              </div>
+              <div className="rounded border border-red/30 bg-red/5 p-3 text-center">
+                <p className="text-lg font-bold text-red">= 21.2 MGD</p>
+                <p className="text-xs text-subtle">Exceeds both caps</p>
+              </div>
+            </div>
+            <p className="text-sm text-foreground font-semibold mb-2">
+              That exceeds both the USACE allocation (20 MGD) and the IBT
+              certificate (14.2 MGD).
+            </p>
+            <p className="text-sm text-muted">
+              Franklin County&apos;s full 50-year demand cannot be met under
+              existing regulatory approvals. A new IBT proceeding would take
+              years. A new USACE allocation would require Congressional
+              authorization if it exceeds the original project scope. These
+              are not negotiation points. They are regulatory ceilings.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      {/* What a Fair Deal Looks Like */}
+      <section id="fair-deal" className="px-6 py-16">
+        <div className="mx-auto max-w-3xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            The Path Forward
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-8 text-2xl font-extrabold md:text-3xl">
+            What a <span className="text-gold">Fair Deal</span> Could Look Like
+          </h2>
+          <p className="mb-8 text-muted leading-relaxed">
+            Franklin County&apos;s water challenge is real. A 51% ownership
+            stake is not the answer. But Option 2 in the Preble letter &mdash;
+            a lower percentage with the right to expand at Franklin&apos;s
+            cost &mdash; is a conversation worth having. If the terms are
+            right, this could be a deal that works for everyone in the region.
+            But the terms must be right.
+          </p>
+
+          {/* Why option 1 is off the table */}
+          <div className="rounded-lg border border-red/30 bg-red/5 p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
+              Why 51% Cannot Happen
+            </h3>
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              Henderson built and has operated KLRWS for over 50 years. It
+              currently holds 60% ownership. A 51% transfer to Franklin County
+              means Franklin controls the board, controls rate-setting, controls
+              expansion priorities, and controls who else gets water.
+            </p>
+            <p className="text-sm text-muted leading-relaxed">
+              Henderson and Vance County depend on this water for their own
+              growth, including potential data center developments that could
+              consume 300,000 to 1 million gallons per day. Handing majority
+              control to a county that is contiguous to Wake County and will
+              grow significantly faster than Vance County is handing them the
+              keys to our water future.
+            </p>
+          </div>
+
+          {/* Why option 2 can work */}
+          <h3 className="mb-4 text-lg font-bold text-gold">
+            Why Option 2 Can Work &mdash; With Protections
+          </h3>
+          <p className="mb-6 text-muted leading-relaxed">
+            Franklin County paying for its own infrastructure while purchasing
+            water through KLRWS is a win-win. Henderson gets revenue. Franklin
+            gets water. The system gets stronger. But the governance terms must
+            protect the communities that built this system.
+          </p>
+
+          <div className="space-y-4 mb-8">
+            {[
+              {
+                title: "Ownership proportional to investment, not demand.",
+                desc: "Franklin's stake should reflect what they invest into the system, determined by an independent appraisal of total enterprise value. The letter says Franklin wants ownership 'commensurate with its debt.' That's reasonable, but the denominator matters. KLRWS's value includes 50 years of operations, the USACE allocation, the IBT certificate, and institutional relationships, not just hard assets.",
+              },
+              {
+                title: "Henderson must retain operating authority.",
+                desc: "Henderson built it, Henderson runs it. Operational control cannot transfer to a new partner regardless of ownership percentage. This should be written into any agreement as non-negotiable.",
+              },
+              {
+                title: "Supermajority voting for major decisions.",
+                desc: "Rate changes, new partners, asset sales, and capital expenditures above a threshold should require 75% approval. This gives Henderson effective veto power even without majority ownership, and ensures no two partners can override the system's founders.",
+              },
+              {
+                title: "Expansion rights capped at 14.3 MGD.",
+                desc: "Franklin's own 50-year plan defines this number. Cap it. If they need more in the future, they come back to the table. No open-ended expansion rights.",
+              },
+              {
+                title: "Existing customer priority during drought.",
+                desc: "When Kerr Lake levels drop, water curtailment should be proportional to historical investment, not current ownership percentage. Partners who have been in since the 1970s get priority over a partner that joined in 2026.",
+              },
+              {
+                title: "Non-circumvention clause.",
+                desc: "After SB 214 and SB 320, any agreement must include explicit language: Franklin permanently waives the right to pursue legislative action or eminent domain against KLRWS participants. If they go back to the General Assembly while under contract, the agreement terminates.",
+              },
+              {
+                title: "Kerr Lake exclusivity.",
+                desc: "If Franklin secures an independent Army Corps allocation for Kerr Lake and builds its own treatment facility drawing from the lake, their KLRWS ownership automatically forfeits to the existing partners. Henderson is sacrificing its own growth capacity to sell water to Franklin. If Franklin then puts its own straw in the same lake, that's a direct conflict. Different sources (Tar River, Lake Gaston) would not trigger this clause.",
+              },
+              {
+                title: "Transfer restrictions.",
+                desc: "Franklin cannot sell, assign, or transfer its ownership stake to any third party, especially private utilities or developers, without unanimous consent of existing partners.",
+              },
+            ].map((item, i) => (
+              <div key={i} className="rounded-lg border border-card-border bg-card p-5">
+                <p className="text-sm font-bold text-foreground mb-2">{item.title}</p>
+                <p className="text-sm text-muted leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* What Henderson gives up */}
+          <div className="rounded-lg border border-red/30 bg-red/10 p-6 mb-8">
+            <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
+              What Henderson Gives Up
+            </h3>
+            <p className="text-sm text-foreground leading-relaxed mb-3">
+              This is not Henderson selling surplus water. This is Henderson
+              selling its own future.
+            </p>
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              KLRWS is expanding to 20 MGD. The gap between the current 6.9 MGD
+              draw and 20 MGD is what Henderson and Vance County need for their
+              own growth. Potential data centers. Population increases. Economic
+              development. Every gallon allocated to Franklin is a gallon
+              Henderson cannot use.
+            </p>
+            <p className="text-sm text-muted leading-relaxed">
+              A deal can work, but the community must understand the trade-off.
+              Henderson gains revenue and a regional partnership. Henderson
+              gives up growth capacity and flexibility. Both sides of that
+              equation deserve honest public discussion.
+            </p>
+          </div>
+
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6">
+            <p className="text-foreground leading-relaxed font-semibold mb-3">
+              The door is open. It should stay open.
+            </p>
+            <p className="text-sm text-muted">
+              Franklin County has a legitimate need. Henderson has a system worth
+              investing in. The answer is not a 51% takeover. The answer is not
+              a battering ram through the General Assembly. The answer is
+              neighbors sitting down at the same table with clear terms,
+              fair pricing, governance protections, and a commitment to the
+              region. That has always been the answer.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Timeline */}
       <section id="timeline" className="px-6 py-16 bg-navy/30">
         <div className="mx-auto max-w-3xl">
@@ -1350,10 +2104,12 @@ export default function WaterPage() {
 
           <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-10">
             <p className="text-foreground font-semibold leading-relaxed">
-              Section 5 is gone. But the underlying water dispute is not
-              resolved. House Speaker Destin Hall warned the provision could
-              return if local negotiations fail. Here is what to watch and
-              what you can still do.
+              Section 5 is gone. But the underlying water dispute is
+              accelerating. On May 21, 2026, Franklin County sent a formal
+              letter demanding either a 51% KLRWS stake or expansion rights,
+              with a <strong>June 21, 2026 deadline</strong>. The letter was
+              CC&apos;d to the General Assembly and media. Here is what to
+              watch and what you can still do.
             </p>
           </div>
 
@@ -1376,11 +2132,12 @@ export default function WaterPage() {
           </h3>
           <ul className="space-y-3 mb-10">
             {[
-              "Speaker Hall indicated the legislature could resurrect the provision if local negotiations fail.",
-              "The Army Corps reallocation study continues. Draft environmental assessment expected fall 2027, final report 2028.",
-              "Franklin County's $2M Army Corps agreement and $200M RFQ for a private water plant are still active.",
-              "The pattern: SB 320 (2019, vetoed), SB 214 Section 5 (2026, removed). The method escalates each time.",
-              "Sen. Barnes (R), who represents both Franklin and Vance Counties, voted Yes on the original bill. She has not changed her position.",
+              "May 21, 2026: Franklin County Manager Ryan Preble sent a formal letter demanding 51% KLRWS stake or expansion rights. Deadline: June 21, 2026. CC'd to GA members and media.",
+              "Speaker Hall indicated the legislature could resurrect the provision if local negotiations fail. The Preble letter creates public pressure for a response.",
+              "The Army Corps reallocation study continues. Franklin is funding the entire $2M study. Draft report expected September 2027, final report May 2028.",
+              "Franklin County's $200M RFQ for a private water plant and pipeline is still active.",
+              "The pattern escalates: SB 320 (2019, vetoed), SB 214 Section 5 (2026, removed), Preble letter (2026, pending). Each attempt is more aggressive and more public.",
+              "Franklin's full 50-year demand (14.3 MGD) exceeds both the USACE allocation (20 MGD combined) and the IBT certificate (14.2 MGD). The regulatory math does not support their ask at full scale.",
             ].map((item, i) => (
               <li key={i} className="flex gap-3">
                 <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-red" />
@@ -1608,7 +2365,7 @@ export default function WaterPage() {
             but form it with the facts in front of you.
           </p>
           <p className="text-xs text-subtle">
-            Henderson-Vance FYI &middot; April 2026
+            Henderson-Vance FYI &middot; Updated May 2026
           </p>
         </div>
       </footer>
