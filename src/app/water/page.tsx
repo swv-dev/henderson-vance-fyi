@@ -2063,23 +2063,46 @@ export default function WaterPage() {
           </p>
 
           {/* Current rate situation */}
-          <div className="rounded-lg border border-card-border bg-card p-6 mb-6">
-            <h4 className="mb-3 text-sm font-bold uppercase tracking-widest text-blue">
+          <div className="rounded-lg border border-red/30 bg-red/5 p-6 mb-6">
+            <h4 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
               What Franklin Pays Now
             </h4>
             <p className="text-sm text-muted leading-relaxed mb-3">
-              The exact rate Franklin County pays Henderson for water is not
-              publicly documented. However, Rep. Matthew Winslow (R-Franklin)
-              stated publicly that Henderson charges Franklin County{" "}
+              Franklin County pays Henderson{" "}
+              <strong className="text-foreground text-red">$11.44 per 1,000
+              gallons</strong> for bulk municipal water through KLRWS. For
+              comparison, the highest wholesale rate we found anywhere in
+              North Carolina is $4.62 (Fayetteville to Hoke County).
+              Franklin County is paying{" "}
+              <strong className="text-foreground">more than double the most
+              expensive wholesale rate in the state</strong>.
+            </p>
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              Rep. Matthew Winslow (R-Franklin) stated publicly that Henderson
+              charges Franklin County{" "}
               <strong className="text-foreground">&quot;four times as much as
               other customers who receive water from the compact.&quot;</strong>{" "}
-              Henderson Mayor Melissa Elliott disputed the framing but did not
-              challenge the numbers.
+              At $11.44, the math checks out: if KLRWS partner rates are
+              approximately $2.85/1,000 gallons, the 4x claim is accurate.
+            </p>
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              Franklin County&apos;s residents then pay $12.53/1,000 gallons
+              over 2,000 gallons of consumption, with a $51.47 monthly base
+              rate. That means Franklin County is marking up only $1.09 per
+              1,000 gallons from its wholesale cost. Their residents are
+              essentially paying Henderson&apos;s wholesale rate as their
+              retail rate.
             </p>
             <p className="text-xs text-subtle">
-              Source:{" "}
+              Sources:{" "}
               <a href="https://www.wral.com/news/nccapitol/water-access-bill-growth-franklin-vance-warren-halifax-county-nc-legislature-april-2026/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
                 WRAL, April 26, 2026
+              </a>,{" "}
+              <a href="https://www.wunc.org/politics/2026-04-28/franklin-county-property-water-plant-push-back" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                WUNC
+              </a>,{" "}
+              <a href="https://www.franklincountync.gov/649/Future-Water" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                Franklin County
               </a>
             </p>
           </div>
@@ -2129,10 +2152,13 @@ export default function WaterPage() {
             <p className="text-sm text-muted leading-relaxed">
               The typical range for NC regional wholesale water is{" "}
               <strong className="text-foreground">$1.50 to $5.00 per 1,000
-              gallons</strong>. If Franklin County is paying four times the
-              partner rate and partner rates are consistent with these
-              benchmarks, Franklin could be paying $8 to $20 per 1,000 gallons,
-              approaching residential retail pricing.
+              gallons</strong>. Franklin County currently pays Henderson{" "}
+              <strong className="text-foreground">$11.44 per 1,000
+              gallons</strong> - more than double the highest rate in this
+              table and roughly four times what KLRWS partner communities
+              pay. A fair volume-based rate would bring Franklin closer to
+              these benchmarks while still generating significant revenue
+              for KLRWS.
             </p>
             <p className="mt-3 text-xs text-subtle">
               Sources:{" "}
@@ -2632,21 +2658,61 @@ export default function WaterPage() {
         </div>
       </section>
 
-      {/* Download */}
+      {/* Downloads */}
       <section className="px-6 py-16">
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="mb-4 text-2xl font-extrabold md:text-3xl">
-            Download the Full <span className="text-gold">Fact Sheet</span>
+        <div className="mx-auto max-w-3xl">
+          <h2 className="mb-8 text-center text-2xl font-extrabold md:text-3xl">
+            Download the <span className="text-gold">Reports</span>
           </h2>
-          <p className="mb-8 text-sm text-muted">
-            9 pages, every claim sourced, printable. Hand it to your neighbor.
-          </p>
-          <a
-            href="/reports/SB214-Franklin-County-Water-Fact-Sheet.pdf"
-            className="inline-block rounded bg-gold px-10 py-4 text-sm font-bold uppercase tracking-widest text-background transition hover:bg-gold-dim"
-          >
-            Download PDF
-          </a>
+          <div className="grid gap-6 sm:grid-cols-2">
+            <a
+              href="/reports/klrws-water-analysis-may-2026.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col rounded-lg border border-gold/30 bg-gold/5 p-6 transition hover:border-gold/60 hover:bg-gold/10"
+            >
+              <p className="mb-1 text-xs font-bold uppercase tracking-widest text-gold">
+                New - May 2026
+              </p>
+              <h3 className="mb-2 text-lg font-bold group-hover:text-gold transition">
+                The Kerr Lake Water Question
+              </h3>
+              <p className="mb-4 text-sm text-muted">
+                Franklin County letter analysis, KLRWS ownership, Kerr Lake
+                allocations, rate benchmarks, revenue projections, and
+                governance protections. Every claim sourced.
+              </p>
+              <div className="mt-auto flex items-center gap-2 text-sm font-semibold text-gold">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                View Full Report
+              </div>
+            </a>
+            <a
+              href="/reports/SB214-Franklin-County-Water-Fact-Sheet.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col rounded-lg border border-card-border bg-card p-6 transition hover:border-gold/40 hover:bg-card/80"
+            >
+              <p className="mb-1 text-xs font-bold uppercase tracking-widest text-blue">
+                April 2026
+              </p>
+              <h3 className="mb-2 text-lg font-bold group-hover:text-gold transition">
+                SB 214 Fact Sheet
+              </h3>
+              <p className="mb-4 text-sm text-muted">
+                9 pages on the eminent domain provision, the coalition that
+                stopped it, and what comes next. Printable.
+              </p>
+              <div className="mt-auto flex items-center gap-2 text-sm font-semibold text-gold">
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                </svg>
+                Download PDF
+              </div>
+            </a>
+          </div>
         </div>
       </section>
 
