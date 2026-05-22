@@ -2036,6 +2036,235 @@ export default function WaterPage() {
             ))}
           </div>
 
+          {/* The Money */}
+          <h3 className="mb-4 text-lg font-bold text-gold">
+            The Money: What This Deal Is Actually Worth
+          </h3>
+          <p className="mb-6 text-muted leading-relaxed">
+            This is not just a water negotiation. This is a revenue opportunity
+            for Henderson and the KLRWS partners. Franklin County needs water
+            at scale, and they are willing to pay for it. The question is
+            whether Henderson comes to the table with a real offer or continues
+            to say no until the state legislature or the Army Corps forces a
+            worse outcome.
+          </p>
+
+          {/* Current rate situation */}
+          <div className="rounded-lg border border-card-border bg-card p-6 mb-6">
+            <h4 className="mb-3 text-sm font-bold uppercase tracking-widest text-blue">
+              What Franklin Pays Now
+            </h4>
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              The exact rate Franklin County pays Henderson for water is not
+              publicly documented. However, Rep. Matthew Winslow (R-Franklin)
+              stated publicly that Henderson charges Franklin County{" "}
+              <strong className="text-foreground">&quot;four times as much as
+              other customers who receive water from the compact.&quot;</strong>{" "}
+              Henderson Mayor Melissa Elliott disputed the framing but did not
+              challenge the numbers.
+            </p>
+            <p className="text-xs text-subtle">
+              Source:{" "}
+              <a href="https://www.wral.com/news/nccapitol/water-access-bill-growth-franklin-vance-warren-halifax-county-nc-legislature-april-2026/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                WRAL, April 26, 2026
+              </a>
+            </p>
+          </div>
+
+          {/* NC wholesale benchmarks */}
+          <div className="rounded-lg border border-card-border bg-card p-6 mb-6">
+            <h4 className="mb-3 text-sm font-bold uppercase tracking-widest text-blue">
+              What Other NC Systems Charge (Wholesale)
+            </h4>
+            <p className="text-sm text-muted leading-relaxed mb-4">
+              For context, here is what other North Carolina regional water
+              systems charge wholesale customers per 1,000 gallons:
+            </p>
+            <div className="overflow-x-auto mb-4">
+              <table className="w-full text-left text-sm">
+                <thead>
+                  <tr className="border-b border-card-border text-xs uppercase tracking-wider text-blue">
+                    <th className="px-4 py-2">Seller</th>
+                    <th className="px-4 py-2">Buyer</th>
+                    <th className="px-4 py-2">Rate / 1,000 gal</th>
+                  </tr>
+                </thead>
+                <tbody className="text-muted">
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-2 text-foreground">Fayetteville PWC</td>
+                    <td className="px-4 py-2">Hoke County</td>
+                    <td className="px-4 py-2 font-semibold">$4.62</td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-2 text-foreground">Johnston County</td>
+                    <td className="px-4 py-2">Municipal customers</td>
+                    <td className="px-4 py-2 font-semibold">$3.95</td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-2 text-foreground">Asheville</td>
+                    <td className="px-4 py-2">Wholesale volume</td>
+                    <td className="px-4 py-2 font-semibold">$2.91</td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-2 text-foreground">Asheville</td>
+                    <td className="px-4 py-2">Capacity-based</td>
+                    <td className="px-4 py-2 font-semibold">$1.64</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-sm text-muted leading-relaxed">
+              The typical range for NC regional wholesale water is{" "}
+              <strong className="text-foreground">$1.50 to $5.00 per 1,000
+              gallons</strong>. If Franklin County is paying four times the
+              partner rate and partner rates are consistent with these
+              benchmarks, Franklin could be paying $8 to $20 per 1,000 gallons,
+              approaching residential retail pricing.
+            </p>
+            <p className="mt-3 text-xs text-subtle">
+              Sources:{" "}
+              <a href="https://dashboards.efc.sog.unc.edu/nc" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                UNC EFC NC Water Rates Dashboard
+              </a>,{" "}
+              <a href="https://www.ashevillenc.gov/service/rates-fees/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                Asheville Rates
+              </a>,{" "}
+              <a href="https://www.johnstonnc.gov/utilities/dPDFs/FeePagetActive1-9.cfm" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
+                Johnston County Fee Schedule
+              </a>
+            </p>
+          </div>
+
+          {/* Volume pricing opportunity */}
+          <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-6">
+            <h4 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
+              The Revenue Opportunity
+            </h4>
+            <p className="text-sm text-muted leading-relaxed mb-4">
+              Franklin County&apos;s 50-year demand is 14.3 MGD. At wholesale
+              rates, even with volume discounts, this represents significant
+              long-term revenue for KLRWS. A volume-based declining block
+              rate structure, standard in NC wholesale agreements, would give
+              Franklin real savings at scale while guaranteeing KLRWS
+              consistent income:
+            </p>
+            <div className="overflow-x-auto mb-4">
+              <table className="w-full text-left text-sm">
+                <thead>
+                  <tr className="border-b border-card-border text-xs uppercase tracking-wider text-gold">
+                    <th className="px-4 py-2">Volume Tier</th>
+                    <th className="px-4 py-2">Daily Volume</th>
+                    <th className="px-4 py-2">Rate Approach</th>
+                  </tr>
+                </thead>
+                <tbody className="text-muted">
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-2 text-foreground font-semibold">Base</td>
+                    <td className="px-4 py-2">0 - 2 MGD</td>
+                    <td className="px-4 py-2">Standard wholesale rate (match partner rate)</td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-2 text-foreground font-semibold">Tier 2</td>
+                    <td className="px-4 py-2">2 - 5 MGD</td>
+                    <td className="px-4 py-2">10-15% volume discount</td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-2 text-foreground font-semibold">Tier 3</td>
+                    <td className="px-4 py-2">5 - 10 MGD</td>
+                    <td className="px-4 py-2">15-25% volume discount</td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-2 text-foreground font-semibold">Tier 4</td>
+                    <td className="px-4 py-2">10+ MGD</td>
+                    <td className="px-4 py-2">20-30% volume discount</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              On top of the per-gallon rate, a{" "}
+              <strong className="text-foreground">fixed monthly capacity
+              charge</strong> guarantees KLRWS revenue regardless of how much
+              Franklin actually draws in a given month. This is standard
+              practice in NC wholesale agreements.
+            </p>
+            <p className="text-sm text-foreground font-semibold">
+              At even a conservative $3.00/1,000 gallons on 5 MGD, that is
+              over $5.4 million per year in revenue for KLRWS. At full
+              buildout (14.3 MGD), the annual revenue potential exceeds
+              $15 million. That money stays in the region and funds the
+              system everyone depends on.
+            </p>
+          </div>
+
+          {/* Rate protections */}
+          <div className="rounded-lg border border-card-border bg-card p-6 mb-6">
+            <h4 className="mb-3 text-sm font-bold uppercase tracking-widest text-blue">
+              Rate Protections That Must Be in Any Agreement
+            </h4>
+            <ul className="space-y-3">
+              {[
+                {
+                  title: "Floor rate.",
+                  desc: "Franklin's per-gallon rate can never drop below KLRWS's actual cost of production. The system cannot sell water at a loss.",
+                },
+                {
+                  title: "CPI escalator.",
+                  desc: "Annual rate increases tied to the Consumer Price Index or actual operating cost increases, whichever is greater. The 0.025% annual escalator Franklin offered in 2021 is not serious. Standard practice is 2-3% per year.",
+                },
+                {
+                  title: "Most-favored-customer clause.",
+                  desc: "Franklin's effective rate per gallon can never be lower than what Henderson and Vance County residents pay. Bulk discounts for volume are appropriate, but Franklin cannot get a better deal than the communities that built the system.",
+                },
+                {
+                  title: "Minimum purchase commitment.",
+                  desc: "Franklin commits to purchasing a minimum volume each year, increasing on a ramp-up schedule. This protects KLRWS from investing in capacity that Franklin then chooses not to use.",
+                },
+              ].map((item, i) => (
+                <li key={i} className="flex gap-3">
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-blue" />
+                  <span className="text-sm text-muted">
+                    <strong className="text-foreground">{item.title}</strong>{" "}
+                    {item.desc}
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Accountability */}
+          <div className="rounded-lg border-2 border-gold/50 bg-gold/10 p-6 mb-8">
+            <h4 className="mb-3 text-sm font-bold uppercase tracking-widest text-gold">
+              A Call to Henderson: Come to the Table
+            </h4>
+            <p className="text-sm text-foreground leading-relaxed mb-3">
+              Henderson has said no to Franklin County for years. That cannot
+              continue. Every time Henderson refuses to negotiate, Franklin
+              County goes to the General Assembly or the Army Corps, and the
+              outcome gets worse for everyone in the region.
+            </p>
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              SB 320 in 2019 happened because negotiations stalled. SB 214
+              Section 5 in 2026 happened because negotiations stalled. This
+              letter happened because negotiations stalled. The pattern is
+              clear: when Henderson does not engage, Franklin escalates.
+            </p>
+            <p className="text-sm text-foreground leading-relaxed font-semibold mb-3">
+              This deal is worth tens of millions of dollars in long-term
+              revenue for KLRWS. Franklin County is offering to pay for its own
+              infrastructure. The money is real. The demand is real. The
+              alternative to a negotiated deal is a forced outcome that benefits
+              no one in this region.
+            </p>
+            <p className="text-sm text-muted leading-relaxed">
+              Henderson controls 60% of KLRWS. That comes with the
+              responsibility to lead, not just to hold. Citizens of Henderson
+              and Vance County should be asking their elected officials and
+              city management: what is our counteroffer? Because right now,
+              the only proposals on the table are coming from Franklin County.
+            </p>
+          </div>
+
           {/* What Henderson gives up */}
           <div className="rounded-lg border border-red/30 bg-red/10 p-6 mb-8">
             <h3 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
