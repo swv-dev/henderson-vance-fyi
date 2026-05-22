@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1080px;
+    background: #0f1729;
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 90px;
+  }
+  .label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #5b9bd5;
+    margin-bottom: 20px;
+  }
+  .headline {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 24px;
+  }
+  .headline .gold { color: #d4a843; }
+  .divider {
+    width: 70px;
+    height: 4px;
+    background: #d4a843;
+    margin-bottom: 28px;
+  }
+  .stat-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .stat-box {
+    background: rgba(91, 155, 213, 0.08);
+    border: 1px solid rgba(91, 155, 213, 0.2);
+    border-radius: 12px;
+    padding: 24px;
+    text-align: center;
+  }
+  .stat-box.gold-border {
+    border-color: rgba(212, 168, 67, 0.3);
+    background: rgba(212, 168, 67, 0.08);
+  }
+  .stat-num {
+    font-size: 38px;
+    font-weight: 800;
+    color: #d4a843;
+    margin-bottom: 6px;
+  }
+  .stat-box.gold-border .stat-num { color: #d4a843; }
+  .stat-label {
+    font-size: 14px;
+    color: #8899aa;
+    line-height: 1.4;
+  }
+  .highlight-box {
+    background: rgba(212, 168, 67, 0.1);
+    border: 1px solid rgba(212, 168, 67, 0.3);
+    border-radius: 12px;
+    padding: 24px;
+    margin-bottom: 20px;
+  }
+  .highlight-box p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #a0aec0;
+  }
+  .highlight-box strong { color: #e2e8f0; }
+  .highlight-box .gold { color: #d4a843; font-weight: 800; }
+  .source {
+    font-size: 13px;
+    color: #4a5568;
+  }
+  .site-brand {
+    position: absolute;
+    bottom: 36px;
+    right: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #4a5568;
+  }
+  .site-brand .gold { color: #d4a843; }
+</style>
+</head>
+<body>
+  <div class="label">Kerr Lake by the Numbers</div>
+  <div class="headline">335 Billion Gallons.<br><span class="gold">2.1% Allocated.</span></div>
+  <div class="divider"></div>
+
+  <div class="stat-grid">
+    <div class="stat-box gold-border">
+      <div class="stat-num">335B gal</div>
+      <div class="stat-label">Usable conservation pool</div>
+    </div>
+    <div class="stat-box gold-border">
+      <div class="stat-num">48,900 ac</div>
+      <div class="stat-label">Surface area at full pool</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num" style="color:#5b9bd5;">2.1%</div>
+      <div class="stat-label">Formally allocated for water supply</div>
+    </div>
+    <div class="stat-box">
+      <div class="stat-num" style="color:#5b9bd5;">99.77%</div>
+      <div class="stat-label">Current lake level (May 2026)</div>
+    </div>
+  </div>
+
+  <div class="highlight-box">
+    <p>The unallocated 98% serves <strong>hydropower, recreation, fish and wildlife, and downstream ecosystems</strong>. It is not &quot;free&quot; water. Any new allocation competes with these purposes.</p>
+  </div>
+
+  <div class="source">Source: USACE Pertinent Data, kerr.uslakes.info</div>
+  <div class="site-brand">henderson-vance.<span class="gold">fyi</span></div>
+</body>
+</html>

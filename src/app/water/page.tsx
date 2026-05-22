@@ -14,6 +14,19 @@ export const metadata: Metadata = {
   },
 };
 
+const franklinCards = [
+  { src: "/carousel/franklin-01-hook.png", alt: "A formal proposal for our water system is on the table" },
+  { src: "/carousel/franklin-02-letter.png", alt: "Two options - what the Preble letter proposes" },
+  { src: "/carousel/franklin-03-ownership.png", alt: "Who owns KLRWS - Henderson 60%, Oxford 20%, Warren 20%" },
+  { src: "/carousel/franklin-04-math.png", alt: "The math doesn't work - 6.9 + 14.3 = 21.2 MGD exceeds both caps" },
+  { src: "/carousel/franklin-05-kerrlake.png", alt: "Kerr Lake by the numbers - 335 billion gallons, 2.1% allocated" },
+  { src: "/carousel/franklin-06-stakes.png", alt: "What each side brings to the table" },
+  { src: "/carousel/franklin-07-revenue.png", alt: "This deal is worth $15M+ per year in revenue" },
+  { src: "/carousel/franklin-08-pattern.png", alt: "When negotiations stall, everyone loses" },
+  { src: "/carousel/franklin-09-protections.png", alt: "A deal can work but only with these protections" },
+  { src: "/carousel/franklin-10-cta.png", alt: "Read the full analysis at henderson-vance.fyi/water" },
+];
+
 const sb214Cards = [
   { src: "/carousel/sb214-card-01-hook.png", alt: "SB 214 - Franklin County's power grab over Kerr Lake" },
   { src: "/carousel/sb214-card-02-language.png", alt: "The exact bill language from Part V" },
@@ -2555,8 +2568,42 @@ export default function WaterPage() {
         </div>
       </section>
 
-      {/* Visual Cards */}
-      <section id="cards" className="px-6 py-16 bg-navy/30">
+      {/* Franklin Letter Cards */}
+      <section id="franklin-cards" className="px-6 py-16 bg-navy/30">
+        <div className="mx-auto max-w-5xl">
+          <h2 className="mb-4 text-center text-2xl font-extrabold md:text-3xl">
+            Share These <span className="text-gold">Cards</span>
+          </h2>
+          <p className="mb-2 text-center text-sm text-muted">
+            Franklin County letter, KLRWS ownership, Kerr Lake numbers, and
+            what a fair deal looks like. 10 cards, every fact sourced.
+          </p>
+          <p className="mb-10 text-center text-xs text-subtle">
+            Save and share on social media. Click any card to view full size.
+          </p>
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+            {franklinCards.map((card) => (
+              <a
+                key={card.src}
+                href={card.src}
+                target="_blank"
+                className="group overflow-hidden rounded-lg border border-card-border transition hover:border-gold/40"
+              >
+                <Image
+                  src={card.src}
+                  alt={card.alt}
+                  width={540}
+                  height={540}
+                  className="h-auto w-full transition group-hover:scale-[1.02]"
+                />
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SB 214 Visual Cards */}
+      <section id="cards" className="px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <h2 className="mb-4 text-center text-2xl font-extrabold md:text-3xl">
             Share These <span className="text-gold">Cards</span>

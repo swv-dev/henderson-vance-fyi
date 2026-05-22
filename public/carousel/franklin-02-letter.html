@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1080px;
+    background: #0f1729;
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 90px;
+  }
+  .label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #5b9bd5;
+    margin-bottom: 20px;
+  }
+  .headline {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 24px;
+  }
+  .headline .gold { color: #d4a843; }
+  .divider {
+    width: 70px;
+    height: 4px;
+    background: #d4a843;
+    margin-bottom: 24px;
+  }
+  .body {
+    font-size: 20px;
+    line-height: 1.6;
+    color: #a0aec0;
+    margin-bottom: 24px;
+  }
+  .body strong { color: #e2e8f0; }
+  .two-options {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .option {
+    flex: 1;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .option-1 {
+    background: rgba(91, 155, 213, 0.08);
+    border: 1px solid rgba(91, 155, 213, 0.2);
+  }
+  .option-2 {
+    background: rgba(212, 168, 67, 0.08);
+    border: 1px solid rgba(212, 168, 67, 0.2);
+  }
+  .option-label {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .option-1 .option-label { color: #5b9bd5; }
+  .option-2 .option-label { color: #d4a843; }
+  .option-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #e2e8f0;
+    margin-bottom: 6px;
+  }
+  .option-desc {
+    font-size: 15px;
+    color: #8899aa;
+    line-height: 1.4;
+  }
+  .sent-to {
+    font-size: 16px;
+    color: #8899aa;
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+  .sent-to strong { color: #a0aec0; }
+  .source {
+    font-size: 13px;
+    color: #4a5568;
+  }
+  .site-brand {
+    position: absolute;
+    bottom: 36px;
+    right: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #4a5568;
+  }
+  .site-brand .gold { color: #d4a843; }
+</style>
+</head>
+<body>
+  <div class="label">What the Letter Proposes</div>
+  <div class="headline">Two Options.<br><span class="gold">One Conversation.</span></div>
+  <div class="divider"></div>
+  <div class="body">
+    Franklin County Manager Ryan Preble outlined two paths forward for KLRWS partnership. The letter was sent to the city managers of Henderson, Oxford, and Warren County on May 21, 2026.
+  </div>
+
+  <div class="two-options">
+    <div class="option option-1">
+      <div class="option-label">Option 1</div>
+      <div class="option-title">51% ownership stake</div>
+      <div class="option-desc">At fair market value. A negotiating position, not a realistic outcome.</div>
+    </div>
+    <div class="option option-2">
+      <div class="option-label">Option 2</div>
+      <div class="option-title">Lower stake + expansion rights</div>
+      <div class="option-desc">Ownership proportional to investment. Franklin pays for its own infrastructure.</div>
+    </div>
+  </div>
+
+  <div class="sent-to">
+    <strong>Also sent to:</strong> General Assembly members, Granville County, SGWASA, attorneys, Henderson Dispatch, Warren Dispatch, Franklin Times, WRAL
+  </div>
+  <div class="source">Full letter available at henderson-vance.fyi/water</div>
+  <div class="site-brand">henderson-vance.<span class="gold">fyi</span></div>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1080px;
+    background: #0f1729;
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 90px;
+  }
+  .label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #5b9bd5;
+    margin-bottom: 20px;
+  }
+  .headline {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 24px;
+  }
+  .headline .gold { color: #d4a843; }
+  .divider {
+    width: 70px;
+    height: 4px;
+    background: #d4a843;
+    margin-bottom: 28px;
+  }
+  .owner-row {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 16px;
+  }
+  .owner-pct {
+    font-size: 42px;
+    font-weight: 800;
+    min-width: 130px;
+    text-align: right;
+  }
+  .owner-pct.gold { color: #d4a843; }
+  .owner-pct.blue { color: #5b9bd5; }
+  .owner-pct.red { color: #e05050; }
+  .owner-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #a0aec0;
+  }
+  .owner-name strong { color: #e2e8f0; }
+  .bar {
+    height: 8px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  .bar-henderson { width: 60%; background: #d4a843; }
+  .bar-oxford { width: 20%; background: #5b9bd5; }
+  .bar-warren { width: 20%; background: #5b9bd5; }
+  .bar-franklin { width: 0%; background: #e05050; border: 2px dashed #e05050; min-width: 40px; }
+  .footer-note {
+    margin-top: 24px;
+    font-size: 16px;
+    color: #8899aa;
+    line-height: 1.5;
+  }
+  .footer-note strong { color: #e2e8f0; }
+  .site-brand {
+    position: absolute;
+    bottom: 36px;
+    right: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #4a5568;
+  }
+  .site-brand .gold { color: #d4a843; }
+</style>
+</head>
+<body>
+  <div class="label">Know Your Water System</div>
+  <div class="headline">Who Owns <span class="gold">KLRWS</span></div>
+  <div class="divider"></div>
+
+  <div class="owner-row">
+    <div class="owner-pct gold">60%</div>
+    <div><div class="owner-name"><strong>City of Henderson</strong></div><div style="font-size:15px;color:#8899aa;">Built it. Operates it. Majority owner.</div></div>
+  </div>
+  <div class="bar bar-henderson"></div>
+
+  <div class="owner-row">
+    <div class="owner-pct blue">20%</div>
+    <div class="owner-name"><strong>City of Oxford</strong></div>
+  </div>
+  <div class="bar bar-oxford"></div>
+
+  <div class="owner-row">
+    <div class="owner-pct blue">20%</div>
+    <div class="owner-name"><strong>Warren County</strong></div>
+  </div>
+  <div class="bar bar-warren"></div>
+
+  <div class="owner-row">
+    <div class="owner-pct red">0%</div>
+    <div><div class="owner-name"><strong>Franklin County</strong></div><div style="font-size:15px;color:#e05050;">Not an owner. Wholesale customer only.</div></div>
+  </div>
+  <div class="bar bar-franklin"></div>
+
+  <div class="footer-note">
+    Franklin County wants <strong>51%</strong> of a system it did not build, does not operate, and has never invested in.
+  </div>
+  <div class="site-brand">henderson-vance.<span class="gold">fyi</span></div>
+</body>
+</html>

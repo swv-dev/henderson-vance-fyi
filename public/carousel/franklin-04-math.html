@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1080px;
+    background: #0f1729;
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 90px;
+  }
+  .label {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #e05050;
+    margin-bottom: 20px;
+  }
+  .headline {
+    font-size: 42px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 24px;
+  }
+  .headline .gold { color: #d4a843; }
+  .headline .red { color: #e05050; }
+  .divider {
+    width: 70px;
+    height: 4px;
+    background: #d4a843;
+    margin-bottom: 28px;
+  }
+  .math-row {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+  .math-num {
+    font-size: 52px;
+    font-weight: 800;
+    min-width: 200px;
+    text-align: right;
+  }
+  .math-num.white { color: #e2e8f0; }
+  .math-num.red { color: #e05050; }
+  .math-label {
+    font-size: 20px;
+    color: #a0aec0;
+  }
+  .math-label strong { color: #e2e8f0; }
+  .math-divider {
+    width: 100%;
+    height: 3px;
+    background: #2d3748;
+    margin: 12px 0 20px;
+  }
+  .cap-row {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 12px;
+    padding: 12px 20px;
+    background: rgba(224, 80, 80, 0.1);
+    border: 1px solid rgba(224, 80, 80, 0.3);
+    border-radius: 8px;
+  }
+  .cap-label {
+    font-size: 16px;
+    color: #a0aec0;
+  }
+  .cap-num {
+    font-size: 20px;
+    font-weight: 800;
+    color: #e05050;
+  }
+  .exceeded {
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #e05050;
+    margin-left: auto;
+  }
+  .site-brand {
+    position: absolute;
+    bottom: 36px;
+    right: 40px;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #4a5568;
+  }
+  .site-brand .gold { color: #d4a843; }
+</style>
+</head>
+<body>
+  <div class="label">The Numbers</div>
+  <div class="headline">The Math <span class="red">Doesn't Work</span></div>
+  <div class="divider"></div>
+
+  <div class="math-row">
+    <div class="math-num white">6.9 MGD</div>
+    <div class="math-label">Current KLRWS draw</div>
+  </div>
+  <div class="math-row">
+    <div class="math-num white">+ 14.3 MGD</div>
+    <div class="math-label">Franklin County's 50-year demand</div>
+  </div>
+  <div class="math-divider"></div>
+  <div class="math-row">
+    <div class="math-num red">= 21.2 MGD</div>
+    <div class="math-label"><strong>Exceeds both regulatory caps</strong></div>
+  </div>
+
+  <div style="margin-top: 24px;"></div>
+  <div class="cap-row">
+    <div class="cap-label">USACE allocation cap:</div>
+    <div class="cap-num">20 MGD</div>
+    <div class="exceeded">Exceeded</div>
+  </div>
+  <div class="cap-row">
+    <div class="cap-label">IBT certificate cap:</div>
+    <div class="cap-num">14.2 MGD</div>
+    <div class="exceeded">Exceeded</div>
+  </div>
+
+  <div class="site-brand">henderson-vance.<span class="gold">fyi</span></div>
+</body>
+</html>
