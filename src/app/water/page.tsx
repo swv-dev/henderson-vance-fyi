@@ -2043,20 +2043,41 @@ export default function WaterPage() {
             </h3>
             <p className="text-sm text-foreground leading-relaxed mb-3">
               This is not Henderson selling surplus water. This is Henderson
-              selling its own future.
+              selling its own future and its own stake in the system it built.
             </p>
             <p className="text-sm text-muted leading-relaxed mb-3">
+              <strong className="text-foreground">Growth capacity.</strong>{" "}
               KLRWS is expanding to 20 MGD. The gap between the current 6.9 MGD
               draw and 20 MGD is what Henderson and Vance County need for their
               own growth. Potential data centers. Population increases. Economic
               development. Every gallon allocated to Franklin is a gallon
               Henderson cannot use.
             </p>
-            <p className="text-sm text-muted leading-relaxed">
-              A deal can work, but the community must understand the trade-off.
-              Henderson gains revenue and a regional partnership. Henderson
-              gives up growth capacity and flexibility. Both sides of that
-              equation deserve honest public discussion.
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              <strong className="text-foreground">Ownership and control.</strong>{" "}
+              Any ownership stake given to Franklin comes directly out of
+              Henderson&apos;s 60%. Henderson is not just selling water. It is
+              permanently reducing its own share of control over the system it
+              built, funded, and operated for over 50 years. That percentage
+              does not come back.
+            </p>
+            <p className="text-sm text-muted leading-relaxed mb-3">
+              <strong className="text-foreground">And here is the real
+              risk.</strong>{" "}
+              Franklin County is simultaneously pursuing a $2 million Army Corps
+              reallocation study to secure its own independent 15.7 MGD
+              allocation directly from Kerr Lake. If that study succeeds and
+              Franklin builds its own treatment plant on the lake, Henderson
+              will have permanently given up ownership percentage and governance
+              control for nothing. Franklin would have its own water source AND
+              a stake in Henderson&apos;s system. Henderson would have less
+              control, less capacity, and no ongoing revenue to show for it.
+            </p>
+            <p className="text-sm text-foreground leading-relaxed font-semibold">
+              That is why the Kerr Lake exclusivity clause is non-negotiable.
+              If Franklin puts its own straw in Kerr Lake, their KLRWS
+              ownership forfeits. Henderson cannot sacrifice both water and
+              control and get nothing in return.
             </p>
           </div>
 
