@@ -2063,46 +2063,34 @@ export default function WaterPage() {
           </p>
 
           {/* Current rate situation */}
-          <div className="rounded-lg border border-red/30 bg-red/5 p-6 mb-6">
-            <h4 className="mb-3 text-sm font-bold uppercase tracking-widest text-red">
+          <div className="rounded-lg border border-card-border bg-card p-6 mb-6">
+            <h4 className="mb-3 text-sm font-bold uppercase tracking-widest text-blue">
               What Franklin Pays Now
             </h4>
             <p className="text-sm text-muted leading-relaxed mb-3">
-              Franklin County pays Henderson{" "}
-              <strong className="text-foreground text-red">$11.44 per 1,000
-              gallons</strong> for bulk municipal water through KLRWS. For
-              comparison, the highest wholesale rate we found anywhere in
-              North Carolina is $4.62 (Fayetteville to Hoke County).
-              Franklin County is paying{" "}
-              <strong className="text-foreground">more than double the most
-              expensive wholesale rate in the state</strong>.
-            </p>
-            <p className="text-sm text-muted leading-relaxed mb-3">
-              Rep. Matthew Winslow (R-Franklin) stated publicly that Henderson
-              charges Franklin County{" "}
+              The exact wholesale rate Franklin County pays Henderson for
+              KLRWS water is not published in any publicly available document.
+              However, Rep. Matthew Winslow (R-Franklin) stated publicly that
+              Henderson charges Franklin County{" "}
               <strong className="text-foreground">&quot;four times as much as
               other customers who receive water from the compact.&quot;</strong>{" "}
-              At $11.44, the math checks out: if KLRWS partner rates are
-              approximately $2.85/1,000 gallons, the 4x claim is accurate.
+              Henderson Mayor Melissa Elliott disputed the framing but did not
+              challenge the numbers.
             </p>
             <p className="text-sm text-muted leading-relaxed mb-3">
-              Franklin County&apos;s residents then pay $12.53/1,000 gallons
-              over 2,000 gallons of consumption, with a $51.47 monthly base
-              rate. That means Franklin County is marking up only $1.09 per
-              1,000 gallons from its wholesale cost. Their residents are
-              essentially paying Henderson&apos;s wholesale rate as their
-              retail rate.
+              If KLRWS partner rates are consistent with NC wholesale
+              benchmarks ($2.50-$4.00/1,000 gallons), a 4x markup would put
+              Franklin County&apos;s rate at roughly{" "}
+              <strong className="text-foreground">$10-$16 per 1,000
+              gallons</strong>, approaching or exceeding residential retail
+              pricing. The actual rate is contained in the interlocal agreement
+              between Franklin County and Henderson and should be made public
+              as part of any negotiation.
             </p>
             <p className="text-xs text-subtle">
-              Sources:{" "}
+              Source:{" "}
               <a href="https://www.wral.com/news/nccapitol/water-access-bill-growth-franklin-vance-warren-halifax-county-nc-legislature-april-2026/" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
                 WRAL, April 26, 2026
-              </a>,{" "}
-              <a href="https://www.wunc.org/politics/2026-04-28/franklin-county-property-water-plant-push-back" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
-                WUNC
-              </a>,{" "}
-              <a href="https://www.franklincountync.gov/649/Future-Water" target="_blank" rel="noopener noreferrer" className="text-blue hover:text-gold transition">
-                Franklin County
               </a>
             </p>
           </div>
@@ -2152,13 +2140,12 @@ export default function WaterPage() {
             <p className="text-sm text-muted leading-relaxed">
               The typical range for NC regional wholesale water is{" "}
               <strong className="text-foreground">$1.50 to $5.00 per 1,000
-              gallons</strong>. Franklin County currently pays Henderson{" "}
-              <strong className="text-foreground">$11.44 per 1,000
-              gallons</strong> - more than double the highest rate in this
-              table and roughly four times what KLRWS partner communities
-              pay. A fair volume-based rate would bring Franklin closer to
-              these benchmarks while still generating significant revenue
-              for KLRWS.
+              gallons</strong>. If Franklin County is paying four times the
+              partner rate as Rep. Winslow stated, their current rate is
+              significantly above every benchmark in this table. A fair
+              volume-based rate would bring Franklin closer to these
+              benchmarks while still generating significant revenue for
+              KLRWS.
             </p>
             <p className="mt-3 text-xs text-subtle">
               Sources:{" "}
