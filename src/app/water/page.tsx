@@ -1790,7 +1790,7 @@ export default function WaterPage() {
               Current Lake Level (May 22, 2026)
             </h3>
             <p className="text-foreground font-semibold mb-2">
-              299.30 ft MSL &mdash; 99.77% of full pool
+              299.30 ft MSL - 99.77% of full pool
             </p>
             <p className="text-sm text-muted">
               North Carolina is experiencing its worst drought since the 1930s
@@ -1955,9 +1955,9 @@ export default function WaterPage() {
           </h2>
           <p className="mb-8 text-muted leading-relaxed">
             Franklin County&apos;s water challenge is real. A 51% ownership
-            stake is not the answer. But Option 2 in the Preble letter &mdash;
+            stake is not the answer. But Option 2 in the Preble letter -
             a lower percentage with the right to expand at Franklin&apos;s
-            cost &mdash; is a conversation worth having. If the terms are
+            cost - is a conversation worth having. If the terms are
             right, this could be a deal that works for everyone in the region.
             But the terms must be right.
           </p>
@@ -1985,7 +1985,7 @@ export default function WaterPage() {
 
           {/* Why option 2 can work */}
           <h3 className="mb-4 text-lg font-bold text-gold">
-            Why Option 2 Can Work &mdash; With Protections
+            Why Option 2 Can Work - With Protections
           </h3>
           <p className="mb-6 text-muted leading-relaxed">
             Franklin County paying for its own infrastructure while purchasing
