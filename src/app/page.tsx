@@ -100,27 +100,27 @@ export default function Home() {
             future of Henderson and Vance County.
           </p>
           <p className="mx-auto mb-10 max-w-xl text-sm text-subtle">
-            Two citizen-researched reports. 100+ cited sources. Not funded by any
+            Citizen-researched. 100+ cited sources. Not funded by any
             company, activist organization, or political campaign.
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href="#reports"
+              href="/sb730"
               className="rounded bg-gold px-8 py-3 text-sm font-bold uppercase tracking-widest text-background transition hover:bg-gold-dim"
             >
-              Read the Reports
+              SB 730 Analysis &rarr;
             </a>
             <a
-              href="/water"
+              href="#reports"
               className="rounded border border-gold/40 bg-gold/10 px-8 py-3 text-sm font-bold uppercase tracking-widest text-gold transition hover:bg-gold/20"
             >
-              SB 214 Update &rarr;
+              Read the Reports
             </a>
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
             <a href="/sb730" className="hover:text-gold transition text-gold font-semibold">SB 730 Analysis</a>
-            <a href="/water#franklin-letter" className="hover:text-gold transition text-red font-semibold">Franklin County Letter</a>
-            <a href="/economic-development" className="hover:text-gold transition text-gold font-semibold">Economic Development</a>
+            <a href="/water#franklin-letter" className="hover:text-gold transition">Franklin County Letter</a>
+            <a href="/economic-development" className="hover:text-gold transition">Economic Development</a>
             <a href="/water" className="hover:text-gold transition">SB 214: Section 5 Removed</a>
             <a href="#listening-session" className="hover:text-gold transition">Listening Session</a>
             <a href="#reports" className="hover:text-gold transition">Reports</a>
@@ -132,41 +132,6 @@ export default function Home() {
             <a href="#resources" className="hover:text-gold transition">Resources</a>
           </div>
         </div>
-      </section>
-
-      {/* Franklin County Letter Update */}
-      <section className="px-6 py-6">
-        <a
-          href="/water#franklin-letter"
-          className="group mx-auto block max-w-4xl rounded-lg border border-red/30 bg-red/5 p-6 md:p-8 transition hover:border-red/60 hover:bg-red/10"
-        >
-          <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-3">
-              <span className="shrink-0 rounded bg-red px-3 py-1 text-xs font-bold uppercase tracking-widest text-white">
-                Breaking
-              </span>
-              <p className="text-xs font-bold uppercase tracking-widest text-red">
-                May 21, 2026
-              </p>
-            </div>
-            <p className="text-2xl font-extrabold leading-tight md:text-3xl group-hover:text-gold transition">
-              Franklin County Demands 51% Stake in Our Water System
-            </p>
-            <p className="text-sm text-muted leading-relaxed max-w-3xl">
-              Franklin County Manager Ryan Preble sent a formal letter to
-              Henderson, Oxford, and Warren County demanding either a 51%
-              ownership stake in the Kerr Lake Regional Water System or the
-              right to expand at Franklin&apos;s cost. The letter was CC&apos;d to
-              the General Assembly, WRAL, the Henderson Dispatch, and
-              multiple attorneys. Deadline to respond: <strong className="text-foreground">June 21, 2026</strong>.
-              We read the full letter, researched every claim, and built
-              a complete analysis.
-            </p>
-            <span className="mt-2 inline-block text-sm font-bold text-gold group-hover:underline">
-              Read the full analysis, download the letter &rarr;
-            </span>
-          </div>
-        </a>
       </section>
 
       {/* SB 730 Analysis */}
@@ -242,21 +207,94 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Henderson Press Release - Response to Franklin County */}
+      <section className="px-6 py-6">
+        <div className="mx-auto max-w-4xl rounded-lg border border-card-border bg-card p-6 md:p-8">
+          <div className="flex flex-col gap-4">
+            <div className="flex items-center gap-3">
+              <p className="text-xs font-bold uppercase tracking-widest text-blue">
+                June 3, 2026
+              </p>
+            </div>
+            <p className="text-2xl font-extrabold leading-tight md:text-3xl">
+              Henderson Responds to Franklin County
+            </p>
+            <p className="text-sm text-muted leading-relaxed max-w-3xl">
+              The City of Henderson released a formal press release addressing
+              Franklin County&apos;s May 21 letter. City Manager Paylor Spruill stated
+              that Henderson will not enter into an agreement with Franklin County
+              &ldquo;until we know we can satisfy our own obligations.&rdquo; The
+              Partnership confirmed it is analyzing options and expects to propose
+              a solution before the end of the month.
+            </p>
+            <div className="md:flex md:gap-6 mt-2">
+              <div className="md:flex-1">
+                <p className="border-l-2 border-gold/40 pl-4 text-sm italic text-muted">
+                  &ldquo;Our first responsibility is to our residents, customers and
+                  taxpayers. We will not enter into an agreement with Franklin County,
+                  or anyone else, until we know we can satisfy our own obligations.&rdquo;
+                </p>
+                <p className="mt-2 text-xs text-subtle">
+                  Paylor Spruill, City Manager, City of Henderson
+                </p>
+              </div>
+              <div className="mt-4 md:mt-0 md:w-64 shrink-0">
+                <a href="/henderson-press-release-june-2026.jpg" target="_blank" rel="noopener noreferrer" className="group block overflow-hidden rounded-lg border border-card-border transition hover:border-gold/40">
+                  <Image
+                    src="/henderson-press-release-june-2026.jpg"
+                    alt="City of Henderson press release dated June 3, 2026, regarding the Kerr Lake Regional Water Partnership and Franklin County"
+                    width={400}
+                    height={520}
+                    className="h-auto w-full transition group-hover:scale-[1.02]"
+                  />
+                </a>
+                <p className="mt-2 text-xs text-subtle">Click to view full press release</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Franklin County Letter */}
+      <section className="px-6 py-6">
+        <a
+          href="/water#franklin-letter"
+          className="group mx-auto block max-w-4xl rounded-lg border border-card-border bg-card p-6 md:p-8 transition hover:border-gold/40"
+        >
+          <div className="flex flex-col gap-4">
+            <p className="text-xs font-bold uppercase tracking-widest text-subtle">
+              May 21, 2026
+            </p>
+            <p className="text-2xl font-extrabold leading-tight md:text-3xl group-hover:text-gold transition">
+              Franklin County Demands 51% Stake in Our Water System
+            </p>
+            <p className="text-sm text-muted leading-relaxed max-w-3xl">
+              Franklin County Manager Ryan Preble sent a formal letter to
+              Henderson, Oxford, and Warren County demanding either a 51%
+              ownership stake in the Kerr Lake Regional Water System or the
+              right to expand at Franklin&apos;s cost. The letter was CC&apos;d to
+              the General Assembly, WRAL, the Henderson Dispatch, and
+              multiple attorneys. The June 21 deadline has passed. Henderson
+              responded on June 3. We read the full letter, researched every
+              claim, and built a complete analysis.
+            </p>
+            <span className="mt-2 inline-block text-sm font-bold text-gold group-hover:underline">
+              Read the full analysis, download the letter &rarr;
+            </span>
+          </div>
+        </a>
+      </section>
+
       {/* Economic Development Update */}
       <section className="px-6 py-6">
         <a
           href="/economic-development"
-          className="group mx-auto block max-w-4xl rounded-lg border border-gold/30 bg-gold/5 p-6 md:p-8 transition hover:border-gold/60 hover:bg-gold/10"
+          className="group mx-auto block max-w-4xl rounded-lg border border-card-border bg-card p-6 md:p-8 transition hover:border-gold/40"
         >
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-3">
-              <span className="shrink-0 rounded bg-gold px-3 py-1 text-xs font-bold uppercase tracking-widest text-background">
-                New
-              </span>
-              <p className="text-xs font-bold uppercase tracking-widest text-gold">
-                May 5, 2026
-              </p>
-            </div>
+            <p className="text-xs font-bold uppercase tracking-widest text-subtle">
+              May 5, 2026
+            </p>
             <p className="text-2xl font-extrabold leading-tight md:text-3xl group-hover:text-gold transition">
               The Conversation Has Been Brought to the Table
             </p>
@@ -273,18 +311,13 @@ export default function Home() {
         </a>
       </section>
 
-      {/* SB 214 UPDATE BANNER */}
+      {/* SB 214 Section 5 Removed */}
       <section className="px-6 py-6">
-        <div className="mx-auto max-w-4xl rounded-lg border-2 border-gold/50 bg-gold/10 p-6 md:p-8">
+        <div className="mx-auto max-w-4xl rounded-lg border border-card-border bg-card p-6 md:p-8">
           <div className="flex flex-col gap-4">
-            <div className="flex items-center gap-3">
-              <span className="shrink-0 rounded bg-gold px-3 py-1 text-xs font-bold uppercase tracking-widest text-background">
-                Update
-              </span>
-              <p className="text-xs font-bold uppercase tracking-widest text-gold">
-                April 29, 2026
-              </p>
-            </div>
+            <p className="text-xs font-bold uppercase tracking-widest text-subtle">
+              April 29, 2026
+            </p>
             <p className="text-2xl font-extrabold leading-tight md:text-3xl">
               SB 214 Section 5 Has Been Removed
             </p>
@@ -599,10 +632,10 @@ export default function Home() {
         <div className="mx-auto max-w-3xl">
           <a
             href="/noise"
-            className="group block rounded-lg border border-gold/30 bg-gold/5 p-6 md:p-10 transition hover:border-gold/60 hover:bg-gold/10"
+            className="group block rounded-lg border border-card-border bg-card p-6 md:p-10 transition hover:border-gold/40"
           >
-            <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
-              New - April 2026
+            <p className="mb-2 text-xs font-bold uppercase tracking-widest text-subtle">
+              April 2026
             </p>
             <p className="mb-2 text-2xl font-extrabold group-hover:text-gold transition md:text-3xl">
               The Noise Question
@@ -690,8 +723,8 @@ export default function Home() {
               rel="noopener noreferrer"
               className="group flex flex-col rounded-lg border border-card-border bg-card p-8 transition hover:border-gold/40 hover:bg-card/80"
             >
-              <p className="mb-1 text-xs font-bold uppercase tracking-widest text-gold">
-                New - April 2026
+              <p className="mb-1 text-xs font-bold uppercase tracking-widest text-subtle">
+                April 2026
               </p>
               <h3 className="mb-2 text-xl font-bold group-hover:text-gold">
                 Data Centers and Vance County

@@ -50,9 +50,25 @@ export default function SB730Page() {
           <p className="mx-auto mb-4 max-w-2xl text-lg text-muted md:text-xl">
             The Ratepayer Protection Act and what it means for Vance County.
           </p>
-          <p className="mx-auto max-w-xl text-sm text-subtle">
+          <p className="mx-auto mb-10 max-w-xl text-sm text-subtle">
             Citizen-researched. Every claim sourced. Updated June 2026.
           </p>
+          <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
+            <a
+              href="/sb730/print"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded bg-gold px-8 py-3 text-sm font-bold uppercase tracking-widest text-background transition hover:bg-gold-dim"
+            >
+              Download / Print PDF
+            </a>
+            <a
+              href="#sources"
+              className="rounded border border-gold/40 bg-gold/10 px-8 py-3 text-sm font-bold uppercase tracking-widest text-gold transition hover:bg-gold/20"
+            >
+              View All 34 Sources
+            </a>
+          </div>
         </div>
       </section>
 
@@ -851,7 +867,129 @@ export default function SB730Page() {
         </div>
       </section>
 
-      {/* ── 11. Sources ── */}
+      {/* ── 11. Your Representatives ── */}
+      <section className="px-6 pb-14">
+        <div className="mx-auto max-w-4xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            Your Representatives
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-4 text-3xl font-extrabold">
+            Who to Contact About SB 730
+          </h2>
+          <p className="mb-8 max-w-2xl text-muted">
+            These are the state legislators who represent Vance County. Their
+            contact information is public record. Call, email, or write. Be
+            respectful and specific: ask them to amend SB 730.
+          </p>
+
+          <div className="grid gap-4 md:grid-cols-2 mb-8">
+            <div className="rounded border border-card-border bg-card p-5">
+              <p className="text-xs font-bold uppercase tracking-widest text-blue mb-2">NC Senate - District 11</p>
+              <p className="text-sm font-bold text-foreground">Sen. Lisa S. Barnes</p>
+              <p className="text-xs text-subtle mb-2">Franklin, Nash, Vance counties</p>
+              <p className="text-xs text-muted">919-715-3030</p>
+              <a href="mailto:lisa.barnes@ncleg.gov" className="text-xs text-blue hover:text-gold transition">lisa.barnes@ncleg.gov</a>
+            </div>
+            <div className="rounded border border-card-border bg-card p-5">
+              <p className="text-xs font-bold uppercase tracking-widest text-blue mb-2">NC House - District 7</p>
+              <p className="text-sm font-bold text-foreground">Rep. Matthew Winslow</p>
+              <p className="text-xs text-subtle mb-2">Franklin, Vance (partial)</p>
+              <p className="text-xs text-muted">919-715-3032</p>
+              <a href="mailto:matthew.winslow@ncleg.gov" className="text-xs text-blue hover:text-gold transition">matthew.winslow@ncleg.gov</a>
+            </div>
+            <div className="rounded border border-card-border bg-card p-5">
+              <p className="text-xs font-bold uppercase tracking-widest text-blue mb-2">NC House - District 32</p>
+              <p className="text-sm font-bold text-foreground">Rep. Bryan Cohn</p>
+              <p className="text-xs text-subtle mb-2">Granville, Vance (partial)</p>
+              <p className="text-xs text-muted">919-733-5824</p>
+              <a href="mailto:bryan.cohn@ncleg.gov" className="text-xs text-blue hover:text-gold transition">bryan.cohn@ncleg.gov</a>
+            </div>
+            <div className="rounded border border-card-border bg-card p-5">
+              <p className="text-xs font-bold uppercase tracking-widest text-blue mb-2">U.S. House - District 1</p>
+              <p className="text-sm font-bold text-foreground">Rep. Don Davis</p>
+              <p className="text-xs text-subtle mb-2">Eastern NC incl. Vance, Warren, Halifax</p>
+              <p className="text-xs text-muted">202-225-3101 (DC) &middot; 252-999-7600 (Rocky Mount)</p>
+              <a href="https://dondavis.house.gov" target="_blank" rel="noopener noreferrer" className="text-xs text-blue hover:text-gold transition">dondavis.house.gov</a>
+            </div>
+          </div>
+
+          <div className="mb-8">
+            <h3 className="mb-1 text-lg font-bold text-gold">
+              Vance County Board of Commissioners
+            </h3>
+            <p className="mb-4 text-xs text-subtle">
+              122 Young Street, Suite B, Henderson, NC 27536 &middot; 252-738-2001
+            </p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-left text-sm">
+                <thead>
+                  <tr className="border-b border-card-border text-xs uppercase tracking-wider text-blue">
+                    <th className="px-4 py-3">Name</th>
+                    <th className="px-4 py-3">District</th>
+                    <th className="px-4 py-3">Phone</th>
+                    <th className="px-4 py-3">Email</th>
+                  </tr>
+                </thead>
+                <tbody className="text-muted">
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Carolyn Faines <span className="text-xs text-subtle">(Chair)</span></td>
+                    <td className="px-4 py-3">1</td>
+                    <td className="px-4 py-3">252-433-8018</td>
+                    <td className="px-4 py-3"><a href="mailto:cfaines@vancecounty.org" className="text-blue hover:text-gold transition">cfaines@vancecounty.org</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Valencia Louise Perry</td>
+                    <td className="px-4 py-3">2</td>
+                    <td className="px-4 py-3">252-432-5577</td>
+                    <td className="px-4 py-3"><a href="mailto:vperry@vancecounty.org" className="text-blue hover:text-gold transition">vperry@vancecounty.org</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Charisse Fain <span className="text-xs text-subtle">(Vice-Chair)</span></td>
+                    <td className="px-4 py-3">3</td>
+                    <td className="px-4 py-3">252-767-1563</td>
+                    <td className="px-4 py-3"><a href="mailto:cfain@vancecounty.org" className="text-blue hover:text-gold transition">cfain@vancecounty.org</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Dan Brummitt</td>
+                    <td className="px-4 py-3">4</td>
+                    <td className="px-4 py-3">252-432-4774</td>
+                    <td className="px-4 py-3"><a href="mailto:dbrummitt@vancecounty.org" className="text-blue hover:text-gold transition">dbrummitt@vancecounty.org</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Leo Kelly, Jr.</td>
+                    <td className="px-4 py-3">5</td>
+                    <td className="px-4 py-3">252-767-7957</td>
+                    <td className="px-4 py-3"><a href="mailto:lkellyjr@nc.rr.com" className="text-blue hover:text-gold transition">lkellyjr@nc.rr.com</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Yolanda J. Feimster</td>
+                    <td className="px-4 py-3">6</td>
+                    <td className="px-4 py-3">252-431-7579</td>
+                    <td className="px-4 py-3"><a href="mailto:yfeimster@aol.com" className="text-blue hover:text-gold transition">yfeimster@aol.com</a></td>
+                  </tr>
+                  <tr className="border-b border-card-border/50">
+                    <td className="px-4 py-3 font-semibold text-foreground">Thomas S. Hester, Jr.</td>
+                    <td className="px-4 py-3">7</td>
+                    <td className="px-4 py-3">252-738-9771</td>
+                    <td className="px-4 py-3"><a href="mailto:tshester@ncol.net" className="text-blue hover:text-gold transition">tshester@ncol.net</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <p className="text-sm text-muted">
+            When you call or email, be specific. Ask them to: remove the coal
+            retirement block in Section 10, lower the 100 MW threshold, add
+            campus aggregation language to prevent loopholes, and support HB
+            1213&apos;s state tax exemption repeal. Reference the bill by name:
+            Senate Bill 730.
+          </p>
+        </div>
+      </section>
+
+      {/* ── 12. Sources ── */}
       <section id="sources" className="px-6 pb-14">
         <div className="mx-auto max-w-4xl">
           <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
