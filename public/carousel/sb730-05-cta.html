@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1080px;
+    background: #0f1729;
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px 70px 70px;
+  }
+  .label {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #d4a843;
+    margin-bottom: 24px;
+  }
+  .headline {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 36px;
+  }
+  .headline .gold { color: #d4a843; }
+  .divider {
+    width: 70px;
+    height: 4px;
+    background: #d4a843;
+    margin-bottom: 36px;
+  }
+  .body {
+    font-size: 26px;
+    line-height: 1.6;
+    color: #a0aec0;
+    margin-bottom: 28px;
+  }
+  .body strong { color: #e2e8f0; }
+  .action-list {
+    margin-top: 16px;
+  }
+  .action-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 18px;
+    font-size: 22px;
+    color: #a0aec0;
+    line-height: 1.4;
+  }
+  .action-diamond {
+    color: #d4a843;
+    font-size: 14px;
+    margin-top: 6px;
+    flex-shrink: 0;
+  }
+  .bottom-link {
+    margin-top: 32px;
+    font-size: 20px;
+    color: #8899aa;
+    line-height: 1.5;
+  }
+  .bottom-link strong { color: #d4a843; }
+  .site-brand { position: absolute; bottom: 40px; right: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #4a5568;
+  }
+  .site-brand .gold { color: #d4a843; }
+</style>
+</head>
+<body>
+  <div class="label">Your Voice Matters</div>
+  <div class="headline">Tell Your<br><span class="gold">Representatives</span></div>
+  <div class="divider"></div>
+  <div class="body">
+    SB 730 is in the Senate Rules Committee. Before it moves forward, ask your legislators to:
+  </div>
+  <div class="action-list">
+    <div class="action-item">
+      <span class="action-diamond">&#9670;</span>
+      <span>Remove Section 10 (the coal retirement block)</span>
+    </div>
+    <div class="action-item">
+      <span class="action-diamond">&#9670;</span>
+      <span>Lower the threshold from 100 MW</span>
+    </div>
+    <div class="action-item">
+      <span class="action-diamond">&#9670;</span>
+      <span>Add campus aggregation to prevent loopholes</span>
+    </div>
+    <div class="action-item">
+      <span class="action-diamond">&#9670;</span>
+      <span>Repeal the state tax exemption</span>
+    </div>
+  </div>
+  <div class="bottom-link">
+    Full analysis with all sources at <strong>henderson-vance.fyi/sb730</strong>
+  </div>
+  <div class="site-brand">henderson-vance.<span class="gold">fyi</span></div>
+</body>
+</html>

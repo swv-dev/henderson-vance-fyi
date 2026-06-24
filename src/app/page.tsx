@@ -118,6 +118,7 @@ export default function Home() {
             </a>
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
+            <a href="/sb730" className="hover:text-gold transition text-gold font-semibold">SB 730 Analysis</a>
             <a href="/water#franklin-letter" className="hover:text-gold transition text-red font-semibold">Franklin County Letter</a>
             <a href="/economic-development" className="hover:text-gold transition text-gold font-semibold">Economic Development</a>
             <a href="/water" className="hover:text-gold transition">SB 214: Section 5 Removed</a>
@@ -166,6 +167,79 @@ export default function Home() {
             </span>
           </div>
         </a>
+      </section>
+
+      {/* SB 730 Analysis */}
+      <section className="px-6 py-6">
+        <a
+          href="/sb730"
+          className="group mx-auto block max-w-4xl rounded-lg border border-gold/30 bg-gold/5 p-6 md:p-8 transition hover:border-gold/60 hover:bg-gold/10"
+        >
+          <div className="flex flex-col gap-4">
+            <div className="flex items-center gap-3">
+              <span className="shrink-0 rounded bg-gold px-3 py-1 text-xs font-bold uppercase tracking-widest text-background">
+                New
+              </span>
+              <p className="text-xs font-bold uppercase tracking-widest text-gold">
+                June 2026
+              </p>
+            </div>
+            <p className="text-2xl font-extrabold leading-tight md:text-3xl group-hover:text-gold transition">
+              Senate Bill 730: The Ratepayer Protection Act
+            </p>
+            <p className="text-sm text-muted leading-relaxed max-w-3xl">
+              SB 730 passed the NC House 69-44. It mandates closed-loop cooling,
+              15-year contracts, and foreign ownership restrictions for data centers
+              above 100 MW. But it leaves the state&apos;s{" "}
+              <strong className="text-foreground">$45 to $57 million per year</strong> tax
+              exemption untouched and blocks coal plant retirements at an estimated
+              cost of <strong className="text-foreground">$128 million per year</strong> to
+              ratepayers. We compared all three competing bills, fact-checked the
+              rate hike claims, and built a graduated regulation framework with
+              proven solutions from Virginia, Pennsylvania, and Ireland.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 mt-2">
+              <span className="shrink-0 rounded bg-gold px-6 py-3 text-center text-sm font-bold uppercase tracking-widest text-background transition group-hover:bg-gold-dim">
+                Read the Full Analysis &rarr;
+              </span>
+              <span className="shrink-0 rounded border border-gold/40 bg-gold/5 px-6 py-3 text-center text-sm font-bold uppercase tracking-widest text-gold transition group-hover:bg-gold/15">
+                Download PDF &rarr;
+              </span>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      {/* SB 730 Key Facts Grid */}
+      <section className="px-6 py-6">
+        <div className="mx-auto max-w-4xl">
+          <div className="grid gap-4 md:grid-cols-3">
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <p className="text-2xl font-extrabold text-gold md:text-3xl">$450M/yr</p>
+              <p className="mt-1 text-sm font-semibold text-foreground">Tax Exemption at Scale</p>
+              <p className="mt-2 text-xs text-subtle leading-relaxed">
+                SB 730 leaves NC&apos;s data center sales tax exemption fully intact. No
+                sunset. No expiration. One of only 7 states.
+              </p>
+            </div>
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <p className="text-2xl font-extrabold text-red md:text-3xl">$128M/yr</p>
+              <p className="mt-1 text-sm font-semibold text-foreground">Coal Plant Subsidy</p>
+              <p className="mt-2 text-xs text-subtle leading-relaxed">
+                Section 10 blocks coal retirements until new nuclear is permitted.
+                Coal runs 30% more expensive per MWh than clean energy.
+              </p>
+            </div>
+            <div className="rounded-lg border border-card-border bg-card p-5">
+              <p className="text-2xl font-extrabold text-blue md:text-3xl">100 MW</p>
+              <p className="mt-1 text-sm font-semibold text-foreground">Threshold Outlier</p>
+              <p className="mt-2 text-xs text-subtle leading-relaxed">
+                86% of utility tariffs nationally set their threshold below 100 MW.
+                Virginia uses 25 MW. Tennessee uses 50 MW. NC is the outlier.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* Economic Development Update */}
@@ -1176,6 +1250,11 @@ export default function Home() {
                 State &amp; Federal
               </h3>
               <ul className="space-y-3">
+                <ResourceLink
+                  href="https://www.ncleg.gov/BillLookUp/2025/S730"
+                  title="NC SB 730 - Ratepayer Protection Act"
+                  desc="Data center regulation + CEPS/nuclear provisions"
+                />
                 <ResourceLink
                   href="https://www.ncleg.gov/BillLookUp/2025/SB%20266"
                   title="NC SB 266 - Clean Energy Rollback"

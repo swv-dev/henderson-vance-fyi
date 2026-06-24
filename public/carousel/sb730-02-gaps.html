@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    width: 1080px;
+    height: 1080px;
+    background: #0f1729;
+    font-family: -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    color: #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px 70px 70px;
+  }
+  .label {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #d4a843;
+    margin-bottom: 24px;
+  }
+  .headline {
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 1.15;
+    margin-bottom: 36px;
+  }
+  .headline .gold { color: #d4a843; }
+  .divider {
+    width: 70px;
+    height: 4px;
+    background: #d4a843;
+    margin-bottom: 36px;
+  }
+  .body {
+    font-size: 26px;
+    line-height: 1.6;
+    color: #a0aec0;
+    margin-bottom: 40px;
+  }
+  .body strong { color: #e2e8f0; }
+  .fact-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 16px;
+  }
+  .fact-box {
+    flex: 1;
+    background: rgba(212, 168, 67, 0.08);
+    border: 1px solid rgba(212, 168, 67, 0.2);
+    border-radius: 10px;
+    padding: 18px;
+    text-align: center;
+  }
+  .fact-num {
+    font-size: 32px;
+    font-weight: 800;
+    color: #d4a843;
+    margin-bottom: 4px;
+  }
+  .fact-label {
+    font-size: 13px;
+    color: #8899aa;
+    line-height: 1.3;
+  }
+  .site-brand { position: absolute; bottom: 40px; right: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #4a5568;
+  }
+  .site-brand .gold { color: #d4a843; }
+</style>
+</head>
+<body>
+  <div class="label">What the Bill Misses</div>
+  <div class="headline">Two <span class="gold">Gaps</span> You<br>Should Know About</div>
+  <div class="divider"></div>
+  <div class="body">
+    SB 730 leaves NC's data center tax exemption completely untouched. That exemption costs the state <strong>$45 to $57 million per year</strong> today, growing to <strong>$450 million per year</strong> at scale. The bill also blocks Duke Energy from retiring aging coal plants until a new nuclear facility is permitted, costing ratepayers an estimated <strong>$128 million per year</strong>.
+  </div>
+  <div class="fact-row">
+    <div class="fact-box">
+      <div class="fact-num">$450M/yr</div>
+      <div class="fact-label">Tax exemption at scale</div>
+    </div>
+    <div class="fact-box">
+      <div class="fact-num">$128M/yr</div>
+      <div class="fact-label">Coal plant subsidy</div>
+    </div>
+    <div class="fact-box">
+      <div class="fact-num">No sunset</div>
+      <div class="fact-label">Exemption never expires</div>
+    </div>
+  </div>
+  <div class="site-brand">henderson-vance.<span class="gold">fyi</span></div>
+</body>
+</html>
