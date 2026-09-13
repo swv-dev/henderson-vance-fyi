@@ -603,6 +603,26 @@ export default function NatelliFilingPage() {
             </p>
           </div>
 
+          {/* Drought context */}
+          <div className="mt-6 rounded-lg border border-red/30 bg-red/10 p-5">
+            <p className="text-xs font-bold uppercase tracking-widest text-red mb-2">
+              Drought - September 11, 2026
+            </p>
+            <p className="text-sm text-muted leading-relaxed">
+              The U.S. Army Corps of Engineers reports Kerr Reservoir is at{" "}
+              <strong className="text-foreground">289.9 feet - 9.6 feet below the target elevation</strong> of
+              299.5 feet. Ten of the past 12 months had below-normal inflows, ranking in the{" "}
+              <strong className="text-foreground">top 10 driest inflows on record</strong>.
+              Six of those months were in the top 3 driest ever recorded. A Drought Management
+              Committee was assembled on August 6. Boat ramps are becoming inaccessible.
+              This is the reservoir Franklin County wants 15.7 MGD from, and the same water
+              system Natelli&apos;s campus would draw from.
+            </p>
+            <p className="mt-2 text-xs text-subtle">
+              Source: USACE Wilmington District News Release, September 11, 2026. Boydton, VA.
+            </p>
+          </div>
+
           <p className="mt-6 text-xs text-subtle">
             Sources: AKCP Data Center Water Footprint 2026, Introl WUE Guide,
             MOST Policy Initiative, WUNC April 2026, WRAL, Vantage Data
@@ -1050,6 +1070,11 @@ export default function NatelliFilingPage() {
                   src: "/natelli-docs/siteplan-09-stormwater.jpg",
                   label: "Site Plan - Stormwater Management",
                   desc: "Proposed wet ponds and SWM wetlands",
+                },
+                {
+                  src: "/natelli-docs/usace-drought-release-sept2026.jpg",
+                  label: "USACE News Release - Sept 11, 2026",
+                  desc: "Kerr Lake 9.6 ft below target, driest inflows on record",
                 },
               ].map((doc) => (
                 <a
