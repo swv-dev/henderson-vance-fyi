@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import SignupForm from "./signup-form";
 
 export const metadata: Metadata = {
@@ -2720,6 +2721,23 @@ export default function WaterPage() {
                 Download PDF
               </div>
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Site Navigation */}
+      <section className="px-6 py-10 border-t border-card-border">
+        <div className="mx-auto max-w-4xl">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm">
+            <Link href="/" className="text-subtle hover:text-gold transition">Home</Link>
+            <Link href="/natelli-filing" className="text-subtle hover:text-gold transition">Natelli Filing</Link>
+            <Link href="/water" className="text-subtle hover:text-gold transition">Water &amp; SB 214</Link>
+            <Link href="/sb730" className="text-subtle hover:text-gold transition">SB 730</Link>
+            <Link href="/economic-development" className="text-subtle hover:text-gold transition">Economic Development</Link>
+            <Link href="/noise" className="text-subtle hover:text-gold transition">Noise Report</Link>
+            <Link href="/community" className="text-subtle hover:text-gold transition">Community Voice</Link>
+            <Link href="/#officials" className="text-subtle hover:text-gold transition font-semibold">Elected Officials</Link>
+            <Link href="/#resources" className="text-subtle hover:text-gold transition font-semibold">Resources</Link>
           </div>
         </div>
       </section>

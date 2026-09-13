@@ -1125,6 +1125,112 @@ export default function NatelliFilingPage() {
         </div>
       </section>
 
+      {/* ── Related Research ── */}
+      <section className="px-6 py-16">
+        <div className="mx-auto max-w-4xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            Related Research
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-8 text-3xl font-extrabold">
+            What We Already Know
+          </h2>
+          <div className="grid gap-4 md:grid-cols-2">
+            <Link
+              href="/noise"
+              className="group rounded-lg border border-card-border bg-card p-6 transition hover:border-gold/40"
+            >
+              <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Noise &amp; Infrasound</p>
+              <p className="text-sm font-bold group-hover:text-gold transition mb-2">
+                What does a data center actually sound like?
+              </p>
+              <p className="text-xs text-subtle">
+                20 visual cards on audible noise, infrasound, distance decay, and what good regulation looks like. Sourced from peer-reviewed research.
+              </p>
+            </Link>
+            <Link
+              href="/sb730"
+              className="group rounded-lg border border-card-border bg-card p-6 transition hover:border-gold/40"
+            >
+              <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">SB 730 Analysis</p>
+              <p className="text-sm font-bold group-hover:text-gold transition mb-2">
+                The Ratepayer Protection Act
+              </p>
+              <p className="text-xs text-subtle">
+                What SB 730 does, what it misses, and why it matters for Vance County. 100 MW threshold, cooling mandates, tax exemption gaps. Stalled in Senate since June.
+              </p>
+            </Link>
+            <Link
+              href="/economic-development"
+              className="group rounded-lg border border-card-border bg-card p-6 transition hover:border-gold/40"
+            >
+              <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Economic Development</p>
+              <p className="text-sm font-bold group-hover:text-gold transition mb-2">
+                The Conversation Has Been Brought to the Table
+              </p>
+              <p className="text-xs text-subtle">
+                Independent analysis of the State of Economic Development presentation. Jobs, tax revenue, incentives, and what other communities demanded. 40+ sources.
+              </p>
+            </Link>
+            <Link
+              href="/water"
+              className="group rounded-lg border border-card-border bg-card p-6 transition hover:border-gold/40"
+            >
+              <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">Water &amp; SB 214</p>
+              <p className="text-sm font-bold group-hover:text-gold transition mb-2">
+                The Kerr Lake Water Question
+              </p>
+              <p className="text-xs text-subtle">
+                SB 214 Section 5, the Franklin County letter, KLRWS ownership, Kerr Lake allocations, and the Army Corps reallocation study. Full timeline and analysis.
+              </p>
+            </Link>
+          </div>
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            <a
+              href="/reports/vance-county-data-center-report.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-3 rounded-lg border border-card-border bg-card p-4 transition hover:border-gold/40"
+            >
+              <span className="text-gold text-lg">&#8595;</span>
+              <div>
+                <p className="text-sm font-bold group-hover:text-gold transition">Data Centers and Vance County (PDF)</p>
+                <p className="text-xs text-subtle">69 cited sources. April 2026.</p>
+              </div>
+            </a>
+            <a
+              href="/reports/kerr-lake-report-v2.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex items-center gap-3 rounded-lg border border-card-border bg-card p-4 transition hover:border-gold/40"
+            >
+              <span className="text-gold text-lg">&#8595;</span>
+              <div>
+                <p className="text-sm font-bold group-hover:text-gold transition">Kerr Lake, Data Centers, and Recreation (PDF)</p>
+                <p className="text-xs text-subtle">48 cited sources. March 2026.</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Site Navigation */}
+      <section className="px-6 py-10 border-t border-card-border">
+        <div className="mx-auto max-w-4xl">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm">
+            <Link href="/" className="text-subtle hover:text-gold transition">Home</Link>
+            <Link href="/natelli-filing" className="text-subtle hover:text-gold transition">Natelli Filing</Link>
+            <Link href="/water" className="text-subtle hover:text-gold transition">Water &amp; SB 214</Link>
+            <Link href="/sb730" className="text-subtle hover:text-gold transition">SB 730</Link>
+            <Link href="/economic-development" className="text-subtle hover:text-gold transition">Economic Development</Link>
+            <Link href="/noise" className="text-subtle hover:text-gold transition">Noise Report</Link>
+            <Link href="/community" className="text-subtle hover:text-gold transition">Community Voice</Link>
+            <Link href="/#officials" className="text-subtle hover:text-gold transition font-semibold">Elected Officials</Link>
+            <Link href="/#resources" className="text-subtle hover:text-gold transition font-semibold">Resources</Link>
+          </div>
+        </div>
+      </section>
+
       {/* ── 9. Footer ── */}
       <footer className="border-t border-card-border px-6 py-10">
         <div className="mx-auto max-w-4xl text-center">

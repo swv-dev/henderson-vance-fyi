@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Economic Development - Henderson-Vance FYI",
@@ -77,6 +78,24 @@ function ConcernCard({
 export default function EconomicDevelopmentPage() {
   return (
     <main className="flex-1">
+      {/* Natelli Filing Banner */}
+      <section className="px-6 pt-6">
+        <Link
+          href="/natelli-filing"
+          className="group mx-auto block max-w-4xl rounded-lg border border-gold/30 bg-gold/5 p-4 transition hover:border-gold/60 hover:bg-gold/10"
+        >
+          <div className="flex items-center justify-between gap-4">
+            <div>
+              <p className="text-xs font-bold uppercase tracking-widest text-gold">September 9, 2026</p>
+              <p className="text-sm font-bold group-hover:text-gold transition">
+                Natelli has filed a 900 MW, 528-acre campus plan in Darby Township. The questions raised here are now directly relevant.
+              </p>
+            </div>
+            <span className="shrink-0 text-sm font-bold text-gold">Read the filing &rarr;</span>
+          </div>
+        </Link>
+      </section>
+
       {/* Hero */}
       <section className="px-6 py-16 md:py-24">
         <div className="mx-auto max-w-4xl">
@@ -1868,6 +1887,23 @@ export default function EconomicDevelopmentPage() {
               <Source href="https://canons.sog.unc.edu/2023/02/hit-the-pause-button-temporary-development-moratoria-in-north-carolina/" label="UNC SOG: Moratoria" /> |{" "}
               <Source href="https://chathamjournal.com/2026/04/25/developer-sues-chatham-county-the-data-center-pause-that-may-define-ncs-ai-era/" label="Chatham Journal: Eco TIP v. Chatham" />
             </p>
+          </div>
+        </div>
+      </section>
+
+      {/* Site Navigation */}
+      <section className="px-6 py-10 border-t border-card-border">
+        <div className="mx-auto max-w-4xl">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm">
+            <Link href="/" className="text-subtle hover:text-gold transition">Home</Link>
+            <Link href="/natelli-filing" className="text-subtle hover:text-gold transition">Natelli Filing</Link>
+            <Link href="/water" className="text-subtle hover:text-gold transition">Water &amp; SB 214</Link>
+            <Link href="/sb730" className="text-subtle hover:text-gold transition">SB 730</Link>
+            <Link href="/economic-development" className="text-subtle hover:text-gold transition">Economic Development</Link>
+            <Link href="/noise" className="text-subtle hover:text-gold transition">Noise Report</Link>
+            <Link href="/community" className="text-subtle hover:text-gold transition">Community Voice</Link>
+            <Link href="/#officials" className="text-subtle hover:text-gold transition font-semibold">Elected Officials</Link>
+            <Link href="/#resources" className="text-subtle hover:text-gold transition font-semibold">Resources</Link>
           </div>
         </div>
       </section>
