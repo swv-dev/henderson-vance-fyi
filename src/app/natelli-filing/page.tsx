@@ -449,7 +449,7 @@ export default function NatelliFilingPage() {
             Our original analysis estimated a single data center at 300,000 to
             1 million gallons per day. That figure is accurate for a single
             building in the 30–100 MW range. Natelli&apos;s filing changes the
-            scale entirely: 12 buildings, 900 MW, and a redline that
+            scale entirely: a 900 MW campus with up to 12 buildings, and a redline that
             specifically allows evaporative cooling.
           </p>
 

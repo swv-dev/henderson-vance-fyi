@@ -249,7 +249,7 @@ export default function Home() {
                 300,000 to 1 million gallons per day
               </p>
               <p className="text-xs text-subtle mt-1 italic">
-                This estimate applied to one building. Natelli has now filed for 12 buildings at 900 MW.
+                This estimate applied to one building. Natelli has now filed for a 900 MW campus with up to 12 buildings.
               </p>
             </div>
             <div className="rounded border border-gold/30 bg-gold/5 p-4">
