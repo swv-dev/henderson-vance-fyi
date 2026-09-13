@@ -76,7 +76,7 @@ const timeline = [
   { date: "June 3", event: "City of Henderson responds. City Manager Paylor Spruill states Henderson will not enter into an agreement 'until we know we can satisfy our own obligations.' Asks Franklin County to direct future communications to KLRWS partners, not media.", highlight: true },
   { date: "June 21", event: "Franklin County's 30-day deadline passes. No agreement reached. No public breakdown or follow-up reported." },
   { date: "Sept. 2", event: "Franklin County government publishes a post about a public meeting on water infrastructure and 30-50 year plans. The post is later removed with no replacement notice or follow-up." },
-  { date: "Sept. 9", event: "Natelli Holdings files a 900 MW multi-phase data center campus plan on 528 acres in Darby Township. At hybrid cooling, the campus would consume 3.6 to 6.2 million gallons per day from the same KLRWS system.", highlight: true },
+  { date: "Sept. 9", event: "Natelli Holdings files a 900 MW multi-phase data center campus plan on 528 acres off US-158. At hybrid cooling, the campus would consume 3.6 to 6.2 million gallons per day from the same KLRWS system.", highlight: true },
   { date: "Sept. 14", event: "Vance County Board of Commissioners holds public hearings on a 60-day data center moratorium, UDO text amendment, and a new rezoning application.", highlight: true },
 ];
 
@@ -2436,7 +2436,7 @@ export default function WaterPage() {
             <div className="space-y-3 text-sm text-muted">
               <p><strong className="text-foreground">June 21 deadline:</strong> Passed without agreement. No public breakdown or follow-up was reported.</p>
               <p><strong className="text-foreground">Army Corps NEPA study:</strong> Ongoing. The draft Environmental Impact Statement is expected fall 2027. A final decision is possible in 2028. The study is funded entirely by Franklin County.</p>
-              <p><strong className="text-foreground">September 9, 2026 -Natelli filing:</strong> Natelli Holdings filed a 900 MW multi-phase data center campus plan on 528 acres in Darby Township. At hybrid cooling, the campus would draw an estimated 3.6–6.2 million gallons per day from the same KLRWS system -on top of KLRWS&apos;s current 6.9 MGD draw and Franklin County&apos;s requested 15.7 MGD. No federal entity is currently modeling cumulative demand from data centers and Franklin County simultaneously. <a href="/natelli-filing#water-projections" className="text-blue hover:text-gold transition">See the full water analysis &rarr;</a></p>
+              <p><strong className="text-foreground">September 9, 2026 -Natelli filing:</strong> Natelli Holdings filed a 900 MW multi-phase data center campus plan on 528 acres off US-158. At hybrid cooling, the campus would draw an estimated 3.6–6.2 million gallons per day from the same KLRWS system -on top of KLRWS&apos;s current 6.9 MGD draw and Franklin County&apos;s requested 15.7 MGD. No federal entity is currently modeling cumulative demand from data centers and Franklin County simultaneously. <a href="/natelli-filing#water-projections" className="text-blue hover:text-gold transition">See the full water analysis &rarr;</a></p>
               <p><strong className="text-foreground">State Water Infrastructure Authority:</strong> The Authority meets September 16, 2026 in Raleigh. Franklin County&apos;s infrastructure needs may surface there.</p>
             </div>
             <p className="mt-4 text-xs text-subtle">

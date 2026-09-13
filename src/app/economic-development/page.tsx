@@ -88,7 +88,7 @@ export default function EconomicDevelopmentPage() {
             <div>
               <p className="text-xs font-bold uppercase tracking-widest text-gold">September 9, 2026</p>
               <p className="text-sm font-bold group-hover:text-gold transition">
-                Natelli has filed a 900 MW, 528-acre campus plan in Darby Township. The questions raised here are now directly relevant.
+                Natelli has filed a 900 MW, 528-acre campus plan off US-158. The questions raised here are now directly relevant.
               </p>
             </div>
             <span className="shrink-0 text-sm font-bold text-gold">Read the filing &rarr;</span>

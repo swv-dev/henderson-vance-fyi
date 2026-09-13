@@ -53,7 +53,7 @@ export default function NatelliFilingPage() {
           </h1>
           <p className="mx-auto mb-4 max-w-2xl text-lg text-muted md:text-xl">
             Natelli Holdings LLC filed a phased development plan for a 900 MW
-            data center campus on 528 acres in Darby Township. The same day,
+            data center campus on 528 acres between I-85 and US-158, east of Poplar Creek Road. The same day,
             they submitted a redlined version of the county&apos;s draft Unified
             Development Ordinance, weakening protections across the board. The
             moratorium has not been adopted.
@@ -94,7 +94,7 @@ export default function NatelliFilingPage() {
             </div>
             <div className="rounded-lg border border-card-border bg-card p-5">
               <p className="text-2xl font-extrabold text-gold md:text-3xl">528.92 acres</p>
-              <p className="mt-1 text-sm font-semibold text-foreground">Nine parcels in Darby Township</p>
+              <p className="mt-1 text-sm font-semibold text-foreground">Nine parcels between I-85 and US-158</p>
             </div>
             <div className="rounded-lg border border-card-border bg-card p-5">
               <p className="text-2xl font-extrabold text-gold md:text-3xl">Up to 12</p>
