@@ -135,7 +135,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* September 14, 2026 — Board of Commissioners Meeting (UPCOMING) */}
+      {/* September 14, 2026 -Board of Commissioners Meeting (UPCOMING) */}
       <section className="px-6 py-6">
         <div className="mx-auto max-w-4xl rounded-lg border border-gold/50 bg-gold/10 p-6 md:p-8">
           <div className="flex flex-col gap-4">
@@ -148,7 +148,7 @@ export default function Home() {
               </p>
             </div>
             <p className="text-2xl font-extrabold leading-tight md:text-3xl">
-              Board of Commissioners — Three Public Hearings
+              Board of Commissioners -Three Public Hearings
             </p>
             <p className="text-sm text-muted">
               122 Young Street, Henderson, NC
@@ -157,12 +157,12 @@ export default function Home() {
               <div className="rounded border border-gold/30 bg-gold/5 p-4">
                 <p className="text-xs font-bold uppercase tracking-widest text-gold mb-1">Public Hearing 1</p>
                 <p className="text-sm font-semibold text-foreground">ZMA26-002 Rezoning</p>
-                <p className="text-xs text-subtle mt-1">New rezoning application — follow-up to the April 20 ZMA26-001 vote</p>
+                <p className="text-xs text-subtle mt-1">New rezoning application -follow-up to the April 20 ZMA26-001 vote</p>
               </div>
               <div className="rounded border border-gold/30 bg-gold/5 p-4">
                 <p className="text-xs font-bold uppercase tracking-widest text-gold mb-1">Public Hearing 2</p>
                 <p className="text-sm font-semibold text-foreground">UDO Text Amendment</p>
-                <p className="text-xs text-subtle mt-1">Proposed changes to the Unified Development Ordinance — Natelli submitted a redlined version weakening protections</p>
+                <p className="text-xs text-subtle mt-1">Proposed changes to the Unified Development Ordinance -Natelli submitted a redlined version weakening protections</p>
               </div>
               <div className="rounded border border-gold/30 bg-gold/5 p-4">
                 <p className="text-xs font-bold uppercase tracking-widest text-gold mb-1">Public Hearing 3</p>
@@ -184,7 +184,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* September 9, 2026 — Natelli 900 MW Filing */}
+      {/* September 9, 2026 -Natelli 900 MW Filing */}
       <section className="px-6 py-6">
         <a
           href="/natelli-filing"
@@ -206,7 +206,7 @@ export default function Home() {
               Natelli Holdings filed a vested rights application on September 9, 2026,
               locking in approvals under the pre-moratorium rules. The filing reveals a{" "}
               <strong className="text-foreground">528-acre, 12-building, 4-million-square-foot campus</strong> to
-              be built across four phases — far larger than anything previously disclosed.
+              be built across four phases -far larger than anything previously disclosed.
               At 900 MW, this is not a single data center. It is a campus-scale industrial
               development. Natelli simultaneously submitted a{" "}
               <strong className="text-foreground">redlined UDO</strong> weakening the county&apos;s
@@ -223,7 +223,7 @@ export default function Home() {
         </a>
       </section>
 
-      {/* September 9, 2026 — Updated Water Projections */}
+      {/* September 9, 2026 -Updated Water Projections */}
       <section className="px-6 py-6">
         <a
           href="/natelli-filing#water-projections"
@@ -235,7 +235,7 @@ export default function Home() {
                 Updated
               </span>
               <p className="text-xs font-bold uppercase tracking-widest text-gold">
-                September 9, 2026 — Water Projections Revised Upward
+                September 9, 2026 -Water Projections Revised Upward
               </p>
             </div>
             <p className="text-2xl font-extrabold leading-tight md:text-3xl group-hover:text-gold transition">
@@ -243,7 +243,7 @@ export default function Home() {
             </p>
             <div className="mt-2 rounded border border-card-border/60 bg-card/60 p-4">
               <p className="text-xs font-bold uppercase tracking-widest text-subtle mb-2">
-                Original Estimate — Single Building, 30–100 MW
+                Original Estimate -Single Building, 30–100 MW
               </p>
               <p className="text-sm text-subtle line-through">
                 300,000 to 1 million gallons per day
@@ -254,7 +254,7 @@ export default function Home() {
             </div>
             <div className="rounded border border-gold/30 bg-gold/5 p-4">
               <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">
-                Updated Estimate — 900 MW Campus (Natelli Filed)
+                Updated Estimate -900 MW Campus (Natelli Filed)
               </p>
               <p className="text-sm text-muted leading-relaxed">
                 Hybrid cooling:{" "}
@@ -262,7 +262,8 @@ export default function Home() {
                 Evaporative (worst case):{" "}
                 <strong className="text-foreground">up to 10.3 million gallons per day</strong>.
                 At the midpoint, this equals the daily water demand of{" "}
-                <strong className="text-foreground">50,000 to 60,000 people</strong>.
+                <strong className="text-foreground">50,000 to 60,000 people</strong>,
+                more than the entire population of Vance County.
                 The KLRWS currently draws 6.9 MGD for all of Vance County.
               </p>
               <p className="text-xs text-subtle mt-3">
@@ -279,7 +280,7 @@ export default function Home() {
         </a>
       </section>
 
-      {/* June 2026 — SB 730 Analysis */}
+      {/* June 2026 -SB 730 Analysis */}
       <section className="px-6 py-6">
         <a
           href="/sb730"
@@ -354,7 +355,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* June 3, 2026 — Henderson Responds to Franklin County */}
+      {/* June 3, 2026 -Henderson Responds to Franklin County */}
       <section className="px-6 py-6">
         <div className="mx-auto max-w-4xl rounded-lg border border-card-border bg-card p-6 md:p-8">
           <div className="flex flex-col gap-4">
@@ -402,7 +403,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* May 21, 2026 — Franklin County Letter */}
+      {/* May 21, 2026 -Franklin County Letter */}
       <section className="px-6 py-6">
         <a
           href="/water#franklin-letter"
@@ -432,7 +433,7 @@ export default function Home() {
         </a>
       </section>
 
-      {/* May 5, 2026 — Economic Development Update */}
+      {/* May 5, 2026 -Economic Development Update */}
       <section className="px-6 py-6">
         <a
           href="/economic-development"
@@ -458,7 +459,7 @@ export default function Home() {
         </a>
       </section>
 
-      {/* April 29, 2026 — SB 214 Section 5 Removed */}
+      {/* April 29, 2026 -SB 214 Section 5 Removed */}
       <section className="px-6 py-6">
         <div className="mx-auto max-w-4xl rounded-lg border border-card-border bg-card p-6 md:p-8">
           <div className="flex flex-col gap-4">
@@ -494,11 +495,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* April 29, 2026 — Governor's Rural Listening Session */}
+      {/* April 29, 2026 -Governor's Rural Listening Session */}
       <section id="listening-session" className="px-6 py-6">
         <div className="mx-auto max-w-4xl rounded-lg border border-card-border bg-card p-6 md:p-8">
           <p className="mb-2 text-xs font-bold uppercase tracking-widest text-subtle">
-            Past Event — April 29, 2026
+            Past Event -April 29, 2026
           </p>
           <p className="mb-2 text-2xl font-extrabold md:text-3xl">
             Governor Stein&apos;s Rural Listening Session
@@ -516,11 +517,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* April 20, 2026 — ZMA26-001 Rezoning Vote */}
+      {/* April 20, 2026 -ZMA26-001 Rezoning Vote */}
       <section id="meeting" className="px-6 py-6">
         <div className="mx-auto max-w-4xl rounded-lg border border-red/40 bg-red/10 p-6 md:p-8">
           <p className="mb-2 text-xs font-bold uppercase tracking-widest text-red">
-            Past Meeting — ZMA26-001 Vote
+            Past Meeting -ZMA26-001 Vote
           </p>
           <p className="mb-2 text-2xl font-extrabold md:text-3xl">
             Monday, April 20, 2026 at 4:00 PM
@@ -546,7 +547,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* April 6, 2026 — What Citizens Said */}
+      {/* April 6, 2026 -What Citizens Said */}
       <section className="px-6 py-10">
         <div className="mx-auto max-w-4xl">
           <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
@@ -593,7 +594,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* March 26, 2026 — USACE NEPA Scoping */}
+      {/* March 26, 2026 -USACE NEPA Scoping */}
       <section id="slides" className="px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
@@ -715,7 +716,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Key Facts — What's Happening */}
+      {/* Key Facts -What's Happening */}
       <section className="px-6 py-16">
         <div className="mx-auto max-w-4xl">
           <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
@@ -758,7 +759,7 @@ export default function Home() {
                 4,700 petition signatures and public opposition from a U.S.
                 Representative. Apex then voted unanimously to draft a data center
                 moratorium. That same developer is now asking Vance County for the
-                same thing — and has now escalated to a 900 MW campus filing.
+                same thing -and has now escalated to a 900 MW campus filing.
               </p>
             </div>
 
@@ -838,9 +839,10 @@ export default function Home() {
                 <span className="line-through text-subtle">300,000 to 1 million gallons per day</span>.{" "}
                 <strong className="text-foreground">Updated:</strong> Natelli&apos;s filed 900 MW campus with
                 hybrid cooling would consume{" "}
-                <strong className="text-foreground">3.6 to 6.2 million gallons per day</strong> —
+                <strong className="text-foreground">3.6 to 6.2 million gallons per day</strong>,
                 equivalent to the daily water demand of{" "}
-                <strong className="text-foreground">50,000 to 60,000 people</strong>.
+                <strong className="text-foreground">50,000 to 60,000 people</strong>,
+                more than the entire population of Vance County.
                 Evaporative cooling worst case: up to 10.3 MGD.
                 The KLRWS currently draws 6.9 MGD. Franklin County is simultaneously
                 requesting 15.7 MGD from the same reservoir. No federal entity is
@@ -975,7 +977,7 @@ export default function Home() {
                 Board of Commissioners Meeting Masterfile
               </h3>
               <p className="mb-1 text-sm text-muted">
-                Official meeting packet — ZMA26-002, UDO text amendment, and moratorium hearings.
+                Official meeting packet -ZMA26-002, UDO text amendment, and moratorium hearings.
               </p>
               <p className="mb-6 text-xs text-subtle">
                 Vance County official document. Includes all three public hearing materials.

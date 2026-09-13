@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Natelli Files 900 MW Data Center Campus — Henderson-Vance FYI",
+  title: "Natelli Files 900 MW Data Center Campus -Henderson-Vance FYI",
   description:
     "On September 9, 2026, Natelli Holdings filed a multi-phase development plan for a 900 MW data center campus on 528 acres in Vance County. They also submitted a redlined version of the county's draft data center ordinance, weakening protections. Full analysis with sources.",
   openGraph: {
-    title: "Natelli Files 900 MW Data Center Campus — Henderson-Vance FYI",
+    title: "Natelli Files 900 MW Data Center Campus -Henderson-Vance FYI",
     description:
       "On September 9, 2026, Natelli Holdings filed a multi-phase development plan for a 900 MW data center campus on 528 acres in Vance County. Full analysis with sources.",
     type: "article",
@@ -138,8 +139,8 @@ export default function NatelliFilingPage() {
                 Prior Activity
               </p>
               <p className="text-sm text-muted leading-relaxed">
-                Natelli&apos;s Apex, NC proposal — 250 MW, 189 acres near the
-                Shearon Harris Nuclear Plant — was{" "}
+                Natelli&apos;s Apex, NC proposal -250 MW, 189 acres near the
+                Shearon Harris Nuclear Plant -was{" "}
                 <strong className="text-foreground">withdrawn in March 2026</strong>{" "}
                 after 4,700 petition signatures and opposition from a U.S.
                 Representative. Apex then voted unanimously to draft a data
@@ -347,7 +348,7 @@ export default function NatelliFilingPage() {
                     Changes a mandate to a request. The utility provider is no longer obligated to confirm capacity.
                   </td>
                 </tr>
-                {/* Row 6 — most consequential */}
+                {/* Row 6 -most consequential */}
                 <tr className="border-b border-red/20 bg-red/5">
                   <td className="px-4 py-4 text-muted leading-relaxed align-top">
                     Cooling systems:{" "}
@@ -522,7 +523,7 @@ export default function NatelliFilingPage() {
           <div className="mb-8 grid gap-5 md:grid-cols-3">
             <div className="rounded-lg border border-card-border bg-card p-5">
               <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
-                Google — Council Bluffs, IA
+                Google -Council Bluffs, IA
               </p>
               <p className="text-2xl font-extrabold text-red">
                 2.8M gal/day
@@ -536,13 +537,13 @@ export default function NatelliFilingPage() {
             </div>
             <div className="rounded-lg border border-card-border bg-card p-5">
               <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
-                Vantage 1,300 MW campus — WI
+                Vantage 1,300 MW campus -WI
               </p>
               <p className="text-2xl font-extrabold text-gold">
                 22,000 gal/day
               </p>
               <p className="mt-1 text-sm text-muted">
-                Closed-loop. vs 5 million gal/day if evaporative —{" "}
+                Closed-loop. vs 5 million gal/day if evaporative -{" "}
                 <strong className="text-foreground">a 227x difference</strong>.
               </p>
               <p className="mt-3 text-xs text-subtle">
@@ -551,7 +552,7 @@ export default function NatelliFilingPage() {
             </div>
             <div className="rounded-lg border border-card-border bg-card p-5">
               <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
-                Meta Forest City, NC — 30 MW
+                Meta Forest City, NC -30 MW
               </p>
               <p className="text-2xl font-extrabold text-gold">
                 ~11,500 gal/day
@@ -576,16 +577,12 @@ export default function NatelliFilingPage() {
               demand of{" "}
               <strong className="text-foreground">
                 50,000 to 60,000 people
-              </strong>{" "}
-              — roughly the combined population of Vance, Warren, and Granville
-              counties. The KLRWS currently draws{" "}
-              <strong className="text-foreground">6.9 MGD</strong>. Franklin
-              County is simultaneously requesting{" "}
-              <strong className="text-foreground">15.7 MGD</strong> from the
-              same reservoir.{" "}
-              <strong className="text-foreground">
-                No federal entity is modeling the cumulative demand.
               </strong>
+              , more than the entire population of Vance County (approximately
+              43,000). The KLRWS currently draws{" "}
+              <strong className="text-foreground">6.9 MGD</strong> to serve all
+              of its customers across four counties. No public analysis has been
+              provided by Natelli on the water requirements of this campus.
             </p>
           </div>
 
@@ -633,15 +630,17 @@ export default function NatelliFilingPage() {
             {/* Moratorium details */}
             <div className="rounded-lg border border-card-border bg-card p-6">
               <p className="mb-3 text-xs font-bold uppercase tracking-widest text-gold">
-                The 60-Day Moratorium
+                The Proposed 60-Day Moratorium
               </p>
               <p className="mb-4 text-sm text-muted leading-relaxed">
-                The moratorium notice was published{" "}
+                A moratorium notice was published{" "}
                 <strong className="text-foreground">September 5, 2026</strong>.
-                It is a temporary 60-day measure that terminates the earlier of{" "}
+                The proposed ordinance is a temporary 60-day measure that would
+                terminate the earlier of{" "}
                 <strong className="text-foreground">November 13, 2026</strong>{" "}
-                or upon adoption of the UDO data center amendments. The board
-                acknowledged in the ordinance that data centers were added as
+                or upon adoption of UDO data center amendments. It has not been
+                adopted. A public hearing is scheduled for September 14, 2026.
+                The draft ordinance acknowledges that data centers were added as
                 permitted by right in L-I and O-I zones on{" "}
                 <strong className="text-foreground">February 5, 2024</strong>{" "}
                 &ldquo;with no additional requirements for such development.&rdquo;
@@ -652,7 +651,7 @@ export default function NatelliFilingPage() {
                   &ldquo;no known large scale active and one pending data centers in
                   Vance County&rdquo;
                 </strong>{" "}
-                — confirming Natelli is the pending application.
+                -confirming Natelli is the pending application.
               </p>
               <div className="mt-4 space-y-2 text-sm text-muted">
                 <div className="flex items-start gap-2">
@@ -683,7 +682,7 @@ export default function NatelliFilingPage() {
             {/* Critical exemption */}
             <div className="rounded-lg border border-gold/30 bg-gold/5 p-6">
               <p className="mb-3 text-xs font-bold uppercase tracking-widest text-gold">
-                Critical Exemption — Section 2 of the Moratorium Ordinance
+                Critical Exemption -Section 2 of the Moratorium Ordinance
               </p>
               <p className="mb-4 text-sm text-muted leading-relaxed">
                 The moratorium &ldquo;shall not apply to:&rdquo;
@@ -724,8 +723,8 @@ export default function NatelliFilingPage() {
                 </li>
               </ol>
               <p className="mt-4 text-sm text-muted leading-relaxed">
-                This means Natelli&apos;s September 9 filing — if accepted as a
-                complete application — may be{" "}
+                This means Natelli&apos;s September 9 filing -if accepted as a
+                complete application -may be{" "}
                 <strong className="text-foreground">
                   exempt from the moratorium by the moratorium&apos;s own text
                 </strong>
@@ -753,37 +752,38 @@ export default function NatelliFilingPage() {
 
             <div id="sept-14" className="rounded-lg border border-gold/30 bg-card p-6">
               <p className="mb-3 text-xs font-bold uppercase tracking-widest text-gold">
-                September 14, 2026 — Board of Commissioners Meeting
+                September 14, 2026 -Board of Commissioners Meeting
               </p>
               <p className="mb-4 text-sm text-muted leading-relaxed">
-                THREE data center public hearings are on the agenda:
+                Three public hearings relevant to data center development are on the agenda:
               </p>
               <ul className="space-y-3 text-sm text-muted leading-relaxed">
                 <li className="flex items-start gap-3">
                   <span className="mt-0.5 shrink-0 rounded bg-gold/20 px-2 py-0.5 text-xs font-bold text-gold">
-                    Item 5 — 6:20 PM
+                    Item 5 - 6:20 PM
                   </span>
                   <span>
-                    <strong className="text-foreground">ZMA26-002</strong> — New
-                    rezoning, GC1 to HC, US 1-158 Hwy &amp; Warrenton Rd
+                    <strong className="text-foreground">ZMA26-002</strong> - Rezoning
+                    request (CPNONE LLC), GC1 to HC, US 1-158 Hwy &amp; Warrenton Rd.
+                    Not a data center application, but part of the same meeting.
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-0.5 shrink-0 rounded bg-gold/20 px-2 py-0.5 text-xs font-bold text-gold">
-                    Item 6 — 6:30 PM
+                    Item 6 - 6:30 PM
                   </span>
                   <span>
-                    <strong className="text-foreground">OA26-001</strong> — UDO
-                    Section 4 General Provisions/Text Amendment
+                    <strong className="text-foreground">OA26-001</strong> - UDO
+                    Section 4 text amendment adding data center development standards
                   </span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="mt-0.5 shrink-0 rounded bg-red/20 px-2 py-0.5 text-xs font-bold text-red">
-                    Item 7 — 6:40 PM
+                    Item 7 - 6:40 PM
                   </span>
                   <span>
-                    <strong className="text-foreground">Moratorium</strong>{" "}
-                    (Jonathan Care, County Attorney)
+                    <strong className="text-foreground">Proposed 60-day moratorium</strong>{" "}
+                    on new data center development (Jonathan Care, County Attorney)
                   </span>
                 </li>
               </ul>
@@ -809,15 +809,8 @@ export default function NatelliFilingPage() {
                     <strong className="text-foreground">
                       entire campus vests for 7 years
                     </strong>{" "}
-                    under NCGS 160D-108(j)(4) — and NCGS 160D-107 separately
+                    under NCGS 160D-108(j)(4) -and NCGS 160D-107 separately
                     exempts vested multi-phase plans from moratoriums.
-                  </span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="mt-0.5 shrink-0 text-subtle font-bold">&#9670;</span>
-                  <span>
-                    The Army Corps reallocation study for Franklin County
-                    continues — draft report September 2027.
                   </span>
                 </li>
               </ul>
@@ -858,7 +851,7 @@ export default function NatelliFilingPage() {
                     February 5, 2024
                   </td>
                   <td className="px-4 py-4 text-muted leading-relaxed">
-                    Board permits data centers by right in L-I and O-I zones —
+                    Board permits data centers by right in L-I and O-I zones -
                     no additional requirements
                   </td>
                 </tr>
@@ -867,7 +860,7 @@ export default function NatelliFilingPage() {
                     August 25, 2026
                   </td>
                   <td className="px-4 py-4 text-muted leading-relaxed">
-                    Joint BoCC/Planning Board work session — consensus to draft
+                    Joint BoCC/Planning Board work session -consensus to draft
                     UDO text amendment
                   </td>
                 </tr>
@@ -896,7 +889,7 @@ export default function NatelliFilingPage() {
                       Natelli files 900 MW multi-phase development plan and
                       redlined UDO
                     </strong>{" "}
-                    — four days after moratorium notice
+                    -four days after moratorium notice
                   </td>
                 </tr>
                 <tr className="border-b border-card-border">
@@ -913,7 +906,7 @@ export default function NatelliFilingPage() {
                     <span className="text-xs text-subtle">6:20 PM</span>
                   </td>
                   <td className="px-4 py-4 text-muted leading-relaxed">
-                    Public Hearing — ZMA26-002 rezoning (CPNONE LLC)
+                    Public Hearing -ZMA26-002 rezoning (CPNONE LLC)
                   </td>
                 </tr>
                 <tr className="border-b border-card-border">
@@ -922,7 +915,7 @@ export default function NatelliFilingPage() {
                     <span className="text-xs text-subtle">6:30 PM</span>
                   </td>
                   <td className="px-4 py-4 text-muted leading-relaxed">
-                    Public Hearing — OA26-001 UDO data center text amendment
+                    Public Hearing -OA26-001 UDO data center text amendment
                   </td>
                 </tr>
                 <tr className="border-b border-card-border bg-card">
@@ -931,7 +924,7 @@ export default function NatelliFilingPage() {
                     <span className="text-xs text-subtle">6:40 PM</span>
                   </td>
                   <td className="px-4 py-4 text-muted leading-relaxed">
-                    Public Hearing — 60-day moratorium ordinance
+                    Public Hearing -60-day moratorium ordinance
                   </td>
                 </tr>
                 <tr className="border-b border-card-border">
@@ -981,408 +974,153 @@ export default function NatelliFilingPage() {
           <div className="mb-2 h-1 w-16 bg-gold" />
           <h2 className="mb-8 text-3xl font-extrabold">Documents</h2>
 
-          <div className="space-y-3">
-            <a
-              href="https://www.vancecounty.org/wp-content/uploads/2026/09/Masterfile-1.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-4 rounded-lg border border-card-border bg-card p-5 transition hover:border-gold/40 group"
-            >
-              <span className="mt-0.5 shrink-0 text-gold font-bold text-lg leading-none">&rarr;</span>
-              <div>
-                <p className="text-sm font-semibold text-foreground group-hover:text-gold transition">
-                  September 14 Board Meeting Masterfile (69 MB PDF)
-                </p>
-                <p className="mt-1 text-xs text-subtle">
-                  vancecounty.org
-                </p>
-              </div>
-            </a>
-
-            <a
-              href="https://www.vancecounty.org/wp-content/uploads/2026/07/UDO-2026-PDF-DRAFT-Articles-1-12-July2026.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-4 rounded-lg border border-card-border bg-card p-5 transition hover:border-gold/40 group"
-            >
-              <span className="mt-0.5 shrink-0 text-gold font-bold text-lg leading-none">&rarr;</span>
-              <div>
-                <p className="text-sm font-semibold text-foreground group-hover:text-gold transition">
-                  Vance County Draft UDO, July 2026
-                </p>
-                <p className="mt-1 text-xs text-subtle">
-                  vancecounty.org
-                </p>
-              </div>
-            </a>
-
-            <a
-              href="https://www.vancecounty.org/about-vance/public-records-request-repository/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-4 rounded-lg border border-card-border bg-card p-5 transition hover:border-gold/40 group"
-            >
-              <span className="mt-0.5 shrink-0 text-gold font-bold text-lg leading-none">&rarr;</span>
-              <div>
-                <p className="text-sm font-semibold text-foreground group-hover:text-gold transition">
-                  Vance County Public Records Repository
-                </p>
-                <p className="mt-1 text-xs text-subtle">
-                  vancecounty.org
-                </p>
-              </div>
-            </a>
-
-            <a
-              href="https://wizs.com/data-center-developer-files-plan-with-county-amid-talk-of-moratorium-udo-revision/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-4 rounded-lg border border-card-border bg-card p-5 transition hover:border-gold/40 group"
-            >
-              <span className="mt-0.5 shrink-0 text-gold font-bold text-lg leading-none">&rarr;</span>
-              <div>
-                <p className="text-sm font-semibold text-foreground group-hover:text-gold transition">
-                  WIZS: Data Center Developer Files Plan Amid Talk of Moratorium
-                </p>
-                <p className="mt-1 text-xs text-subtle">
-                  wizs.com
-                </p>
-              </div>
-            </a>
-
-            <a
-              href="https://www.vancecounty.org/wp-content/uploads/2026/07/Vance-County-Data-Center-Fact-Sheet.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-start gap-4 rounded-lg border border-card-border bg-card p-5 transition hover:border-gold/40 group"
-            >
-              <span className="mt-0.5 shrink-0 text-gold font-bold text-lg leading-none">&rarr;</span>
-              <div>
-                <p className="text-sm font-semibold text-foreground group-hover:text-gold transition">
-                  Vance County Data Center Fact Sheet
-                </p>
-                <p className="mt-1 text-xs text-subtle">
-                  vancecounty.org
-                </p>
-              </div>
-            </a>
-          </div>
-
-          {/* Meeting Documents subsection */}
+          {/* Natelli Filing Documents */}
           <div className="mt-10">
             <p className="mb-4 text-xs font-bold uppercase tracking-widest text-gold">
-              Meeting Documents
+              Natelli Filing Documents
             </p>
             <p className="mb-6 text-sm text-muted leading-relaxed">
-              Individual page screenshots from the Vance County Board of
-              Commissioners Masterfile, September 14, 2026 meeting.
+              Images from Natelli&apos;s September 9, 2026 filing - the letter
+              and their redlined UDO submission. Click any image to open full size.
             </p>
 
-            <div className="grid gap-4 grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
-              {/* Agenda */}
-              <a
-                href="/masterfile/masterfile-p001-agenda-page1.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p001-agenda-page1.png"
-                    alt="Agenda page 1"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Agenda — Page 1
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 1</p>
-                </div>
-              </a>
-
-              <a
-                href="/masterfile/masterfile-p002-agenda-page2.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p002-agenda-page2.png"
-                    alt="Agenda page 2"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Agenda — Page 2
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 2</p>
-                </div>
-              </a>
-
-              {/* ZMA26-002 Staff Report */}
-              <a
-                href="/masterfile/masterfile-p010-zma26-002-staff-report.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p010-zma26-002-staff-report.png"
-                    alt="ZMA26-002 Staff Report"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    ZMA26-002 Staff Report
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 10</p>
-                </div>
-              </a>
-
-              {/* UDO Amendment Staff Report */}
-              <a
-                href="/masterfile/masterfile-p053-udo-amendment-staff-report.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p053-udo-amendment-staff-report.png"
-                    alt="UDO Amendment Staff Report"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    UDO Amendment Staff Report
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 53</p>
-                </div>
-              </a>
-
-              {/* Data Center Ordinance sections */}
-              <a
-                href="/masterfile/masterfile-p058-data-center-ordinance.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p058-data-center-ordinance.png"
-                    alt="Data Center Ordinance p. 58"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Data Center Ordinance
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 58</p>
-                </div>
-              </a>
-
-              <a
-                href="/masterfile/masterfile-p066-data-center-ordinance.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p066-data-center-ordinance.png"
-                    alt="Data Center Ordinance p. 66"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Data Center Ordinance
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 66</p>
-                </div>
-              </a>
-
-              <a
-                href="/masterfile/masterfile-p067-data-center-ordinance.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p067-data-center-ordinance.png"
-                    alt="Data Center Ordinance p. 67"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Data Center Ordinance
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 67</p>
-                </div>
-              </a>
-
-              <a
-                href="/masterfile/masterfile-p068-data-center-ordinance.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p068-data-center-ordinance.png"
-                    alt="Data Center Ordinance p. 68"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Data Center Ordinance
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 68</p>
-                </div>
-              </a>
-
-              <a
-                href="/masterfile/masterfile-p069-data-center-ordinance.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p069-data-center-ordinance.png"
-                    alt="Data Center Ordinance p. 69"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Data Center Ordinance
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 69</p>
-                </div>
-              </a>
-
-              <a
-                href="/masterfile/masterfile-p070-data-center-ordinance.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p070-data-center-ordinance.png"
-                    alt="Data Center Ordinance p. 70"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Data Center Ordinance
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 70</p>
-                </div>
-              </a>
-
-              <a
-                href="/masterfile/masterfile-p071-data-center-ordinance.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p071-data-center-ordinance.png"
-                    alt="Data Center Ordinance p. 71"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Data Center Ordinance
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 71</p>
-                </div>
-              </a>
-
-              {/* Moratorium Ordinance */}
-              <a
-                href="/masterfile/masterfile-p073-moratorium-ordinance.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p073-moratorium-ordinance.png"
-                    alt="Moratorium Ordinance p. 73"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Moratorium Ordinance
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 73</p>
-                </div>
-              </a>
-
-              <a
-                href="/masterfile/masterfile-p074-moratorium-ordinance.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p074-moratorium-ordinance.png"
-                    alt="Moratorium Ordinance p. 74"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Moratorium Ordinance
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 74</p>
-                </div>
-              </a>
-
-              <a
-                href="/masterfile/masterfile-p075-moratorium-ordinance.png"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
-              >
-                <div className="aspect-[8.5/11] bg-navy/50 overflow-hidden">
-                  <img
-                    src="/masterfile/masterfile-p075-moratorium-ordinance.png"
-                    alt="Moratorium Ordinance p. 75"
-                    className="w-full h-full object-cover object-top"
-                  />
-                </div>
-                <div className="p-3">
-                  <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
-                    Moratorium Ordinance
-                  </p>
-                  <p className="mt-0.5 text-xs text-subtle">p. 75</p>
-                </div>
-              </a>
+            <div className="grid gap-4 grid-cols-2 md:grid-cols-3">
+              {[
+                {
+                  src: "/natelli-docs/natelli-letter-page1.jpg",
+                  label: "Natelli Letter - Page 1",
+                  desc: "September 9, 2026",
+                },
+                {
+                  src: "/natelli-docs/natelli-letter-page2.jpg",
+                  label: "Natelli Letter - Page 2",
+                  desc: "Filed to vest rights",
+                },
+                {
+                  src: "/natelli-docs/udo-redline-sec5134-start.jpg",
+                  label: "UDO Redline - Sec. 5.13.4",
+                  desc: "Data Centers section begins",
+                },
+                {
+                  src: "/natelli-docs/udo-redline-setbacks.jpg",
+                  label: "UDO Redline - Setbacks",
+                  desc: "Common ownership waiver, school separation",
+                },
+                {
+                  src: "/natelli-docs/udo-redline-height-noise.jpg",
+                  label: "UDO Redline - Height & Noise",
+                  desc: "60 to 75 ft, fence changes, noise threshold",
+                },
+                {
+                  src: "/natelli-docs/udo-redline-utility-cooling.jpg",
+                  label: "UDO Redline - Utility & Cooling",
+                  desc: "Require to request, evaporative cooling added",
+                },
+                {
+                  src: "/natelli-docs/udo-redline-cooling-abandonment.jpg",
+                  label: "UDO Redline - Cooling & Abandonment",
+                  desc: "Generator expansion, 12 to 18 month abandonment",
+                },
+                {
+                  src: "/natelli-docs/udo-redline-abandonment-consultants.jpg",
+                  label: "UDO Redline - Abandonment & Consultants",
+                  desc: "Clear and convincing evidence standard",
+                },
+                {
+                  src: "/natelli-docs/udo-redline-consultants-end.jpg",
+                  label: "UDO Redline - Consultants",
+                  desc: "Pre-review consultation, market-rate fees",
+                },
+              ].map((doc) => (
+                <a
+                  key={doc.src}
+                  href={doc.src}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="group rounded-lg border border-card-border bg-card overflow-hidden transition hover:border-gold/40"
+                >
+                  <div className="relative aspect-[8.5/11] bg-navy/50 overflow-hidden">
+                    <Image
+                      src={doc.src}
+                      alt={doc.label}
+                      fill
+                      className="object-cover object-top"
+                      sizes="(max-width: 768px) 50vw, 33vw"
+                    />
+                  </div>
+                  <div className="p-3">
+                    <p className="text-xs font-semibold text-foreground group-hover:text-gold transition leading-snug">
+                      {doc.label}
+                    </p>
+                    <p className="mt-0.5 text-xs text-subtle">{doc.desc}</p>
+                  </div>
+                </a>
+              ))}
             </div>
+          </div>
 
-            <p className="mt-5 text-xs text-subtle">
-              Source: Vance County Board of Commissioners Masterfile, September
-              14, 2026 meeting.
+          {/* Additional Resources */}
+          <div className="mt-10">
+            <p className="mb-4 text-xs font-bold uppercase tracking-widest text-gold">
+              Additional Resources
             </p>
+            <div className="space-y-2 text-sm text-muted">
+              <p>
+                <a
+                  href="https://www.vancecounty.org/wp-content/uploads/2026/09/Masterfile-1.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue hover:text-gold transition underline underline-offset-2"
+                >
+                  September 14 Board Meeting Masterfile (full PDF, 69 MB)
+                </a>{" "}
+                - vancecounty.org
+              </p>
+              <p>
+                <a
+                  href="https://www.vancecounty.org/wp-content/uploads/2026/07/UDO-2026-PDF-DRAFT-Articles-1-12-July2026.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue hover:text-gold transition underline underline-offset-2"
+                >
+                  Vance County Draft UDO, July 2026
+                </a>{" "}
+                - vancecounty.org
+              </p>
+              <p>
+                <a
+                  href="https://www.vancecounty.org/about-vance/public-records-request-repository/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue hover:text-gold transition underline underline-offset-2"
+                >
+                  Vance County Public Records Repository
+                </a>{" "}
+                - vancecounty.org
+              </p>
+              <p>
+                <a
+                  href="https://wizs.com/data-center-developer-files-plan-with-county-amid-talk-of-moratorium-udo-revision/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue hover:text-gold transition underline underline-offset-2"
+                >
+                  WIZS: Data Center Developer Files Plan Amid Talk of Moratorium
+                </a>{" "}
+                - wizs.com
+              </p>
+              <p>
+                <a
+                  href="https://www.vancecounty.org/wp-content/uploads/2026/07/Vance-County-Data-Center-Fact-Sheet.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue hover:text-gold transition underline underline-offset-2"
+                >
+                  Vance County Data Center Fact Sheet
+                </a>{" "}
+                - vancecounty.org
+              </p>
+            </div>
           </div>
         </div>
       </section>
