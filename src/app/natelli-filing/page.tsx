@@ -1031,6 +1031,26 @@ export default function NatelliFilingPage() {
                   label: "UDO Redline - Consultants",
                   desc: "Pre-review consultation, market-rate fees",
                 },
+                {
+                  src: "/natelli-docs/siteplan-06-details.jpg",
+                  label: "Site Plan - Details",
+                  desc: "Fencing, security, lighting, parking, building entrance",
+                },
+                {
+                  src: "/natelli-docs/siteplan-07-architecture.jpg",
+                  label: "Site Plan - Architecture",
+                  desc: "Building elevations (all 4 sides), 130 ft wide, 41.7 ft tall",
+                },
+                {
+                  src: "/natelli-docs/siteplan-08-drainage.jpg",
+                  label: "Site Plan - Existing Drainage",
+                  desc: "20 drainage areas mapped across the site",
+                },
+                {
+                  src: "/natelli-docs/siteplan-09-stormwater.jpg",
+                  label: "Site Plan - Stormwater Management",
+                  desc: "Proposed wet ponds and SWM wetlands",
+                },
               ].map((doc) => (
                 <a
                   key={doc.src}
