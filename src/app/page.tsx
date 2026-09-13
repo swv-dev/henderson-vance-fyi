@@ -105,10 +105,10 @@ export default function Home() {
           </p>
           <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
             <a
-              href="/sb730"
+              href="/natelli-filing"
               className="rounded bg-gold px-8 py-3 text-sm font-bold uppercase tracking-widest text-background transition hover:bg-gold-dim"
             >
-              SB 730 Analysis &rarr;
+              Natelli 900 MW Filing &rarr;
             </a>
             <a
               href="#reports"
@@ -118,7 +118,8 @@ export default function Home() {
             </a>
           </div>
           <div className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs text-subtle">
-            <a href="/sb730" className="hover:text-gold transition text-gold font-semibold">SB 730 Analysis</a>
+            <a href="/natelli-filing" className="hover:text-gold transition text-gold font-semibold">Natelli 900 MW Filing</a>
+            <a href="/sb730" className="hover:text-gold transition">SB 730 Analysis</a>
             <a href="/water#franklin-letter" className="hover:text-gold transition">Franklin County Letter</a>
             <a href="/economic-development" className="hover:text-gold transition">Economic Development</a>
             <a href="/water" className="hover:text-gold transition">SB 214: Section 5 Removed</a>
@@ -134,10 +135,59 @@ export default function Home() {
         </div>
       </section>
 
-      {/* SB 730 Analysis */}
+      {/* September 14, 2026 — Board of Commissioners Meeting (UPCOMING) */}
+      <section className="px-6 py-6">
+        <div className="mx-auto max-w-4xl rounded-lg border border-gold/50 bg-gold/10 p-6 md:p-8">
+          <div className="flex flex-col gap-4">
+            <div className="flex items-center gap-3">
+              <span className="shrink-0 rounded bg-gold px-3 py-1 text-xs font-bold uppercase tracking-widest text-background">
+                Next Meeting
+              </span>
+              <p className="text-xs font-bold uppercase tracking-widest text-gold">
+                September 14, 2026 &middot; 6:00 PM
+              </p>
+            </div>
+            <p className="text-2xl font-extrabold leading-tight md:text-3xl">
+              Board of Commissioners — Three Public Hearings
+            </p>
+            <p className="text-sm text-muted">
+              122 Young Street, Henderson, NC
+            </p>
+            <div className="grid gap-3 md:grid-cols-3 mt-2">
+              <div className="rounded border border-gold/30 bg-gold/5 p-4">
+                <p className="text-xs font-bold uppercase tracking-widest text-gold mb-1">Public Hearing 1</p>
+                <p className="text-sm font-semibold text-foreground">ZMA26-002 Rezoning</p>
+                <p className="text-xs text-subtle mt-1">New rezoning application — follow-up to the April 20 ZMA26-001 vote</p>
+              </div>
+              <div className="rounded border border-gold/30 bg-gold/5 p-4">
+                <p className="text-xs font-bold uppercase tracking-widest text-gold mb-1">Public Hearing 2</p>
+                <p className="text-sm font-semibold text-foreground">UDO Text Amendment</p>
+                <p className="text-xs text-subtle mt-1">Proposed changes to the Unified Development Ordinance — Natelli submitted a redlined version weakening protections</p>
+              </div>
+              <div className="rounded border border-gold/30 bg-gold/5 p-4">
+                <p className="text-xs font-bold uppercase tracking-widest text-gold mb-1">Public Hearing 3</p>
+                <p className="text-sm font-semibold text-foreground">Moratorium</p>
+                <p className="text-xs text-subtle mt-1">Consider and take action on a development moratorium</p>
+              </div>
+            </div>
+            <div className="flex flex-col sm:flex-row gap-3 mt-2">
+              <a
+                href="https://www.vancecounty.org/wp-content/uploads/2026/09/Masterfile-1.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shrink-0 rounded bg-gold px-6 py-3 text-center text-sm font-bold uppercase tracking-widest text-background transition hover:bg-gold-dim"
+              >
+                Download Meeting Masterfile &rarr;
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* September 9, 2026 — Natelli 900 MW Filing */}
       <section className="px-6 py-6">
         <a
-          href="/sb730"
+          href="/natelli-filing"
           className="group mx-auto block max-w-4xl rounded-lg border border-gold/30 bg-gold/5 p-6 md:p-8 transition hover:border-gold/60 hover:bg-gold/10"
         >
           <div className="flex flex-col gap-4">
@@ -146,14 +196,111 @@ export default function Home() {
                 New
               </span>
               <p className="text-xs font-bold uppercase tracking-widest text-gold">
-                June 2026
+                September 9, 2026
+              </p>
+            </div>
+            <p className="text-2xl font-extrabold leading-tight md:text-3xl group-hover:text-gold transition">
+              Natelli Files 900 MW Multi-Phase Development Plan
+            </p>
+            <p className="text-sm text-muted leading-relaxed max-w-3xl">
+              Natelli Holdings filed a vested rights application on September 9, 2026,
+              locking in approvals under the pre-moratorium rules. The filing reveals a{" "}
+              <strong className="text-foreground">528-acre, 12-building, 4-million-square-foot campus</strong> to
+              be built across four phases — far larger than anything previously disclosed.
+              At 900 MW, this is not a single data center. It is a campus-scale industrial
+              development. Natelli simultaneously submitted a{" "}
+              <strong className="text-foreground">redlined UDO</strong> weakening the county&apos;s
+              protective standards. The filing was made under{" "}
+              <strong className="text-foreground">NCGS 160D-108(j)(4)</strong> to vest rights
+              before the moratorium could take effect.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-3 mt-2">
+              <span className="shrink-0 rounded bg-gold px-6 py-3 text-center text-sm font-bold uppercase tracking-widest text-background transition group-hover:bg-gold-dim">
+                Read the Full Analysis &rarr;
+              </span>
+            </div>
+          </div>
+        </a>
+      </section>
+
+      {/* September 9, 2026 — Updated Water Projections */}
+      <section className="px-6 py-6">
+        <a
+          href="/natelli-filing#water-projections"
+          className="group mx-auto block max-w-4xl rounded-lg border border-card-border bg-card p-6 md:p-8 transition hover:border-gold/40"
+        >
+          <div className="flex flex-col gap-4">
+            <div className="flex items-center gap-3">
+              <span className="shrink-0 rounded bg-gold px-3 py-1 text-xs font-bold uppercase tracking-widest text-background">
+                Updated
+              </span>
+              <p className="text-xs font-bold uppercase tracking-widest text-gold">
+                September 9, 2026 — Water Projections Revised Upward
+              </p>
+            </div>
+            <p className="text-2xl font-extrabold leading-tight md:text-3xl group-hover:text-gold transition">
+              900 MW Campus: Up to 10.3 Million Gallons Per Day
+            </p>
+            <div className="mt-2 rounded border border-card-border/60 bg-card/60 p-4">
+              <p className="text-xs font-bold uppercase tracking-widest text-subtle mb-2">
+                Original Estimate — Single Building, 30–100 MW
+              </p>
+              <p className="text-sm text-subtle line-through">
+                300,000 to 1 million gallons per day
+              </p>
+              <p className="text-xs text-subtle mt-1 italic">
+                This estimate applied to one building. Natelli has now filed for 12 buildings at 900 MW.
+              </p>
+            </div>
+            <div className="rounded border border-gold/30 bg-gold/5 p-4">
+              <p className="text-xs font-bold uppercase tracking-widest text-gold mb-2">
+                Updated Estimate — 900 MW Campus (Natelli Filed)
+              </p>
+              <p className="text-sm text-muted leading-relaxed">
+                Hybrid cooling:{" "}
+                <strong className="text-foreground">3.6 to 6.2 million gallons per day</strong>.
+                Evaporative (worst case):{" "}
+                <strong className="text-foreground">up to 10.3 million gallons per day</strong>.
+                At the midpoint, this equals the daily water demand of{" "}
+                <strong className="text-foreground">50,000 to 60,000 people</strong>.
+                The KLRWS currently draws 6.9 MGD for all of Vance County.
+              </p>
+              <p className="text-xs text-subtle mt-3">
+                The word &ldquo;or&rdquo; in Natelli&apos;s cooling redline is the difference between 22,000 gal/day and 5 million.
+              </p>
+              <p className="text-xs text-subtle mt-1">
+                Sources: AKCP, WUNC, WRAL, Vantage Data Centers, GIJN, MOST Policy Initiative
+              </p>
+            </div>
+            <span className="mt-1 inline-block text-sm font-bold text-gold group-hover:underline">
+              Full water projections breakdown &rarr;
+            </span>
+          </div>
+        </a>
+      </section>
+
+      {/* June 2026 — SB 730 Analysis */}
+      <section className="px-6 py-6">
+        <a
+          href="/sb730"
+          className="group mx-auto block max-w-4xl rounded-lg border border-gold/30 bg-gold/5 p-6 md:p-8 transition hover:border-gold/60 hover:bg-gold/10"
+        >
+          <div className="flex flex-col gap-4">
+            <div className="flex items-center gap-3">
+              <span className="shrink-0 rounded bg-red/80 px-3 py-1 text-xs font-bold uppercase tracking-widest text-white">
+                Stalled
+              </span>
+              <p className="text-xs font-bold uppercase tracking-widest text-subtle">
+                June 2026 &middot; No Senate action in 3 months
               </p>
             </div>
             <p className="text-2xl font-extrabold leading-tight md:text-3xl group-hover:text-gold transition">
               Senate Bill 730: The Ratepayer Protection Act
             </p>
             <p className="text-sm text-muted leading-relaxed max-w-3xl">
-              SB 730 passed the NC House 69-44. It mandates closed-loop cooling,
+              SB 730 passed the NC House 69-44 on June 3 and was referred to the
+              Senate Rules and Operations Committee on June 8. It has not moved since.
+              The bill mandates closed-loop cooling,
               15-year contracts, and foreign ownership restrictions for data centers
               above 100 MW. But it leaves the state&apos;s{" "}
               <strong className="text-foreground">$45 to $57 million per year</strong> tax
@@ -207,7 +354,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Henderson Press Release - Response to Franklin County */}
+      {/* June 3, 2026 — Henderson Responds to Franklin County */}
       <section className="px-6 py-6">
         <div className="mx-auto max-w-4xl rounded-lg border border-card-border bg-card p-6 md:p-8">
           <div className="flex flex-col gap-4">
@@ -255,7 +402,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Franklin County Letter */}
+      {/* May 21, 2026 — Franklin County Letter */}
       <section className="px-6 py-6">
         <a
           href="/water#franklin-letter"
@@ -285,7 +432,7 @@ export default function Home() {
         </a>
       </section>
 
-      {/* Economic Development Update */}
+      {/* May 5, 2026 — Economic Development Update */}
       <section className="px-6 py-6">
         <a
           href="/economic-development"
@@ -311,7 +458,7 @@ export default function Home() {
         </a>
       </section>
 
-      {/* SB 214 Section 5 Removed */}
+      {/* April 29, 2026 — SB 214 Section 5 Removed */}
       <section className="px-6 py-6">
         <div className="mx-auto max-w-4xl rounded-lg border border-card-border bg-card p-6 md:p-8">
           <div className="flex flex-col gap-4">
@@ -347,7 +494,145 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Community Voice Poll CTA */}
+      {/* April 29, 2026 — Governor's Rural Listening Session */}
+      <section id="listening-session" className="px-6 py-6">
+        <div className="mx-auto max-w-4xl rounded-lg border border-card-border bg-card p-6 md:p-8">
+          <p className="mb-2 text-xs font-bold uppercase tracking-widest text-subtle">
+            Past Event — April 29, 2026
+          </p>
+          <p className="mb-2 text-2xl font-extrabold md:text-3xl">
+            Governor Stein&apos;s Rural Listening Session
+          </p>
+          <p className="mb-4 text-muted">
+            Vance-Granville Community College Civic Center, Henderson, NC
+          </p>
+          <p className="text-sm text-subtle">
+            The Office of the Governor hosted a listening session in Henderson
+            on April 29, the same day both chambers voted to remove Section 5
+            from SB 214. Department of Revenue Secretary McKinley Wooten and
+            Office of State Budget and Management Director Kristin Walker
+            represented Governor Stein&apos;s office.
+          </p>
+        </div>
+      </section>
+
+      {/* April 20, 2026 — ZMA26-001 Rezoning Vote */}
+      <section id="meeting" className="px-6 py-6">
+        <div className="mx-auto max-w-4xl rounded-lg border border-red/40 bg-red/10 p-6 md:p-8">
+          <p className="mb-2 text-xs font-bold uppercase tracking-widest text-red">
+            Past Meeting — ZMA26-001 Vote
+          </p>
+          <p className="mb-2 text-2xl font-extrabold md:text-3xl">
+            Monday, April 20, 2026 at 4:00 PM
+          </p>
+          <p className="mb-4 text-muted">
+            Vance County Board of Commissioners, 122 Young Street, Henderson
+          </p>
+          <p className="text-sm text-subtle">
+            Purpose: <strong className="text-foreground">&quot;Consider and take action&quot;</strong> on
+            the Natelli Holdings rezoning (ZMA26-001). Also streaming on YouTube.
+            This special meeting was called with four days&apos; notice, the legal
+            minimum under NC open meetings law.
+          </p>
+          <Countdown />
+          <a
+            href="https://www.youtube.com/live/ETKr9oKpkNI?si=-fGUiYREJn-Tu5O_"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-block rounded bg-red px-8 py-3 text-sm font-bold uppercase tracking-widest text-white transition hover:bg-red/80"
+          >
+            Watch on YouTube &rarr;
+          </a>
+        </div>
+      </section>
+
+      {/* April 6, 2026 — What Citizens Said */}
+      <section className="px-6 py-10">
+        <div className="mx-auto max-w-4xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            April 6, 2026
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-6 text-3xl font-extrabold">
+            What Citizens Said
+          </h2>
+          <p className="mb-8 max-w-2xl text-muted">
+            Approximately 150 residents attended the Board of Commissioners
+            meeting. The overflow crowd filled the stairwell. More than 20
+            citizens spoke during the public hearing. Every speaker from the
+            community opposed the rezoning except two.
+          </p>
+          <div className="grid gap-4 md:grid-cols-3">
+            <div className="rounded border border-card-border bg-card p-5">
+              <p className="mb-1 text-sm font-bold text-blue">Tyler Matthews</p>
+              <p className="text-xs text-subtle">Watkins community</p>
+              <p className="mt-2 text-sm text-muted">
+                Provided the most detailed water analysis. A data center would add
+                4-15% to the regional system&apos;s daily draw. That water evaporates.
+              </p>
+            </div>
+            <div className="rounded border border-card-border bg-card p-5">
+              <p className="mb-1 text-sm font-bold text-blue">Natalie Stone</p>
+              <p className="text-xs text-subtle">NC State University</p>
+              <p className="mt-2 text-sm text-muted">
+                Broke down the power math. Kerr Lake Dam generates 227 MW. The
+                Apex project Natelli withdrew was 300 MW. Once operational, actual
+                consumption becomes confidential.
+              </p>
+            </div>
+            <div className="rounded border border-card-border bg-card p-5">
+              <p className="mb-1 text-sm font-bold text-blue">Garland Askew</p>
+              <p className="text-xs text-subtle">Carolina Pines</p>
+              <p className="mt-2 text-sm text-muted">
+                Mapped the impact zones: 110 homes within a half-mile. Dabney
+                Elementary, VGCC, Henderson Country Club, and 217 homes in
+                Huntstone within two miles.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* March 26, 2026 — USACE NEPA Scoping */}
+      <section id="slides" className="px-6 py-16">
+        <div className="mx-auto max-w-5xl">
+          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
+            March 26, 2026
+          </p>
+          <div className="mb-2 h-1 w-16 bg-gold" />
+          <h2 className="mb-4 text-3xl font-extrabold">
+            USACE NEPA Scoping Meeting
+          </h2>
+          <p className="mb-10 max-w-2xl text-muted">
+            Photos from the U.S. Army Corps of Engineers NEPA Public Scoping
+            Session at the Warren County Armory Civic Center. The Corps is
+            evaluating Franklin County&apos;s request for 15.7 million gallons per day
+            from Kerr Lake&apos;s conservation pool.
+          </p>
+
+          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
+            {slides.map((slide) => (
+              <a
+                key={slide.src}
+                href={slide.src}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group overflow-hidden rounded-lg border border-card-border transition hover:border-gold/40"
+              >
+                <Image
+                  src={slide.src}
+                  alt={slide.alt}
+                  width={600}
+                  height={450}
+                  className="h-auto w-full transition group-hover:scale-[1.02]"
+                />
+              </a>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Community Poll CTA */}
       <section className="px-6 py-10">
         <a
           href="/community"
@@ -404,59 +689,33 @@ export default function Home() {
         </a>
       </section>
 
-      {/* Governor's Rural Listening Session - Past */}
-      <section id="listening-session" className="px-6 py-10">
-        <div className="mx-auto max-w-3xl rounded-lg border border-card-border bg-card p-6 md:p-10">
-          <p className="mb-2 text-xs font-bold uppercase tracking-widest text-subtle">
-            Past Event - April 29, 2026
-          </p>
-          <p className="mb-2 text-2xl font-extrabold md:text-3xl">
-            Governor Stein&apos;s Rural Listening Session
-          </p>
-          <p className="mb-4 text-muted">
-            Vance-Granville Community College Civic Center, Henderson, NC
-          </p>
-          <p className="text-sm text-subtle">
-            The Office of the Governor hosted a listening session in Henderson
-            on April 29, the same day both chambers voted to remove Section 5
-            from SB 214. Department of Revenue Secretary McKinley Wooten and
-            Office of State Budget and Management Director Kristin Walker
-            represented Governor Stein&apos;s office.
-          </p>
-        </div>
-      </section>
-
-      {/* April 20 Meeting (Past) */}
-      <section id="meeting" className="px-6 py-10">
-        <div className="mx-auto max-w-3xl rounded-lg border border-red/40 bg-red/10 p-6 md:p-10">
-          <p className="mb-2 text-xs font-bold uppercase tracking-widest text-red">
-            Past Meeting - ZMA26-001 Vote
-          </p>
-          <p className="mb-2 text-2xl font-extrabold md:text-3xl">
-            Monday, April 20, 2026 at 4:00 PM
-          </p>
-          <p className="mb-4 text-muted">
-            Vance County Board of Commissioners, 122 Young Street, Henderson
-          </p>
-          <p className="text-sm text-subtle">
-            Purpose: <strong className="text-foreground">&quot;Consider and take action&quot;</strong> on
-            the Natelli Holdings rezoning (ZMA26-001). Also streaming on YouTube.
-            This special meeting was called with four days&apos; notice, the legal
-            minimum under NC open meetings law.
-          </p>
-          <Countdown />
+      {/* Noise Report Banner */}
+      <section className="px-6 py-10">
+        <div className="mx-auto max-w-3xl">
           <a
-            href="https://www.youtube.com/live/ETKr9oKpkNI?si=-fGUiYREJn-Tu5O_"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-6 inline-block rounded bg-red px-8 py-3 text-sm font-bold uppercase tracking-widest text-white transition hover:bg-red/80"
+            href="/noise"
+            className="group block rounded-lg border border-card-border bg-card p-6 md:p-10 transition hover:border-gold/40"
           >
-            Watch on YouTube &rarr;
+            <p className="mb-2 text-xs font-bold uppercase tracking-widest text-subtle">
+              April 2026
+            </p>
+            <p className="mb-2 text-2xl font-extrabold group-hover:text-gold transition md:text-3xl">
+              The Noise Question
+            </p>
+            <p className="mb-4 text-muted">
+              What does a data center actually sound like? 20 visual cards on
+              audible noise, infrasound, distance decay, and what good
+              regulation looks like. Sourced from peer-reviewed research and
+              real community experiences.
+            </p>
+            <p className="text-sm font-semibold text-gold">
+              Read the full noise report &rarr;
+            </p>
           </a>
         </div>
       </section>
 
-      {/* Key Facts */}
+      {/* Key Facts — What's Happening */}
       <section className="px-6 py-16">
         <div className="mx-auto max-w-4xl">
           <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
@@ -470,19 +729,22 @@ export default function Home() {
           <div className="grid gap-6 md:grid-cols-2">
             <div className="rounded-lg border border-card-border bg-card p-6">
               <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
-                The Rezoning
+                The Rezoning &amp; Natelli Filing
               </p>
               <p className="text-sm leading-relaxed text-muted">
-                Natelli Holdings LLC, a Maryland-based land developer, is seeking
-                to rezone approximately <strong className="text-foreground">113 acres</strong> across
+                Natelli Holdings LLC, a Maryland-based land developer, sought to
+                rezone approximately <strong className="text-foreground">113 acres</strong> across
                 three parcels from Employment and Institutional Area to Light
                 Industrial. Combined with adjacent Triangle North parcels, the
                 corridor totals <strong className="text-foreground">619 acres</strong> along US-158
-                Business. An additional 66-acre parcel owned by Ruth Jones-Brummitt
+                Business. An additional 66-acre parcel owned by Ruth Jones
                 has already been surveyed and is reportedly ready to sell upon
                 rezoning approval, bringing the potential corridor to{" "}
                 <strong className="text-foreground">685 acres</strong>.
-                No development plan has been submitted. No end user has been named.
+                On September 9, Natelli filed a vested rights application for a{" "}
+                <strong className="text-foreground">900 MW, 528-acre, 12-building campus</strong>{" "}
+                across four phases.{" "}
+                <a href="/natelli-filing" className="text-gold hover:underline font-semibold">Full analysis &rarr;</a>
               </p>
             </div>
 
@@ -496,7 +758,7 @@ export default function Home() {
                 4,700 petition signatures and public opposition from a U.S.
                 Representative. Apex then voted unanimously to draft a data center
                 moratorium. That same developer is now asking Vance County for the
-                same thing.
+                same thing — and has now escalated to a 900 MW campus filing.
               </p>
             </div>
 
@@ -512,7 +774,7 @@ export default function Home() {
                     continuous <strong className="text-foreground">619-acre corridor</strong> along
                     US-158 Business between I-85 and Horseshoe Bend Road, opposite
                     the Carolina Pines neighborhood. A 66-acre parcel owned by Ruth
-                    Jones-Brummitt (shown in red) has already been surveyed and is
+                    Jones (shown in red) has already been surveyed and is
                     reportedly ready to sell upon rezoning approval, bringing the
                     potential total to <strong className="text-foreground">685 acres</strong>.
                     Additional EIA-zoned parcels in the corridor could be subject to
@@ -572,12 +834,18 @@ export default function Home() {
                 Water
               </p>
               <p className="text-sm leading-relaxed text-muted">
-                A single data center using evaporative cooling consumes{" "}
-                <strong className="text-foreground">300,000 to 1 million gallons per day</strong>.
-                That water evaporates and never returns to the watershed. The Kerr
-                Lake Regional Water System currently draws 6.9 MGD. Franklin
-                County is simultaneously requesting 15.7 MGD from the same
-                reservoir. No federal entity is modeling the cumulative demand.
+                <span className="text-subtle italic text-xs">Original estimate (single building):</span>{" "}
+                <span className="line-through text-subtle">300,000 to 1 million gallons per day</span>.{" "}
+                <strong className="text-foreground">Updated:</strong> Natelli&apos;s filed 900 MW campus with
+                hybrid cooling would consume{" "}
+                <strong className="text-foreground">3.6 to 6.2 million gallons per day</strong> —
+                equivalent to the daily water demand of{" "}
+                <strong className="text-foreground">50,000 to 60,000 people</strong>.
+                Evaporative cooling worst case: up to 10.3 MGD.
+                The KLRWS currently draws 6.9 MGD. Franklin County is simultaneously
+                requesting 15.7 MGD from the same reservoir. No federal entity is
+                modeling the cumulative demand.{" "}
+                <a href="/natelli-filing#water-projections" className="text-gold hover:underline font-semibold">Full breakdown &rarr;</a>
               </p>
             </div>
 
@@ -621,79 +889,6 @@ export default function Home() {
                 . NC is one of only seven states where the exemption never ends.
                 The state currently loses $45-57 million per year in foregone
                 revenue. Virginia&apos;s exemption now costs $1.6 billion annually.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Noise Report Banner */}
-      <section className="px-6 py-10">
-        <div className="mx-auto max-w-3xl">
-          <a
-            href="/noise"
-            className="group block rounded-lg border border-card-border bg-card p-6 md:p-10 transition hover:border-gold/40"
-          >
-            <p className="mb-2 text-xs font-bold uppercase tracking-widest text-subtle">
-              April 2026
-            </p>
-            <p className="mb-2 text-2xl font-extrabold group-hover:text-gold transition md:text-3xl">
-              The Noise Question
-            </p>
-            <p className="mb-4 text-muted">
-              What does a data center actually sound like? 20 visual cards on
-              audible noise, infrasound, distance decay, and what good
-              regulation looks like. Sourced from peer-reviewed research and
-              real community experiences.
-            </p>
-            <p className="text-sm font-semibold text-gold">
-              Read the full noise report &rarr;
-            </p>
-          </a>
-        </div>
-      </section>
-
-      {/* Community Response */}
-      <section className="px-6 py-16">
-        <div className="mx-auto max-w-4xl">
-          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
-            April 6, 2026
-          </p>
-          <div className="mb-2 h-1 w-16 bg-gold" />
-          <h2 className="mb-6 text-3xl font-extrabold">
-            What Citizens Said
-          </h2>
-          <p className="mb-8 max-w-2xl text-muted">
-            Approximately 150 residents attended the Board of Commissioners
-            meeting. The overflow crowd filled the stairwell. More than 20
-            citizens spoke during the public hearing. Every speaker from the
-            community opposed the rezoning except two.
-          </p>
-          <div className="grid gap-4 md:grid-cols-3">
-            <div className="rounded border border-card-border bg-card p-5">
-              <p className="mb-1 text-sm font-bold text-blue">Tyler Matthews</p>
-              <p className="text-xs text-subtle">Watkins community</p>
-              <p className="mt-2 text-sm text-muted">
-                Provided the most detailed water analysis. A data center would add
-                4-15% to the regional system&apos;s daily draw. That water evaporates.
-              </p>
-            </div>
-            <div className="rounded border border-card-border bg-card p-5">
-              <p className="mb-1 text-sm font-bold text-blue">Natalie Stone</p>
-              <p className="text-xs text-subtle">NC State University</p>
-              <p className="mt-2 text-sm text-muted">
-                Broke down the power math. Kerr Lake Dam generates 227 MW. The
-                Apex project Natelli withdrew was 300 MW. Once operational, actual
-                consumption becomes confidential.
-              </p>
-            </div>
-            <div className="rounded border border-card-border bg-card p-5">
-              <p className="mb-1 text-sm font-bold text-blue">Garland Askew</p>
-              <p className="text-xs text-subtle">Carolina Pines</p>
-              <p className="mt-2 text-sm text-muted">
-                Mapped the impact zones: 110 homes within a half-mile. Dabney
-                Elementary, VGCC, Henderson Country Club, and 217 homes in
-                Huntstone within two miles.
               </p>
             </div>
           </div>
@@ -766,6 +961,30 @@ export default function Home() {
                 Download PDF
               </div>
             </a>
+
+            <a
+              href="https://www.vancecounty.org/wp-content/uploads/2026/09/Masterfile-1.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group flex flex-col rounded-lg border border-card-border bg-card p-8 transition hover:border-gold/40 hover:bg-card/80"
+            >
+              <p className="mb-1 text-xs font-bold uppercase tracking-widest text-gold">
+                September 14, 2026
+              </p>
+              <h3 className="mb-2 text-xl font-bold group-hover:text-gold">
+                Board of Commissioners Meeting Masterfile
+              </h3>
+              <p className="mb-1 text-sm text-muted">
+                Official meeting packet — ZMA26-002, UDO text amendment, and moratorium hearings.
+              </p>
+              <p className="mb-6 text-xs text-subtle">
+                Vance County official document. Includes all three public hearing materials.
+              </p>
+              <div className="mt-auto flex items-center gap-2 text-sm font-semibold text-gold">
+                <DownloadIcon />
+                Download PDF
+              </div>
+            </a>
           </div>
         </div>
       </section>
@@ -799,45 +1018,6 @@ export default function Home() {
                   alt={card.alt}
                   width={540}
                   height={540}
-                  className="h-auto w-full transition group-hover:scale-[1.02]"
-                />
-              </a>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* USACE Slides */}
-      <section id="slides" className="px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <p className="mb-4 text-xs font-bold uppercase tracking-widest text-blue">
-            March 26, 2026
-          </p>
-          <div className="mb-2 h-1 w-16 bg-gold" />
-          <h2 className="mb-4 text-3xl font-extrabold">
-            USACE NEPA Scoping Meeting
-          </h2>
-          <p className="mb-10 max-w-2xl text-muted">
-            Photos from the U.S. Army Corps of Engineers NEPA Public Scoping
-            Session at the Warren County Armory Civic Center. The Corps is
-            evaluating Franklin County&apos;s request for 15.7 million gallons per day
-            from Kerr Lake&apos;s conservation pool.
-          </p>
-
-          <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-            {slides.map((slide) => (
-              <a
-                key={slide.src}
-                href={slide.src}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group overflow-hidden rounded-lg border border-card-border transition hover:border-gold/40"
-              >
-                <Image
-                  src={slide.src}
-                  alt={slide.alt}
-                  width={600}
-                  height={450}
                   className="h-auto w-full transition group-hover:scale-[1.02]"
                 />
               </a>
@@ -954,18 +1134,32 @@ export default function Home() {
           </h2>
 
           <div className="grid gap-6 md:grid-cols-2">
-            <div className="rounded-lg border border-card-border bg-card p-6">
-              <h3 className="mb-3 text-lg font-bold">
-                Board of Commissioners
-              </h3>
+            <div className="rounded-lg border border-gold/40 bg-gold/5 p-6">
+              <div className="flex items-center gap-2 mb-3">
+                <span className="rounded bg-gold px-2 py-0.5 text-xs font-bold uppercase tracking-widest text-background">Next</span>
+                <h3 className="text-lg font-bold">
+                  Board of Commissioners
+                </h3>
+              </div>
               <p className="mb-2 text-sm text-muted">
-                First Monday at 6 PM, 122 Young Street
+                <strong className="text-foreground">September 14, 2026 at 6:00 PM</strong>
               </p>
-              <p className="text-xs text-subtle">
-                May 4 &middot; Jun 1 &middot; Jul 6 &middot; Aug 3 &middot; Sep 14
+              <p className="mb-2 text-sm text-muted">
+                122 Young Street, Henderson, NC
               </p>
-              <p className="mt-2 text-xs text-subtle">
-                vancecounty.org for agendas
+              <p className="text-xs text-subtle mb-3">
+                Three public hearings: ZMA26-002, UDO text amendment, moratorium
+              </p>
+              <a
+                href="https://www.vancecounty.org/wp-content/uploads/2026/09/Masterfile-1.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block text-xs font-semibold text-gold hover:underline transition"
+              >
+                Download meeting masterfile &rarr;
+              </a>
+              <p className="mt-3 text-xs text-subtle">
+                Regular schedule: First Monday at 6 PM &middot; vancecounty.org for agendas
               </p>
             </div>
 
@@ -977,7 +1171,7 @@ export default function Home() {
                 Second Monday at 6 PM, 134 Rose Avenue
               </p>
               <p className="text-xs text-subtle">
-                May 11 &middot; Jun 8 &middot; Jul 13 &middot; Aug 10 &middot; Sep 14
+                Sep 14 &middot; Oct 12 &middot; Nov 9 &middot; Dec 14
               </p>
               <p className="mt-2 text-xs text-subtle">
                 henderson.nc.gov for agendas
@@ -1369,7 +1563,7 @@ export default function Home() {
             but form it with the facts in front of you.
           </p>
           <p className="text-xs text-subtle">
-            Vance County, North Carolina &middot; April 2026
+            Vance County, North Carolina &middot; September 2026
           </p>
         </div>
       </footer>
