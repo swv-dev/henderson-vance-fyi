@@ -28,7 +28,7 @@ function StatCard({
 }: {
   stat: string;
   label: string;
-  note?: string;
+  note?: React.ReactNode;
   accent?: "gold" | "blue" | "red";
 }) {
   const colors = {
@@ -227,7 +227,7 @@ export default function EconomicDevelopmentPage() {
             <StatCard
               stat="Regional Hub"
               label="Competitive Positioning"
-              note="North Carolina is ranked #1 for business (Forbes, 2025). The Kerr-Tar region sits along the I-85 and US-1 corridors with proximity to the Research Triangle. Strategic development positions Vance County as a regional leader, not just a participant."
+              note={<>North Carolina is ranked #1 for business (<a href="https://www.cnbc.com/2025/07/10/north-carolina-top-state-for-business-america.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">CNBC, 2025</a>). The Kerr-Tar region sits along the I-85 and US-1 corridors with proximity to the Research Triangle. Strategic development positions Vance County as a regional leader, not just a participant.</>}
               accent="blue"
             />
           </div>
@@ -276,7 +276,12 @@ export default function EconomicDevelopmentPage() {
               <p className="mb-4 text-sm font-semibold text-foreground">
                 Vance County Schools ranks 96th out of 100 NC counties in
                 per-student education spending, in a state that is nearly last
-                in the nation.
+                in the nation (
+                <Source
+                  href="https://www.ncforum.org/lsfs/"
+                  label="NC Forum Local School Finance Study"
+                />
+                ).
               </p>
               <div className="space-y-3 text-sm text-muted leading-relaxed">
                 <p>
@@ -464,7 +469,7 @@ export default function EconomicDevelopmentPage() {
                 2015. In the Town of Maiden (Apple), tax revenue funded a new
                 town hall and fire station, and the town lowered its tax rate (
                 <Source
-                  href="https://www.caldwelledc.org/"
+                  href="https://www.caldwelledc.org/news/p/item/67376/caldwell-county-marks-economic-development-week-with-measurable-progress-and-clear-direction"
                   label="Caldwell EDC"
                 />
                 ,{" "}
@@ -1030,7 +1035,11 @@ export default function EconomicDevelopmentPage() {
                 href="https://www.bea.gov/resources/methodologies/RIMSII-user-guide"
                 label="BEA RIMS II"
               />
-              , IMPLAN, CBRE.
+              ,{" "}
+              <a href="https://implan.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">IMPLAN</a>
+              ,{" "}
+              <a href="https://www.cbre.com/insights/books/global-data-center-trends-2024" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">CBRE</a>
+              .
               Employment multipliers reflect independent regional economics
               research, not industry-sponsored national studies. Local multipliers
               in rural counties are typically lower than national averages because
@@ -1188,13 +1197,23 @@ export default function EconomicDevelopmentPage() {
                   96th out of 100 counties
                 </strong>{" "}
                 in per-student education spending, in a state that is nearly last
-                in the nation. Property tax revenue is the primary local funding
+                in the nation (
+                <Source
+                  href="https://www.ncforum.org/lsfs/"
+                  label="NC Forum LSFS"
+                />
+                ). Property tax revenue is the primary local funding
                 source for schools. Even at conservative steady-state estimates,
                 a $10B project would generate more annual property tax than the
                 county&apos;s entire current budget. In Mecklenburg County,
                 Virginia, Microsoft&apos;s data center tax revenue helped fund a
                 state-of-the-art educational complex. In Caldwell County, NC,
-                Google provided $270,000 in workforce development grants.
+                Google provided $270,000 in workforce development grants (
+                <Source
+                  href="https://nsjonline.com/article/2026/03/google-expands-lenoir-data-center-with-1b-investment/"
+                  label="NSJ Online"
+                />
+                ).
               </p>
               <p>
                 <strong className="text-foreground">What to push for:</strong>{" "}

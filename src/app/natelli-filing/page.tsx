@@ -149,7 +149,7 @@ export default function NatelliFilingPage() {
                 <strong className="text-foreground">nearly 4x the size</strong>.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Sources: WRAL, Triangle Business Journal, Town of Apex public records.
+                Sources: <a href="https://www.wral.com/news/nccapitol/water-access-bill-growth-franklin-vance-warren-halifax-county-nc-legislature-april-2026/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WRAL</a>, <a href="https://www.bizjournals.com/triangle/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Triangle Business Journal</a>, Town of Apex public records.
               </p>
             </div>
           </div>
@@ -168,7 +168,7 @@ export default function NatelliFilingPage() {
           <div className="space-y-5">
             <div className="rounded-lg border border-card-border bg-card p-6">
               <p className="mb-2 text-xs font-bold uppercase tracking-widest text-gold">
-                NCGS 160D-108(j)(4)
+                <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-108.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NCGS 160D-108(j)(4)</a>
               </p>
               <p className="text-sm text-muted leading-relaxed">
                 Once site plan approval is granted for the initial phase, the
@@ -176,7 +176,7 @@ export default function NatelliFilingPage() {
                 <strong className="text-foreground">
                   vested under the rules in place at that time, for seven years
                 </strong>
-                . Separately, NCGS 160D-107 states that a development
+                . Separately, <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-107.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NCGS 160D-107</a> states that a development
                 moratorium does not apply to development set forth in a
                 multi-phase development plan.
               </p>
@@ -203,7 +203,7 @@ export default function NatelliFilingPage() {
                 </em>
               </p>
               <p className="text-xs text-subtle">
-                Source: Natelli letter dated September 9, 2026.
+                Source: <a href="#documents" className="underline hover:text-gold">Natelli letter dated September 9, 2026</a>.
               </p>
             </div>
 
@@ -215,7 +215,7 @@ export default function NatelliFilingPage() {
                 If the county approves Phase 1, the entire 900 MW, 4-phase
                 campus locks in under current rules{" "}
                 <strong className="text-foreground">for 7 years</strong>. Even
-                if a moratorium is adopted tomorrow, NCGS 160D-107 exempts
+                if a moratorium is adopted tomorrow, <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-107.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NCGS 160D-107</a> exempts
                 vested multi-phase plans.
               </p>
               <p className="mt-4 text-sm font-bold text-red">
@@ -225,7 +225,7 @@ export default function NatelliFilingPage() {
           </div>
 
           <p className="mt-6 text-xs text-subtle">
-            Sources: NCGS 160D-108(j)(4), NCGS 160D-107, Natelli letter dated
+            Sources: <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-108.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NCGS 160D-108(j)(4)</a>, <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-107.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NCGS 160D-107</a>, Natelli letter dated
             September 9, 2026.
           </p>
         </div>
@@ -260,7 +260,7 @@ export default function NatelliFilingPage() {
               draft.
             </p>
             <p className="mt-3 text-xs text-subtle">
-              Source: Vance County Draft UDO, July 2026, Sec. 5.13.4, footnotes 300–308.
+              Source: <a href="https://www.vancecounty.org/wp-content/uploads/2026/07/UDO-2026-PDF-DRAFT-Articles-1-12-July2026.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Vance County Draft UDO, July 2026</a>, Sec. 5.13.4, footnotes 300–308.
             </p>
           </div>
 
@@ -430,7 +430,7 @@ export default function NatelliFilingPage() {
           </div>
 
           <p className="mt-5 text-xs text-subtle">
-            Source: Vance County Draft UDO, July 2026, Sec. 5.13.4, footnotes 300–308.
+            Source: <a href="https://www.vancecounty.org/wp-content/uploads/2026/07/UDO-2026-PDF-DRAFT-Articles-1-12-July2026.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Vance County Draft UDO, July 2026</a>, Sec. 5.13.4, footnotes 300–308.
           </p>
         </div>
       </section>
@@ -532,7 +532,7 @@ export default function NatelliFilingPage() {
                 Consumed (evaporative cooling).
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Source: GIJN, WeAreIowa
+                Source: <a href="https://gijn.org/stories/researching-water-consumption-data-centers/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">GIJN</a>, WeAreIowa
               </p>
             </div>
             <div className="rounded-lg border border-card-border bg-card p-5">
@@ -547,7 +547,7 @@ export default function NatelliFilingPage() {
                 <strong className="text-foreground">a 227x difference</strong>.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Source: Vantage Data Centers blog
+                Source: <a href="https://blog.vantage-dc.com/2026/04/22/cooling-without-the-drain-how-closed-loop-systems-cut-day-to-day-water-use/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Vantage Data Centers blog</a>
               </p>
             </div>
             <div className="rounded-lg border border-card-border bg-card p-5">
@@ -561,7 +561,7 @@ export default function NatelliFilingPage() {
                 Average (best-in-class WUE 0.26 L/kWh).
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Source: WUNC
+                Source: <a href="https://www.wunc.org/environment/2026-04-10/data-centers-water-quality-pfas-drought-climate-change" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WUNC</a>
               </p>
             </div>
           </div>
@@ -624,9 +624,8 @@ export default function NatelliFilingPage() {
           </div>
 
           <p className="mt-6 text-xs text-subtle">
-            Sources: AKCP Data Center Water Footprint 2026, Introl WUE Guide,
-            MOST Policy Initiative, WUNC April 2026, WRAL, Vantage Data
-            Centers, GIJN.
+            Sources: <a href="https://www.akcp.com/2026/08/17/truth-about-data-water-footprint-of-data-centers/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">AKCP Data Center Water Footprint 2026</a>, <a href="https://introl.com/blog/water-usage-efficiency-wue-ai-data-center-cooling-guide-2025" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Introl WUE Guide</a>,
+            <a href="https://mostpolicyinitiative.org/science-note/data-center-water-use/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">MOST Policy Initiative</a>, <a href="https://www.wunc.org/environment/2026-04-10/data-centers-water-quality-pfas-drought-climate-change" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WUNC April 2026</a>, <a href="https://www.wral.com/news/nccapitol/water-access-bill-growth-franklin-vance-warren-halifax-county-nc-legislature-april-2026/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WRAL</a>, <a href="https://blog.vantage-dc.com/2026/04/22/cooling-without-the-drain-how-closed-loop-systems-cut-day-to-day-water-use/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Vantage Data Centers</a>, <a href="https://gijn.org/stories/researching-water-consumption-data-centers/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">GIJN</a>.
           </p>
         </div>
       </section>
@@ -765,7 +764,7 @@ export default function NatelliFilingPage() {
                 the site.&rdquo;
               </blockquote>
               <p className="mt-3 text-xs text-subtle">
-                Natelli letter, September 9, 2026. The moratorium notice was
+                <a href="#documents" className="underline hover:text-gold">Natelli letter, September 9, 2026</a>. The moratorium notice was
                 published September 5. Natelli filed four days later.
               </p>
             </div>
@@ -829,7 +828,7 @@ export default function NatelliFilingPage() {
                     <strong className="text-foreground">
                       entire campus vests for 7 years
                     </strong>{" "}
-                    under NCGS 160D-108(j)(4) -and NCGS 160D-107 separately
+                    under <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-108.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NCGS 160D-108(j)(4)</a> -and <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-107.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NCGS 160D-107</a> separately
                     exempts vested multi-phase plans from moratoriums.
                   </span>
                 </li>
@@ -838,8 +837,8 @@ export default function NatelliFilingPage() {
           </div>
 
           <p className="mt-6 text-xs text-subtle">
-            Sources: Vance County Board of Commissioners Masterfile, September
-            14, 2026 meeting. NCGS 160D-107, 160D-108.
+            Sources: <a href="https://www.vancecounty.org/wp-content/uploads/2026/09/Masterfile-1.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Vance County Board of Commissioners Masterfile</a>, September
+            14, 2026 meeting. <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-107.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NCGS 160D-107</a>, <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_160D/GS_160D-108.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">160D-108</a>.
           </p>
         </div>
       </section>
@@ -979,7 +978,7 @@ export default function NatelliFilingPage() {
           </div>
 
           <p className="mt-5 text-xs text-subtle">
-            Source: Vance County Board of Commissioners Masterfile, September
+            Source: <a href="https://www.vancecounty.org/wp-content/uploads/2026/09/Masterfile-1.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Vance County Board of Commissioners Masterfile</a>, September
             14, 2026 meeting.
           </p>
         </div>

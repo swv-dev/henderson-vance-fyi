@@ -267,8 +267,11 @@ export default function SB730Page() {
               </li>
             </ul>
             <p className="text-xs text-subtle">
-              Sources: EDPNC, NC Dept. of Commerce (April 2026), Good Jobs First,
-              Stateline (April 2026)
+              Sources:{" "}
+              <a href="https://edpnc.com/incentives/data-centers-sales-use-tax-exemptions/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">EDPNC</a>
+              , NC Dept. of Commerce (April 2026),{" "}
+              <a href="https://goodjobsfirst.org/tag/data-center/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Good Jobs First</a>
+              , Stateline (April 2026)
             </p>
           </div>
 
@@ -312,7 +315,9 @@ export default function SB730Page() {
               </li>
             </ul>
             <p className="text-xs text-subtle">
-              Sources: EDF (June 2026), CleanAIRE NC, Canary Media, WFAE
+              Sources:{" "}
+              <a href="https://www.edf.org/media/new-analysis-senate-bill-730-forces-north-carolinians-underwrite-128-million-year-dukes-aging" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">EDF (June 2026)</a>
+              , CleanAIRE NC, Canary Media, WFAE
             </p>
           </div>
         </div>
@@ -484,7 +489,12 @@ export default function SB730Page() {
                 Jeff Jackson pushed back.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Source: Duke Energy rate filings, NCUC, WUNC (June 23, 2026)
+                Source:{" "}
+              <a href="https://www.duke-energy.com/home/billing/dec-nc-rate-case" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Duke Energy rate filings</a>
+              ,{" "}
+              <a href="https://www.ncuc.gov/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NCUC</a>
+              ,{" "}
+              <a href="https://www.wunc.org/environment/2026-04-10/data-centers-water-quality-pfas-drought-climate-change" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WUNC (June 23, 2026)</a>
               </p>
             </div>
 
@@ -501,7 +511,9 @@ export default function SB730Page() {
                 rates and will continue for years.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Source: Utility Dive, NCUC filings
+                Source: Utility Dive,{" "}
+              <a href="https://www.ncuc.gov/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NCUC</a>{" "}
+              filings
               </p>
             </div>
 
@@ -519,7 +531,9 @@ export default function SB730Page() {
                 20% from 2018 to 2024.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Source: Duke Energy filings, WFAE, Carolina Journal
+                Source:{" "}
+                <a href="https://www.duke-energy.com/home/billing/dec-nc-rate-case" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Duke Energy filings</a>
+                , WFAE, Carolina Journal
               </p>
             </div>
           </div>
@@ -609,7 +623,9 @@ export default function SB730Page() {
             threshold is an outlier.
           </p>
           <p className="mt-2 text-xs text-subtle">
-            Source: SEPA DELTa Database, LBNL (January 2025)
+            Source:{" "}
+            <a href="https://sepapower.org/large-load-tariffs-database/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">SEPA DELTa Database</a>
+            , LBNL (January 2025)
           </p>
         </div>
       </section>

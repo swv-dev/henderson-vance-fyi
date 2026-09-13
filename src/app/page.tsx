@@ -270,7 +270,7 @@ export default function Home() {
                 The word &ldquo;or&rdquo; in Natelli&apos;s cooling redline is the difference between 22,000 gal/day and 5 million.
               </p>
               <p className="text-xs text-subtle mt-1">
-                Sources: AKCP, WUNC, WRAL, Vantage Data Centers, GIJN, MOST Policy Initiative
+                Sources: <a href="https://www.akcp.com/2026/08/17/truth-about-data-water-footprint-of-data-centers/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">AKCP</a>, <a href="https://www.wunc.org/environment/2026-04-10/data-centers-water-quality-pfas-drought-climate-change" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WUNC</a>, <a href="https://www.wral.com/news/nccapitol/water-access-bill-growth-franklin-vance-warren-halifax-county-nc-legislature-april-2026/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WRAL</a>, <a href="https://blog.vantage-dc.com/2026/04/22/cooling-without-the-drain-how-closed-loop-systems-cut-day-to-day-water-use/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Vantage Data Centers</a>, <a href="https://gijn.org/stories/researching-water-consumption-data-centers/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">GIJN</a>, <a href="https://mostpolicyinitiative.org/science-note/data-center-water-use/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">MOST Policy Initiative</a>
               </p>
             </div>
             <span className="mt-1 inline-block text-sm font-bold text-gold group-hover:underline">
@@ -334,6 +334,9 @@ export default function Home() {
                 SB 730 leaves NC&apos;s data center sales tax exemption fully intact. No
                 sunset. No expiration. One of only 7 states.
               </p>
+              <p className="mt-2 text-xs text-subtle">
+                Source: <a href="https://edpnc.com/incentives/data-centers-sales-use-tax-exemptions/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">EDPNC</a>, <a href="https://goodjobsfirst.org/tag/data-center/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Good Jobs First</a>
+              </p>
             </div>
             <div className="rounded-lg border border-card-border bg-card p-5">
               <p className="text-2xl font-extrabold text-red md:text-3xl">$128M/yr</p>
@@ -342,6 +345,9 @@ export default function Home() {
                 Section 10 blocks coal retirements until new nuclear is permitted.
                 Coal runs 30% more expensive per MWh than clean energy.
               </p>
+              <p className="mt-2 text-xs text-subtle">
+                Source: <a href="https://www.edf.org/media/new-analysis-senate-bill-730-forces-north-carolinians-underwrite-128-million-year-dukes-aging" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">EDF</a>
+              </p>
             </div>
             <div className="rounded-lg border border-card-border bg-card p-5">
               <p className="text-2xl font-extrabold text-blue md:text-3xl">100 MW</p>
@@ -349,6 +355,9 @@ export default function Home() {
               <p className="mt-2 text-xs text-subtle leading-relaxed">
                 86% of utility tariffs nationally set their threshold below 100 MW.
                 Virginia uses 25 MW. Tennessee uses 50 MW. NC is the outlier.
+              </p>
+              <p className="mt-2 text-xs text-subtle">
+                Source: <a href="https://sepapower.org/large-load-tariffs-database/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">SEPA DELTa Database</a>
               </p>
             </div>
           </div>
@@ -761,6 +770,9 @@ export default function Home() {
                 moratorium. That same developer is now asking Vance County for the
                 same thing -and has now escalated to a 900 MW campus filing.
               </p>
+              <p className="mt-3 text-xs text-subtle">
+                Sources: <a href="https://www.wral.com/news/local/natelli-withdraws-apex-data-center-project-shearon-harris-march-2026/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WRAL</a>, <a href="https://hoodline.com/2026/03/apex-neighbors-help-ax-mega-new-hill-data-center-plan/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Hoodline</a>, <a href="https://indyweek.com/news/apex-approves-one-year-moratorium-on-data-centers/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Indy Week</a>
+              </p>
             </div>
 
             <div className="rounded-lg border border-card-border bg-card p-6 md:col-span-2">
@@ -782,7 +794,7 @@ export default function Home() {
                     future rezoning requests.
                   </p>
                   <p className="text-xs text-subtle">
-                    Source: Vance County Tax Parcel Viewer (vance.ustaxdata.com)
+                    Source: <a href="https://vance.ustaxdata.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Vance County Tax Parcel Viewer</a>
                   </p>
                 </div>
                 <div className="mt-4 md:mt-0 md:w-80 shrink-0">
@@ -813,7 +825,7 @@ export default function Home() {
                     along US-158 Business.
                   </p>
                   <p className="text-xs text-subtle">
-                    Source: Vance County Tax Parcel Viewer (vance.ustaxdata.com)
+                    Source: <a href="https://vance.ustaxdata.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Vance County Tax Parcel Viewer</a>
                   </p>
                 </div>
                 <div className="mt-4 md:mt-0 md:w-80 shrink-0">
@@ -863,6 +875,9 @@ export default function Home() {
                 customers are paying $16/month more, projected to reach $37/month
                 by 2040.
               </p>
+              <p className="mt-2 text-xs text-subtle">
+                Source: <a href="https://www.duke-energy.com/home/billing/dec-nc-rate-case" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Duke Energy</a>, <a href="https://insideclimatenews.org/news/07012026/virginia-regulators-approve-new-dominion-rates/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Inside Climate News</a>
+              </p>
             </div>
 
             <div className="rounded-lg border border-card-border bg-card p-6">
@@ -876,6 +891,9 @@ export default function Home() {
                 totaled $321 million, or $6.4 million per permanent job. Of 36
                 states with data center incentives, 16 have no minimum job
                 creation requirement.
+              </p>
+              <p className="mt-2 text-xs text-subtle">
+                Source: <a href="https://goodjobsfirst.org/tag/data-center/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Good Jobs First</a>
               </p>
             </div>
 
@@ -891,6 +909,9 @@ export default function Home() {
                 . NC is one of only seven states where the exemption never ends.
                 The state currently loses $45-57 million per year in foregone
                 revenue. Virginia&apos;s exemption now costs $1.6 billion annually.
+              </p>
+              <p className="mt-2 text-xs text-subtle">
+                Source: <a href="https://edpnc.com/incentives/data-centers-sales-use-tax-exemptions/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">EDPNC</a>, <a href="https://goodjobsfirst.org/tag/data-center/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Good Jobs First</a>
               </p>
             </div>
           </div>
@@ -1061,22 +1082,22 @@ export default function Home() {
                   <tr className="border-b border-card-border/50">
                     <td className="px-4 py-3 font-semibold text-foreground">Apex, NC</td>
                     <td className="px-4 py-3">Natelli withdrew after 4,700 petition signatures</td>
-                    <td className="px-4 py-3">Moratorium drafted</td>
+                    <td className="px-4 py-3"><a href="https://hoodline.com/2026/03/apex-neighbors-help-ax-mega-new-hill-data-center-plan/" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Moratorium drafted</a></td>
                   </tr>
                   <tr className="border-b border-card-border/50">
                     <td className="px-4 py-3 font-semibold text-foreground">Port Washington, WI</td>
                     <td className="px-4 py-3">First anti-data center referendum in U.S., 66% voted yes</td>
-                    <td className="px-4 py-3">Large tax breaks now require voter approval</td>
+                    <td className="px-4 py-3"><a href="https://thehill.com/policy/technology/5822566-port-washington-data-center-vote/" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Large tax breaks now require voter approval</a></td>
                   </tr>
                   <tr className="border-b border-card-border/50">
                     <td className="px-4 py-3 font-semibold text-foreground">Tucson, AZ</td>
                     <td className="px-4 py-3">City council unanimously rejected Amazon &quot;Project Blue&quot;</td>
-                    <td className="px-4 py-3">Water concerns were deciding factor</td>
+                    <td className="px-4 py-3"><a href="https://azluminaria.org/2025/08/06/tucson-city-council-rejects-project-blue-amid-intense-community-pressure/" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Water concerns were deciding factor</a></td>
                   </tr>
                   <tr className="border-b border-card-border/50">
                     <td className="px-4 py-3 font-semibold text-foreground">Warrenton, VA</td>
                     <td className="px-4 py-3">Residents voted out all council members who supported rezoning</td>
-                    <td className="px-4 py-3">New council reversed course</td>
+                    <td className="px-4 py-3"><a href="https://www.fauquier.com/news/town-council-election-results-a-referendum-on-amazon/article_73557f0e-a17b-11ef-8ec0-7f97f90650fe.html" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">New council reversed course</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -1100,7 +1121,7 @@ export default function Home() {
                   <tr className="border-b border-card-border/50">
                     <td className="px-4 py-3 font-semibold text-foreground">Cedar Rapids, IA</td>
                     <td className="px-4 py-3">Wage floor + performance-linked tax break</td>
-                    <td className="px-4 py-3">70% exemption only if 31+ jobs at $26.20/hr minimum; $18M community fund over 18 years</td>
+                    <td className="px-4 py-3"><a href="https://corridorbusiness.com/cedar-rapids-council-approves-development-agreement-for-qts-data-center-project/" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">70% exemption only if 31+ jobs at $26.20/hr minimum; $18M community fund over 18 years</a></td>
                   </tr>
                   <tr className="border-b border-card-border/50">
                     <td className="px-4 py-3 font-semibold text-foreground">Lancaster, PA</td>
@@ -1115,7 +1136,7 @@ export default function Home() {
                   <tr className="border-b border-card-border/50">
                     <td className="px-4 py-3 font-semibold text-foreground">Lea County, NM</td>
                     <td className="px-4 py-3">Comprehensive policy before any developer arrived</td>
-                    <td className="px-4 py-3">Closed-loop cooling required, no rate increases, mandatory decommissioning, PILOT payments to all taxing entities</td>
+                    <td className="px-4 py-3"><a href="https://www.hobbsnews.com/county-sets-regs-for-potential-data-centers/" target="_blank" rel="noopener noreferrer" className="text-gold hover:underline">Closed-loop cooling required, no rate increases, mandatory decommissioning, PILOT payments to all taxing entities</a></td>
                   </tr>
                 </tbody>
               </table>

@@ -326,7 +326,7 @@ export default function WaterPage() {
             After regional opposition, Section 5 was removed on April 29.
           </p>
           <p className="text-xs text-subtle mb-8">
-            Source: NC General Assembly, SB 214 Conference Committee Substitute, S214-PCCS35356-BAxr-6, Page 2, Lines 33-37
+            Source: <a href="https://www.ncleg.gov/BillLookUp/2025/S214" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NC General Assembly, SB 214</a> Conference Committee Substitute, S214-PCCS35356-BAxr-6, Page 2, Lines 33-37
           </p>
 
           <div className="rounded-lg border border-gold/30 bg-gold/5 p-6 mb-8">
@@ -341,7 +341,7 @@ export default function WaterPage() {
               Commissioners.&quot;
             </p>
             <p className="mt-3 text-xs text-subtle">
-              Source: SB 214, Section 5
+              Source: <a href="https://www.ncleg.gov/BillLookUp/2025/S214" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">SB 214, Section 5</a>
             </p>
           </div>
 
@@ -357,7 +357,7 @@ export default function WaterPage() {
             protection for Franklin County&apos;s benefit.
           </p>
           <p className="text-xs text-subtle">
-            Source: NC General Statutes, Chapter 153A, Section 15
+            Source: <a href="https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/BySection/Chapter_153A/GS_153A-15.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NC General Statutes, Chapter 153A, Section 15</a>
           </p>
         </div>
       </section>
@@ -391,15 +391,15 @@ export default function WaterPage() {
           <div className="space-y-3 mb-8">
             <div className="rounded border border-card-border bg-card p-4">
               <p className="text-sm font-semibold text-foreground">Every Republican voted Yes. Every Democrat voted No.</p>
-              <p className="text-xs text-subtle">Source: Roll Call #502</p>
+              <p className="text-xs text-subtle">Source: <a href="https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2025/S/502" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Roll Call #502</a></p>
             </div>
             <div className="rounded border border-card-border bg-card p-4">
               <p className="text-sm font-semibold text-foreground">Sponsor: Senator Benton Sawrey (R), District 10, Johnston County.</p>
-              <p className="text-xs text-subtle">Source: ncleg.gov/Members/Biography/s/445</p>
+              <p className="text-xs text-subtle">Source: <a href="https://www.ncleg.gov/Members/Biography/s/445" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">ncleg.gov/Members/Biography/s/445</a></p>
             </div>
             <div className="rounded border border-card-border bg-card p-4">
               <p className="text-sm font-semibold text-foreground">Conference Committee: Sen. Sawrey (Chair), Sen. Dana Jones (R), Rep. Allen Chesser (R, Chair), Rep. Mike Schietzelt (R).</p>
-              <p className="text-xs text-subtle">Source: ncleg.gov/Legislation/Bills/Conferees/2025/S214</p>
+              <p className="text-xs text-subtle">Source: <a href="https://www.ncleg.gov/Legislation/Bills/Conferees/2025/S214" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">ncleg.gov/Legislation/Bills/Conferees/2025/S214</a></p>
             </div>
           </div>
 
@@ -415,7 +415,7 @@ export default function WaterPage() {
               County, one of the counties she is elected to represent.
             </p>
             <p className="mt-2 text-xs text-subtle">
-              Source: Roll Call #502; ncleg.gov/Members/Biography/s/427
+              Source: <a href="https://www.ncleg.gov/Legislation/Votes/RollCallVoteTranscript/2025/S/502" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Roll Call #502</a>; <a href="https://www.ncleg.gov/Members/Biography/s/427" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">ncleg.gov/Members/Biography/s/427</a>
             </p>
           </div>
 
@@ -608,7 +608,7 @@ export default function WaterPage() {
                 to the NC General Assembly on April 28.
               </p>
               <p className="text-xs text-subtle">
-                Source: Roanoke Rapids Daily Herald, April 24, 2026
+                Source: <a href="https://www.rrdailyherald.com/news/local/roanoke-rapids-joins-halifax-in-opposing-bill-allowing-outside-county-to-seize-land/article_473c2ff6-01f0-5eb7-b578-8802e56e8bf4.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Roanoke Rapids Daily Herald, April 24, 2026</a>
               </p>
             </div>
 
@@ -1136,7 +1136,7 @@ export default function WaterPage() {
             ))}
           </ul>
           <p className="text-xs text-subtle mb-10">
-            All facts above sourced from franklincountync.gov/649/Future-Water
+            All facts above sourced from <a href="https://www.franklincountync.gov/649/Future-Water" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">franklincountync.gov/649/Future-Water</a>
           </p>
 
           <h3 className="mb-4 text-lg font-bold text-gold">
@@ -1283,7 +1283,7 @@ export default function WaterPage() {
             ))}
           </ul>
           <p className="text-xs text-subtle mb-8">
-            All quotes sourced from franklincountync.gov/649/Future-Water
+            All quotes sourced from <a href="https://www.franklincountync.gov/649/Future-Water" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">franklincountync.gov/649/Future-Water</a>
           </p>
 
           <div className="rounded-lg border border-blue/30 bg-blue/5 p-6 mb-8">
@@ -1494,7 +1494,7 @@ export default function WaterPage() {
             ))}
           </ul>
           <p className="text-xs text-subtle mb-8">
-            Source: Letter from Ryan C. Preble, Franklin County Manager, May 21, 2026. These are Franklin County&apos;s claims. Henderson responded on June 3, 2026. City Manager Paylor Spruill stated the system will not enter into any agreement &quot;until we know we can satisfy our own obligations.&quot; The KLRWS Advisory Board attorney was also drafting a formal response. Source: Henderson Dispatch, June 6, 2026; WIZS.
+            Source: Letter from Ryan C. Preble, Franklin County Manager, May 21, 2026. These are Franklin County&apos;s claims. Henderson responded on June 3, 2026. City Manager Paylor Spruill stated the system will not enter into any agreement &quot;until we know we can satisfy our own obligations.&quot; The KLRWS Advisory Board attorney was also drafting a formal response. Source: <a href="https://www.hendersondispatch.com/archives/city-manager-issues-letter-to-franklin-county/article_2971c930-ed1c-502b-a585-4ad926fdf25c.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Henderson Dispatch, June 6, 2026</a>; <a href="https://wizs.com/henderson-city-council-approves-resolution-opposing-n-c-senate-bill-214/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WIZS</a>.
           </p>
 
           {/* Who was CC'd */}
@@ -2440,7 +2440,7 @@ export default function WaterPage() {
               <p><strong className="text-foreground">State Water Infrastructure Authority:</strong> The Authority meets September 16, 2026 in Raleigh. Franklin County&apos;s infrastructure needs may surface there.</p>
             </div>
             <p className="mt-4 text-xs text-subtle">
-              Sources: Henderson Dispatch, June 6, 2026; WIZS; Vance County Planning Dept., September 9, 2026; NC DEQ press release, September 8, 2026.
+              Sources: <a href="https://www.hendersondispatch.com/archives/city-manager-issues-letter-to-franklin-county/article_2971c930-ed1c-502b-a585-4ad926fdf25c.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Henderson Dispatch, June 6, 2026</a>; <a href="https://wizs.com/henderson-city-council-approves-resolution-opposing-n-c-senate-bill-214/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WIZS</a>; Vance County Planning Dept., September 9, 2026; NC DEQ press release, September 8, 2026.
             </p>
           </div>
 
@@ -2492,7 +2492,7 @@ export default function WaterPage() {
             Email: <a href="mailto:CESAW-JHKerr-Reallocation-Franklin@usace.army.mil" className="text-blue hover:text-gold transition break-all">CESAW-JHKerr-Reallocation-Franklin@usace.army.mil</a>
           </p>
           <p className="mb-8 text-xs text-subtle">
-            USACE project page: saw.usace.army.mil/Locations/District-Lakes-and-Dams/John-H-Kerr-1/JHK-Reallocation-Franklin-County/
+            USACE project page: <a href="https://www.saw.usace.army.mil/Locations/District-Lakes-and-Dams/John-H-Kerr-1/JHK-Reallocation-Franklin-County/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">saw.usace.army.mil/Locations/District-Lakes-and-Dams/John-H-Kerr-1/JHK-Reallocation-Franklin-County/</a>
           </p>
 
           {/* Stay connected */}

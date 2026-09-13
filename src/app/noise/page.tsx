@@ -175,8 +175,7 @@ export default function NoisePage() {
                 it is a multiple.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Source: NIOSH Occupational Noise Exposure criteria; WHO
-                Environmental Noise Guidelines for the European Region (2018)
+                Source: <a href="https://www.cdc.gov/niosh/docs/98-126/default.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">NIOSH Occupational Noise Exposure criteria</a>; <a href="https://www.who.int/europe/publications/i/item/WHO-EURO-2018-3287-43046-60243" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WHO Environmental Noise Guidelines for the European Region (2018)</a>
               </p>
             </div>
 
@@ -234,8 +233,7 @@ export default function NoisePage() {
                 - clearly audible at night when ambient noise drops to 30-35 dB.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Source: Inverse square law (standard acoustics); EPA Levels
-                Document (1974); WHO Night Noise Guidelines (2009) recommend
+                Source: Inverse square law (standard acoustics); <a href="https://www.nonoise.org/library/levels74/levels74.htm" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">EPA Levels Document (1974)</a>; <a href="https://www.who.int/europe/publications/i/item/9789289041737" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WHO Night Noise Guidelines (2009)</a> recommend
                 &lt;40 dB outside bedrooms
               </p>
             </div>
@@ -255,10 +253,8 @@ export default function NoisePage() {
                 center campus documented noise levels exceeding county limits.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Sources: Prince William County Board of Supervisors noise
-                complaints (2022-2024); Loudoun County resident testimony at
-                planning commission hearings; WJLA/ABC7 investigative
-                reporting on Northern Virginia data center noise (2023)
+                Sources: <a href="https://www.datacenterdynamics.com/en/news/prince-william-residents-complain-of-catastrophic-noise-from-data-centers/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Prince William County Board of Supervisors noise complaints (2022-2024)</a>; Loudoun County resident testimony at
+                planning commission hearings; <a href="https://wjla.com/news/local/northern-virginia-prince-william-county-data-centers-residents-protest-safety-health-great-oak-homeowners-association-loudoun-county-capital-amazon-web-services-gainesville" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WJLA/ABC7 investigative reporting on Northern Virginia data center noise (2023)</a>
               </p>
             </div>
 
@@ -277,8 +273,8 @@ export default function NoisePage() {
                 quarterly that last even longer.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Sources: Uptime Institute generator testing best practices;
-                EPA AP-42 emission factors for stationary diesel engines;
+                Sources: Uptime Institute generator testing best practices;{" "}
+                <a href="https://www.epa.gov/system/files/documents/2025-04/c03s03_april2025.pdf" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">EPA AP-42 emission factors for stationary diesel engines</a>;{" "}
                 Caterpillar and Cummins generator specification sheets
                 (typical 95-105 dB at 23 feet for 2 MW units)
               </p>
@@ -312,7 +308,7 @@ export default function NoisePage() {
                 infrasound as a byproduct of operation.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Source: ISO 7196:1995 (Acoustics - Frequency weighting
+                Source: <a href="https://www.iso.org/standard/13813.html" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">ISO 7196:1995</a> (Acoustics - Frequency weighting
                 characteristic for infrasound measurements)
               </p>
             </div>
@@ -331,7 +327,7 @@ export default function NoisePage() {
                 equipment most jurisdictions do not own or require.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Source: IEC 61672-1 (sound level meter standards); Thorsson
+                Source: <a href="https://webstore.iec.ch/en/publication/5708" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">IEC 61672-1</a> (sound level meter standards); Thorsson
                 et al. (2019) comparison of A-weighted vs. unweighted
                 measurements near industrial facilities
               </p>
@@ -359,12 +355,10 @@ export default function NoisePage() {
                 immune function.
               </p>
               <p className="mt-3 text-xs text-subtle">
-                Sources: WHO Environmental Noise Guidelines (2018);
-                Michaud et al. (2016) Health Canada Wind Turbine Noise and
-                Health Study; Schmidt &amp; Klokker (2014) Health effects
-                related to wind turbine noise exposure: a systematic review;
-                Onakpoya et al. (2015) systematic review of wind turbine
-                noise and health
+                Sources: <a href="https://www.who.int/europe/publications/i/item/WHO-EURO-2018-3287-43046-60243" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">WHO Environmental Noise Guidelines (2018)</a>;{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/27036283/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Michaud et al. (2016) Health Canada Wind Turbine Noise and Health Study</a>;{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/25474326/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Schmidt &amp; Klokker (2014) Health effects related to wind turbine noise exposure: a systematic review</a>;{" "}
+                <a href="https://pubmed.ncbi.nlm.nih.gov/25982992/" target="_blank" rel="noopener noreferrer" className="underline hover:text-gold">Onakpoya et al. (2015) systematic review of wind turbine noise and health</a>
               </p>
             </div>
           </div>
@@ -537,7 +531,10 @@ export default function NoisePage() {
                   <p className="text-xs text-subtle mt-1">Systematic review of wind turbine noise and health outcomes</p>
                 </li>
                 <li>
-                  <p className="text-foreground font-semibold">ISO 7196:1995</p>
+                  <SourceLink
+                    href="https://www.iso.org/standard/13813.html"
+                    text="ISO 7196:1995"
+                  />
                   <p className="text-xs text-subtle mt-1">International standard for infrasound frequency weighting</p>
                 </li>
               </ul>
@@ -569,7 +566,7 @@ export default function NoisePage() {
               </h3>
               <ul className="space-y-3 text-sm text-muted">
                 <li>
-                  <p className="text-foreground font-semibold">Prince William County, VA</p>
+                  <a href="https://www.datacenterdynamics.com/en/news/prince-william-residents-complain-of-catastrophic-noise-from-data-centers/" target="_blank" rel="noopener noreferrer" className="text-foreground font-semibold underline hover:text-gold">Prince William County, VA</a>
                   <p className="text-xs text-subtle mt-1">Board of Supervisors noise complaints and QTS campus documentation (2022-2024)</p>
                 </li>
                 <li>
