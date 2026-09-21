@@ -984,27 +984,6 @@ export default function VCDebate2026Page() {
           </div>
         </section>
 
-        {/* ── Footer ───────────────────────────────────────────────── */}
-        <footer className="text-center text-xs text-subtle py-6 border-t border-card-border">
-          <p>
-            Organized by{' '}
-            <strong className="text-muted">Henderson-Vance FYI</strong>{' '}
-            in partnership with WIZS Radio &amp; The Daily Dispatch.
-          </p>
-          <p className="mt-1">
-            Questions? Email{' '}
-            <a
-              href="mailto:info@henderson-vance.fyi"
-              className="text-gold hover:text-gold-dim underline transition"
-            >
-              info@henderson-vance.fyi
-            </a>
-          </p>
-          <p className="mt-2 text-subtle/60">
-            This page is independently funded and is not affiliated with any
-            candidate, party, or government entity.
-          </p>
-        </footer>
       </main>
     </div>
   )
