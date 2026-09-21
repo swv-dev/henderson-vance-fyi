@@ -935,7 +935,7 @@ export default function VCDebate2026Page() {
               dates and time windows you are available in October 2026.
             </p>
             <p>
-              Page: henderson-vance.fyi/vcdebate2026
+              Page: henderson-vance.fyi/candidateforum2026
               <br />
               Your Access Code: [CODE]
             </p>
