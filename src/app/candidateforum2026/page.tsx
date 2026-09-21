@@ -979,11 +979,7 @@ export default function VCDebate2026Page() {
               County.
             </p>
             <p>
-              Respectfully,
-              <br />
-              Stephen Wolf
-              <br />
-              Henderson-Vance FYI
+              Thank you.
             </p>
           </div>
         </section>
